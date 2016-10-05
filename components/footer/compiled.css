@@ -1,0 +1,4202 @@
+@charset "UTF-8";
+.nav>li>a:focus, .nav>li>a:hover,.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{ background-color:transparent; }
+.pager li>a, .pager li>span {
+    padding: 0px 6px;
+    border:none;
+    border-radius: 0;
+	font-size: 14px;
+	  font-family: "Arial";
+	  color: rgb(51, 51, 51);
+	  font-weight: bold;
+	  line-height: 1.2;
+}
+
+#lean_overlay {
+    position: absolute;
+    z-index:100;
+    top: 34px;
+    right: -8px;
+    height:auto;
+    width:268px;
+    background-image:url(../../../_images/consumer/desktop/Login_Desktop/login-box.png);
+	background-repeat: no-repeat;
+	background-position:0 0;
+    display: none;
+   padding:30px 20px 0;
+   text-align:left;
+}
+
+#lean_overlay  #login-form{  text-align:left; }
+
+
+#myaccount_overlay {
+    position: absolute;
+    z-index:100;
+    top: 34px;
+    right: 44px;
+    height:auto;
+    width:556px;
+	height:317px;
+    background-image:url(../../../_images/consumer/desktop/my-account-bg.png);
+	background-repeat: no-repeat;
+	background-position:0 0;
+    display: none;
+   padding:70px 30px 0;
+   text-align:left;
+}
+
+
+
+#myaccount_overlay div.myaccount_heading {
+  font-size: 18px;
+  font-family: "Arial";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  line-height: 1.2;
+  padding: 0 0 10px;
+}
+#myaccount_overlay a.myaccount_heading-a {
+  color: rgb(51, 51, 51);
+  padding:0 ;
+}
+
+#myaccount_overlay div.myaccount_body {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(102, 102, 102);
+  line-height: 1.2;
+  padding: 8px 0 0;
+}
+
+#myaccount_overlay div.myaccount_body .divider{ border:1px solid #ddd; margin:10px 10px 0 0;}
+
+#myaccount_overlay a.myaccount_body-a {
+  color: rgb(102, 102, 102);
+  padding:0 ;
+}
+
+a#login_lost_btn{text-decoration:underline !important}
+a.terms-link{text-decoration:underline !important}
+
+#header, #footer{ margin:0;padding:0;}
+.icon-menu-down {
+  background-image: url(../../../_images/consumer/desktop/menu-down.png);
+   background-position: 1px 4px;
+    background-repeat: no-repeat;
+    padding:0 0 0 22px;
+}
+
+.icon-navi-menu-down {
+  background-image: url(../../../_images/consumer/desktop/navi-menu-down.png);
+   background-position: 1px 4px;
+    background-repeat: no-repeat;
+    padding:0 0 0 22px;
+}
+
+
+.slide-buttons-cont .slide-button{ margin:1px 0; width:10px;} .carousel-indicators li{ border:none;}
+/* line 4, ../sass/others/coloured-classes.scss */
+
+.main-color-text, .mainColorText {
+  color: #029ece;
+}
+
+/* line 5, ../sass/others/coloured-classes.scss */
+.light-blue-theme-color-text {
+  color: #f3f6f8;
+}
+
+/* line 7, ../sass/others/coloured-classes.scss */
+.blue-text {
+  color: #1763D3;
+}
+
+/* line 8, ../sass/others/coloured-classes.scss */
+.dark-blue-text {
+  color: #659BB2;
+}
+
+/* line 9, ../sass/others/coloured-classes.scss */
+.red-text, .redText {
+  color: #e60000;
+}
+
+/* line 10, ../sass/others/coloured-classes.scss */
+.green-text, .greenText {
+  color: #add65f;
+}
+
+/* line 11, ../sass/others/coloured-classes.scss */
+.light-green-text {
+  color: #64DD17;
+}
+
+/* line 12, ../sass/others/coloured-classes.scss */
+.orange-text {
+  color: #DA8642;
+}
+
+/* line 13, ../sass/others/coloured-classes.scss */
+.gray-text {
+  color: #666666;
+}
+
+/* line 14, ../sass/others/coloured-classes.scss */
+.dark-gray-text {
+  color: rgb(97, 97, 97);
+}
+
+/* line 15, ../sass/others/coloured-classes.scss */
+.light-gray-text {
+  color: #b5b5b5;
+}
+
+
+
+/* line 16, ../sass/others/coloured-classes.scss */
+.black-text, .blackText {
+  color: #000;
+}
+
+/* line 16, ../sass/others/coloured-classes.scss */
+.light-black-text {
+  color: #333333;
+}
+
+.mid-black-text {
+  color: #666666;
+}
+/* line 17, ../sass/others/coloured-classes.scss */
+.white-text, .whiteText {
+  color: #FFF;
+}
+
+
+
+/* line 20, ../sass/others/coloured-classes.scss */
+.grayText {
+  color: #acacac;
+}
+
+/* line 22, ../sass/others/coloured-classes.scss */
+.light-blue-theme-color-background {
+  background-color: #f3f6f8;
+}
+
+/* line 23, ../sass/others/coloured-classes.scss */
+.main-color-background {
+  background-color: #029ece;
+}
+
+/* line 24, ../sass/others/coloured-classes.scss */
+.blue-background {
+  background-color: #1763D3;
+}
+
+/* line 25, ../sass/others/coloured-classes.scss */
+.dark-blue-background {
+  background-color: #659BB2;
+}
+
+/* line 26, ../sass/others/coloured-classes.scss */
+.red-background {
+  background-color: #e60000;
+}
+
+/* line 27, ../sass/others/coloured-classes.scss */
+.green-background {
+  background-color: #add65f;
+}
+
+/* line 28, ../sass/others/coloured-classes.scss */
+.light-green-background-color {
+  color: #64DD17;
+}
+
+/* line 29, ../sass/others/coloured-classes.scss */
+.orange-background {
+  background-color: #DA8642;
+}
+
+/* line 30, ../sass/others/coloured-classes.scss */
+.gray-background {
+  background-color: #666666;
+}
+
+
+.gray-background h5{  
+	font-family: "Arial";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size:16px;
+  }
+.gray-background h5:after{
+	content:' ';
+    display:block;
+    border-bottom:1px solid #cccccc;
+	margin-top:8px;
+	}
+.gray-bg-wrapper {
+  background-color: #ededed;  border-top:1px solid #c0c0c0;
+}
+
+.arial-bold{
+	 font-family: "Arial";
+	 font-weight:bold;
+}
+	
+
+.gray-bg-wrapper .breadcrumb { padding:9px 0;background-color:transparent;}
+.gray-bg-wrapper .breadcrumb> li > a { color:#797979;}
+.gray-bg-wrapper .breadcrumb>.active { color:#e86363; }
+.gray-bg-wrapper  .breadcrumb>li+li:before {
+    padding: 0;
+    color: #616161;
+    content: ">\00a0";
+}
+/* line 31, ../sass/others/coloured-classes.scss */
+.light-gray-background {
+  background-color: #cecece;
+}
+
+/* line 32, ../sass/others/coloured-classes.scss */
+.black-background {
+  background-color: #000;
+}
+
+/* line 33, ../sass/others/coloured-classes.scss */
+.white-background {
+  background-color: #FFF !important;
+}
+
+/* line 6, ../sass/others/common-classes.scss */
+.noShadow {
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -ms-box-shadow: none !important;
+  -o-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+
+/* line 8, ../sass/others/common-classes.scss */
+.overflow-auto {
+  overflow: auto;
+}
+
+/* line 9, ../sass/others/common-classes.scss */
+.overflow-visible {
+  overflow: visible !important;
+}
+
+/* line 10, ../sass/others/common-classes.scss */
+.overflow-scroll {
+  overflow: scroll;
+}
+
+/* line 11, ../sass/others/common-classes.scss */
+.overflow-y-scroll {
+  overflow-y: scroll;
+}
+
+/* line 12, ../sass/others/common-classes.scss */
+.overflow-x-scroll {
+  overflow-x: scroll;
+}
+
+/* line 14, ../sass/others/common-classes.scss */
+::-webkit-input-placeholder {
+  font-weight: lighter;
+  color: #c1cccc;
+}
+
+/* line 15, ../sass/others/common-classes.scss */
+::-moz-placeholder {
+  font-weight: lighter;
+  color: #c1cccc;
+}
+
+/* line 16, ../sass/others/common-classes.scss */
+::placeholder {
+  font-weight: lighter;
+  color: #c1cccc;
+}
+
+/* line 21, ../sass/others/common-classes.scss */
+.center-aligned {
+  position: relative;
+  text-align: center !important;
+}
+
+/* line 22, ../sass/others/common-classes.scss */
+.right-aligned {
+  text-align: right !important;
+}
+
+/* line 23, ../sass/others/common-classes.scss */
+.left-aligned {
+  text-align: left !important;
+}
+
+/* line 24, ../sass/others/common-classes.scss */
+.justified {
+  text-align: justify !important;
+}
+
+/* line 25, ../sass/others/common-classes.scss */
+.middle-aligned {
+  vertical-align: middle !important;
+}
+
+/* line 26, ../sass/others/common-classes.scss */
+.top-aligned {
+  vertical-align: top !important;
+}
+
+/* line 30, ../sass/others/common-classes.scss */
+.break-word {
+  word-break: break-word;
+}
+
+/* line 31, ../sass/others/common-classes.scss */
+.no-break-word {
+  word-break: initial;
+  white-space: nowrap;
+}
+
+/* line 35, ../sass/others/common-classes.scss */
+.lowercase {
+  text-transform: lowercase;
+}
+
+/* line 36, ../sass/others/common-classes.scss */
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* line 37, ../sass/others/common-classes.scss */
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* line 39, ../sass/others/common-classes.scss */
+.strong, .bold, strong {
+  font-weight: bold;
+}
+
+/* line 41, ../sass/others/common-classes.scss */
+[class*=alert-] {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 10px 20px;
+  border: solid 1px;
+}
+
+/* line 42, ../sass/others/common-classes.scss */
+[class*=alert-small] {
+  padding: 8px 5px;
+}
+
+/* line 43, ../sass/others/common-classes.scss */
+[class*=alert-large] {
+  padding: 15px 5px;
+  font-weight: 500;
+}
+
+/* line 46, ../sass/others/common-classes.scss */
+.alert-red {
+  color: maroon;
+  background-color: #ffe6e6;
+}
+
+/* line 47, ../sass/others/common-classes.scss */
+.alert-green {
+  color: #7ba52a;
+  background-color: white;
+}
+
+/* line 48, ../sass/others/common-classes.scss */
+.alert-blue {
+  color: #0d3877;
+  background-color: #deeafb;
+}
+
+/* line 49, ../sass/others/common-classes.scss */
+.alert-yellow {
+  color: #918502;
+  background-color: #fefac7;
+}
+
+/* line 50, ../sass/others/common-classes.scss */
+.alert-orange {
+  color: #98551e;
+  background-color: #fbf3ed;
+}
+
+/* line 51, ../sass/others/common-classes.scss */
+.alert-main-color-orange {
+  color: #015169;
+  background-color: #9ee7fe;
+}
+
+/* line 54, ../sass/others/common-classes.scss */
+.relative {
+  position: relative;
+}
+
+/* line 58, ../sass/others/common-classes.scss */
+.inline-block {
+  display: inline-block;
+}
+
+/* line 59, ../sass/others/common-classes.scss */
+.table {
+  display: table;
+}
+
+/* line 60, ../sass/others/common-classes.scss */
+.table-row {
+  display: table-row;
+  width: 100%;
+}
+
+/* line 61, ../sass/others/common-classes.scss */
+.table-cell {
+  display: table-cell !important;
+}
+
+/* line 62, ../sass/others/common-classes.scss */
+.block {
+  display: block !important;
+}
+
+/* line 65, ../sass/others/common-classes.scss */
+.force-right {
+  float: right;
+  padding:20px 0;
+}
+
+/* line 66, ../sass/others/common-classes.scss */
+.force-left {
+  float: left;
+   padding:20px 0;
+   border-right:1px solid #535353;
+}
+
+/* line 67, ../sass/others/common-classes.scss */
+.no-pull {
+  float: none !important;
+}
+
+/* line 69, ../sass/others/common-classes.scss */
+.clear {
+  clear: both;
+}
+
+/* line 70, ../sass/others/common-classes.scss */
+a {
+  cursor: pointer;
+  text-decoration: none !important;
+  padding:0px 0 1px;
+  
+}
+
+a:focus, a:hover{ color:#666;}
+
+/* line 71, ../sass/others/common-classes.scss */
+hr.dashed {
+  border: none;
+  border-top: dashed 1px #acacac;
+}
+
+hr.solid {
+  border: none;
+  border-top: solid 1px #cccccc;
+}
+/* line 4, ../sass/others/griding-bootstrap.scss */
+.p-l-n {
+  padding-left: 0 !important;
+}
+
+/* line 5, ../sass/others/griding-bootstrap.scss */
+.p-r-n {
+  padding-right: 0 !important;
+}
+
+/* line 6, ../sass/others/griding-bootstrap.scss */
+.n-p {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* line 8, ../sass/others/griding-bootstrap.scss */
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+.carousel-inner > .item{ top:6px; margin-left:-15px;}
+#db-videos .carousel-inner > .item{ top:-1px; margin-left:0; min-height:435px;}
+#theCarousel .carousel-inner > .item{ top:-1px; margin-left:-17px;}
+@media (min-width: 768px) {
+  /* line 15, ../sass/others/griding-bootstrap.scss */
+  .container {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  /* line 20, ../sass/others/griding-bootstrap.scss */
+  .container {
+    width: 952px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 25, ../sass/others/griding-bootstrap.scss */
+  .container {
+    width: 1170px;
+  }
+}
+/* line 29, ../sass/others/griding-bootstrap.scss */
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 35, ../sass/others/griding-bootstrap.scss */
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/* line 39, ../sass/others/griding-bootstrap.scss */
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 45, ../sass/others/griding-bootstrap.scss */
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  float: left;
+}
+
+/* line 48, ../sass/others/griding-bootstrap.scss */
+.col-xs-12 {
+  width: 100%;
+}
+
+/* line 51, ../sass/others/griding-bootstrap.scss */
+.col-xs-11 {
+  width: 91.66666667%;
+}
+
+/* line 54, ../sass/others/griding-bootstrap.scss */
+.col-xs-10 {
+  width: 83.33333333%;
+}
+
+/* line 57, ../sass/others/griding-bootstrap.scss */
+.col-xs-9 {
+  width: 75%;
+}
+
+/* line 60, ../sass/others/griding-bootstrap.scss */
+.col-xs-8 {
+  width: 66.66666667%;
+}
+
+/* line 63, ../sass/others/griding-bootstrap.scss */
+.col-xs-7 {
+  width: 58.33333333%;
+}
+
+/* line 66, ../sass/others/griding-bootstrap.scss */
+.col-xs-6 {
+  width: 50%;
+}
+
+/* line 69, ../sass/others/griding-bootstrap.scss */
+.col-xs-5 {
+  width: 41.66666667%;
+}
+
+/* line 72, ../sass/others/griding-bootstrap.scss */
+.col-xs-4 {
+  width: 33.33333333%;
+}
+
+/* line 75, ../sass/others/griding-bootstrap.scss */
+.col-xs-3 {
+  width: 25%;
+}
+
+/* line 78, ../sass/others/griding-bootstrap.scss */
+.col-xs-2 {
+  width: 16.66666667%;
+}
+
+/* line 81, ../sass/others/griding-bootstrap.scss */
+.col-xs-1 {
+  width: 8.33333333%;
+}
+
+/* line 84, ../sass/others/griding-bootstrap.scss */
+.col-xs-pull-12 {
+  right: 100%;
+}
+
+/* line 87, ../sass/others/griding-bootstrap.scss */
+.col-xs-pull-11 {
+  right: 91.66666667%;
+}
+
+/* line 90, ../sass/others/griding-bootstrap.scss */
+.col-xs-pull-10 {
+  right: 83.33333333%;
+}
+
+/* line 93, ../sass/others/griding-bootstrap.scss */
+.col-xs-pull-9 {
+  right: 75%;
+}
+
+/* line 96, ../sass/others/griding-bootstrap.scss */
+.col-xs-pull-8 {
+  right: 66.66666667%;
+}
+
+/* line 99, ../sass/others/griding-bootstrap.scss */
+.col-xs-pull-7 {
+  right: 58.33333333%;
+}
+
+/* line 102, ../sass/others/griding-bootstrap.scss */
+.col-xs-pull-6 {
+  right: 50%;
+}
+
+/* line 105, ../sass/others/griding-bootstrap.scss */
+.col-xs-pull-5 {
+  right: 41.66666667%;
+}
+
+/* line 108, ../sass/others/griding-bootstrap.scss */
+.col-xs-pull-4 {
+  right: 33.33333333%;
+}
+
+/* line 111, ../sass/others/griding-bootstrap.scss */
+.col-xs-pull-3 {
+  right: 25%;
+}
+
+/* line 114, ../sass/others/griding-bootstrap.scss */
+.col-xs-pull-2 {
+  right: 16.66666667%;
+}
+
+/* line 117, ../sass/others/griding-bootstrap.scss */
+.col-xs-pull-1 {
+  right: 8.33333333%;
+}
+
+/* line 120, ../sass/others/griding-bootstrap.scss */
+.col-xs-pull-0 {
+  right: auto;
+}
+
+/* line 123, ../sass/others/griding-bootstrap.scss */
+.col-xs-push-12 {
+  left: 100%;
+}
+
+/* line 126, ../sass/others/griding-bootstrap.scss */
+.col-xs-push-11 {
+  left: 91.66666667%;
+}
+
+/* line 129, ../sass/others/griding-bootstrap.scss */
+.col-xs-push-10 {
+  left: 83.33333333%;
+}
+
+/* line 132, ../sass/others/griding-bootstrap.scss */
+.col-xs-push-9 {
+  left: 75%;
+}
+
+/* line 135, ../sass/others/griding-bootstrap.scss */
+.col-xs-push-8 {
+  left: 66.66666667%;
+}
+
+/* line 138, ../sass/others/griding-bootstrap.scss */
+.col-xs-push-7 {
+  left: 58.33333333%;
+}
+
+/* line 141, ../sass/others/griding-bootstrap.scss */
+.col-xs-push-6 {
+  left: 50%;
+}
+
+/* line 144, ../sass/others/griding-bootstrap.scss */
+.col-xs-push-5 {
+  left: 41.66666667%;
+}
+
+/* line 147, ../sass/others/griding-bootstrap.scss */
+.col-xs-push-4 {
+  left: 33.33333333%;
+}
+
+/* line 150, ../sass/others/griding-bootstrap.scss */
+.col-xs-push-3 {
+  left: 25%;
+}
+
+/* line 153, ../sass/others/griding-bootstrap.scss */
+.col-xs-push-2 {
+  left: 16.66666667%;
+}
+
+/* line 156, ../sass/others/griding-bootstrap.scss */
+.col-xs-push-1 {
+  left: 8.33333333%;
+}
+
+/* line 159, ../sass/others/griding-bootstrap.scss */
+.col-xs-push-0 {
+  left: auto;
+}
+
+/* line 162, ../sass/others/griding-bootstrap.scss */
+.col-xs-offset-12 {
+  margin-left: 100%;
+}
+
+/* line 165, ../sass/others/griding-bootstrap.scss */
+.col-xs-offset-11 {
+  margin-left: 91.66666667%;
+}
+
+/* line 168, ../sass/others/griding-bootstrap.scss */
+.col-xs-offset-10 {
+  margin-left: 83.33333333%;
+}
+
+/* line 171, ../sass/others/griding-bootstrap.scss */
+.col-xs-offset-9 {
+  margin-left: 75%;
+}
+
+/* line 174, ../sass/others/griding-bootstrap.scss */
+.col-xs-offset-8 {
+  margin-left: 66.66666667%;
+}
+
+/* line 177, ../sass/others/griding-bootstrap.scss */
+.col-xs-offset-7 {
+  margin-left: 58.33333333%;
+}
+
+/* line 180, ../sass/others/griding-bootstrap.scss */
+.col-xs-offset-6 {
+  margin-left: 50%;
+}
+
+/* line 183, ../sass/others/griding-bootstrap.scss */
+.col-xs-offset-5 {
+  margin-left: 41.66666667%;
+}
+
+/* line 186, ../sass/others/griding-bootstrap.scss */
+.col-xs-offset-4 {
+  margin-left: 33.33333333%;
+}
+
+/* line 189, ../sass/others/griding-bootstrap.scss */
+.col-xs-offset-3 {
+  margin-left: 25%;
+}
+
+/* line 192, ../sass/others/griding-bootstrap.scss */
+.col-xs-offset-2 {
+  margin-left: 16.66666667%;
+}
+
+/* line 195, ../sass/others/griding-bootstrap.scss */
+
+.col-xs-offset-1 {
+  margin-left: 8.33333333%;
+}
+
+/* line 198, ../sass/others/griding-bootstrap.scss */
+.col-xs-offset-0 {
+  margin-left: 0%;
+}
+
+@media (min-width: 768px) {
+  /* line 202, ../sass/others/griding-bootstrap.scss */
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+  }
+
+  /* line 205, ../sass/others/griding-bootstrap.scss */
+  .col-sm-12 {
+    width: 100%;
+  }
+
+  /* line 208, ../sass/others/griding-bootstrap.scss */
+  .col-sm-11 {
+    width: 91.66666667%;
+  }
+
+  /* line 211, ../sass/others/griding-bootstrap.scss */
+  .col-sm-10 {
+    width: 83.33333333%;
+  }
+
+  /* line 214, ../sass/others/griding-bootstrap.scss */
+  .col-sm-9 {
+    width: 75%;
+  }
+
+  /* line 217, ../sass/others/griding-bootstrap.scss */
+  .col-sm-8 {
+    width: 66.66666667%;
+  }
+
+  /* line 220, ../sass/others/griding-bootstrap.scss */
+  .col-sm-7 {
+    width: 58.33333333%;
+  }
+
+  /* line 223, ../sass/others/griding-bootstrap.scss */
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  /* line 226, ../sass/others/griding-bootstrap.scss */
+  .col-sm-5 {
+    width: 41.66666667%;
+  }
+
+  /* line 229, ../sass/others/griding-bootstrap.scss */
+  .col-sm-4 {
+    width: 33.33333333%;
+  }
+
+  /* line 232, ../sass/others/griding-bootstrap.scss */
+  .col-sm-3 {
+    width: 25%;
+  }
+
+  /* line 235, ../sass/others/griding-bootstrap.scss */
+  .col-sm-2 {
+    width: 16.66666667%;
+  }
+
+  /* line 238, ../sass/others/griding-bootstrap.scss */
+  .col-sm-1 {
+    width: 8.33333333%;
+  }
+
+  /* line 241, ../sass/others/griding-bootstrap.scss */
+  .col-sm-pull-12 {
+    right: 100%;
+  }
+
+  /* line 244, ../sass/others/griding-bootstrap.scss */
+  .col-sm-pull-11 {
+    right: 91.66666667%;
+  }
+
+  /* line 247, ../sass/others/griding-bootstrap.scss */
+  .col-sm-pull-10 {
+    right: 83.33333333%;
+  }
+
+  /* line 250, ../sass/others/griding-bootstrap.scss */
+  .col-sm-pull-9 {
+    right: 75%;
+  }
+
+  /* line 253, ../sass/others/griding-bootstrap.scss */
+  .col-sm-pull-8 {
+    right: 66.66666667%;
+  }
+
+  /* line 256, ../sass/others/griding-bootstrap.scss */
+  .col-sm-pull-7 {
+    right: 58.33333333%;
+  }
+
+  /* line 259, ../sass/others/griding-bootstrap.scss */
+  .col-sm-pull-6 {
+    right: 50%;
+  }
+
+  /* line 262, ../sass/others/griding-bootstrap.scss */
+  .col-sm-pull-5 {
+    right: 41.66666667%;
+  }
+
+  /* line 265, ../sass/others/griding-bootstrap.scss */
+  .col-sm-pull-4 {
+    right: 33.33333333%;
+  }
+
+  /* line 268, ../sass/others/griding-bootstrap.scss */
+  .col-sm-pull-3 {
+    right: 25%;
+  }
+
+  /* line 271, ../sass/others/griding-bootstrap.scss */
+  .col-sm-pull-2 {
+    right: 16.66666667%;
+  }
+
+  /* line 274, ../sass/others/griding-bootstrap.scss */
+  .col-sm-pull-1 {
+    right: 8.33333333%;
+  }
+
+  /* line 277, ../sass/others/griding-bootstrap.scss */
+  .col-sm-pull-0 {
+    right: auto;
+  }
+
+  /* line 280, ../sass/others/griding-bootstrap.scss */
+  .col-sm-push-12 {
+    left: 100%;
+  }
+
+  /* line 283, ../sass/others/griding-bootstrap.scss */
+  .col-sm-push-11 {
+    left: 91.66666667%;
+  }
+
+  /* line 286, ../sass/others/griding-bootstrap.scss */
+  .col-sm-push-10 {
+    left: 83.33333333%;
+  }
+
+  /* line 289, ../sass/others/griding-bootstrap.scss */
+  .col-sm-push-9 {
+    left: 75%;
+  }
+
+  /* line 292, ../sass/others/griding-bootstrap.scss */
+  .col-sm-push-8 {
+    left: 66.66666667%;
+  }
+
+  /* line 295, ../sass/others/griding-bootstrap.scss */
+  .col-sm-push-7 {
+    left: 58.33333333%;
+  }
+
+  /* line 298, ../sass/others/griding-bootstrap.scss */
+  .col-sm-push-6 {
+    left: 50%;
+  }
+
+  /* line 301, ../sass/others/griding-bootstrap.scss */
+  .col-sm-push-5 {
+    left: 41.66666667%;
+  }
+
+  /* line 304, ../sass/others/griding-bootstrap.scss */
+  .col-sm-push-4 {
+    left: 33.33333333%;
+  }
+
+  /* line 307, ../sass/others/griding-bootstrap.scss */
+  .col-sm-push-3 {
+    left: 25%;
+  }
+
+  /* line 310, ../sass/others/griding-bootstrap.scss */
+  .col-sm-push-2 {
+    left: 16.66666667%;
+  }
+
+  /* line 313, ../sass/others/griding-bootstrap.scss */
+  .col-sm-push-1 {
+    left: 8.33333333%;
+  }
+
+  /* line 316, ../sass/others/griding-bootstrap.scss */
+  .col-sm-push-0 {
+    left: auto;
+  }
+
+  /* line 319, ../sass/others/griding-bootstrap.scss */
+  .col-sm-offset-12 {
+    margin-left: 100%;
+  }
+
+  /* line 322, ../sass/others/griding-bootstrap.scss */
+  .col-sm-offset-11 {
+    margin-left: 91.66666667%;
+  }
+
+  /* line 325, ../sass/others/griding-bootstrap.scss */
+  .col-sm-offset-10 {
+    margin-left: 83.33333333%;
+  }
+
+  /* line 328, ../sass/others/griding-bootstrap.scss */
+  .col-sm-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 331, ../sass/others/griding-bootstrap.scss */
+  .col-sm-offset-8 {
+    margin-left: 66.66666667%;
+  }
+
+  /* line 334, ../sass/others/griding-bootstrap.scss */
+  .col-sm-offset-7 {
+    margin-left: 58.33333333%;
+  }
+
+  /* line 337, ../sass/others/griding-bootstrap.scss */
+  .col-sm-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 340, ../sass/others/griding-bootstrap.scss */
+  .col-sm-offset-5 {
+    margin-left: 41.66666667%;
+  }
+
+  /* line 343, ../sass/others/griding-bootstrap.scss */
+  .col-sm-offset-4 {
+    margin-left: 33.33333333%;
+  }
+
+  /* line 346, ../sass/others/griding-bootstrap.scss */
+  .col-sm-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 349, ../sass/others/griding-bootstrap.scss */
+  .col-sm-offset-2 {
+    margin-left: 16.66666667%;
+  }
+
+  /* line 352, ../sass/others/griding-bootstrap.scss */
+  .col-sm-offset-1 {
+    margin-left: 8.33333333%;
+  }
+
+  /* line 355, ../sass/others/griding-bootstrap.scss */
+  .col-sm-offset-0 {
+    margin-left: 0%;
+  }
+}
+@media (min-width: 768px) {
+  /* line 360, ../sass/others/griding-bootstrap.scss */
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+
+  /* line 363, ../sass/others/griding-bootstrap.scss */
+  .col-md-12 {
+    width: 100%;
+  }
+
+  /* line 366, ../sass/others/griding-bootstrap.scss */
+  .col-md-11 {
+    width: 91.66666667%;
+  }
+
+  /* line 369, ../sass/others/griding-bootstrap.scss */
+  .col-md-10 {
+    width: 83.33333333%;
+  }
+
+  /* line 372, ../sass/others/griding-bootstrap.scss */
+  .col-md-9 {
+    width: 75%;
+  }
+
+  /* line 375, ../sass/others/griding-bootstrap.scss */
+  .col-md-8 {
+    width: 66.66666667%;
+  }
+
+  /* line 378, ../sass/others/griding-bootstrap.scss */
+  .col-md-7 {
+    width: 58.33333333%;
+  }
+
+  /* line 381, ../sass/others/griding-bootstrap.scss */
+  .col-md-6 {
+    width: 50%;
+  }
+
+  /* line 384, ../sass/others/griding-bootstrap.scss */
+  .col-md-5 {
+    width: 41.66666667%;
+  }
+
+  /* line 387, ../sass/others/griding-bootstrap.scss */
+  .col-md-4 {
+    width: 33.33333333%;
+  }
+
+  /* line 390, ../sass/others/griding-bootstrap.scss */
+  .col-md-3 {
+    width: 25%;
+  }
+
+  /* line 393, ../sass/others/griding-bootstrap.scss */
+  .col-md-2 {
+    width: 16.66666667%;
+  }
+
+  /* line 396, ../sass/others/griding-bootstrap.scss */
+  .col-md-1 {
+    width: 8.33333333%;
+  }
+
+  /* line 399, ../sass/others/griding-bootstrap.scss */
+  .col-md-pull-12 {
+    right: 100%;
+  }
+
+  /* line 402, ../sass/others/griding-bootstrap.scss */
+  .col-md-pull-11 {
+    right: 91.66666667%;
+  }
+
+  /* line 405, ../sass/others/griding-bootstrap.scss */
+  .col-md-pull-10 {
+    right: 83.33333333%;
+  }
+
+  /* line 408, ../sass/others/griding-bootstrap.scss */
+  .col-md-pull-9 {
+    right: 75%;
+  }
+
+  /* line 411, ../sass/others/griding-bootstrap.scss */
+  .col-md-pull-8 {
+    right: 66.66666667%;
+  }
+
+  /* line 414, ../sass/others/griding-bootstrap.scss */
+  .col-md-pull-7 {
+    right: 58.33333333%;
+  }
+
+  /* line 417, ../sass/others/griding-bootstrap.scss */
+  .col-md-pull-6 {
+    right: 50%;
+  }
+
+  /* line 420, ../sass/others/griding-bootstrap.scss */
+  .col-md-pull-5 {
+    right: 41.66666667%;
+  }
+
+  /* line 423, ../sass/others/griding-bootstrap.scss */
+  .col-md-pull-4 {
+    right: 33.33333333%;
+  }
+
+  /* line 426, ../sass/others/griding-bootstrap.scss */
+  .col-md-pull-3 {
+    right: 25%;
+  }
+
+  /* line 429, ../sass/others/griding-bootstrap.scss */
+  .col-md-pull-2 {
+    right: 16.66666667%;
+  }
+
+  /* line 432, ../sass/others/griding-bootstrap.scss */
+  .col-md-pull-1 {
+    right: 8.33333333%;
+  }
+
+  /* line 435, ../sass/others/griding-bootstrap.scss */
+  .col-md-pull-0 {
+    right: auto;
+  }
+
+  /* line 438, ../sass/others/griding-bootstrap.scss */
+  .col-md-push-12 {
+    left: 100%;
+  }
+
+  /* line 441, ../sass/others/griding-bootstrap.scss */
+  .col-md-push-11 {
+    left: 91.66666667%;
+  }
+
+  /* line 444, ../sass/others/griding-bootstrap.scss */
+  .col-md-push-10 {
+    left: 83.33333333%;
+  }
+
+  /* line 447, ../sass/others/griding-bootstrap.scss */
+  .col-md-push-9 {
+    left: 75%;
+  }
+
+  /* line 450, ../sass/others/griding-bootstrap.scss */
+  .col-md-push-8 {
+    left: 66.66666667%;
+  }
+
+  /* line 453, ../sass/others/griding-bootstrap.scss */
+  .col-md-push-7 {
+    left: 58.33333333%;
+  }
+
+  /* line 456, ../sass/others/griding-bootstrap.scss */
+  .col-md-push-6 {
+    left: 50%;
+  }
+
+  /* line 459, ../sass/others/griding-bootstrap.scss */
+  .col-md-push-5 {
+    left: 41.66666667%;
+  }
+
+  /* line 462, ../sass/others/griding-bootstrap.scss */
+  .col-md-push-4 {
+    left: 33.33333333%;
+  }
+
+  /* line 465, ../sass/others/griding-bootstrap.scss */
+  .col-md-push-3 {
+    left: 25%;
+  }
+
+  /* line 468, ../sass/others/griding-bootstrap.scss */
+  .col-md-push-2 {
+    left: 16.66666667%;
+  }
+
+  /* line 471, ../sass/others/griding-bootstrap.scss */
+  .col-md-push-1 {
+    left: 8.33333333%;
+  }
+
+  /* line 474, ../sass/others/griding-bootstrap.scss */
+  .col-md-push-0 {
+    left: auto;
+  }
+
+  /* line 477, ../sass/others/griding-bootstrap.scss */
+  .col-md-offset-12 {
+    margin-left: 100%;
+  }
+
+  /* line 480, ../sass/others/griding-bootstrap.scss */
+  .col-md-offset-11 {
+    margin-left: 91.66666667%;
+  }
+
+  /* line 483, ../sass/others/griding-bootstrap.scss */
+  .col-md-offset-10 {
+    margin-left: 83.33333333%;
+  }
+
+  /* line 486, ../sass/others/griding-bootstrap.scss */
+  .col-md-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 489, ../sass/others/griding-bootstrap.scss */
+  .col-md-offset-8 {
+    margin-left: 66.66666667%;
+  }
+
+  /* line 492, ../sass/others/griding-bootstrap.scss */
+  .col-md-offset-7 {
+    margin-left: 58.33333333%;
+  }
+
+  /* line 495, ../sass/others/griding-bootstrap.scss */
+  .col-md-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 498, ../sass/others/griding-bootstrap.scss */
+  .col-md-offset-5 {
+    margin-left: 41.66666667%;
+  }
+
+  /* line 501, ../sass/others/griding-bootstrap.scss */
+  .col-md-offset-4 {
+    margin-left: 33.33333333%;
+  }
+
+  /* line 504, ../sass/others/griding-bootstrap.scss */
+  .col-md-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 507, ../sass/others/griding-bootstrap.scss */
+  .col-md-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  .col-md-top-10 {
+    width: 79.00% !important;
+  }
+  .col-md-offset-top-2 {
+    margin-left: 21.00%;
+  }
+  /* line 510, ../sass/others/griding-bootstrap.scss */
+  .col-md-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  .col-md-offset-1-5 {
+    margin-left: 4.177%;
+  }
+
+  /* line 513, ../sass/others/griding-bootstrap.scss */
+  .col-md-offset-0 {
+    margin-left: 0%;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 518, ../sass/others/griding-bootstrap.scss */
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+
+  /* line 521, ../sass/others/griding-bootstrap.scss */
+  .col-lg-12 {
+    width: 100%;
+  }
+
+  /* line 524, ../sass/others/griding-bootstrap.scss */
+  .col-lg-11 {
+    width: 91.66666667%;
+  }
+
+  /* line 527, ../sass/others/griding-bootstrap.scss */
+  .col-lg-10 {
+    width: 83.33333333%;
+  }
+
+  /* line 530, ../sass/others/griding-bootstrap.scss */
+  .col-lg-9 {
+    width: 75%;
+  }
+
+  /* line 533, ../sass/others/griding-bootstrap.scss */
+  .col-lg-8 {
+    width: 66.66666667%;
+  }
+
+  /* line 536, ../sass/others/griding-bootstrap.scss */
+  .col-lg-7 {
+    width: 58.33333333%;
+  }
+
+  /* line 539, ../sass/others/griding-bootstrap.scss */
+  .col-lg-6 {
+    width: 50%;
+  }
+
+  /* line 542, ../sass/others/griding-bootstrap.scss */
+  .col-lg-5 {
+    width: 41.66666667%;
+  }
+
+ /* line 545, ../sass/others/griding-bootstrap.scss */
+  .col-lg-4-custom {
+    width: 30.33333333%;
+  }
+  /* line 545, ../sass/others/griding-bootstrap.scss */
+  .col-lg-4 {
+    width: 33.33333333%;
+  }
+
+  /* line 548, ../sass/others/griding-bootstrap.scss */
+  .col-lg-3 {
+    width: 25%;
+  }
+
+  /* line 551, ../sass/others/griding-bootstrap.scss */
+  .col-lg-2 {
+    width: 16.66666667%;
+  }
+
+  /* line 554, ../sass/others/griding-bootstrap.scss */
+  .col-lg-1 {
+    width: 8.33333333%;
+  }
+
+  /* line 557, ../sass/others/griding-bootstrap.scss */
+  .col-lg-pull-12 {
+    right: 100%;
+  }
+
+  /* line 560, ../sass/others/griding-bootstrap.scss */
+  .col-lg-pull-11 {
+    right: 91.66666667%;
+  }
+
+  /* line 563, ../sass/others/griding-bootstrap.scss */
+  .col-lg-pull-10 {
+    right: 83.33333333%;
+  }
+
+  /* line 566, ../sass/others/griding-bootstrap.scss */
+  .col-lg-pull-9 {
+    right: 75%;
+  }
+
+  /* line 569, ../sass/others/griding-bootstrap.scss */
+  .col-lg-pull-8 {
+    right: 66.66666667%;
+  }
+
+  /* line 572, ../sass/others/griding-bootstrap.scss */
+  .col-lg-pull-7 {
+    right: 58.33333333%;
+  }
+
+  /* line 575, ../sass/others/griding-bootstrap.scss */
+  .col-lg-pull-6 {
+    right: 50%;
+  }
+
+  /* line 578, ../sass/others/griding-bootstrap.scss */
+  .col-lg-pull-5 {
+    right: 41.66666667%;
+  }
+
+  /* line 581, ../sass/others/griding-bootstrap.scss */
+  .col-lg-pull-4 {
+    right: 33.33333333%;
+  }
+
+  /* line 584, ../sass/others/griding-bootstrap.scss */
+  .col-lg-pull-3 {
+    right: 25%;
+  }
+
+  /* line 587, ../sass/others/griding-bootstrap.scss */
+  .col-lg-pull-2 {
+    right: 16.66666667%;
+  }
+
+  /* line 590, ../sass/others/griding-bootstrap.scss */
+  .col-lg-pull-1 {
+    right: 8.33333333%;
+  }
+
+  /* line 593, ../sass/others/griding-bootstrap.scss */
+  .col-lg-pull-0 {
+    right: auto;
+  }
+
+  /* line 596, ../sass/others/griding-bootstrap.scss */
+  .col-lg-push-12 {
+    left: 100%;
+  }
+
+  /* line 599, ../sass/others/griding-bootstrap.scss */
+  .col-lg-push-11 {
+    left: 91.66666667%;
+  }
+
+  /* line 602, ../sass/others/griding-bootstrap.scss */
+  .col-lg-push-10 {
+    left: 83.33333333%;
+  }
+
+  /* line 605, ../sass/others/griding-bootstrap.scss */
+  .col-lg-push-9 {
+    left: 75%;
+  }
+
+  /* line 608, ../sass/others/griding-bootstrap.scss */
+  .col-lg-push-8 {
+    left: 66.66666667%;
+  }
+
+  /* line 611, ../sass/others/griding-bootstrap.scss */
+  .col-lg-push-7 {
+    left: 58.33333333%;
+  }
+
+  /* line 614, ../sass/others/griding-bootstrap.scss */
+  .col-lg-push-6 {
+    left: 50%;
+  }
+
+  /* line 617, ../sass/others/griding-bootstrap.scss */
+  .col-lg-push-5 {
+    left: 41.66666667%;
+  }
+
+  /* line 620, ../sass/others/griding-bootstrap.scss */
+  .col-lg-push-4 {
+    left: 33.33333333%;
+  }
+
+  /* line 623, ../sass/others/griding-bootstrap.scss */
+  .col-lg-push-3 {
+    left: 25%;
+  }
+
+  /* line 626, ../sass/others/griding-bootstrap.scss */
+  .col-lg-push-2 {
+    left: 16.66666667%;
+  }
+
+  /* line 629, ../sass/others/griding-bootstrap.scss */
+  .col-lg-push-1 {
+    left: 8.33333333%;
+  }
+
+  /* line 632, ../sass/others/griding-bootstrap.scss */
+  .col-lg-push-0 {
+    left: auto;
+  }
+
+  /* line 635, ../sass/others/griding-bootstrap.scss */
+  .col-lg-offset-12 {
+    margin-left: 100%;
+  }
+
+  /* line 638, ../sass/others/griding-bootstrap.scss */
+  .col-lg-offset-11 {
+    margin-left: 91.66666667%;
+  }
+
+  /* line 641, ../sass/others/griding-bootstrap.scss */
+  .col-lg-offset-10 {
+    margin-left: 83.33333333%;
+  }
+
+  /* line 644, ../sass/others/griding-bootstrap.scss */
+  .col-lg-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 647, ../sass/others/griding-bootstrap.scss */
+  .col-lg-offset-8 {
+    margin-left: 66.66666667%;
+  }
+
+  /* line 650, ../sass/others/griding-bootstrap.scss */
+  .col-lg-offset-7 {
+    margin-left: 58.33333333%;
+  }
+
+  /* line 653, ../sass/others/griding-bootstrap.scss */
+  .col-lg-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 656, ../sass/others/griding-bootstrap.scss */
+  .col-lg-offset-5 {
+    margin-left: 41.66666667%;
+  }
+
+  /* line 659, ../sass/others/griding-bootstrap.scss */
+  .col-lg-offset-4 {
+    margin-left: 33.33333333%;
+  }
+
+  /* line 662, ../sass/others/griding-bootstrap.scss */
+  .col-lg-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 665, ../sass/others/griding-bootstrap.scss */
+  .col-lg-offset-2 {
+    margin-left: 16.66666667%;
+  }
+
+  /* line 668, ../sass/others/griding-bootstrap.scss */
+  .col-lg-offset-1 {
+    margin-left: 8.33333333%;
+  }
+
+  /* line 671, ../sass/others/griding-bootstrap.scss */
+  .col-lg-offset-0 {
+    margin-left: 0%;
+  }
+}
+/* line 675, ../sass/others/griding-bootstrap.scss */
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after,
+.container-fluid:before,
+.container-fluid:after,
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+
+/* line 686, ../sass/others/griding-bootstrap.scss */
+.clearfix:after,
+.container:after,
+.container-fluid:after,
+.row:after {
+  clear: both;
+}
+
+/* line 692, ../sass/others/griding-bootstrap.scss */
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 697, ../sass/others/griding-bootstrap.scss */
+.pull-right {
+  float: right !important;
+}
+
+/* line 700, ../sass/others/griding-bootstrap.scss */
+.pull-left {
+  float: left !important;
+}
+
+/* line 4, ../sass/others/margins-and-paddings.scss */
+.no-margin {
+  margin: 0 !important;
+}
+
+/* line 6, ../sass/others/margins-and-paddings.scss */
+.margin-2-x-y {
+  margin: 2px;
+}
+
+/* line 7, ../sass/others/margins-and-paddings.scss */
+.margin-2-y {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+/* line 8, ../sass/others/margins-and-paddings.scss */
+.margin-2-x {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+/* line 10, ../sass/others/margins-and-paddings.scss */
+.margin-5-x-y {
+  margin: 5px;
+}
+
+/* line 11, ../sass/others/margins-and-paddings.scss */
+.margin-5-x {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* line 12, ../sass/others/margins-and-paddings.scss */
+.margin-5-y {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* line 14, ../sass/others/margins-and-paddings.scss */
+.margin-10-x {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* line 15, ../sass/others/margins-and-paddings.scss */
+.margin-10-y {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* line 17, ../sass/others/margins-and-paddings.scss */
+.margin-15-x {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* line 18, ../sass/others/margins-and-paddings.scss */
+.margin-15-y {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* line 20, ../sass/others/margins-and-paddings.scss */
+.margin-20-x {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* line 21, ../sass/others/margins-and-paddings.scss */
+.margin-20-y {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 23, ../sass/others/margins-and-paddings.scss */
+.margin-30-x {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+/* line 24, ../sass/others/margins-and-paddings.scss */
+.margin-30-y {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* line 26, ../sass/others/margins-and-paddings.scss */
+.margin-40-x {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/* line 27, ../sass/others/margins-and-paddings.scss */
+.margin-40-y {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+.margin-25-y-form {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left:0;
+  margin-right:0;
+}
+
+/* line 29, ../sass/others/margins-and-paddings.scss */
+.margin-10-top {
+  margin-top: 10px;
+}
+
+/* line 30, ../sass/others/margins-and-paddings.scss */
+.margin-10-right {
+  margin-right: 10px;
+}
+
+/* line 31, ../sass/others/margins-and-paddings.scss */
+.margin-10-bottom {
+  margin-bottom: 10px;
+}
+
+/* line 32, ../sass/others/margins-and-paddings.scss */
+.margin-10-left {
+  margin-left: 10px;
+}
+
+/* line 34, ../sass/others/margins-and-paddings.scss */
+.margin-15-top {
+  margin-top: 15px;
+}
+
+/* line 35, ../sass/others/margins-and-paddings.scss */
+.margin-15-right {
+  margin-right: 15px;
+}
+
+/* line 36, ../sass/others/margins-and-paddings.scss */
+.margin-15-bottom {
+  margin-bottom: 15px;
+}
+
+/* line 37, ../sass/others/margins-and-paddings.scss */
+.margin-15-left {
+  margin-left: 15px;
+}
+
+/* line 39, ../sass/others/margins-and-paddings.scss */
+.margin-20-top {
+  margin-top: 20px;
+}
+
+/* line 40, ../sass/others/margins-and-paddings.scss */
+.margin-20-right {
+  margin-right: 20px;
+}
+
+/* line 41, ../sass/others/margins-and-paddings.scss */
+.margin-20-bottom {
+  margin-bottom: 20px;
+}
+
+/* line 42, ../sass/others/margins-and-paddings.scss */
+.margin-20-left {
+  margin-left: 20px;
+}
+
+/* line 44, ../sass/others/margins-and-paddings.scss */
+.margin-30-top {
+  margin-top: 30px;
+}
+
+/* line 45, ../sass/others/margins-and-paddings.scss */
+.margin-30-right {
+  margin-right: 30px;
+}
+
+/* line 46, ../sass/others/margins-and-paddings.scss */
+.margin-30-bottom {
+  margin-bottom: 30px;
+}
+
+/* line 47, ../sass/others/margins-and-paddings.scss */
+.margin-30-left {
+  margin-left: 30px;
+}
+
+/* line 49, ../sass/others/margins-and-paddings.scss */
+.margin-40-top {
+  margin-top: 40px;
+}
+
+/* line 50, ../sass/others/margins-and-paddings.scss */
+.margin-40-right {
+  margin-right: 40px;
+}
+
+/* line 51, ../sass/others/margins-and-paddings.scss */
+.margin-40-bottom {
+  margin-bottom: 40px;
+}
+
+/* line 52, ../sass/others/margins-and-paddings.scss */
+.margin-40-left {
+  margin-left: 40px;
+}
+
+/* line 55, ../sass/others/margins-and-paddings.scss */
+.no-border {
+  border: none !important;
+}
+
+/* line 59, ../sass/others/margins-and-paddings.scss */
+.no-padding {
+  padding: 0;
+}
+
+/* line 61, ../sass/others/margins-and-paddings.scss */
+.padding-2-x-y {
+  padding: 2px;
+}
+
+/* line 62, ../sass/others/margins-and-paddings.scss */
+.padding-2-y {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+/* line 63, ../sass/others/margins-and-paddings.scss */
+.padding-2-x {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+/* line 66, ../sass/others/margins-and-paddings.scss */
+.padding-5-x-y {
+  padding: 5px;
+}
+
+/* line 67, ../sass/others/margins-and-paddings.scss */
+.padding-5-x {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.padding-5-x-l {
+  padding-left: 5px;
+  padding-right: 0;
+}
+
+/* line 68, ../sass/others/margins-and-paddings.scss */
+.padding-5-y {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* line 70, ../sass/others/margins-and-paddings.scss */
+.padding-10-x-y {
+  padding: 10px;
+}
+
+/* line 72, ../sass/others/margins-and-paddings.scss */
+.padding-10-x {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 73, ../sass/others/margins-and-paddings.scss */
+.padding-10-y {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 75, ../sass/others/margins-and-paddings.scss */
+.padding-15-x {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 76, ../sass/others/margins-and-paddings.scss */
+.padding-15-y {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* line 78, ../sass/others/margins-and-paddings.scss */
+.padding-20-x {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* line 79, ../sass/others/margins-and-paddings.scss */
+.padding-20-y {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 81, ../sass/others/margins-and-paddings.scss */
+.padding-30-x {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* line 82, ../sass/others/margins-and-paddings.scss */
+.padding-30-y {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* line 84, ../sass/others/margins-and-paddings.scss */
+.padding-40-x {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.padding-35-right-x {
+  padding-right: 35px;
+  padding-left: 0;
+   padding-top: 0;
+}
+
+.padding-35-left-x {
+  padding-right: 0;
+  padding-left: 35px;
+   padding-top: 0;
+}
+
+/* line 85, ../sass/others/margins-and-paddings.scss */
+.padding-40-y {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* line 87, ../sass/others/margins-and-paddings.scss */
+.padding-10-top {
+  padding-top: 10px;
+}
+
+/* line 88, ../sass/others/margins-and-paddings.scss */
+.padding-10-right {
+  padding-right: 10px;
+}
+
+/* line 89, ../sass/others/margins-and-paddings.scss */
+.padding-10-bottom {
+  padding-bottom: 10px;
+}
+
+/* line 90, ../sass/others/margins-and-paddings.scss */
+.padding-10-left {
+  padding-left: 10px;
+}
+
+/* line 92, ../sass/others/margins-and-paddings.scss */
+.padding-15-top {
+  padding-top: 15px;
+}
+
+/* line 93, ../sass/others/margins-and-paddings.scss */
+.padding-15-right {
+  padding-right: 15px;
+}
+
+/* line 94, ../sass/others/margins-and-paddings.scss */
+.padding-15-bottom {
+  padding-bottom: 15px;
+}
+
+/* line 95, ../sass/others/margins-and-paddings.scss */
+.padding-15-left {
+  padding-left: 15px;
+}
+
+/* line 97, ../sass/others/margins-and-paddings.scss */
+.padding-20-top {
+  padding-top: 20px;
+}
+
+/* line 98, ../sass/others/margins-and-paddings.scss */
+.padding-20-right {
+  padding-right: 20px;
+}
+
+/* line 99, ../sass/others/margins-and-paddings.scss */
+.padding-20-bottom {
+  padding-bottom: 20px;
+}
+
+/* line 100, ../sass/others/margins-and-paddings.scss */
+.padding-20-left {
+  padding-left: 20px;
+}
+
+/* line 102, ../sass/others/margins-and-paddings.scss */
+.padding-30-top {
+  padding-top: 30px;
+}
+
+/* line 103, ../sass/others/margins-and-paddings.scss */
+.padding-30-right {
+  padding-right: 30px;
+}
+
+/* line 104, ../sass/others/margins-and-paddings.scss */
+.padding-30-bottom {
+  padding-bottom: 30px;
+}
+
+/* line 105, ../sass/others/margins-and-paddings.scss */
+.padding-30-left {
+  padding-left: 30px;
+}
+
+/* line 107, ../sass/others/margins-and-paddings.scss */
+.padding-40-top {
+  padding-top: 40px;
+}
+
+/* line 108, ../sass/others/margins-and-paddings.scss */
+.padding-40-right {
+  padding-right: 40px;
+}
+
+/* line 109, ../sass/others/margins-and-paddings.scss */
+.padding-40-bottom {
+  padding-bottom: 40px;
+}
+
+/* line 110, ../sass/others/margins-and-paddings.scss */
+.padding-40-left {
+  padding-left: 40px;
+}
+
+/* line 112, ../sass/others/margins-and-paddings.scss */
+.p-l-n {
+  padding-left: 0;
+}
+
+/* line 113, ../sass/others/margins-and-paddings.scss */
+.p-r-n {
+  padding-right: 0 !important;
+}
+
+/* line 6, ../sass/app/inputs.scss */
+.button-purple, .button-purple:hover, .button-purple:active {
+  background-image: url(../../../_images/consumer/desktop/Partner-with-us.png);
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  width:186px;
+  height:38px;
+ background-position:0 0;
+  color: #FFF;
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* line 4, ../sass/app/footer.scss */
+.footer-wrap {
+  background-color: #333333;
+  padding: 45px 0px 0;
+}
+/* line 6, ../sass/app/footer.scss */
+.footer-wrap h5 {
+  font-size: 16px;
+   font-family: "Arial";
+  color: rgb(220, 220, 220);
+  font-weight: bold;
+  line-height: 1.063;
+}
+
+/*
+.footer-wrap a { 
+	font-size: 12px;
+   font-family: "Arial";
+  color: rgb(220, 220, 220);
+  padding: 5px 0;
+}
+*/
+
+/* line 7, ../sass/app/footer.scss */
+.footer-wrap .first-box {
+  border-right: solid 1px #535353;
+  padding-bottom:25px;
+}
+
+.footer-wrap .footer-bottom p {
+    margin:30px 0;
+	 font-size: 11px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  line-height: 1.545;
+}
+
+
+
+
+/* line 8, ../sass/app/footer.scss */
+.footer-wrap .gray-border {
+  border: none;
+  border-bottom: solid 1px #535353;
+  margin: 5px 0px;
+  display: block;
+  clear: both;
+}
+/* line 9, ../sass/app/footer.scss */
+.footer-wrap a {
+  display: block;
+}
+
+/* line 5, ../sass/app/header.scss */
+.header-wrap {
+  clear: both;
+}
+/* line 7, ../sass/app/header.scss */
+.header-wrap .logo {
+  position:absolute;left:0;top:0;width:676px;margin:0;padding:0;z-index:100;
+}
+/* line 9, ../sass/app/header.scss */
+.header-wrap .logo h1 {
+  margin: 0px -8px;
+}
+/* line 17, ../sass/app/header.scss */
+.header-wrap .small-menu {
+ /* margin-top: 10px;*/
+ position: absolute;
+    right: 0px;
+    top: 18px;
+}
+
+
+.header-wrap .contact-info {
+ position: absolute;
+    top: 14px;
+	text-align:left;
+}
+
+.header-wrap .contact-no {
+	position: absolute;
+    top: 17px;
+	text-align:left;
+}
+.header-wrap .contact-no  a, .sales-color  a{ color:#e60000;}
+/* line 19, ../sass/app/header.scss */
+.header-wrap .small-menu ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+/* line 21, ../sass/app/header.scss */
+.header-wrap .small-menu ul li {
+  display: inline-block;
+  position: relative;
+  float: left;
+}
+/* line 23, ../sass/app/header.scss */
+.header-wrap .small-menu ul li a {
+  display: block;
+  position: relative;
+  color: #000;
+
+  font-size: 10px;
+}
+/* line 25, ../sass/app/header.scss */
+.header-wrap .small-menu ul li a .glyphicon {
+  color: #e60000;
+  font-size: 8px;
+}
+/* line 32, ../sass/app/header.scss */
+.header-wrap .main-menu-cont {
+  background-color: #e60000;
+  clear: both;
+  border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  /*padding: 2px 2px 0px 0;*/
+  margin-top:5px;
+  position: relative;
+  z-index: 350;
+  left:1px;
+}
+
+.dropdown-menu>li>a { font-size:16px; padding: 3px 30px 0; width:235px; }
+.dropdown-menu>li:first-child { padding: 25px 0 0;}
+.main-menu-cont  .navbar-nav li a .glyphicon { font-size:10px;}
+/* line 35, ../sass/app/header.scss */
+.header-wrap .menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 37, ../sass/app/header.scss */
+.header-wrap .menu ul li {
+  display: block;
+  position: relative;
+}
+/* line 39, ../sass/app/header.scss */
+.header-wrap .menu ul li a {
+  display: block;
+  position: relative;
+  color: #FFF;
+  padding: 8px 24px 0;
+}
+/* line 41, ../sass/app/header.scss */
+.header-wrap .menu ul li a .glyphicon {
+  font-size: 10px;
+  left:7px;
+}
+/* line 47, ../sass/app/header.scss */
+.header-wrap .search-box {
+  position: relative;
+}
+/* line 49, ../sass/app/header.scss */
+.header-wrap .search-box input {
+  border: solid 1px #FFF;
+  outline: none;
+  padding: 4px;
+  height: 24px;
+  z-index: 90;
+}
+/* line 50, ../sass/app/header.scss */
+.header-wrap .search-box .magnifying-glass {
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 24px;
+  width: 30px;
+  z-index: 100;
+  background-image: url(../../../_images/consumer/searchBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -198px -7px;
+}
+
+/* line 5, ../sass/app/home-page.scss */
+
+
+/* Bootstrap Tab */
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #dcdcdc;
+    cursor: default;
+    background-color: #666666;
+    border: 1px solid #666666;
+    border-bottom-color: transparent;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 12px 18px 0 24px;
+	 font-size: 21px;
+	  font-family: "VodafoneRg";
+	  color: rgb(255, 255, 255);
+}
+
+
+.navbar-nav>li { border-right:1px solid #f38080;}
+.navbar-nav>li:last-child{ border-right:none;}
+.nav-tabs>li>a {
+    border-color: #cccccc #cccccc #cccccc;
+	color: #6e6e6e;
+	margin-right: -1px;
+	  font-size: 16px;
+  font-family: "Arial";
+  color: rgb(51, 51, 51);
+}
+
+.navbar-form {
+    padding: 5px; margin:0 ;
+}
+.navbar-form input.form-control { font-size:18px;}
+.navbar-form .btn-default{ border-color:transparent; color:#c1c1c1;}
+.navbar-form .form-control{ border:1px solid #fff;}
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+/*.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}*/
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+.btn-default-ac{ border-color: #cccccc #fff #cccccc #fff ; }
+/* Top Navigation*/
+.dropdown-menu, .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+  
+  font-family: "VodafoneRg";
+  color: #333;
+  background-color:#FFF;
+  -moz-box-shadow: 0px 5px 5px 0px #7a7a7a,
+                    0px -5px 5px 0px #7a7a7a;
+-webkit-box-shadow: 0px 5px 5px 0px #7a7a7a,
+                    0px -5px 5px 0px #7a7a7a;
+box-shadow: 0px 5px 5px 0px #7a7a7a,
+            0px -5px 5px 0px #7a7a7a;
+}
+
+.header-top-section .navbar-nav > li > .dropdown-menu {
+-moz-box-shadow: 0px 9px 8px rgb(100,100,100);
+-webkit-box-shadow: 0px 9px 8px rgb(100,100,100);
+box-shadow: 0px 9px 8px rgb(100,100,100);
+  margin-top:6px;
+}
+.header-top-section .nav > li.open > a:after{ 
+	left:0; 
+	width:100%;
+	padding:8px;
+	position:absolute;
+	content:" "; 
+	background-color:#fff;
+	bottom:-10px;
+}
+hr{
+	    display: block;
+    -webkit-margin-before: 0.3em;
+    -webkit-margin-after: 0.3em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+}
+
+
+/* line 98, ../sass/app/home-page.scss */
+.featured-videos-wrap {
+  padding: 25px 0px;
+  overflow: auto;
+  background-color: #f5f5f5;
+  overflow: auto;
+  clear: both;
+}
+
+/* line 104, ../sass/app/home-page.scss */
+.featured-wrap {
+  padding: 0 0px;
+  overflow: auto;
+}
+/* line 106, ../sass/app/home-page.scss */
+.featured-wrap h4 {
+  margin: 20px 0px;
+   font-size: 22px;
+  font-family: "Arial";
+  color: rgb(0, 0, 0);
+  text-align: left;
+  font-weight:normal;
+}
+
+.featured-wrap hr.dashed { margin:15px 0;}
+.featured-wrap p.red-text {
+  font-size: 13px;
+  font-family: "Arial";
+  color: rgb(230, 0, 0);
+  line-height: 1.8;
+  text-align: left;
+}
+
+/* line 110, ../sass/app/home-page.scss */
+.featured-wrap .right-box, .featured-videos-wrap .right-box {
+  border: solid 1px #dfdfdf;
+  box-shadow: 0 0 2px #ececec;
+  -ms-box-shadow: 0 0 2px #ececec;
+  -o-box-shadow: 0 0 2px #ececec;
+  -webkit-box-shadow: 0 0 2px #ececec;
+  -moz-box-shadow: 0 0 2px #ececec;
+ 
+}
+.featured-videos-wrap .right-box{  margin-top:0px;  padding-top:22px;}
+.featured-wrap .right-box{  margin-top:25px;  padding-top:22px;}
+.featured-wrap .right-box  .h5, .featured-wrap .right-box h5 { line-height:none;}
+/* line 112, ../sass/app/home-page.scss */
+.featured-wrap .right-box .icon, .featured-videos-wrap .right-box .icon {
+  display: inline-block;
+  width: 75px;
+  height: 60px;
+  margin: 0px auto;
+  background-repeat: no-repeat;
+}
+.featured-wrap .right-box .icon.blog {
+  display: inline-block;
+  width: 65px;
+  height: 55px;
+  margin: 0px auto;
+  background-repeat: no-repeat;
+}
+.featured-videos-wrap .right-box .icon.blog{
+  display: inline-block;
+  width: 76px;
+  height: 42px;
+  background-repeat: no-repeat;
+
+}
+.featured-wrap .right-box h5.red-text, .featured-videos-wrap .right-box h5​.red-text {
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb(230, 0, 0);
+  font-weight: bold;
+
+}
+
+
+.featured-wrap .right-box p, .featured-videos-wrap .right-box p {
+  font-size: 12px;
+  font-family: "Arial";
+  line-height: -moz-block-height;
+  line-height:-ms-block-height;
+ line-height: -o-block-height;
+ line-height: -webkit-block-height;
+  line-height:-moz-box-block-height;
+  text-align: center;
+
+}
+
+
+/* line 114, ../sass/app/home-page.scss */
+.featured-wrap .right-box .icon.developers, .featured-videos-wrap .right-box .icon.developers {
+  background-image: url(../../../_images/consumer/desktop/dc.png);
+  background-position: 0px -4px;
+}
+/* line 115, ../sass/app/home-page.scss */
+.featured-wrap .right-box .icon.webinars, .featured-videos-wrap .right-box .icon.webinars {
+  background-image: url(../../../_images/consumer/desktop/Webinars.png);
+  background-position: -2px 0px;
+}
+/* line 116, ../sass/app/home-page.scss */
+.featured-wrap .right-box .icon.blog {
+  background-image: url(../../../_images/consumer/desktop/Blog.png);
+    background-position:10px -8px;
+}
+.featured-videos-wrap .right-box #right-boxBlog .icon.blog {
+  background-image: url(../../../_images/consumer/desktop/Blog.png);
+    background-position:-9px -7px;
+}
+/* line 117, ../sass/app/home-page.scss */
+.featured-wrap .right-box .icon.testimonials, .featured-videos-wrap .right-box .icon.testimonials {
+  background-image: url(../../../_images/consumer/desktop/Testimonials.png);
+  background-position: 17px 6px;
+}
+/* line 119, ../sass/app/home-page.scss */
+ .featured-videos-wrap .right-box h4,  .featured-videos-wrap .right-box p {
+  margin: 3px 0px;
+}
+#right-boxTestimonials, #right-boxBlog { width:221px; height:245px;margin:0 auto !important;position:relative;} 
+.featured-videos-wrap .right-box #right-boxBlog h5{ position:absolute; top:9px; right:72px;}
+.featured-wrap .right-box h5{
+	font-size: 16px;
+  font-family: "Arial";
+  color: rgb(230, 0, 0);
+  font-weight:700;
+  margin: 0px 0px;
+  line-height:0.75;
+}
+
+ #Blog .h4, #Blog h4 ,.featured-wrap .right-box h4{
+	font-size: 16px;
+  font-family: "Arial";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-align:center;
+}
+
+
+
+
+/* line 124, ../sass/app/home-page.scss */
+.slide-buttons-cont {
+  display: inline-block;
+}
+/* line 126, ../sass/app/home-page.scss */
+.slide-buttons-cont .slide-button {
+  display: inline-block;
+  position: relative;
+  float: left;
+  width: 7px;
+  height: 7px;
+  margin: -3px 2px;
+  background-color: #acacac;
+  border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  cursor: pointer;
+}
+/* line 127, ../sass/app/home-page.scss */
+.slide-buttons-cont .slide-button.active {
+  background-color: #000;
+}
+
+/* line 134, ../sass/app/home-page.scss */
+.big-carousel-wrap {
+ background-image: url(../../../_images/consumer/desktop/001_Cloud_homepage_Desktop_A.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: relative;
+  background-size: auto auto;
+}
+#login-form-wrapper{ min-height:650px; margin-top:20px;}
+
+#login-form-wrapper  h3{ margin-top:24px; margin-left:-2px; margin-bottom:18px;}
+#login-form-wrapper  p{ 
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(102, 102, 102);
+	margin-left:-3px;}
+	#login-form-wrapper .form-control{ height:31px;}
+	#login-form-wrapper .rightboxLogin{ width:384px;}
+	#login-form-wrapper .rightboxLogin ul li {
+		  font-size: 14px;
+		  font-family: "Arial";
+		  color: rgb(102, 102, 102);
+		  line-height: 1.3;
+		  position: absolute;
+		  padding:0;
+	}
+	#login-form-wrapper .rightboxLogin ul li:nth-child(1) {
+		  left: 22px;
+		  top: 58px;
+	}
+	#login-form-wrapper .rightboxLogin ul li:nth-child(2) {
+		  left: 22px;
+		  top: 83px;
+	}
+	#login-form-wrapper .rightboxLogin ul li:nth-child(3) {
+		  left: 24px;
+		  top: 108px;
+	}
+	
+	#login-form-wrapper .rightboxLogin .registerNow {
+		position: absolute;
+		  left: 13px;
+		  top: 150px;
+	}
+
+	#login-form-wrapper .rightboxLogin  p {
+		  font-size: 14px;
+		  font-family: "Arial";
+		  color: rgb(51, 51, 51);
+		  font-weight: bold;
+		  line-height: 1.7;
+		}
+
+	#login-form-wrapper .btn-link {
+	  font-size: 14px;
+	  font-family: "Arial";
+	  color: rgb(102, 102, 102);
+	  text-decoration: underline;
+	  line-height: 1.143;
+	  text-align: left;
+	}
+
+.login-wrap {
+ background-image: url(../../../_images/consumer/desktop/Login_Desktop/Login_Desktop_2.png);
+     background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+    background-size: auto 100%;
+    height: 440px;
+}
+
+.resources-all-wrap{
+	background-image: url(../../../_images/consumer/desktop/Resources_All/05_Resources_All_2.jpg);
+     background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+    background-size: auto 100%;
+    height: 440px;
+}
+
+#login-form input[type=text], input[type=password] {
+    margin-top: 10px;
+}
+#login-form {
+	padding-left:0px;
+	padding-right:16px;
+	margin-top:10px;
+    text-align:right;
+	position:relative;
+	z-index:999;
+}
+#Testimonials-bottom p{ padding: 0 14px; line-height:1.4; font-size:13px;}
+.login-wrap .inner{
+	min-height:440px;
+}
+
+.login-btn {
+	 background: url(../../../_images/consumer/desktop/Login_Desktop/Login.png) no-repeat 16px -2px;
+	 width:100px;
+	 height:50px;
+}
+
+.cancel-btn {
+	 background: url(../../../_images/consumer/desktop/Login_Desktop/Cancel.png) no-repeat 0 0;
+	 width:87px;
+	 height:50px;
+}
+
+.Downloan-btn {
+	 background: url(../../../_images/consumer/desktop/Resources_All/Downloan.png) no-repeat 0 -1px;
+	 width:106px;
+	 height:48px;
+}
+
+.Learn-more-btn {
+	 background: url(../../../_images/consumer/desktop/Resources_All/Learn-more.png) no-repeat 0 0;
+	 width:111px;
+	 height:46px;
+}
+
+.register-now-btn {
+	 background: url(../../../_images/consumer/desktop/Login_Desktop/Register-now.png) 0 0;
+	 width:138px;
+	 height:45px;
+	 margin-left:-10px;
+}
+
+
+.required-ico {
+	 background: url(../../../_images/consumer/mobile/Login_Registration_mobile/Login_Registration_mobile_5.png) no-repeat 0 0;
+	 width:12px;
+	 height:17px;
+	 padding:5px 7px;
+}
+
+.grid-ico-tbl-active {
+    background: url(../../../_images/consumer/desktop/Resources_All/05_Resources_All_3.jpg) no-repeat 0px 5px;
+    width: 37px;
+    height: 37px;
+    padding: 10px 15px;
+}
+
+.grid-ico-tbl {
+    background: url(../../../_images/consumer/desktop/Resources_All/list-column-view.png) no-repeat 0px 10px;
+    width: 37px;
+    height: 37px;
+    padding: 10px 15px;
+}
+
+.list-ico-tbl {
+    background: url(../../../_images/consumer/desktop/Resources_All/05_Resources_All_4.jpg) no-repeat 0px 5px;
+    width: 37px;
+    height: 37px;
+    padding: 10px 15px;
+}
+.list-view-table{ width:100%; margin:0 0 20px;}
+.list-ico-tbl-active{
+	background:url(../../../_images/consumer/desktop/Resources_All/list-column-view.png) no-repeat -40px 10px;
+	width: 37px;
+	height: 37px;
+	padding: 10px 15px;
+}
+/* line 136, ../sass/app/home-page.scss */
+.big-carousel-wrap .inner {
+  min-height: 450px;
+}
+/* line 137, ../sass/app/home-page.scss */
+.big-carousel-wrap .facts-box {
+  float: right;
+  padding-top: 128px;
+  width:383px;
+}
+/* line 139, ../sass/app/home-page.scss */
+.big-carousel-wrap .facts-box p {
+  line-height: 1;
+}
+/* line 140, ../sass/app/home-page.scss */
+.big-carousel-wrap .facts-box .cloud-partner {
+  background-color: #454545;
+  padding: 10px;
+  margin-top: 45px;
+ /* border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;*/
+}
+/* line 142, ../sass/app/home-page.scss */
+.big-carousel-wrap .facts-box .cloud-partner h2 {
+ /* margin: 5px 0px;*/
+}
+
+/* line 1, ../sass/app/grid.scss */
+.wrapper {
+  display: block;
+  clear: both;
+}
+/* line 3, ../sass/app/grid.scss */
+.wrapper .inner {
+  display: block;
+  width: 950px;
+  margin: 0 auto;
+  padding:0 0px;
+  clear: both;
+} 
+ .wrapper .inner .h3,  .wrapper .inner  h3 { text-indent:0;}
+.wrapper .inner-top {
+  display: block;
+  width: 752px;
+  margin: 0 ;
+  clear: both;
+}
+
+/* line 16, ../sass/app/home-page.scss */
+.categories-wrap {
+  min-height: 500px;
+  background-image: url(../../../_images/consumer/home/001_Cloud_homepage_6.jpg);
+  background-repeat: no-repeat;
+  background-position:center center;
+  background-size: auto auto;
+  background-color: #000;
+}
+/* line 17, ../sass/app/home-page.scss */
+.categories-wrap .inner {
+  overflow: auto;
+}
+/* line 20, ../sass/app/home-page.scss */
+.categories-wrap .main-heading {
+  margin: 10px 0 0 0;
+}
+/* line 21, ../sass/app/home-page.scss */
+.categories-wrap .p-small {
+  margin: 5px;
+}
+/* line 22, ../sass/app/home-page.scss */
+.categories-wrap .categories-cont {
+  margin-top: 20px;
+}
+/* line 23, ../sass/app/home-page.scss */
+.categories-wrap .upper {
+  min-height: 70px;
+}
+/* line 24, ../sass/app/home-page.scss */
+.categories-wrap .category-icon {
+  display: inline-block;
+  float: left;
+ /* max-width: 70px;*/
+}
+/* line 25, ../sass/app/home-page.scss */
+.categories-wrap .category-heading {
+  position: absolute;
+  left:90px;
+  top: 25px;
+  max-width:120px;
+}
+/* line 27, ../sass/app/home-page.scss */
+.categories-wrap .collapsable {
+  background-color: #eb1c24;
+  border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  margin: 2px 0px;
+  color: #FFF;
+  padding: 8px 10px 10px;
+  position: relative;
+}
+
+
+.categories-wrap p {
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb(205, 205, 205);
+  line-height: 1.25;
+  padding:7px 5px;
+}
+
+/* line 29, ../sass/app/home-page.scss */
+.categories-wrap .collapsable p {
+  position: relative;
+  padding: 0px 5px;
+}
+.categories-wrap .collapsable a.p-sm {
+ font-size: 12px;
+  font-family: "Arial";
+  color: rgb(234, 234, 234);
+  line-height: 1.417;
+}
+
+
+/*.h1, .h2, .h3, h1, h2, h3{ margin-bottom:0;margin-top:0;}
+.facts-box h2{}*/
+/* line 30, ../sass/app/home-page.scss */
+.categories-wrap .collapsable .glyphicon {
+  position: absolute;
+  font-size: 10px;
+  right: 10px;
+  top: 15px;
+  cursor: pointer;
+}
+
+/* line 32, ../sass/app/home-page.scss */
+.categories-wrap p {
+  clear: both;
+}
+
+/* line 35, ../sass/app/home-page.scss */
+.carousel-wrap {
+  padding: 0px 0;
+  margin:0;
+}
+/* line 36, ../sass/app/home-page.scss */
+.carousel-wrap .inner {
+  position: relative;
+}
+/* line 38, ../sass/app/home-page.scss */
+.carousel-wrap h3 {
+  margin: 19px 0px 0px 0px;
+}
+/* line 39, ../sass/app/home-page.scss */
+.carousel-wrap p {
+  margin: 0px 0px 5px 0px;
+}
+/* line 41, ../sass/app/home-page.scss */
+.carousel-wrap .left-button, .carousel-wrap .right-button {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  margin-top: -12px;
+  cursor: pointer;
+}
+/* line 43, ../sass/app/home-page.scss */
+.carousel-wrap .left-button {
+  left: -54px;
+  background-image:url(../../../_images/consumer/desktop/carousel-left.png);
+  background-repeat:no-repeat;
+  width:22px;
+  height:42px;
+}
+/* line 44, ../sass/app/home-page.scss */
+.carousel-wrap .right-button {
+  right: -54px;
+  background-image:url(../../../_images/consumer/desktop/carousel-right.png);
+  background-repeat:no-repeat;
+  width:22px;
+  height:42px;
+}
+/* line 48, ../sass/app/home-page.scss */
+.carousel-wrap .carousel-inner {
+  width: 100%;
+  overflow: hidden;
+  top:25px;
+}
+/* line 52, ../sass/app/home-page.scss */
+.carousel-wrap .carousel-item {
+  position: relative;
+  margin: 10px 0px 55px;
+}
+/* line 54, ../sass/app/home-page.scss */
+.carousel-wrap .carousel-item .sticker {
+  display: inline-block;
+  position: absolute;
+  width: 98px;
+  height: 88px;
+  background-color: #e60000;
+  left: 6px;
+  top: 25px;
+  z-index: 200;
+  text-align: center;
+  padding:8px
+}
+/* line 56, ../sass/app/home-page.scss */
+.carousel-wrap .carousel-item .sticker .sticker-cont {
+  z-index: 150;
+  position: relative;
+}
+/* line 57, ../sass/app/home-page.scss */
+.carousel-wrap .carousel-item .sticker .black-text {
+  display: block;
+  font-size: 12px;
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb(0, 0, 0);
+  line-height: 1.75;
+}
+
+
+
+/* line 58, ../sass/app/home-page.scss */
+ .carousel-wrap .carousel-item .sticker .users {
+  display: block;
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  line-height: 1.417;
+ 
+}
+
+
+
+.carousel-wrap .carousel-item .sticker .price{  line-height: 0.75; font-family: "Arial"; font-size: 175%;color: #ffffff;display: block;}
+/* line 59, ../sass/app/home-page.scss */
+.carousel-wrap .carousel-item .sticker:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -10px;
+  bottom: -10px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: transparent;
+  border-right-color: #1a0000;
+  z-index: 100;
+}
+/* line 60, ../sass/app/home-page.scss */
+.carousel-wrap .carousel-item .sticker:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #e60000;
+  z-index: 110;
+}
+/* line 61, ../sass/app/home-page.scss */
+.carousel-wrap .carousel-item .sticker p {
+  margin: 0;
+}
+/* line 63, ../sass/app/home-page.scss */
+.carousel-wrap .carousel-item .image-cont {
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
+/* line 65, ../sass/app/home-page.scss */
+.carousel-wrap .carousel-item .image-cont .carousel-item-pic {
+  position: relative;
+  z-index: 150;
+  width: 100%;
+  min-height: 100%;
+}
+/* line 67, ../sass/app/home-page.scss */
+.carousel-wrap .carousel-item .details {
+  background-color: #333333;
+  padding: 18px 18px 0;
+  
+}
+/* line 69, ../sass/app/home-page.scss */
+.carousel-wrap .carousel-item .details p {
+  color: #acacac;
+}
+/* line 70, ../sass/app/home-page.scss */
+
+
+/* line 77, ../sass/app/home-page.scss */
+.sticky-icons {
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  top: 30%;
+}
+/* line 79, ../sass/app/home-page.scss */
+.sticky-icons ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+/* line 81, ../sass/app/home-page.scss */
+.sticky-icons ul li {
+  display: block;
+  positiopn: relative;
+  margin: 2px;
+}
+/* line 83, ../sass/app/home-page.scss */
+.sticky-icons ul li a {
+  display: block;
+  position: relative;
+  padding: 5px;
+  background-color: #000;
+  width: 129px;
+  border-radius: 5px 0px 0px 5px;
+  -ms-border-radius: 5px 0px 0px 5px;
+  -o-border-radius: 5px 0px 0px 5px;
+  -webkit-border-radius: 5px 0px 0px 5px;
+  -moz-border-radius: 5px 0px 0px 5px;
+  text-align: center;
+}
+/* line 85, ../sass/app/home-page.scss */
+.sticky-icons ul li a .icon {
+  width: 60px;
+  height: 50px;
+  display: block;
+  position: relative;
+  background-repeat: no-repeat;
+  margin: 0px auto;
+}
+/* line 87, ../sass/app/home-page.scss */
+.sticky-icons ul li a .icon.help {
+  background-position: 8px 4px;
+  background-image: url(../../../_images/consumer/home/floating/icon1.png);
+}
+/* line 88, ../sass/app/home-page.scss */
+.sticky-icons ul li a .icon.speak {
+  background-position: 10px 0px;
+  background-image: url(../../../_images/consumer/home/floating/icon2.png);
+}
+/* line 89, ../sass/app/home-page.scss */
+.sticky-icons ul li a .icon.representative {
+  background-position: 12px 6px;
+  background-image: url(../../../_images/consumer/home/floating/icon3.png);
+}
+/* line 91, ../sass/app/home-page.scss */
+.sticky-icons ul li a .box-title {
+  font-size: 12px;
+  color: #acacac;
+}
+
+.col-lg-4-top{ width:35.100%}
+	.col-lg-8-top{ width:64.900%; } 
+
+	.navbar-form .input-group > .form-control { width:192px;}
+	
+	.h3, h3 {     font-size: 30px;}
+	.header-wrap .contact-info { font-family: "Arial";padding-left:13px; top:10px;font-size:89%;}
+	.header-wrap .contact-no { font-family: "Arial";padding-left:14px; font-size:122%;}
+	.header-wrap .small-menu ul li a {     font-size: 12px;
+  font-family: "Arial";
+  color: rgb(0, 0, 0);
+  text-align: left;}
+
+	.header-wrap .menu ul li a { font-size:20px; line-height:22px;}
+	.header-wrap .main-menu-cont { /*padding:6px;*/  left:10px;	}
+	.header-wrap .search-box input , .header-wrap .search-box .magnifying-glass {    height: auto;}
+	.big-carousel-wrap .facts-box .h2, h2{ 
+		font-size: 36px;
+	  font-family: "VodafoneExB";
+	  color: rgb(238, 43, 36);
+	   line-height: 1.056;
+  text-align: left;
+	 
+	}
+
+	.big-carousel-wrap .facts-box p {  font-size: 18px;  font-family: "VodafoneRg"; line-height: 1.1; padding-bottom:10px}
+	.big-carousel-wrap .facts-box .p-sm {
+		font-size: 12px;
+  font-family: "Arial";
+  color: rgb(238, 43, 36);
+  font-weight: bold;
+  text-align: left;
+  padding-left:2px;
+	}
+
+	.big-carousel-wrap .cloud-partner .p-sm {  
+		 font-size: 12px;
+		  font-family: "Arial";
+		  color: rgb(255, 255, 255);
+		  line-height: 1.214;
+		  text-align: center;
+	}
+
+	
+	.big-carousel-wrap .facts-box .cloud-partner{
+	  border-radius: 3px;  background-color: #4c4c4c;  opacity: 0.702;  
+	  width: 385px;  height: 187px;  margin-top:84px; padding:13px 35px;
+	}
+	
+
+ .big-carousel-wrap .facts-box .cloud-partner .h4,.big-carousel-wrap .facts-box .cloud-partner h4{ 
+ 		font-size: 24px;
+  font-family: "VodafoneRg";
+  color: rgb(255, 255, 255);
+	  font-weight: bold;
+	  text-align:center;
+	  padding-right:14px;
+
+ }
+ 
+ 
+.featured-wrap h3{ margin-top:21px;}
+.featured-videos-wrap h3{ margin-top:-6px;}
+
+ .wrapper.categories-wrap { height:695px;}
+ .wrapper.carousel-wrap .inner,.wrapper.categories-wrap  .inner, .wrapper.featured-wrap .inner 
+ { padding:27px 0px;}
+ .wrapper.featured-videos-wrap .inner{ padding:0px 0px;}
+ 
+ .wrapper.footer-wrap .inner{ padding:0 0;}
+ .wrapper.carousel-wrap .details .h5, h5{
+	  font-size: 22px;
+   color: rgb(255, 255, 255);
+  line-height: 1.227;}
+
+
+
+
+.wrapper.carousel-wrap  .carousel-item .image-cont { height:280px;}
+.big-carousel-wrap .inner {   min-height: 642px; }
+.header-wrap .header-top{ height:60px;}	
+.header-wrap .topRightNav{ padding-left:20px;}
+.categories-wrap .collapsable  a.p-sm{ padding:0; font-size: 12px;
+  font-family: "Arial";
+  color: rgb(234, 234, 234);
+  line-height: 1.417;}
+
+
+/* CSSTerm.com Simple CSS menu */
+.menu_simple{  background-color: #000;}
+.menu_simple ul {
+    margin: 0  ; 
+    padding: 0;
+    width:100%;
+    list-style-type: none;
+	 background-color: #000;
+	opacity: 0.95;
+}
+.menu_simple ul li{ border-bottom:1px dashed #FFFFFF ;}
+.menu_simple ul li a {
+    text-decoration: none;
+    padding: 10.5px 11px;
+    color:#fff;
+    display:block;
+}
+ .menu_simple ul li a:after { content:'>'; float:right;}
+.menu_simple ul li a:visited {
+    color: #fff;
+}
+ 
+.menu_simple ul li a:hover, .menu_simple ul li .current {
+    color: #fff;
+    background-color: rgba(244,46,49,1.00);
+}
+
+
+
+.indicators-top{
+	position:absolute;
+	top:0;
+	left:0;
+	padding:10px;
+	width:28%;
+}
+
+.indicators-webinar{
+	position:absolute;
+	top:-100px;
+	right:0;
+	padding:10px;
+	width:24%;
+}
+
+#upcoming-webinars .indicators-webinar, #Press-Events .indicators-webinar{ top:0;}
+
+
+.indicators-webinar .carousel-indicators {
+	    right: 0;
+    top: -28px;
+    margin-right: 0;
+    width: 60px;
+}
+
+.indicators-rightBox{
+	position:absolute;
+	bottom:-30px;
+	right:0;
+	padding:10px;
+	width:24%;
+}
+.indicators-rightBox .carousel-indicators {
+
+    bottom: 0;
+    margin-right: 0;
+    width: 60px;
+}
+
+.indicators-rightBox .carousel-indicators,.indicators-top .carousel-indicators { left:0; bottom:5px; margin-left:0;}
+.indicators-rightBox .carousel-indicators li,.indicators-webinar .carousel-indicators li ,.indicators-top .carousel-indicators li{ background-color:#4c4c4c;}
+.indicators-rightBox .carousel-indicators .active,.indicators-webinar .carousel-indicators .active,.indicators-top .carousel-indicators .active { background-color:#b3b3b3;}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+    line-height: 1;
+    margin: 0 auto;
+}
+
+
+.input-group-addon { background-color:#000; color:#bababa; border:1px solid #000;}
+
+#Press-Events .carousel-inner>.item>a>img, #Press-Events .carousel-inner>.item>img { width:100%;}
+.nav-class-top-v1{
+	border-top: 1px solid #ddd !important;
+	border-right: 1px solid #ddd !important;
+	padding: 6px !important;
+}
+
+.login-box-top{
+	display:none;
+	position:absolute;width:266px;z-index:999999;background-color:#fff;border:1px solid #ddd;height:288px;right:0;top:100%;padding:10px;
+}
+
+.close-box{
+	position:relative;top:-40px;right:-10px;float:right;height:30px;border-left:1px solid #ddd; border-bottom:4px solid #fff;width:60px;
+}
+
+.p-font-25{  font-size: 25px;}
+.p-font-24{  font-size: 24px;}
+.p-font-22{  font-size: 22px;}
+.p-font-20{  font-size: 20px;}
+.p-font-18{  font-size: 18px;}
+
+
+#case .margin-10-top p{ font-family:"Arial"; }
+#case .margin-10-top img{ margin:0 auto; }
+
+#case .margin-10-top .tbl-box{ display:none;}
+#case .margin-10-top .tbl-box.active{ display:block;}
+ .rightBoxh5 {
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb(230, 0, 0);
+  font-weight: bold;
+
+}
+
+
+
+ul.topRightNav li {
+  border-right: 1px solid #ddd;
+    color: rgb(35, 31, 32);
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Arial";
+    left: 31px;
+    padding: 0 8.8px;
+    position: relative;
+    text-align: left;
+    top: 13px;
+}
+ul.topRightNav li:last-child{ border-right:none;}
+ul.topRightNav li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 150px;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+ul.topRightNav li ul li { 
+  display: block; 
+  color: #555;
+ border-right:none;
+}
+
+ul.topRightNav li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+ul.topRightNav li a, ul.topRightNav li ul li a{ color:#000000;}
+
+
+.header-top-section {position:absolute;left:688px;top:0;width:772px;margin:0;padding:0;height:70px}
+.header-top-section .Vodafone_CloudStore span.black-text {left:10px;position:relative}
+
+.Vodafone_CloudStore {
+  font-size: 30px;
+  font-family: "VodafoneRg";
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: left;
+  -moz-transform: scale(0.98, 1);
+  -webkit-transform: scale(0.98, 1);
+  -ms-transform: scale(0.98, 1);
+  position: absolute;
+  
+  left: -4px;
+  top: 15.5px;
+}
+
+
+.Contact_Sales {
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb(0, 0, 0);
+  line-height: 2.25;
+  text-align: left;
+  -moz-transform: scale(0.98, 1);
+  -webkit-transform: scale(0.98, 1);
+  -ms-transform: scale(0.98, 1);
+  position: absolute;
+  left: 373px;
+   top: 15.5px;
+}
+
+
+.header-wrap .contact-no {
+	font-size: 18px;
+  font-family: "Arial";
+  line-height: 2.25;
+  text-align: left;
+  -moz-transform: scale(0.98, 1);
+  -webkit-transform: scale(0.98, 1);
+  -ms-transform: scale(0.98, 1);
+  position: absolute;
+  left: 372px;
+   top: 26px;
+   padding:0;
+   margin:0;
+  }
+  
+  div.top-menu-right {
+   position: absolute;
+  left: 557px;
+  top: 39px;
+  width:230px;
+  padding:0;
+  margin:0;
+}
+
+div.top-menu-right > a{ font-size: 12px;font-family: "Arial";color: rgb(0, 0, 0);line-height: 1.583; }
+div.top-menu-right > a:nth-child(1) { padding: 0 3px 0 0 ;}
+div.top-menu-right > a:nth-child(2) {padding: 0 3px 0 0 ; }
+
+
+
+.navbar-right{ margin-right: 1px;}
+
+.navbar-collapse.collapse{
+  border-radius: 5px;
+  background-color: rgb(230, 0, 0);
+  position: absolute;
+  left: 0;
+  top: 74px;
+  width: 751px;
+  max-height: 38px;
+z-index:100;
+}
+
+.header-top-section .nav > li:nth-child(1) > a { padding: 8px 36px 10px 24px;}
+.header-top-section .nav > li:nth-child(2) > a {  padding: 8px 36px 10px 22px}
+.header-top-section .nav > li:nth-child(3) > a {  padding: 8px 36px 10px 15px}
+
+.navbar-collapse.collapse .nav > li:nth-child(1) > a .glyphicon {
+    position: absolute;
+    font-size: 10px;
+    right: 18px;
+    top: 16px;
+    cursor: pointer;
+}
+.navbar-collapse.collapse .nav > li:nth-child(2) > a .glyphicon {
+    position: absolute;
+    font-size: 10px;
+    right: 18px;
+    top: 16px;
+    cursor: pointer;
+}
+.navbar-collapse.collapse .nav > li:nth-child(3) > a .glyphicon {
+    position: absolute;
+    font-size: 10px;
+    right: 18px;
+    top: 16px;
+    cursor: pointer;
+}
+
+.marginl{margin-left:-3px;}
+.bg-logo{ display:none;}
+
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+	.header-wrap .logo{ width:22.1%}
+	.header-top-section{ 
+	left:224px;
+	position:absolute;top:0;
+
+	width:calc( 100% - 236px );margin:0;padding:0 20px 0 0;height:70px}
+	.navbar-collapse.collapse{ width:100%; position:relative;}
+	div.top-menu-right{ left:calc(100% - 236px );}
+div.top-menu-right> a span.icon-menu-down{ padding:0 0 0 26px;}
+}
+@media screen and (min-width: 1025px) and (max-width: 1919px) { 
+	.header-wrap .logo{ width:calc( ( ( 100% - 779px ) / 2 ) + 87px )}
+	.header-top-section{ left:calc( ( ( 100% - 779px ) / 2 ) + 87px + 16px );width:772px;}
+	div.top-menu-right{ left:calc(100% - 200px );}
+div.top-menu-right> a span.icon-menu-down{ padding:0 0 0 26px;}
+	.navbar-collapse.collapse{ width:100%; position:relative;}
+	.hidden-1280{ display:none;}
+	.bg-logo {
+	  display: inline-block;
+	  position: absolute;
+	  top: 0px;
+	  left: 0px;
+	  background-image: url(../../../_images/consumer/logo.png);
+	  background-repeat: no-repeat;
+	  background-position: top right;
+	  width: 100%;
+	  height: 642px;
+	  z-index: 300;
+	}
+}
+@media screen and (min-width: 1280px) and (max-width: 1440px) {
+	#login-form-wrapper{ min-height:480px;}
+}
+
+
+@media only screen 
+   and (min-device-width : 768px) 
+   and (max-device-width : 991px) 
+   and (orientation : portrait) {
+   /* Styles */
+   
+  .header-wrap{ height:70px;padding: 10px 0px}
+ .header-wrap .logo {
+  position:absolute;left:0;top:0;width:193px;margin:0;padding:0;
+}
+div.top-menu-right{ left:calc(100% - 198px );}
+div.top-menu-right> a span.icon-menu-down{ padding:0 0 0 26px;}
+/*.navbar-collapse.collapse{ width:540px;}*/
+/*.navbar-form .input-group > .form-control{width:120px;}*/
+.nav > li:nth-child(1) > a{padding:12px 30px 8px 10px;}
+.nav > li:nth-child(2) > a{padding:12px 30px 8px 10px;}
+.nav > li:nth-child(3) > a{padding:12px 30px 8px 10px;}
+/* Added By Husain 
+*/
+.header-top-section {position:absolute;left:224px;top:0;
+
+width:calc( 100% - 236px );margin:0;padding:0 20px 0 0;height:70px}
+   .header-wrap .menu ul li a{ padding:6px 12px;}
+   .close-box {    width: 52px;}
+   
+.hidden-md{display:none!important;}
+  .bg-logo { display:none;  }
+  .big-carousel-wrap{
+	 background-image: url("../../../_images/consumer/Tab/001_Cloud_homepage_Tab_A.png");
+    background-position: 0 -2px;
+    background-size: 100% auto;
+  }
+  .big-carousel-wrap .inner {    min-height: 500px; }
+  .wrapper .inner-top {   width:auto;}
+  .wrapper .inner{ width:auto}
+  .big-carousel-wrap .facts-box{ padding-top:60px;}
+  
+   .col-lg-8-top{ width:73%}
+  .col-lg-4-top{ width:25.1%}
+   .h3, h3 {     font-size: 165%;}
+   .big-carousel-wrap .facts-box .h2, h2 { font-size:225%;}
+   .big-carousel-wrap .facts-box p {   font-size: 105%; line-height: 1.111;}
+   .sticky-icons {    display: none;  }
+   .big-carousel-wrap .facts-box{  width: 310px;}
+   .big-carousel-wrap .facts-box .cloud-partner {
+    height: 170px;
+	margin-top:48px;
+    padding: 0px 10px 15px;
+    width: 300px;
+	}
+/*	.Contact_Sales,.header-wrap .contact-no{ width:110px; left:250px;}
+	div.top-menu-right{ left:345px; top:50px;}
+.Vodafone_CloudStore{ font-size:26px;}*/
+	.wrapper.carousel-wrap .inner, .wrapper.featured-wrap .inner, .wrapper.featured-videos-wrap .inner, .wrapper.footer-wrap .inner {
+    padding: 15px 10px;
+}
+
+	.big-carousel-wrap .facts-box .cloud-partner { width:285px;}
+	.carousel-wrap .left-button { position:absolute; top:0; left:88%;
+		background-image:url(../../../_images/consumer/Tab/carousel-left.png);
+	  background-repeat:no-repeat;
+	  width:18px;
+	  height:34px;
+	
+	}
+	.carousel-wrap .carousel-button-divider { 
+		position:absolute; top:0; left:93%;
+		background-image:url(../../../_images/consumer/Tab/divider.png);
+	  	background-repeat:no-repeat;
+		background-size:100% 100%;
+	  	width:1px;
+	  	height:38px;
+		margin-top:-14px;
+	
+	}
+	.carousel-wrap .right-button { position:absolute; top:0; right:20px;
+		background-image:url(../../../_images/consumer/Tab/carousel-right.png);
+	  background-repeat:no-repeat;
+	  width:18px;
+	  height:34px;
+	}
+	
+	
+	.button-purple, .button-purple:hover, .button-purple:active {
+			background-image: url("../../../_images/consumer/Tab/Partner-with-us.png");
+			background-position: 0 0;
+			height: 39px;
+			width: 182px;
+		}
+	.gray-bg-wrapper .breadcrumb { padding:14px 15px;}
+	ul.topRightNav li { padding:0;}
+	.header-wrap .small-menu ul li a {     font-size: 8px;    padding: 4px 0px 0 0px;}
+
+	.p-font-25{  font-size: 22px;}
+	.p-font-24{  font-size: 20px;}
+	.p-font-22{  font-size: 18px;}
+	.p-font-20{  font-size: 16px;}
+	.p-font-18{  font-size: 14px;}
+	.box-height {    padding: 15px;}
+	.Learn-more-btn {
+		background-image: url(../../../_images/consumer/desktop/Resources_All/Learn-more.png);
+		background-repeat:no-repeat;
+		background-size:90% 100%;
+		width: 100px;
+		height: 46px;
+	}
+	
+	.Downloan-btn {
+		background-image: url(../../../_images/consumer/desktop/Resources_All/Downloan.png);
+		background-repeat:no-repeat;
+		background-size:90% 100%;
+		width: 100px;
+		height: 46px;
+	}
+	.nav > li > a {
+    display: block;
+    padding: 15px 8px;
+	}
+	.wrapper.carousel-wrap  .carousel-item .image-cont { height:216px;}
+	.navbar-collapse.collapse{ width:100%; position:relative;}
+	.navbar-form > .input-group input[type='text']{ display:none;}
+		
+		.navbar-right li.activeBox{ width:100%;}
+		.navbar-right-100{ width:100%; margin:0;}
+		.navbar-form .input-group > .form-control{width:calc(100% - 0px );}
+		.navbar-form .input-group .input-group-addon, .navbar-form .input-group .input-group-btn{ width:40px;}
+		 .roundCor{ border-radius:5px !important;}
+		 .Contact_Sales{ top:0;left:calc(100% - 200px )}
+		.header-wrap .contact-no{ top:11px;left:calc(100% - 200px );}
+/*	.header-wrap .contact-no{ font-size:90%; padding-top:5px;}*/
+	
+	/*.header-top-section .nav > li:nth-child(1) > a { padding: 12px 32px 8px 6px;}
+.header-top-section .nav > li:nth-child(2) > a {  padding: 12px 32px 8px 6px}
+.header-top-section .nav > li:nth-child(3) > a {  padding: 12px 32px 8px 6px}*/
+}
+@media screen and (min-width: 768px) and (max-width: 991px) and (orientation : landscape)  {
+	.header-wrap{ height:70px;padding: 10px 0px}
+	.header-wrap .logo {
+  position:absolute;left:0;top:0;width:193px;margin:0;padding:0;
+}
+
+
+.header-top-section {position:absolute;left:224px;top:0;width:calc( 100% - 236px );margin:0;padding:0 20px 0 0;height:70px}
+div.top-menu-right{ left:calc(100% - 198px );}
+div.top-menu-right> a span.icon-menu-down{ padding:0 0 0 26px;}
+	.header-wrap .menu ul li a{ padding:6px 12px;}
+  /* line 77, ../sass/app/home-page.scss */
+  .hidden-md{display:none!important;}
+  .bg-logo { display:none;  }
+  .big-carousel-wrap{
+	  background-image: url(../../../_images/consumer/Tab/001_Cloud_homepage_Tab_A.png);
+    background-position:top left;
+  }
+  .big-carousel-wrap .inner {    min-height: 644px;}
+  .wrapper .inner-top {   width:auto;}
+  .wrapper .inner{ width:auto}
+  .big-carousel-wrap .facts-box{ padding-top:132px;}
+  .col-lg-8-top{ width:76%}
+  .col-lg-4-top{ width:21.9%}
+/*  .h3, h3 {     font-size: 165%;}*/
+ 	.wrapper.carousel-wrap .inner, .wrapper.categories-wrap .inner, .wrapper.featured-wrap .inner, .wrapper.featured-videos-wrap .inner ,.wrapper.footer-wrap .inner{  padding: 0px 10px;}
+
+.gray-bg-wrapper .breadcrumb { padding:14px 15px;}
+/*
+.header-wrap .small-menu ul li a {     font-size: 82%;    padding: 4px 0px 0 0px;}
+	.header-wrap .contact-no {   top:20px; font-size: 95%;}
+	.header-wrap .contact-info{ font-size:85%}*/
+	.sticky-icons {    display: none;  }
+	
+	.p-font-25{  font-size: 22px;}
+	.p-font-24{  font-size: 20px;}
+	.p-font-22{  font-size: 18px;}
+	.p-font-20{  font-size: 16px;}
+	.p-font-18{  font-size: 14px;}
+	.box-height {    padding: 15px;}
+	
+	
+	.carousel-wrap .left-button { position:absolute; top:0; left:88%;
+		background-image:url(../../../_images/consumer/Tab/carousel-left.png);
+	  background-repeat:no-repeat;
+	  width:18px;
+	  height:34px;
+	
+	}
+	.carousel-wrap .carousel-button-divider { 
+		position:absolute; top:0; left:93%;
+		background-image:url(../../../_images/consumer/Tab/divider.png);
+	  	background-repeat:no-repeat;
+		background-size:100% 100%;
+	  	width:1px;
+	  	height:38px;
+		margin-top:-14px;
+	
+	}
+	.carousel-wrap .right-button { position:absolute; top:0; right:20px;
+		background-image:url(../../../_images/consumer/Tab/carousel-right.png);
+	  background-repeat:no-repeat;
+	  width:18px;
+	  height:34px;
+	}
+	
+	
+	.button-purple, .button-purple:hover, .button-purple:active {
+			background-image: url("../../../_images/consumer/Tab/Partner-with-us.png");
+			background-position: 0 0;
+			height: 39px;
+			width: 182px;
+		}
+		.navbar-collapse.collapse{ width:100%; position:relative;}
+		.navbar-form > .input-group input[type='text']{ display:none;}
+		
+		.navbar-right-100{ width:100%; margin:0;}
+		.navbar-right li.activeBox{ width:100%;}
+		.navbar-form .input-group > .form-control{width:calc(100% - 0px );}
+		 .navbar-form .input-group .input-group-addon, .navbar-form .input-group .input-group-btn{ width:40px;}
+		.roundCor{ border-radius:5px !important;}
+		.Contact_Sales{ top:0;left:calc(100% - 200px )}
+		.header-wrap .contact-no{ top:11px;left:calc(100% - 200px );}
+		
+}
+
+@media screen and (max-width: 767px) {
+/*  Header Section */
+.header-wrap{ height:125px;padding: 10px 0px}
+.header-top-section{ left:160px; width:178px;}
+
+.header-top-section .Vodafone_CloudStore{ top:41px;font-size:20px;left:-1px;}
+
+.header-top-section .Vodafone_CloudStore span.black-text {left:6px;position:relative}
+.header-top-section .Contact_Sales{ left:-4px;top:66px;font-size:10px;} 
+.header-wrap .contact-no{ left:-6px;top:77px;font-size:14px;}
+.header-top-section div.top-menu-right{ left:-3px;top:103px;}
+div.top-menu-right > a{ font-size:10px;}
+.marginl{ margin-left:-8px;}
+.header-wrap .logo { width:auto;z-index:0;}
+.header-top .right-box { width: 230px;}
+.close-box {
+   width: 64px;
+   
+}
+.big-carousel-wrap .facts-box { width:100%;}
+.indicators-webinar{	top:-90px;}
+.header-wrap .contact-info { left:66px; top:17px;}
+
+ul.topRightNav li{ top:10px; left:21px;}	
+.header-wrap .header-top{ height:100px;}	
+.header-wrap .logo h1 { margin:9px 0;}
+.header-wrap .topRightNav{ float:left;}
+.header-wrap .small-menu { top:72px;}
+.header-wrap .small-menu ul li a { font-size:85%;}
+  /* line 5, ../sass/app/grid.scss */
+  .sticky-icons {    display: none;  }
+  .bg-logo { display:none;  }
+  .col-xs-offset-mobile-2 {  left: 8.333375%;}
+  .wrapper.carousel-wrap .inner, .wrapper.categories-wrap .inner, .wrapper.featured-wrap .inner, .wrapper.featured-videos-wrap .inner, .wrapper.footer-wrap .inner{ padding:10px 10px;}
+  .wrapper .inner {  width: auto;  }
+  .header-wrap .small-menu{ margin-top:-10px;}
+  .h5{ margin:40px auto 0;  font-size: 100%;  color: rgb(230, 0, 0); text-align: left;	}
+  .wrapper .logo.p-l-r-m-n,
+  .wrapper .right-box.p-l-r-m-n,
+  .p-l-r-m-n{ padding-left:0 !important; padding-right:0 !important;}
+  .wrapper .small-menu.p-l-r-m-n{ padding-left:0px !important; padding-right:0 !important;}
+  .wrapper .contact-box.p-l-r-m-n{ padding-left:35px !important; padding-right:0 !important;}
+  .big-carousel-wrap{ top:0; background-image: url(../../../_images/consumer/mobile/01_Cloud_homepage_mobile_A.png);
+  background-position: left top;
+  }
+  .h3, h3{ font-size:28px}
+  .mbv{ font-size:25px;}
+  .p, p{ font-size:100%}
+  
+  .big-carousel-wrap .facts-box p { font-size: 15px; padding-bottom:0}
+
+  .h2, h2{  font-size: 28.272px;}
+  .h1, .h2, .h3, h1, h2, h3{ margin-top:10px; margin-bottom:-5px}
+  .big-carousel-wrap .facts-box{ padding-top:16px;}
+  .big-carousel-wrap .facts-box .cloud-partner{ margin-top:10px;}
+  .big-carousel-wrap .inner { min-height:296px;}
+  .carousel-wrap, .categories-wrap{ padding:10px 10px;}
+
+  .carousel-wrap .left-button{ left:-40px}
+  .carousel-wrap .right-button{ right:-40px}
+  .wrapper.categories-wrap { height:auto;}
+  .commentsIco {
+		background: url(../../../_images/consumer/mobile/comments.png) no-repeat 0 0 !important;
+		padding: 30px 45px;
+		position: relative;
+		right: 0;
+		float:right;
+		top: -58px;
+		background-size: 35px;
+	}
+	.menu-top-mob {
+		background: url(../../../_images/consumer/mobile/menu.png) no-repeat 0 0 !important;
+		padding: 30px 22px;
+		position: absolute;
+		right:5px;
+		top: 19px;
+		cursor:pointer;
+		z-index:9999;
+	}
+	
+	.categories-wrap {
+    background-color: #000;
+    background-image: url("../../../_images/consumer/mobile/01_Cloud_homepage_mobile_03.jpg");
+	}
+	
+	.resources-all-wrap {
+		background: url(../../../_images/consumer/mobile/Resources_All/05_Resources_All_mobile_1.png) no-repeat scroll center center / 100% auto;;
+		position: relative;
+		height: 328px;
+	}
+	.categories-wrap .categories-cont{  margin:0 auto;}
+	/* line 8, ../sass/app/grid.scss */
+  .wrapper .p-l-n {
+    padding-left: 15px !important;
+  }
+  /* line 9, ../sass/app/grid.scss */
+  .wrapper .p-r-n {
+    padding-right: 15px !important;
+  }
+  body { overflow-x:hidden;}
+  .big-carousel-wrap .facts-box .cloud-partner  {
+	  position:absolute;
+	top:100%;
+    height: 140px;
+	border-radius: 3px;
+    opacity:1;
+    padding: 10px 50px 15px;
+    width: 100%;
+	/*margin: -46px -15px 10px;*/
+	
+	border-radius:0;
+	
+}
+
+.carousel-wrap { margin-top:100px;}
+.menu{ margin:25% 25%;}
+.navbar-nav > li > a{ color:#ccc; padding:10px;}
+.navbar-nav > li{ border-bottom:1px solid #ccc;}
+
+
+.wrapper.carousel-wrap .details .h5, h5 { font-size:22px;}
+.wrapper .inner-top { width:100%;}.col-lg-8-top { width:98%}
+.facts-box .commentsIco { width:40%;}
+	.facts-box .readmore-ico { width:60%;}
+	
+	.big-carousel-wrap {
+		background-color:#ededed;
+		background-image: url("../../../_images/consumer/mobile/01_Cloud_homepage_mobile_A.png");
+		 background-position: -22px -25px;
+		background-size: 100% auto;
+		top: 0;
+	}
+	
+	.force-right { float:left;}
+	
+	#theCarousel, #testimonial, #fb-videos, #up-web{ width:302px; margin:0 auto;}
+/*	#up-web{ margin:0 -20px;}*/
+	#login-form {    text-align:center; border-right:none;}
+	.padding-35-left-x { padding-left:0; padding-right:0;}
+	.padding-35-right-x { padding-left:0; padding-right:0;}
+	
+	.login-wrap {
+		background-image: url(../../../_images/consumer/mobile/Login_mobile/Login_mobile_1.jpg);
+		background-repeat: no-repeat;
+		background-position: top left;
+		position: relative;
+		background-size: auto auto;
+		height: 329px;
+		margin-top:10px;
+	}
+	
+	.gray-background h5 { font-size:14px;}
+	#login-form{padding-left:0px;padding-right:0;margin-top:-10px}
+	p.p-sm{ font-size: 12px;}
+	#login-form-wrapper{ min-height:511px; margin:11px 6px;}
+	#login-form-wrapper .mobi-left-align{ text-align:left;}
+	#login-form-wrapper .cancel-btn{ width:128px;}
+	#login-form-wrapper .rightboxLogin{ margin:17px -16px;}
+	.margin-20-top-xs{ margin:22px -11px;}
+	.p-font-25{  font-size: 22px;}
+	.p-font-24{  font-size: 20px;}
+	.p-font-22{  font-size: 18px;}
+	.p-font-20{  font-size: 16px;}
+	.p-font-18{  font-size: 14px;}
+	
+	.tbl-box{ padding:10px;}
+	
+	.Learn-more-btn {
+		background-image: url(../../../_images/consumer/mobile/Resources_All/Learn-more.png);
+		background-repeat:no-repeat;
+		background-size:100% 100%;
+		width: 97px;
+		height: 35px;
+	}
+	
+	.Downloan-btn {
+		background-image: url(../../../_images/consumer/mobile/Resources_All/Download.png);
+		background-repeat:no-repeat;
+		background-size:100% 100%;
+		width: 90px;
+		height: 35px;
+	}
+	
+	
+	.button-purple, .button-purple:hover, .button-purple:active {
+			background-image: url("../../../_images/consumer/desktop/Partner-with-us.png");
+			background-position: 0 0;
+			height: 30px;
+			width: 130px;
+		}
+			
+/*	.featured-wrap .right-box, .featured-videos-wrap .right-box {
+		margin: 22px 84px;
+		width: 306px;
+	}
+	*/
+	
+	.big-carousel-wrap .facts-box .cloud-partner .h4,.big-carousel-wrap .facts-box .cloud-partner h4{ 
+ 		font-size: 21px;
+	  padding-right:0;
+
+ }
+ .h2, h2 {
+    font-size: 26.272px;
+}
+.small-dc{ padding-left:15px !important;}
+div.top-menu-right{ z-index:9999;}
+#lean_overlay {
+    		top: 100px;
+   		 background-image:url(../../../_images/consumer/desktop/Login_Desktop/login-box-mobi.png);
+		 background-position:0 0;
+	 }
+
+#myaccount_overlay{ background:#fff;  width:312px; left:0;top:120px; padding:15px; margin:0;position:fixed;}
+#myaccount_overlay .ProfileList , #myaccount_overlay .myOrdersList,  #myaccount_overlay .TicketsList{ display:none;}
+#myaccount_overlay div.myaccount_body .divider{ margin:10px -15px 0 -15px;}
+#myaccount_overlay div.myaccount_heading .divider{ margin:10px -15px 10px -15px; border: 1px solid #ddd;}
+ #myaccount_overlay select#myAccountList{ display:inline; 
+		-webkit-appearance: none;  /*Removes default chrome and safari style*/
+		-moz-appearance: none; /* Removes Default Firefox style*/
+        appearance:none;
+		border-radius:0px;
+		 background: #fff url("../../../_images/consumer/mobile/Resources_All/dropdown.png") no-repeat scroll 95% center !important;}
+		 
+
+}
+
+@font-face {
+  font-family: 'VodafoneRg';
+  src: url("./fonts/VodafoneRg.eot");
+  src: local("Γÿ║"), url("../../../fonts/VodafoneRg.woff") format("woff"), url("../../../fonts/VodafoneRg.ttf") format("truetype"), url("../../../fonts/VodafoneRg.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/** Generated by FG **/
+@font-face {
+  font-family: 'VodafoneExBd';
+  src: url("./fonts/VodafoneExBd.eot");
+  src: local("Γÿ║"), url("../../../fonts/VodafoneExBd.woff") format("woff"), url("../../../fonts/VodafoneExBd.ttf") format("truetype"), url("../../../fonts/VodafoneExBd.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/** Generated by FG **/
+@font-face {
+  font-family: 'VodafoneRgBd';
+  src: url("./fonts/VodafoneRgBd.eot");
+  src: local("Γÿ║"), url("../../../fonts/VodafoneRgBd.woff") format("woff"), url("../../../fonts/VodafoneRgBd.ttf") format("truetype"), url("../../../fonts/VodafoneRgBd.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 32, ../sass/app/typography.scss */
+body, p, input, button {
+  font-family: "VodafoneRg";
+}
+
+/* line 33, ../sass/app/typography.scss */
+body {
+  margin: 0;
+	
+}
+
+/* line 34, ../sass/app/typography.scss */
+p {
+  margin: 5px 0px;
+}
+
+
+/* line 35, ../sass/app/typography.scss */
+.p, p {
+  font-size: 14px;font-family: "Arial";
+}
+
+/* line 36, ../sass/app/typography.scss */
+.p-sm {
+  font-size: 12px;
+  font-family: "Arial";
+}
+
+/* line 37, ../sass/app/typography.scss */
+.p-xs {
+  font-size: 125%;
+}
+
+/* line 38, ../sass/app/typography.scss */
+.p-bg {
+ 	font-size: 24px;
+  	font-family: "Arial";
+  	color: rgb(220, 220, 220);
+  	line-height: 1.043;
+}
+
+
+/* line 39, ../sass/app/typography.scss */
+.VodafoneRg {
+  font-family: VodafoneRg;
+}
+
+/* line 40, ../sass/app/typography.scss */
+.VodafoneExBd {
+  font-family: VodafoneExBd;
+}
+
+/* line 41, ../sass/app/typography.scss */
+.VodafoneRgBd {
+  font-family: VodafoneRgBd;
+}
+
+h3{
+	
+    -webkit-margin-before: 10px;
+    -webkit-margin-after: 10px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+
+ul.topRightNav {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 0px 4px 0px 0;
+  list-style: none;
+}
+
+
+
+
+
+#overlay {
+    background: #181111;
+	opacity: 0.95;
+    display: none;
+    height: 100%;
+    position: fixed;
+    top: 0; left: 0;
+    -moz-transition: all 0.2s linear 0s;
+    -webkit-transition: all 0.2s linear 0s;
+    -ms-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;
+    width: 100%;
+    z-index: 999999;
+}
+
+.responsive-nav-close {
+	background: url(../../../_images/consumer/mobile/menuclose.png) no-repeat 4px 4px;
+    padding: 24px 30px;
+	top: 10px; right: 10px;cursor: pointer; position: absolute;z-index: 1;
+}
+
+
+@media screen and (max-width: 479px) {
+	
+	.col-lg-8-top { width:98%}
+	
+	.header-wrap .small-menu { left:-74px;}
+	.big-carousel-wrap .facts-box .cloud-partner .h4, h4 , .big-carousel-wrap .facts-box .h2, h2 { font-size:110%;}
+	.big-carousel-wrap .facts-box .p-sm , .big-carousel-wrap .facts-box p { font-size:90%;}
+	.big-carousel-wrap .facts-box .cloud-partner { margin:-26px -15px 20px;}
+	.wrapper.carousel-wrap .details .h5, h5 { font-size:100%;}
+	.padding-10-x-l{ padding-left:10px; padding-right:4px;}
+	.wrapper .inner-top { width:100%;}
+	.facts-box .commentsIco { width:50%; right: -44px;}
+	.facts-box .readmore-ico { width:40%;}
+	.header-wrap .small-menu { width:150%;}
+	.small-dc{ width:100%;}
+	.big-carousel-wrap .facts-box {     padding-top: 10px;  position: absolute;  top: 100%;}
+	.wrapper.carousel-wrap { margin-top:320px;}
+	.big-carousel-wrap .facts-box  .commentsIco { top:-52px;}
+	.big-carousel-wrap .inner{ min-height:200px}
+	#theCarousel, #testimonial, #fb-videos, #up-web { width:auto;	}
+	.p-bg{ font-size:100%}
+	.footer-wrap h5 { font-size:14px;}
+	.featured-wrap .right-box, .featured-videos-wrap .right-box {
+		margin: 22px 0;
+		width: 306px;
+	}
+	.carousel-wrap .left-button {
+  left: -14px;
+}
+/* line 44, ../sass/app/home-page.scss */
+.carousel-wrap .right-button {
+  right: -14px;
+}
+.header-wrap .logo { width:auto;}
+.header-top-section{ left:136px;}
+div.top-menu-right{ z-index:9999;}
+#lean_overlay {
+    		top: 100px;
+   		 background-image:url(../../../_images/consumer/desktop/Login_Desktop/login-box-mobi.png);
+		 background-position:0 0;
+	 }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+	
+	
+	.big-carousel-wrap .facts-box .cloud-partner {
+		margin: -36px 0 10px;
+	}
+	
+	.login-wrap { background-size:100% 100%;}
+}
+
+@media screen and (min-width: 640px) and (max-width: 767px) {
+	.big-carousel-wrap .inner {    min-height: 462px;}
+	.big-carousel-wrap .facts-box .cloud-partner {    margin: 87px -15px 10px;}
+	.big-carousel-wrap .facts-box {    padding-top: 90px;}
+	
+}
+
+
+
+#MainMenu{ width:312px; height:auto;}
+
+ .list-group.panel > .list-group-item {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  padding:20px 20px 0 0;
+
+}
+#MainMenu .list-group-submenu {
+  margin: 0 0 0 20px;
+}
+#MainMenu .list-group-item{ border:none; }
+
+#MainMenu a.list-group-item-success {
+
+  font-size: 18px;
+  font-family: "Arial";
+  color: #666666;
+  font-weight: bold;
+  line-height: 1;
+background-color:#fff;
+	border-bottom:1px solid #666666;
+	margin-bottom:2px;
+	}
+	
+	#MainMenu .dv{ border-bottom:1px solid #666666; margin:0 0 0 -20px}
+	#MainMenu a.mainHeading {
+		font-size:18px;
+		  font-family: "Arial";
+		  color: #e60203;
+		  font-weight: bold;
+		  line-height: 1;
+		background-color:#fff;
+		padding:20px 20px;
+		margin:0;
+	}
+	#MainMenu .list-group-submenu .list-group-item{
+	  font-family: "Arial";
+	  color: rgb(102, 102, 102);
+	    border-bottom:1px solid #e0e0e0 !important;
+		margin-bottom:0;
+		margin-left:20px;
+		padding:10px 0;
+	}
+	
+#MainMenu .list-group-item-success{ margin-left:0px;}
+#MainMenu .list-group-item span.arrow-right-ico{
+	background-image:url(../../../_images/consumer/mobile/menu-right.png);
+	background-repeat:no-repeat;
+	background-position:10px 6px;
+	position:absolute;
+	right:10px;
+	top:15px;
+	padding:12px ;
+}
+
+
+
+#MainMenu a.list-group-item:focus, #MainMenu a.list-group-item:hover{ background-color:#fff;}

@@ -1,0 +1,203 @@
+/*** uncss> filename: http://localhost:50000/style.css ***/
+.planDetailsO365BusinessEssentials .heading {
+    height: 78px;
+}
+.planDetailsO365BusinessEssentials p.content {
+    min-height: 140px;
+    font-family: Arial;
+    font-size: 12px;
+	color: #666666;
+}
+.planDetailsO365BusinessEssentials>div:last-child p.content {
+	min-height: auto;
+}
+.planDetailsO365BusinessEssentials .heading {
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bold;
+	color: #333333;
+    position: relative;
+}
+.planDetailsO365BusinessEssentials .heading img {
+    width: 42px;
+    position: absolute;
+    bottom: 33px;
+}
+.planDetailsO365BusinessEssentials .heading div {
+    width: 111px;
+    position: absolute;
+    left: 44px;
+    bottom: 33px;
+}
+/*style added on 06 Jun 2016 */
+
+@media only screen and (min-width: 992px) {
+	.container.productDetails {
+		width: 1000px;
+		padding: 0;
+		margin: 0 auto;
+	}
+.planDetailsO365BusinessEssentials p.content {
+	min-height: 92px;
+	margin-bottom: 9px;
+	line-height: 17px;
+	margin: 6px 0 0 0px;
+}
+.planDetailsO365BusinessEssentials {
+	padding-bottom: 26px;
+	width: 950px;
+	margin: 0 auto;
+}
+.planDetailsO365BusinessEssentials .heading {
+	height: 46px;
+}
+.planDetailsO365BusinessEssentials .heading img {
+	width: auto;
+	bottom: 7px;
+	left: 2px;
+}
+.planDetailsO365BusinessEssentials .heading div {
+	width: 230px;
+	left: 72px;
+	bottom: 3px;
+}
+	.businessEssentialsCol {
+		width: 303.3333333px;
+		margin-right: 20px;
+		float: left;
+		margin-bottom: 26px;
+	}
+
+	.businessEssentialsCol:nth-child(3n+1) {
+		clear: left;
+	}
+	.businessEssentialsCol:nth-child(3n) {
+		margin-right: 0;
+	}
+	
+}
+
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+	.planDetailsO365BusinessEssentials .heading div {
+		width: 80%;
+	}
+	.planDetailsO365BusinessEssentials p.content {
+		min-height: auto;
+		/* height: 60px; */
+	}
+.planDetailsO365BusinessEssentials > div:last-child p.content {
+	height: 50px;
+}
+.planDetailsO365BusinessEssentials .heading {
+	height: 50px;
+}
+.planDetailsO365BusinessEssentials .heading img {
+	width: 42px;
+	position: absolute;
+	bottom: 0px;
+}
+.planDetailsO365BusinessEssentials .heading div {
+	/* width: 111px; */
+	position: absolute;
+	left: 44px;
+	bottom: 0px;
+}
+	.businessEssentialsCol {
+		width: 48%;
+		margin-right: 2%;
+		float: left;
+	}
+	.businessEssentialsCol:nth-child(2n-1) {
+		clear: left;
+	}
+	.businessEssentialsCol:nth-child(2n) {
+		width: 48%;
+		margin-left: 2%;
+		margin-right: 0;
+	}
+	/*.planDetailsFeatures img {
+	height: 65px;
+	}*/
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.container.productDetails {
+		margin: 0 auto;
+		width: 442px;
+		padding: 0;
+	}
+	/*.planDetailsFeatures img {
+	height: 65px;
+	}*/
+.businessEssentialsCol {
+	width: 205px;
+	float: left;
+	margin-bottom: 30px;
+}
+	.businessEssentialsCol:nth-child(2n-1) {
+		padding-right: 15px;
+		border-right: 1px solid #cecece;
+		width: 220px;
+		clear: left;
+	}
+	.businessEssentialsCol:nth-child(2n) {
+		margin-left: 16px;
+	}
+
+.planDetailsO365BusinessEssentials p.content {
+	min-height: 85px;
+	font-family: Arial;
+	font-size: 12px;
+	margin: 13px 0 0 -1px;
+	line-height: 17px;
+}
+.planDetailsO365BusinessEssentials {
+	margin: 0 0 35px;
+}
+	.planDetailsO365BusinessEssentials .heading {
+		height: 40px;
+	}
+.planDetailsO365BusinessEssentials .heading img {
+	bottom: -5px;
+	width: 58px;
+	position: absolute;
+	left: -3px;
+}
+.planDetailsO365BusinessEssentials .heading div {
+	width: 150px;
+	bottom: -8px;
+	left: 57px;
+	line-height: 17px;
+}
+
+}
+
+/*iPhone 6*/
+/*iPhone 5,5s*/
+/*iPhone 4*/
+
+@media only screen and (max-width: 479px) {	
+	.planDetailsO365BusinessEssentials p.content {
+		min-height: auto;
+	}
+	.planDetailsO365BusinessEssentials .heading div {
+		width: 85%;
+	}
+	.planDetailsO365BusinessEssentials .heading {
+		height: 57px;
+	}
+	.planDetailsO365BusinessEssentials .heading img {
+		bottom: 0;
+	}
+	.planDetailsO365BusinessEssentials .heading div {
+		bottom: 0;
+	}
+} 
+/*** uncss> filename: http://localhost:50000/bootstrap.min.css ***/
+/*!
+ * Bootstrap v3.3.6 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ *//*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{margin:0}section{display:block}img{border:0}/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */@media print{*,:after,:before{color:#000!important;text-shadow:none!important;background:0 0!important;-webkit-box-shadow:none!important;box-shadow:none!important}img{page-break-inside:avoid}img{max-width:100%!important}p{orphans:3;widows:3}}@font-face{font-family:'Glyphicons Halflings';src:url(../../fonts/glyphicons-halflings-regular.eot);src:url(../../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'),url(../../fonts/glyphicons-halflings-regular.woff2) format('woff2'),url(../../fonts/glyphicons-halflings-regular.woff) format('woff'),url(../../fonts/glyphicons-halflings-regular.ttf) format('truetype'),url(../../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:10px;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}img{vertical-align:middle}p{
+}.container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}.row{margin-right:-15px;margin-left:-15px}.container:after,.container:before,.row:after,.row:before{display:table;content:" "}.container:after,.row:after{clear:both}@-ms-viewport{width:device-width}
+/*# sourceMappingURL=bootstrap.min.css.map */

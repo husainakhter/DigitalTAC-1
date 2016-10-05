@@ -1,0 +1,1008 @@
+.buy-now-order.focus, .buy-now-order:focus, .buy-now-order:hover {
+    color: white;
+	background-color:#4b2750;
+	border-color: #4b2750;
+}
+#accordion .panel-body{color:#666666;}
+#businessPlanTable .table>tbody>tr>td, #businessPlanTable .table>tbody>tr>th {
+	line-height:1.1;
+}
+#planCarousalArrow.carousel-control.left {
+left: 22px;
+background: url(../../_images/consumer/Plan/Desktop/CaptureArrowLeft.PNG) no-repeat 0px 47% scroll transparent;
+height: 46px;
+top: -11px;
+opacity: 1;
+background-size: 102% !important;
+width: 46px;
+margin-left: 39px;
+margin-top: -5px;
+}
+#planCarousalArrow.carousel-control.right {
+right: 13px;
+background: url(../../_images/consumer/Plan/Desktop/CaptureArrowRight.PNG) no-repeat 0px 47% scroll transparent;
+height: 46px;
+top: -17px;
+opacity: 1;
+background-size: 102% !important;
+width: 46px;
+}
+#planCarousel .carousel-inner > .item {
+ top: 10px;
+margin-left: 2px;
+}
+#planCarouselEnterprise .carousel-inner > .item {
+ top: 10px;
+margin-left: 2px;
+} 
+.table-ul{
+	margin-left:-46px;
+}
+	.buy-now-order{
+		color: #fff;
+background-color: #9c2aa0;
+border-color: #9c2aa0;
+font-family: "Arial";
+font-weight: bold;
+padding: 6px 13px 6px 10px;
+font-size: 12px;
+	}
+	.know-more{
+		margin-left: -1px !important;
+		padding: 4px 15px 4px 20px !important;
+		font-size: 12px;
+		font-family: "Arial";
+		font-weight: bold;
+		line-height: 2.25;
+	}
+.related_img{
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb(23, 23, 23);
+  font-weight: bold;
+  line-height: 1.125;
+  text-align: left;
+  -moz-transform: matrix( 0.99980370346136,0,0,1,0,0);
+  -webkit-transform: matrix( 0.99980370346136,0,0,1,0,0);
+  -ms-transform: matrix( 0.99980370346136,0,0,1,0,0);
+  left: 484.723px;
+  top: 2636.773px;
+  z-index: 101;
+  padding-top:14px;
+}
+
+.planBanner p.planBannerContent {
+  font-size: 18px;
+  font-family: VodafoneRg;
+  color: rgb(0, 0, 0) !important;
+  line-height: 1.2;
+  text-align: left;
+}
+.planBanner .planBannerHeading{
+	font-size: 40px;
+  font-family: "VodafoneExBd";
+  color: rgb(230, 0, 0);
+}
+.drop-color{
+	background-color:white;
+}
+.familar{
+	        font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    font-size: 18px !important;
+}
+.buttons{
+border-left: 1px solid #6e6e6f !important;
+padding-bottom: 17px;
+margin-top: 2px;
+padding-top: 0px;
+}
+
+.btn-Buy {
+    color: #fff;
+    background-color: #9c2aa0;
+    border-color: #9c2aa0;
+    font-family: "Arial";
+	font-weight:bold;
+	padding: 6px 6px;
+}
+.Frequently_Asked_Questions {
+  font-size: 30px;
+  color: rgb(230, 0, 0);
+  line-height: 0.9;
+  left: 483px;
+  top: 2147.48px;
+  z-index: 84;
+}
+
+.Related_Products {
+  font-size: 30px;
+  color: rgb(230, 0, 0);
+  line-height: 0.9;
+  -moz-transform: matrix( 0.99980370346136,0,0,1,0,0);
+  -webkit-transform: matrix( 0.99980370346136,0,0,1,0,0);
+  -ms-transform: matrix( 0.99980370346136,0,0,1,0,0);
+  left: 483.667px;
+  top: 2568px;
+  z-index: 88;
+}
+
+
+.rel-width{
+width:210px;
+}
+
+
+.home-plan{
+	    margin-left: -40px;
+}
+.adjust{
+	    margin-left: 5px;
+}
+.list{
+		list-style-type: disc !important;
+}
+.center{
+	text-align:center;
+}
+.clr{
+	background-color:#464646;
+	color:white;
+	height:48px;
+}
+.color{
+	background-color:#dddddd;
+	
+}
+.colors{
+	background-color:#666666;
+	color:white;
+}
+.align{
+	    padding-left: 26px !important;
+}
+.colours a{
+	color: #e60000;
+font-family: 'VodafoneRg';
+font-size: 13px;
+font-weight: bold;
+}
+.arrow{
+	font-size:7px !important;
+	    top: -1px;
+}
+.arrow_buy{
+	font-size:9px !important;
+	    top: 0px;
+		left: 7px;
+}
+.bordr{
+	border: 1px solid #a9a9a9 !important;
+	color:#8e8e8e;
+	font-family: "VodafoneRg";
+	font-size: 13px;
+	
+}
+.table_pad{
+	    padding-right: 140px !important;
+}
+.product .plan-text h2 {
+    color: #fff;
+    font-size: 20px;
+    margin: 0 0 2px;
+}
+.related{
+	font-size: 16px;
+    position: absolute;
+    top: 2%;
+    padding-left: 12px;
+    font-family: "VodafoneExBd";
+    line-height: 16px;
+}
+.img_border{
+	border: 0px;
+}
+
+
+.office_adjust{
+	    float: right;
+		    padding: 7px 0px 25px 0px;
+   
+}
+
+
+.table-bordered>tbody>tr>td,.table-bordered>tbody>tr>th,.table-bordered>tfoot>tr>td,.table-bordered>tfoot>tr>th,.table-bordered>thead>tr>td,.table-bordered>thead>tr>th{
+	
+	border: 1px solid #a9a9a9 !important;
+	line-height: 1.2;
+	}
+.breadcrumb {
+    background-color: #ededed;
+    height: 41px;
+    border-radius: 0;
+    border-top: 1px solid #c0c0c0;
+    margin: 0;
+    padding: 0;
+	padding-top:11px;
+
+}
+.vodaRed {
+	color: #e60000;
+}
+.freq_pad{
+	margin-left: 0px;
+}
+.topic{
+  font-size: 18px !important;
+  font-family: "VodafoneRg" !important;
+  color: rgb(23, 23, 23);
+  font-weight: bold;
+  line-height: 1.3;
+  text-align: left;
+  left: 484.391px;
+  top: 2163.188px;
+  z-index: 85;
+}
+
+
+.home{
+	padding-top:0px;
+}
+.table-font{
+	color:#666565;
+}
+.img{
+	display:inline !important;
+}
+.imgs{
+	
+	width:100%;
+}
+
+.nomargin-plan{
+	margin:-8px;
+	margin-left:-11px;
+}
+.nomargin-plan-table{
+	margin-left:-8px;
+	margin-top: 36px;
+	
+}
+.nomargin-plan-FAQ{
+	margin-top:14px;
+	margin-left:-8px
+}
+.btn-plans{
+	width: 268px !important;
+	background-color:#dcddde;
+	border-radius:8px;
+	border-color:#dcddde;
+	color:#a1a2a2;
+}
+.btn-background{
+	background-color:#dcddde;
+	border-radius:8px;
+	border-color:#dcddde;
+}
+.btn-plan{
+	background-color:#dcddde;
+	border-radius:8px;
+	border-color:#dcddde;
+}
+.margin-plan{
+	    margin-top: 28px;
+}
+
+.FAQ{
+	font-family: "Arial";
+    font-size: 14px;
+}
+#accordion .panel{
+background-color:transparent;
+    box-shadow: none;
+border-style: hidden;
+}
+#collapseOne .panel-body{
+    background: transparent;
+    border: none;
+    text-shadow: none;
+    box-shadow: none;
+}
+a.btn-block:not(.collapsed) {
+    color: #fff;
+}
+.panel-default>.panel-heading{
+color:#666666;
+}
+.img-arrow{
+	height:45px;
+	width:45px;
+}
+.Select_an_office_page{
+font-size: 21px;
+line-height: 0.794;
+left: 482px;
+top: 604.002px;
+z-index: 156;
+font-family: "Arial";
+margin-right: 4px;
+padding-left: 3px;
+}
+.arrow-img{
+	padding-left: 62px;
+margin-top: 21px;
+	}
+.arrow-1{
+	margin-top:-11px;
+}
+.arrow-2{
+	margin-top: -11px;
+margin-left: -4px;
+}
+.img-cloud-adj{
+height: 13px;
+width: 16px;
+}
+.img-list{
+	list-style: none;
+margin-top: 5px;
+margin-left: -58px;
+margin-bottom:0px;
+	
+}
+.img-inline{
+	display: inline-block;
+	width: 20px;
+}
+.img-skype{
+	margin-left:-5px;
+}
+.img-skype-1{
+	margin-left:-10px;
+}
+.img-skype-2{
+	margin-left:-15px;
+}
+.of{
+	font-size:16px;
+}
+#businessPlanDropdown{
+	height:26px;
+}
+.check-other{
+	text-align: left;
+height: 20px;
+padding-top: 2px;
+}
+.check-arrow{height: 22px;}
+ /*************************************** --------------------- Desktop ---------------- ***********************************************/
+
+@media only screen and (min-width: 992px){
+	.wrapper .inner {
+	display: block;
+	width: 950px;
+	margin: 0 auto;
+	padding: 0 0px;
+	clear: both;
+}
+.relatedProductsNew{
+height:110px;
+width: 203px;
+}
+.button-table{
+	padding-left: 10px !important;
+padding-top: 6px !important;
+}
+	.margin-plan-table{
+	    margin-top: 5px;
+}
+	.Select_an_office {
+  font-size: 34px;
+  color: rgb(230, 0, 0);
+  line-height: 0.794;
+  left: 482px;
+  top: 604.002px;
+  z-index: 156;
+}
+
+	.top{   
+		padding: 133px 0 0px ;
+		float: right;
+		margin-right:45px;
+		}
+	.topBannerBg .inner {
+		position: relative;
+		}
+	.planBannerTop {
+		position: absolute;
+left: 513px;
+top: 138px;
+width: 427px;
+		}
+	.planBannerTop p.planBannerContent {
+		font-size: 18px;
+		font-family: VodafoneRg !important;
+		color: rgb(0, 0, 0) !important;
+		width: 381px;
+		line-height: 1.2;
+		top: 281.997px;
+		padding-top: 0px;
+		padding-left: 2px;
+		}
+	.planBannerTop .planBannerHeading{
+		font-size: 40px;
+		font-family: VodafoneExBd !important;
+		color: rgb(230, 0, 0);
+		}
+	.wrapper.topBannerBg{	
+		background: url(../../_images/consumer/Plan/Desktop/Product_Office365_Plans-Packages_Desktop_1.png) no-repeat -252px 0px;
+		background-repeat: no-repeat;
+		background-position: top center;
+		position: relative;
+		background-size: auto 100%;
+		height: 440px;
+		}
+	.wrapper.topBannerBg .inner { 
+		min-height:440px;
+		}
+	.related-top{
+		padding-top: 26px;
+		margin-left: -16px;
+		}
+	.wid {
+		font-size: 12px;
+		font-family: "Arial";
+		color: rgb(102, 102, 102);
+		padding-top: 3px;
+		padding-left: 0px;
+		padding-bottom: 9px;
+		}
+	.relation{
+		padding-bottom: 12px;
+		}
+	.faq-pad{
+	    padding-top: 5px;
+		}
+	.nomargin-table {
+		margin-right: 1px;
+		margin-left: -2px;
+		margin-top: -40px !important;
+		}
+	/******-----Added for Mapping------*****/
+	.Plan-Style {
+    margin-left: -5px;
+    margin-top: 16px;
+}
+	.plan-head-table{
+		height: 53px;
+		font-family: "VodafoneRg";
+		font-size: 16px !important;
+		}
+	.plan-font-table{
+		padding-left:14px !important;
+		text-align: left !important;
+		vertical-align: middle !important;
+	}
+	#businessPlanTable .col-lg-2 {
+		width: 24%;
+		}
+	#businessPlanTable .col-lg-4 {
+		width: 26%;
+		}
+	.table-padding-adjust{
+		/*padding:15px !important;*/
+		}
+	.wrapper.greyBg {
+		background-color: #efefef !important;
+		padding: 10px 0 18px!important;
+		margin-top: 19px;
+		margin-left: -18px;
+		}
+	#accordion {
+		margin-left: 4px;
+		width:101%;
+		}
+	#accordion .accordionText {
+		width: 846px;
+		font-family: Arial;
+		font-size: 14px;
+	}
+	.related-padding{
+		padding: 0px 29px 0px 10px;
+	}
+	.related-padding-2{
+		padding: 0px 21px 0px 17px !important;
+	}
+	.related-padding-3{
+		padding: 0px 15px 0px 24px !important;
+	}
+	.related-padding-4{
+		padding: 0px 7px 0px 30px !important;
+	}
+	.office_adjust_desktop {
+		float: right;
+		padding: 18px 0px 19px 0px;
+		margin-right: -20px;
+		}
+}
+
+ /* -------------Mobile Portrait ---------------- */
+
+
+@media only screen and (max-width: 479px){
+	.buy-now-order {
+    padding: 6px 12px 6px 7px;
+} 
+	.margin-plan-table {
+    margin-top: 9px;
+}
+.relatedProductsNew{
+height:100%;
+width: 100%;
+}
+	#accordion .accordionText {
+    width: 310px;
+    font-family: Arial;
+    font-size: 14px;
+	margin-left: -8px;
+}
+#accordion .panel-body {
+    margin-left: -7px;
+}
+.btn-block.text-left {
+    width: 450px;
+}
+.btn-block.collapsed{
+	width: 450px;
+}
+.table-bordered>tbody>tr>td,.table-bordered>tbody>tr>th,.table-bordered>tfoot>tr>td,.table-bordered>tfoot>tr>th,.table-bordered>thead>tr>td,.table-bordered>thead>tr>th{
+	vertical-align: middle;
+	}
+/*.top {
+    padding: 0px 0px 15px;
+    margin-right: 17px;
+	    float: right;
+}*/
+#accordion .accordionText {
+    font-family: Arial;
+    font-size: 14px;
+}
+#businessPlanTable .col-xs-5 {
+		width: 47.667%;
+		}
+.nomargin-table{
+	    margin-right: 7px;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+.Select_an_office {
+  font-size: 26px !important;
+  color: rgb(230, 0, 0);
+  line-height: 1.038;
+  left: 19px;
+  top: 514.006px;
+  z-index: 122;
+}
+.plan-font-table{
+		padding-left:14px !important;
+		text-align: left !important;
+		vertical-align: middle !important;
+	}
+
+.wrapper.greyBg {
+        background-color: #efefef !important;
+    padding: 1px 0 !important;
+    margin-top: 12px;
+/*------------------------------------mapping--------------------------*/
+}
+.plan-head-table{
+		font-family: "VodafoneRg";
+		font-size: 16px !important;
+		}
+.relation{
+	padding-bottom: 12px;
+}
+.Select_an_office {
+    font-size: 26px;
+    font-family: "Vodafone ExB";
+    color: rgb(230, 0, 0);
+    line-height: 0.794;
+    left: 482px;
+    top: 604.002px;
+    z-index: 156;
+}
+.topBannerBg .inner {
+		position: static;
+		
+	}
+.planBannerTop p.planBannerContent {
+  font-size: 14.5px;
+  font-family: VodafoneRg;
+  color: rgb(0, 0, 0) !important;
+
+}
+.planBannerTop .planBannerHeading{
+	font-size: 26px;
+  font-family: VodafoneExBd;
+  color: rgb(230, 0, 0);
+  margin-left:-2px;
+}
+.topBannerBg .inner .planBannerTop {
+		display: block;
+		position: absolute;
+		top: 100%;
+		margin: 0 10px;
+	}
+.wrapper.topBannerBg {
+	background: url(../../_images/consumer/Plan/Mobile/Product_Office365_Plans-Packages_mobile_1.png) no-repeat 0px 0px;
+	background-size: auto 100%;
+	height: 330px;
+	position: relative;
+}
+ .wrapper.space{
+	 margin-top:182px;
+ }
+ .wrapper.topBannerBg .inner { min-height:330px;}
+.wid {
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb(102, 102, 102);
+	padding-top: 3px;
+	padding-left: 0px;
+	padding-bottom: 9px;
+}
+.adj-trail{
+	    margin-top: 4px;
+    margin-left: 0px !important;
+}
+.imgPad{
+	padding-top:20px;
+}
+.relatedProducts-Plan .col-xs-6 {
+    width: 100%;
+}
+.btn-plans {
+    width: 219px !important;
+}
+.related-top{
+	    padding-top: 15px;
+		margin-left: -11px;
+}
+.faq-pad{
+	    padding-top: 15px;
+}
+.choose{
+	margin-top: -15px;
+}
+}
+
+
+    /* -------------Mobile landscape ---------------- */
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+	.Select_an_office {
+  font-size: 26px !important;
+color: rgb(230, 0, 0);
+line-height: 1.038;
+left: 19px;
+top: 512.006px;
+z-index: 122;
+margin-top: -16px;
+margin-left: 13px;
+}
+.relatedProductsNew{
+height:100%;
+width: 100%;
+}
+.table-bordered>tbody>tr>td,.table-bordered>tbody>tr>th,.table-bordered>tfoot>tr>td,.table-bordered>tfoot>tr>th,.table-bordered>thead>tr>td,.table-bordered>thead>tr>th{
+	vertical-align: middle;
+	}
+.margin-plan-table {
+    margin-top: 9px;
+}
+#businessPlanTable .col-xs-5 {
+		width: 47.667% !important;
+		}
+#accordion .accordionText {
+		font-family: Arial;
+		font-size: 14px;
+		width:427px;
+	}
+	#accordion {
+		margin-left: 3px;
+margin-right: -7px;
+margin-top: 4px;
+		}
+		#accordion{
+			margin-bottom:0px;
+		}
+.nomargin-table {
+    margin-right: 18px;
+margin-left: 19px;
+    margin-top: 8px;
+}
+.margin-select{
+	margin-top:23px !important;
+	margin-left:4px !important;
+}
+	.wrapper.greyBg {
+    background-color: #efefef !important;
+    padding: 1px 18px 30px 13px;
+margin-top: 7px;
+}
+.topBannerBg .inner {
+		position: relative;
+		width: 480px;
+		margin: 0 auto;
+	}
+.planBannerTop {
+    position: absolute;
+    left: 315px;
+    top: 20px;
+    width: 182px;
+}
+.planBannerTop p.planBannerContent {
+  font-size: 14.5px;
+font-family: VodafoneRg;
+color: rgb(0, 0, 0) !important;
+line-height: 1.2;
+text-align: left;
+width: 182px;
+margin-top: 11px;
+margin-left: -58px;
+
+}
+.planBannerTop .planBannerHeading{
+font-size: 26px;
+font-family: VodafoneExBd;
+color: rgb(230, 0, 0);
+margin-right: -12px;
+line-height: 1.2;
+left: 280.656px;
+top: 170.995px;
+margin-top: -6px;
+margin-left: -60px;
+z-index: 140;
+width: 200px;
+}
+.wrapper.topBannerBg{
+	background: url(../../_images/consumer/Plan/Mobile/Product_Office365_Plans-Packages_mobile_1.png) no-repeat 0 4px;
+	background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: 100% auto;
+    height: 328px;
+	 
+ }
+ .wrapper.topBannerBg  .inner { min-height:415px; }
+ .top{     
+    float: right;}
+.plan-head-table{
+		font-family: "VodafoneRg";
+		font-size: 16px !important;
+		}
+.wid {
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb(102, 102, 102);
+  padding-top: 3px;
+padding-left: 0px;
+padding-bottom: 9px;
+}
+.relation{
+	padding-bottom: 12px;
+}
+.imgPad{
+	padding-top:18px;
+}
+.related-top{
+	    padding-top: 16px;
+margin-left: 3px;
+}
+.faq-pad{
+	    padding-top: 12px;
+padding-left: 2px;
+}
+.related-padding {
+   padding: 0px 17px 0px 31px;
+padding-top: -5px !important;
+margin-top: -5px;
+}
+.related-padding-2 {
+    padding: 0px 28px 0px 16px !important;
+margin-top: -5px;
+}
+	.related-padding-3{
+		padding: 0px 18px 0px 31px !important;
+margin-top: -8px;
+	}
+	.related-padding-4{
+		padding: 0px 28px 0px 17px !important;
+margin-top: -9px;
+padding-top: 1px !important;
+	}
+	.office_adjust_desktop {
+    float: right;
+padding: 10px 0px 17px 0px;
+	}
+
+}
+
+ /* -------------ifone5 :: Mobile Portrait ---------------- */
+
+@media only screen and (max-width: 320px) and (orientation:portrait){
+	.buy-now-order {
+    padding: 6px 7px 6px 3px;
+}
+	.Select_an_office {
+  font-size: 34px;
+  color: rgb(230, 0, 0);
+  line-height: 0.794;
+  margin-left: -1px;
+  top: 604.002px;
+  z-index: 156;
+}
+.relatedProductsNew{
+height:100%;
+width: 100%;
+}
+#accordion .accordionText {
+    width: 279px;
+    font-family: Arial;
+    font-size: 14px;
+	margin-left: -8px;
+}
+#accordion .panel-body {
+    margin-left: -7px;
+}
+.nomargin-table{
+	    margin-right: 7px;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+.planBannerTop .planBannerHeading {
+    font-size: 26px;
+    font-family: VodafoneExBd;
+    color: rgb(230, 0, 0);
+    margin-left: -1px;
+}
+	.wrapper.greyBg {
+    background-color: #efefef !important;
+	padding: 1px 0 !important;
+	margin-top: 12px;/*------------------------------------mapping--------------------------*/
+}
+.margin-plan-table {
+    margin-top: 9px;
+}
+.btn-plans {
+    width: 182px !important;
+}
+.plan-head-table{
+		font-family: "VodafoneRg";
+		font-size: 16px !important;
+		}
+.wrapper.space{
+	 margin-top:215px;
+ }
+ .topBannerBg .inner .planBannerTop {
+		display: block;
+		position: absolute;
+		top: 100%;
+		margin: 0 7px;
+	}
+	.related-top{
+	    padding-top: 7px;
+		margin-left: -11px;
+}
+.relation{
+	padding-bottom: 12px;
+}
+.faq-pad{
+	    padding-top: 15px;
+}
+}
+
+
+
+ /* -------------Tablet ---------------- */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.margin-plan-table{
+	    margin-top: 5px;
+}
+.relatedProductsNew{
+height:100%;
+width: 100%;
+}
+.table-bordered>tbody>tr>td,.table-bordered>tbody>tr>th,.table-bordered>tfoot>tr>td,.table-bordered>tfoot>tr>th,.table-bordered>thead>tr>td,.table-bordered>thead>tr>th{
+	vertical-align: middle;
+	}
+	.Select_an_office {
+  font-size: 34px;
+  color: rgb(230, 0, 0);
+  line-height: 0.794;
+  left: 482px;
+  top: 604.002px;
+  z-index: 156;
+  
+}
+.nomargin-table{
+	    margin-right: 7px;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+	.wrapper.greyBg {
+    background-color: #efefef !important;
+    padding: 10px 0 !important;/*------------------------------------mapping--------------------------*/
+}
+.wrapper.topBannerBg{	
+	 background: url(../../_images/consumer/Plan/Desktop/Product_Office365_Plans-Packages_Desktop_1.png ) no-repeat -252px 0px;
+	background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+    background-size: auto 100%;
+    height: 440px;
+}
+.wrapper.topBannerBg .inner { min-height:440px;}
+.relation{
+	padding-bottom: 12px;
+}
+.topBannerBg .inner {
+		position: relative;
+	}
+.top{     padding: 133px 0 0px ;
+    float: right;
+	margin-right:30px;
+	}
+	.plan-head-table{
+		font-family: "VodafoneRg";
+		font-size: 16px !important;
+		}
+	.planBannerTop {
+	  position: absolute;
+    left: 542px;
+    top: 48px;
+    width: 182px;
+	}
+	
+	.planBannerTop p.planBannerContent {
+  font-size: 14.5px;
+  font-family: VodafoneRg !important;
+  color: rgb(0, 0, 0) !important;
+
+}
+.planBannerTop .planBannerHeading{
+	font-size: 26px;
+  font-family: VodafoneExBd !important;
+  color: rgb(230, 0, 0);
+}
+.related-top{
+	    padding-top: 31px;
+		margin-left: -11px;
+}
+.faq-pad{
+	    padding-top: 15px;
+}
+.wid{
+	font-size: 12px;
+font-family: "Arial";
+color: rgb(102, 102, 102);
+padding-top: 3px;
+padding-left: 0px;
+padding-bottom: 9px;
+}
+}
+@media only screen and (min-width: 993px) and (max-width: 1024px){
+	#related-products .col-md-6{
+		width:25%;
+	}
+}
+@media only screen and (width: 992px)){
+	#related-products .col-md-6{
+		width:25%;
+	}
+}
+
+
+

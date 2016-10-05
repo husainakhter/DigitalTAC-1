@@ -1,0 +1,1373 @@
+.vodaRed {
+	color: #e60000;
+}
+.greyBg {
+	background-color: #efefef;
+}
+.nomargin {
+	margin: 0;
+}
+.clearFloat {
+	clear: both;
+}
+.panel-group a:focus {
+	outline: none;
+}
+.productBanner .heading {
+	font-family: 'VodafoneExBd';
+}
+.productBanner .content {
+	font-family: 'VodafoneRg';
+}
+.productBanner .bannerLinks{
+	display: none;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+}
+.breadcrumb {
+	color: #616161;
+}
+.advantagesCol p {
+	color: #666666;
+}
+.productFAQ .sectionHeading p {
+	color: #171717;
+}
+#productFAQAccordion .accordionTextWrapper {
+	color: #666666;
+}
+#productFAQAccordion a[aria-expanded="true"] .accordionTextWrapper {
+	color: #fff;
+}
+#productFAQAccordion .panel-body {
+	color: #666666;
+}
+.advantageVodafone .advantages {
+	color: #171717;
+}
+.sectionHeading h2 {
+	color: #e60000;
+	font-family: "VodafoneExBd";
+}
+.office365CanHelp h3, 
+.office365CanHelp p{
+	color: #fff;
+}
+.midContainer.productFAQ {
+	clear: both;
+}
+#productFAQAccordion .panel {
+	border: none;
+	border-radius: 0;
+	background-color: transparent;
+	box-shadow: none;
+}
+#productFAQAccordion .panel-body {
+	border-top: none;
+}
+#productFAQAccordion a.btn-block {
+	text-decoration: none;
+}
+#productFAQAccordion a.btn-block:not(.collapsed) {
+	color: #fff;
+}
+#productFAQAccordion .panel-heading {
+    border-radius: 0px;
+}
+.advantageVodafone .productOfficeLogo {
+    background: url(../../_images/consumer/product/officeLogo.png) no-repeat 100% center;
+    height: 57px;
+    background-size: auto 100%;
+    margin: 0 22px 18px;
+}
+.advantagesCol .heading {
+    position: relative;
+    height: 70px;
+}
+.advantagesCol img {
+	width: 34.1873186%;
+	position: absolute;
+	bottom: 0;
+}
+.advantagesCol .advantages {
+	font-size: 16px;
+	padding: 0;
+	font-family: Arial;
+	font-weight: bold;
+	width: 112px;
+	position: absolute;
+	bottom: 0;
+	left: 70px;
+	line-height: 16px;
+}
+.btn-pink.focus, .btn-pink:focus, .btn-pink:hover {
+	color: transparent;
+}
+#office365Carousel .carousel-control {
+	background: transparent;
+}
+.office365CanHelp h3 {
+	text-indent: 0;
+}
+#office365Carousel .description h2 {
+	color: #fff;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+	margin: 14px 25px 14px;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+@media only screen and (min-width: 992px) {
+	.big-carousel-wrap {
+		background-image: url(../../_images/consumer/product/002_Product_Office365_Desktop_1_A.png);
+		background-repeat: no-repeat;
+		background-position: top center;
+		position: relative;
+		background-size: auto 100%;
+		height: 440px;
+	}
+	.big-carousel-wrap .inner {
+		position: relative;
+	}
+	.productBanner {
+		position: absolute;
+		left: 537px;
+		top: 89px;
+		width: 400px;
+	}
+	.productBanner .content {
+		font-size: 18px;
+	}
+	.container.product {
+		width: 1000px;
+		padding: 0;
+	}
+	.advantageOffice365 h2, .productFAQ .sectionHeading h2, .advantageVodafone .sectionHeading h2 {
+		margin: 40px 0 0 20px;
+		font-size: 30px;
+	}
+	.advantageOffice365 h2 {
+		margin: 51px 0 0 23px;
+	}
+	.productFAQ .sectionHeading h2 {
+		margin: 41px 0 0 23px;
+	}
+	.advantageVodafone .sectionHeading h2 {
+	margin: 46px 0 0 23px;
+	}
+	.productFAQ .sectionHeading p {
+		margin: 10px 0 7px 25px;
+		font-size: 18px;
+		font-family: VodafoneRg;
+		font-weight: bold;
+	}
+	.advantagesCol {
+		width: 226px;
+		float: left;
+		padding-left: 0;
+		padding-right: 24px;
+		margin-left: 24px;
+		border-right: 1px solid #d5d5d5;
+		margin-top: 5px;
+		
+	}
+	.advantageVodafone .advantagesCol img {
+		width: auto;
+		position: absolute;
+		bottom: -2px;
+		left: -12px;
+	}
+	.advantagesCol img {
+    width: 58px;
+    position: absolute;
+    left: -3px;
+    top: 0px;
+}
+	.advantageOffice365 .advantagesCol {
+	height: 201px;
+	}
+	.advantagesCol + .advantagesCol + .advantagesCol + .advantagesCol{
+		border-right: none;
+	}
+	.advantagesCol .heading {
+		height: 49px;
+	}
+.advantageVodafone .advantagesCol .heading {
+	height: 56px;
+}
+	.advantagesList {
+		height: 61px;
+		margin-bottom: 20px;
+	}
+	.advantageVodafone .advantagesCol p {
+		min-height: 208px;
+		font-family: Arial;
+		font-size: 14px;
+		margin-top: 11px;
+		margin-bottom: 0;
+		line-height: 16px;
+	}
+	.office365CanHelp {
+		width: 453px;
+		float: left;
+		padding-left: 0;
+		padding-right: 24px;
+		margin-left: 24px;
+	}
+	.breadcrumbContainer {
+		background-color: #ededed;
+		clear: both;
+		border-top: 1px solid #c0c0c0;
+	}
+	.breadcrumb {
+		background-color: #ededed;
+		border-radius: 0;
+		margin: 0;
+		padding: 0;
+	}
+	.breadcrumb p {
+		line-height: 40px;
+		margin: 0 0 0 24px;
+		font-family: Arial;
+		font-size: 12px;
+	}
+	.office365CanHelpBg {
+		background-image: url(../../_images//consumer/product/002_Product_Office365_Desktop_8.png);
+		padding: 0;
+		height: 390px;
+		margin: 13px 0 0 0;
+	}
+	.office365CanHelpBg img {
+		margin: 56px 0 0 2px;
+		height: 278px;
+	}
+	.office365CanHelp h3 {
+		font-family: VodafoneExBd;
+		font-size: 30px;
+		margin: 160px 0 0 23px;
+		padding: 0;
+		line-height: 30px;
+	}
+	.office365CanHelp p {
+		font-family: Arial;
+		font-size: 14px;
+		margin: 5px 0 0 23px;
+	}
+.midContainer.advantageOffice365 {
+	padding: 0 0 41px 0;
+}
+	.advantagesTable td {
+		vertical-align: bottom;
+		height: 95px;
+	}
+	.advantagesList {
+		height: 61px;
+		margin-bottom: 20px;
+	}
+	.advantagesTable p {
+		line-height: 1.2;
+		font-family: Arial;
+		font-size: 14px;
+		margin-top: 17px;
+	}
+	.advantagesList img {
+		margin: 19px 0 0 0px;
+	}
+	.btn-pink {
+	color: transparent;
+	background: url(../../_images/consumer/product/002_Product_Office365_mobile_23.png) no-repeat left center;
+	padding: 12px 0 0;
+	background-size: 100% auto;
+	width: 125px;
+	margin: 13px 0 0 -6px;
+	height: 51px;
+	}
+	.midContainer.office365Plans {
+		padding: 0 0 24px 0;
+		float: left;
+		width: 100%;
+	}
+	.midContainer.productFAQ {
+		padding: 0 0 29px 0;
+	}
+	.midContainer.advantageVodafone {
+		padding: 0;
+	}
+	.office365Plans .sectionHeading h2 {
+		margin: 46px 0 23px 23px;
+		font-size: 34px;
+	}
+	.plan-text {
+		position: absolute;
+		top: 242px;
+		color: #fff;
+		width: 88%;
+		padding: 4%;
+	}
+	.product .plan-text h2 {
+		color: #fff;
+		font-size: 20px;
+		margin: 0 0 2px;
+	}
+	#productFAQAccordion {
+		margin: 0 24px;
+	}
+	#productFAQAccordion .accordionTextWrapper {
+		width: 846px;
+		font-family: Arial;
+		font-size: 14px;
+		position: relative;
+		left: 3px;
+		top: -2px;
+	}
+	#productFAQAccordion .panel-heading {
+		padding: 10px 0 11px 12px;
+		height: 35px;
+	}
+	#productFAQAccordion .panel-body {
+		font-family: Arial;
+		font-size: 14px;
+		padding-top: 14px;
+		line-height: 16px;
+	}
+	#office365Carousel .carousel-inner .description {
+		padding: 0;
+		position: absolute;
+		bottom: 0px;
+		right: 0;
+		width: 100%;
+		background-color: transparent;
+		font-family: VodafoneRg;
+		color: white;
+		opacity: 1;
+		filter: alpha(opacity=60);
+		background: transparent;
+		top: 239px;
+		height: 145px;
+	}
+	#office365Carousel .description h2 {
+		padding: 19px 0 0 21px;
+		margin: 0px;
+		font-size: 22px;
+		font-family: VodafoneExBd;
+		color: #fff;
+	}
+	#office365Carousel .description .description_content {
+		padding: 7px 8px 0 23px;
+		margin: 0px;
+		font-size: 12px;
+		font-family: Arial;
+		color: #fff;
+	}
+	.carouselKnowMore {
+	position: absolute;
+	bottom: 20px;
+	}
+	.facts.topWrapper {
+		height: 266px;
+	}
+	.midContainer.topBannerBg {
+		background: url(../../_images/consumer/product/002_Product_Office365_Desktop_1_A.png) no-repeat 50% 50% #e4e4e4;
+		background-size: auto 100%;
+		padding: 0;
+		height: 440px;
+		min-height: 440px;
+	}
+	.productBanner .heading {
+		font-family: VodafoneExBd;
+		font-size: 40px;
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+	.productBanner .content {
+		font-family: VodafoneRg;
+		font-size: 18px;
+		margin: 8px 0 0 3px;
+		line-height: 22px;
+		width: 400px;
+	}
+	#office365Carousel .carousel-inner > div {
+		width: 304px;
+		float: left;
+		margin-bottom: 22px;
+		position: relative;
+		height: 384px;
+		background: #3C3C3C;
+	}
+	#office365Carousel .item { 
+		display:block;
+		padding-bottom:10px;
+	}
+	#office365Carousel .carousel-inner > div:nth-child(3n-2) {
+		margin-left: 24px;
+		margin-right: 10px;
+	}
+	#office365Carousel .carousel-inner > div:nth-child(3n-1) {
+		margin-left: 10px;
+		margin-right: 10px;
+		height: 384px;
+	}
+	#office365Carousel .carousel-inner > div:nth-child(3n) {
+		margin-left: 10px;
+		margin-right: 24px;
+	}
+	.advantagesCol .advantages {
+	font-size: 15px;
+	padding: 0;
+	font-family: Arial;
+	font-weight: bold;
+	width: 112px;
+	position: absolute;
+	bottom: 0;
+	left: 55px;
+	line-height: 18px;
+	}
+.advantageOfficeColumnsContainer .advantagesCol .advantages {
+	width: 147px;
+	bottom: -4px;
+	left: 64px;
+}
+	.advantageOfficeColumnsContainer {
+	margin: 29px 0px 0px;
+	}
+	.advantageOfficeColumnsContainer .advantagesCol p {
+	font-size: 14px;
+	font-family: Arial;
+	font-weight: normal;
+	line-height: 16px;
+	}
+	.advantagesCol p {
+		margin-top: 14px;
+	}
+	.advantageVodafone .advantagesCol .advantages {
+		bottom: -4px;
+		left: 76px;
+	}
+	.advantageVodafone button {
+		margin: 5px 0 0 -4px;
+	}
+	.advantageVodafone .productOfficeLogo {
+		background: url(../../_images/consumer/product/officeLogo.png) no-repeat 100% center;
+		height: 57px;
+		background-size: auto 100%;
+		margin: 23px 18px 25px;
+	}
+.advantageVodafoneColumnsContainer {
+	margin: 28px 0 0 0;
+}
+	.advantageOffice365Icon {
+		width: 59px;
+		height: 49px;
+	}
+	.your-office-icon {
+		background: url(../../_images/consumer/product/Your-Office.png) 50% 50% scroll transparent;
+	}
+	.collaborate-icon {
+		background: url(../../_images/consumer/product/Collaborate.png) 50% 50% scroll transparent;
+	}
+	.familiar-office-icon {
+		background: url(../../_images/consumer/product/Familiar-Office.png) 50% 50% scroll transparent;
+	}
+	.enterprise-class-icon {
+		background: url(../../_images/consumer/product/Enterprise-Class.png) 50% 50% scroll transparent;
+	}
+	.advantageVodafoneIcon {
+		width: 74px;
+		height: 56px;
+	}
+	.seamless-online-icon {
+		background: url(../../_images/consumer/product/Seamless-Online.png) 50% 50% scroll transparent;
+	}
+	.best-in-class-icon {
+		background: url(../../_images/consumer/product/BestInClass.png) 50% 50% scroll transparent;
+	}
+	.your-trusted-partner-icon {
+		background: url(../../_images/consumer/product/Your-Trusted-Partner.png) 50% 50% scroll transparent;
+	}
+	.curated-cloud-icon {
+		background: url(../../_images/consumer/product/Curated-Cloud.png) 50% 50% scroll transparent;
+	}
+	.advantageOffice365 .advantagesCol .heading {
+		height: 49px;
+	}
+	.ProductVideo{
+		width:417px;
+		height:278px
+	}
+	.videoWrapper {
+		padding-bottom: 50%;
+		padding-top: 28px;
+		margin: 78px 0 14px;
+	}
+}
+
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+	.big-carousel-wrap {
+		background-image: url(../../_images/consumer/product/002_Product_Office365_Desktop_1_A.png);
+		background-repeat: no-repeat;
+		background-position: top center;
+		position: relative;
+		background-size: auto 100%;
+		height: 440px;
+	}
+	.big-carousel-wrap .inner {
+		position: relative;
+	}
+	.productBanner {
+		position: absolute;
+		left: 57%;
+		top: 46px;
+		width: 41%;
+	}
+	.productBanner .heading {
+		font-size: 40px;
+	}
+	.productBanner .content {
+		font-size: 18px;
+	}
+	.midContainer.topBannerBg {
+		background-size: auto 100%;
+	}
+	.advantagesList+p {
+		min-height: 80px;
+	}
+	#office365Carousel .carousel-inner > div {
+		width: 32.5%;
+		float: left;
+		margin-right: 1%;
+		margin-bottom: 1%;
+		position: relative;
+	}
+	#office365Carousel .carousel-inner > div:nth-child(3n) {
+		margin-right: 0;
+	}
+#office365Carousel div.carousel-inner div.description {
+	padding: 0;
+	position: absolute;
+	top: 198px;
+	top: 62%;
+	left: 0;
+	width: 98%;
+	background-color: transparent;
+	font-family: "VodafoneRg";
+	color: #fff;
+	opacity: 1;
+	filter: alpha(opacity=60);
+}
+	#office365Carousel div.carousel-inner h2 {
+		padding: 5px 10px 0;
+		margin: 0px;
+		font-size: 18px;
+		font-family: "VodafoneExBd";
+		color: rgb(255, 255, 255);
+	}
+	.office365CanHelpBg {
+		background-image: url(../../_images/consumer/product/002_Product_Office365_Desktop_8.png);
+		padding: 0;
+		height: auto;
+		margin: 0;
+	}
+	.office365CanHelp {
+		width: 48%;
+		float: left;
+		margin-right: 2%;
+	}
+	.office365CanHelp + .office365CanHelp{
+		margin-right: 0;
+	}
+	.office365CanHelp img {
+		width: 100%;
+		margin: 15px auto 15px;
+	}
+	.office365CanHelp h3 {
+		margin-top: 26%;
+	}
+	.advantageOffice365 .advantagesCol, .advantageVodafone .advantagesCol {
+		width: 48%;
+		float: left;
+		margin-right: 2%;
+		border-right: 1px solid #ddd;
+		min-height: 180px;
+		margin-bottom: 10px;
+		padding-right: 2%;
+	}
+	.advantageOffice365 .advantagesCol:nth-child(2n),
+	.advantageVodafone .advantagesCol:nth-child(2n){
+		border: none;
+	}
+	.advantagesCol img {
+		width: 18%;
+	}
+	.btn-pink {
+		font-size: 13px;
+		width: 116px;
+		height: 39px;
+		margin-left: -4px;
+		color: transparent;
+		background: url(../../_images/consumer/product/002_Product_Office365_mobile_23.png) no-repeat left center;
+		padding: 12px 0 0;
+		background-size: 100% auto;
+	}
+	.breadcrumbContainer {
+		background-color: #ededed;
+		clear: both;
+		border-top: 1px solid #c0c0c0;
+	}
+	.breadcrumb {
+		background-color: #ededed;
+		height: 40px;
+		border-radius: 0;
+		margin: 0;
+		padding: 0;
+	}
+	.breadcrumb p {
+		line-height: 40px;
+		margin: 0;
+		font-family: Arial;
+		font-size: 12px;
+	}
+.advantagesCol .advantages {
+	font-size: 16px;
+	padding: 0;
+	font-family: Arial;
+	font-weight: bold;
+	width: 80%;
+	position: absolute;
+	bottom: -2px;
+	left: 20%;
+	line-height: 15px;
+}
+	.advantagesCol p {
+		margin-top: 14px;
+	}
+	.midContainer.office365Plans,
+	.midContainer.advantageVodafone,
+	.midContainer.advantageOffice365{
+		padding: 0;
+	}
+	.office365Plans .sectionHeading h2 {
+		margin: 35px 0 25px;
+	}
+	#office365Carousel p.description_content {
+		padding: 0 10px;
+	}
+	.greyBg.productFAQ {
+		padding: 0;
+	}
+	.productFAQ .sectionHeading h2 {
+		margin: 23px 0 18px;
+	}
+	.advantageVodafone .sectionHeading h2 {
+		margin: 30px 0 24px;
+	}
+	.advantageOffice365 .sectionHeading h2 {
+		margin: 26px 0 23px;
+	}
+	.advantageOffice365Icon {
+		width: 59px;
+		height: 49px;
+	}
+	.your-office-icon {
+		background: url(../../_images/consumer/product/Your-Office.png) 50% 50% scroll transparent;
+	}
+	.collaborate-icon {
+		background: url(../../_images/consumer/product/Collaborate.png) 50% 50% scroll transparent;
+	}
+	.familiar-office-icon {
+		background: url(../../_images/consumer/product/Familiar-Office.png) 50% 50% scroll transparent;
+	}
+	.enterprise-class-icon {
+		background: url(../../_images/consumer/product/Enterprise-Class.png) 50% 50% scroll transparent;
+	}
+	.advantageOffice365 .advantagesCol .heading {
+		height: 49px;
+	}
+	.advantageVodafone .advantagesCol .heading {
+		height: 56px;
+	}
+	.advantageVodafoneIcon {
+		width: 74px;
+		height: 56px;
+	}
+	.seamless-online-icon {
+		background: url(../../_images/consumer/product/Seamless-Online.png) 50% 50% scroll transparent;
+	}
+	.best-in-class-icon {
+		background: url(../../_images/consumer/product/BestInClass.png) 50% 50% scroll transparent;
+	}
+	.your-trusted-partner-icon {
+		background: url(../../_images/consumer/product/Your-Trusted-Partner.png) 50% 50% scroll transparent;
+	}
+	.curated-cloud-icon {
+		background: url(../../_images/consumer/product/Curated-Cloud.png) 50% 50% scroll transparent;
+	}
+		.ProductVideo{
+		width:360px;
+		height:278px
+	}
+	.advantageVodafone .advantagesCol p {
+    min-height: 125px;
+    font-family: Arial;
+    font-size: 14px;
+    margin-top: 11px;
+    margin-bottom: 0;
+    line-height: 16px;
+	}
+	#office365Carousel .description .description_content {
+    margin: 3px 0px 2px 2px;
+    font-size: 12px;
+    font-family: "Arial";
+	}
+	#productFAQAccordion .panel-body {
+    font-family: Arial;
+    font-size: 14px;
+    padding-top: 14px;
+    line-height: 16px;
+	}
+	#productFAQAccordion .accordionTextWrapper {
+    width: 730px;
+    font-family: Arial;
+    font-size: 14px;
+	}
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.big-carousel-wrap {
+		background-image: url(../../_images/consumer/product/002_Product_Office365_mobile_1.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		position: relative;
+		background-size: 100% auto;
+		height: 328px;
+	}
+	.big-carousel-wrap .inner {
+		position: relative;
+		width: 480px;
+		margin: 0 auto;
+	}
+.productBanner {
+	position: absolute;
+	left: 254px;
+	top: 3px;
+	width: 205px;
+}
+.midContainer.productFAQ {
+    padding: 0 0 29px 0;
+}
+	.productBanner .heading {
+		font-size: 26px;
+	}
+.productBanner .content {
+	font-size: 14.5px;
+	margin: 7px 0 0 1px;
+	line-height: 18px;
+}
+	.productBanner .bannerLinks {
+		display: block;
+		margin-left: 2px;
+		margin-top: 17px;
+		margin-bottom: -13px;
+		width: 134px;
+	}
+	.midContainer.topBannerBg {
+		background-size: auto 100%;
+	}
+	.facts {
+		padding: 24px 0 0px;
+	}
+	#office365Carousel div.carousel-inner div.description {
+		width: 298px;
+		height: 145px;
+		right: 0;
+	}
+	.advantageVodafone > div,
+	.advantageOffice365 > div {
+		background: url(../../_images/consumer/product/002_Product_Office365_mobile_24.png) -4% 0% no-repeat scroll;
+	}
+	.advantageVodafone > div:nth-child(2n-1),
+	.advantageOffice365 > div:nth-child(2n-1){
+		background: none;
+	}
+	.container.product {
+		width: 480px;
+		padding: 0;
+	}
+	.facts.topWrapper {
+		width: 46%;
+		padding-top: 0px;
+		min-height: 180px;
+	}
+	.facts .Vodafone_Cloud_offers_a_broad_set_of_global_com  {
+		margin: 0;
+	}
+	#office365Carousel div.description {
+		left: 15px;
+		padding: 17px 0;
+		width: 303px;
+		background: transparent;
+		height: 145px;
+	}	
+.advantageOffice365 .advantagesCol {
+	border: none;
+	float: left;
+	width: 220px;
+	padding-right: 16px;
+	margin-left: 19px;
+	margin-top: 8px;
+	margin-bottom: 18px;
+}
+.advantageOffice365 .advantagesCol .heading {
+	position: relative;
+	height: 50px;
+}
+.advantageVodafone .advantagesCol {
+	width: 205px;
+	float: left;
+	margin-bottom: 36px;
+}
+.advantageVodafone .advantagesCol:nth-child(2n-1) {
+	border-right: 1px solid #ddd;
+	margin-right: 26px;
+	padding-right: 5px;
+	width: 211px;
+}
+.advantageVodafone .advantagesCol img {
+	width: 31%;
+	position: absolute;
+	bottom: 0px;
+	left: -7px;
+}
+	.advantagesList+p {
+		min-height: 120px;
+	}
+	.advantageVodafone [class^="col"], .advantageOffice365 [class^="col"] {
+		height: auto;
+	}
+	.btn-pink {
+		font-size: 13px;
+		width: 116px;
+		height: 39px;
+		margin-left: -4px;
+		color: transparent;
+		background: url(../../_images/consumer/product/002_Product_Office365_mobile_23.png) no-repeat left center;
+		padding: 12px 0 0;
+		background-size: 100% auto;
+	}
+	.advantagesList img {
+		width: 40%;
+	}
+.office365CanHelpBg img {
+	width: 100%;
+	height: auto;
+	margin-top: 43px;
+	margin-left: -3px;
+}
+	.advantageVodafone > div:nth-child(2n), .advantageOffice365 > div:nth-child(2n) {
+		background: url(../../_images/consumer/product/002_Product_Office365_Desktop_7.png) no-repeat 0% 50%;
+	}
+	.productFAQ .sectionHeading h2, .advantageVodafone .sectionHeading h2 {
+		margin: 30px 0 18px 19px;
+		font-size: 30px;
+	}
+.advantageVodafone .sectionHeading h2 {
+	margin: 24px 0 18px 19px;
+	font-size: 30px;
+}
+.advantageOffice365 h2 {
+	margin: 19px 0 18px 20px;
+	font-size: 26px;
+}
+.advantageOffice365 .advantagesCol img {
+	width: 30%;
+	position: absolute;
+	bottom: -4px;
+	left: -5px;
+}
+.advantageOffice365 p {
+	font-size: 14px;
+	line-height: 16px;
+	font-family: Arial;
+	margin: 6px 0 0 1px;
+}
+.advantagesCol .advantages {
+	font-size: 16px;
+	line-height: 15px;
+}
+.advantagesCol .advantages {
+    font-size: 15.5px;
+    padding: 0;
+    font-family: Arial;
+    font-weight: bold;
+    width: 147px;
+    position: absolute;
+    bottom: 7px;
+    left: 66px;
+    line-height: 17px;
+}
+.advantageOffice365 .advantagesCol {
+	min-height: 199px;
+	float: left;
+}
+.midContainer.advantageOffice365 {
+	padding: 0 0 0 0;
+	margin-bottom: 12px;
+}
+	.office365CanHelp {
+		width: 66.45833333%;
+		float: none;
+		padding: 0;
+		margin: 0 auto 0;
+	}
+	.office365CanHelpBg {
+		background-image: url(../../_images/consumer/product/002_Product_Office365_Desktop_8.png);
+	}
+.office365CanHelp h3 {
+	font-size: 22.9px;
+	margin: 18px 0 15px -2px;
+	font-family: 'VodafoneExBd';
+	padding: 0;
+	line-height: 23px;
+}
+.office365CanHelp p {
+	font-size: 10.69px;
+	margin: -4px 0 40px -1px;
+}
+.office365Plans .sectionHeading h2 {
+	margin: 30px 0 7px 94px;
+	font-size: 26px;
+}
+.carouselContainer {
+	width: 442px;
+	margin: 14px auto 30px;
+}
+	#office365Carousel {
+		width: 302px;
+		margin: 0 auto;
+	}
+	#office365Carousel .carousel-inner > .item {
+		top: 0;
+		margin-left: 0;
+	}
+	#office365Carousel .carousel-inner .description {
+		padding: 0;
+		position: absolute;
+		width: 100%;
+		background-color: transparent;
+		font-family: VodafoneRg;
+		color: white;
+		opacity: 1;
+		filter: alpha(opacity=60);
+		background: transparent;
+		top: 62.4%;
+		left: 0;
+	}
+#office365Carousel .description h2 {
+	font-size: 22px;
+	font-family: "VodafoneExBd";
+	margin: 18px 0 0 21px;
+	color: #fff;
+}
+#office365Carousel .description .description_content {
+	margin: 8px 23px 5px 23px;
+	font-size: 12px;
+	font-family: "Arial";
+}
+#office365Carousel .carouselKnowMore {
+	margin: 9px 0px 0px;
+	display: block;
+}
+.productFAQ .sectionHeading h2 {
+	margin: 18px 0 10px 19px;
+	font-size: 30px;
+}
+.office365Plans .sectionHeading h2 {
+	margin: 30px 0 7px 88px;
+	font-size: 30px;
+}
+.advantageVodafone .advantagesCol p {
+	margin-top: 10px;
+	font-size: 14px;
+	font-family: Arial;
+	line-height: 16px;
+	text-justify: justify;
+	min-height: 208px;
+}
+#productFAQAccordion {
+	width: 442px;
+	margin: 0 19px;
+}
+.productFAQ .sectionHeading p {
+	margin: 10px 0 7px 21px;
+	font-size: 18px;
+	font-family: VodafoneRg;
+	font-weight: bold;
+}
+#productFAQAccordion .accordionTextWrapper {
+    margin: 0px 0 0 0px;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 14px;
+    width: 400px;
+}
+/*#productFAQAccordion .panel-heading {
+	height: 35px;
+}*/
+#productFAQAccordion .panel-body {
+	margin: -4px 0 -10px 2px;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+}
+	.midContainer.advantageVodafone {
+		padding: 0;
+	}
+#office365Carousel .carousel-control {
+	background: transparent;
+}
+#office365Carousel .carousel-control.right {
+	right: -48px;
+	background: url(../../_images/consumer/product/arrow_right_mobile.png) no-repeat 23px 47% scroll transparent;
+}
+#office365Carousel .carousel-control.left {
+	left: -52px;
+	background: url(../../_images/consumer/product/arrow_left_mobile.png) no-repeat 0px 47% scroll transparent;
+}
+.advantageVodafoneColumnsContainer {
+	width: 442px;
+	margin: 0 auto;
+}
+.advantageVodafone .advantagesCol .advantages {
+	font-size: 16px;
+	padding: 0;
+	font-family: Arial;
+	font-weight: bold;
+	width: 128px;
+	position: absolute;
+	bottom: -3px;
+	left: 77px;
+}
+	.advantageVodafone .advantagesCol button {
+		width: 127px;
+	}
+	.advantageVodafone .productOfficeLogo {
+		background: url(../../_images/consumer/product/officeLogo.png) no-repeat 282px -4px scroll;
+		height: 57px;
+		background-size: auto 100%;
+		margin: -19px 12px 18px 0;
+	}
+	.advantageVodafone .advantagesCol .heading {
+		position: relative;
+		height: 57px;
+	}
+	.advantageOffice365Icon {
+		width: 59px;
+		height: 49px;
+	}
+	.your-office-icon {
+		background: url(../../_images/consumer/product/mobile/Your-Office.png) 50% 50% scroll transparent;
+	}
+	.collaborate-icon {
+		background: url(../../_images/consumer/product/mobile/Collaborate.png) 50% 50% scroll transparent;
+	}
+	.familiar-office-icon {
+		background: url(../../_images/consumer/product/mobile/Familiar-Office.png) 50% 50% scroll transparent;
+	}
+	.enterprise-class-icon {
+		background: url(../../_images/consumer/product/mobile/Enterprise-Class.png) 50% 50% scroll transparent;
+	}
+	.advantageOffice365 .advantagesCol .heading {
+		height: 49px;
+	}
+	.advantageVodafone .advantagesCol .heading {
+		height: 56px;
+	}
+	.advantageVodafoneIcon {
+		width: 74px;
+		height: 56px;
+	}
+	.seamless-online-icon {
+		background: url(../../_images/consumer/product/Seamless-Online.png) 50% 50% scroll transparent;
+	}
+	.best-in-class-icon {
+		background: url(../../_images/consumer/product/BestInClass.png) 50% 50% scroll transparent;
+	}
+	.your-trusted-partner-icon {
+		background: url(../../_images/consumer/product/Your-Trusted-Partner.png) 50% 50% scroll transparent;
+	}
+	.curated-cloud-icon {
+		background: url(../../_images/consumer/product/Curated-Cloud.png) 50% 50% scroll transparent;
+	}
+		.ProductVideo{
+		width:319px;
+		height:212.667px
+	}
+	#office365Carousel .carousel-inner > div {
+	height: 384px;
+	background: #3C3C3C;
+}
+}	
+
+@media only screen and (max-width: 479px) {
+	#office365Carousel .carousel-inner > .item {
+		top: 6px;
+		margin-left: 0;
+	}
+	.midContainer.productFAQ {
+    padding: 0 0 29px 0;
+}
+	.big-carousel-wrap {
+		background-image: url(../../_images/consumer/product/002_Product_Office365_mobile_1.jpg);
+		background-repeat: no-repeat;
+		background-position: 0 center;
+		position: relative;
+		background-size: auto 100%;
+		height: 328px;
+	}
+	.big-carousel-wrap .inner {
+		position: static;
+	}
+	.big-carousel-wrap .inner .productBanner {
+		display: block;
+		position: absolute;
+		top: 100%;
+		margin: 0 10px;
+	}
+	
+	.productBanner .heading {
+		font-size: 24px;
+	}
+	.productBanner .content {
+		font-size: 15px;
+	}
+	.midContainer {
+		padding: 0;
+	}
+	.midContainer.office365CanHelpBg {
+		height: auto;
+	}
+	.container.product {
+		margin: 0 10px;
+		width: auto;
+		padding: 0;
+	}
+	.midContainer.advantageOffice365 {
+		margin-top: 250px;
+	}
+	.advantageOffice365 .advantagesCol,
+	.advantageVodafone .advantagesCol {
+		border: none;
+		float: none;
+		margin: 0;
+		width: 100%;
+		min-height: auto;
+	}
+	.advantagesCol img {
+		width: 54px;
+	}
+.advantagesCol .advantages {
+	width: 70%;
+	left: 80px;
+	bottom: -3px;
+}
+	.office365CanHelp {
+		width: 100%;
+		float: none;
+		padding: 0;
+		margin: 10px auto 0;
+	}
+	.carouselContainer {
+		width: 100%;
+		margin: 40px auto 30px;
+	}
+	#office365Carousel {
+		width: 85%;
+		margin: 0 auto;
+	}
+	#office365Carousel img {
+		margin: 0 auto;
+		width: 100%;
+	}
+	#office365Carousel .carousel-control {
+		background: transparent;
+	}
+	.carousel-control .glyphicon-menu-left {
+		left: -45px;
+		top: 180px;
+	}
+	.carousel-control .glyphicon-menu-right {
+		right: -35px;
+		top: 180px;
+	}
+	#productFAQAccordion {
+		width: auto;
+		margin: 0;
+	}
+	.advantageOffice365 h2, .productFAQ .sectionHeading h2, .advantageVodafone .sectionHeading h2, .office365Plans .sectionHeading h2 {
+		margin-left: 0;
+		font-size: 30px;
+	}
+	.productFAQ .sectionHeading p {
+		margin-left: 0;
+	}
+	#office365Carousel .carousel-inner .description {
+		padding: 0;
+		position: absolute;
+		width: 100%;
+		background-color: transparent;
+		font-family: VodafoneRg;
+		color: white;
+		opacity: 1;
+		filter: alpha(opacity=60);
+		background: transparent;
+		top: 62.1%;
+		left: 0%;
+		margin: 0;
+	}
+	.office365CanHelp h3 {
+		margin: 21px 0 14px;
+		padding: 0;
+	}
+	.office365CanHelp p {
+		margin-bottom: 42px;
+	}
+	.office365CanHelpBg {
+		background-image: url(../../_images/consumer/product/002_Product_Office365_Desktop_8.png);
+		background-size: auto 100%;
+	}
+	.btn-pink {
+		background: rgba(0, 0, 0, 0) url("../../_images/consumer/product/002_Product_Office365_mobile_23.png") no-repeat scroll left center / 100% auto;
+		color: transparent;
+		font-size: 13px;
+		height: 39px;
+		margin-left: -4px;
+		padding: 12px 0 0;
+		width: 116px;
+	}
+	.office365CanHelpBg .office365CanHelp img {
+		width: 100%;
+	}
+	#office365Carousel .description h2 {
+		font-size: 19px;
+		font-family: "VodafoneExBd";
+		padding: 5px 10px 0;
+		margin: 0px;
+	}
+	#office365Carousel .description_content {
+		font-size: 12px;
+		font-family: Arial;
+		padding: 5px 10px 0;
+		margin: 0px;
+	}
+	.productBanner .bannerLinks{
+		display: block;
+	}
+	#office365Carousel .carousel-control.left {
+		left: -25px;
+		background: url(../../_images/consumer/product/arrow_left_mobile.png) no-repeat 0px 47% scroll transparent;
+	}
+	#office365Carousel .carousel-control.right {
+		right: -32px;
+		background: url(../../_images/consumer/product/arrow_right_mobile.png) no-repeat 17px 47% scroll transparent;
+	}
+	.advantageOffice365Icon {
+		width: 59px;
+		height: 49px;
+	}
+	.your-office-icon {
+		background: url(../../_images/consumer/product/mobile/Your-Office.png) 50% 50% scroll transparent;
+	}
+	.collaborate-icon {
+		background: url(../../_images/consumer/product/mobile/Collaborate.png) 50% 50% scroll transparent;
+	}
+	.familiar-office-icon {
+		background: url(../../_images/consumer/product/mobile/Familiar-Office.png) 50% 50% scroll transparent;
+	}
+	.enterprise-class-icon {
+		background: url(../../_images/consumer/product/mobile/Enterprise-Class.png) 50% 50% scroll transparent;
+	}
+	.advantageOffice365 .advantagesCol .heading {
+		height: 49px;
+	}
+	.advantageVodafone .advantagesCol .heading {
+		height: 56px;
+	}
+	.advantageVodafoneIcon {
+		width: 74px;
+		height: 56px;
+	}
+	.seamless-online-icon {
+		background: url(../../_images/consumer/product/Seamless-Online.png) 50% 50% scroll transparent;
+	}
+	.best-in-class-icon {
+		background: url(../../_images/consumer/product/BestInClass.png) 50% 50% scroll transparent;
+	}
+	.your-trusted-partner-icon {
+		background: url(../../_images/consumer/product/Your-Trusted-Partner.png) 50% 50% scroll transparent;
+	}
+	.curated-cloud-icon {
+		background: url(../../_images/consumer/product/Curated-Cloud.png) 50% 50% scroll transparent;
+	}
+	.office365Plans .sectionHeading h2 {
+		margin: 30px 0 7px 16px;
+		font-size: 30px;
+	}
+		.ProductVideo{
+		width:337px;
+		height:279px
+	}
+	#office365Carousel .carousel-inner > div {
+	height: 372px;
+	background: #3C3C3C;
+	}
+	#productFAQAccordion .panel-body {
+    font-family: Arial;
+    font-size: 14px;
+    padding-top: 14px;
+    line-height: 16px;
+	}
+	#productFAQAccordion .accordionTextWrapper {
+    width:300px;
+    font-family: Arial;
+    font-size: 14px;
+	}
+	#productFAQAccordion a.btn-block {
+    width: 450px;
+}
+}
+@media only screen and (width: 320px){
+	#office365Carousel .carousel-control.left {
+		left: -29px;
+		background: url(../../_images/consumer/product/arrow_left_mobile.png) no-repeat 0px 47% scroll transparent;
+	}
+	#office365Carousel .carousel-control.right {
+		right: -28px;
+		background: url(../../_images/consumer/product/arrow_right_mobile.png) no-repeat 17px 47% scroll transparent;
+	}
+		.ProductVideo{
+		width:300px;
+		height:200px
+	}
+	#office365Carousel .carousel-inner > div {
+	height: 328px;
+	background: #3C3C3C;
+	}
+	#productFAQAccordion .accordionTextWrapper {
+    width: 263px;
+font-family: Arial;
+font-size: 14px;
+margin-left: -11px;
+}
+}

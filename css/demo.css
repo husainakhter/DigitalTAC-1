@@ -47,15 +47,17 @@ body {
 }
 
 .layer h2 {
+	/*
 	position: relative;
-	top: 30%;
+	top: 30%;*/
 	margin: 0;
 	font-size: 6.25em;
 }
 
 .layer p {
+	/*
 	position: relative;
-	top: 30%;
+	top: 30%;*/
 	margin: 0;
 }
 

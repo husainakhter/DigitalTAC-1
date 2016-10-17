@@ -6,7 +6,7 @@
 		<meta name="description" content="Reusable components created using JavaScript, CSS 3D transforms and CSS Animations.">
 		<meta name="author" content="Digital TAC">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		
+
 		<link rel="stylesheet" href="css/animation.css">
 		<link rel="stylesheet" href="css/demo.css">
 
@@ -19,12 +19,13 @@
 
 		<article class="kontext">
 
-			<div class="layer one show">
+			<div class="layer one show" >
 				<h2>Digital TAC</h2>
 				<p>Reusable components</p>
+				<!--<ul class="page-nav bullets"></ul>-->
 			</div>
 
-			<div class="layer two">
+			<div class="layer two" >
 
 				<div class="bl-content">
 					<h2>UI TAC</h2>
@@ -41,7 +42,7 @@
 				</div>
 			</div>
 
-			<div class="layer three">
+			<div class="layer three" >
 
 				<div class="bl-content">
 					<h2>Mobile TAC</h2>
@@ -179,18 +180,33 @@
 			// DEMO-SPECIFIC:
 
 			var bulletsContainer = document.body.querySelector( '.bullets' );
+			var layers = Array.prototype.slice.call( document.querySelectorAll( '.layer' ) );
 
 			// Create one bullet per layer
 			for( var i = 0, len = k.getTotal(); i < len; i++ ) {
 				var bullet = document.createElement( 'li' );
+				var span = document.createElement( 'span' );
+				var bulletContent = document.createTextNode(layers[i].querySelector('h2').textContent + ' ');
+
 				bullet.className = i === 0 ? 'active' : '';
 				bullet.setAttribute( 'index', i );
+
 				bullet.onclick = function( event ) {
 					k.show( event.target.getAttribute( 'index' ) )
 				};
+				span.onclick = function( event ) {
+					k.show( event.target.parentNode.getAttribute( 'index' ) )
+				};
+
 				bullet.ontouchstart = function( event ) {
 					k.show( event.target.getAttribute( 'index' ) )
 				};
+				span.ontouchstart = function( event ) {
+					k.show( event.target.parentNode.getAttribute( 'index' ) )
+				};
+
+				bullet.appendChild( bulletContent );
+				bullet.appendChild( span );
 				bulletsContainer.appendChild( bullet );
 			}
 

@@ -249,6 +249,41 @@
 		</script>
 		<script>
 			$(function() {
+				
+				
+				$('body').on('click touchstart','.toggle-button',function(){
+					
+					event.preventDefault();
+						// create menu variables
+						var slideoutMenu = $('.bullets');
+						var slideoutMenuWidth = $('.bullets').width();
+						var togglebutton = $('.toggle-button');
+						var togglebuttonWidth = $('.toggle-button').width();
+						
+						// toggle open class
+						slideoutMenu.toggleClass("open");
+						
+						// slide menu
+						if (slideoutMenu.hasClass("open")) {
+							slideoutMenu.animate({
+								left: "0px"
+							});	
+							togglebutton.animate({
+								left: "250px"
+							});	
+							
+						} else {
+							slideoutMenu.animate({
+								left: -slideoutMenuWidth -40
+							}, 250);
+							togglebutton.animate({
+								left: - togglebuttonWidth+40 
+							}, 250);	
+						}
+				
+					
+				
+				});
 				Boxlayout.init();
 			});
 		</script>

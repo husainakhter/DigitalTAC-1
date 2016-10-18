@@ -75,18 +75,19 @@ body {
 }
 
 .bullets {
-    position: absolute;
-    width: 100%;
-    bottom: auto;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    top: 5vh;
+    position: fixed;
+	top: -20px;
+	left: -250px;
+	width: 250px;
+	height: 100%;
+	background: #333;
+	z-index: 100;
 }
 .bullets li {
-    display: inline-block;
-    width: 33%;
+    display: block;
+    width: 100%;
     cursor: pointer;
+	padding:10px 15px;
 }
 .bullets li span {
 	display: inline-block;
@@ -153,4 +154,67 @@ body {
 
 .layer.one {
 	padding-top: 30vh;
+}
+
+
+
+/*  Added By Husain*/
+
+
+
+/*Hamburger Button*/
+.toggle-button {
+	position: fixed;
+	width: 44px;
+	height: 40px;
+	top: 10px;
+	left: 10px;
+	padding: 4px;
+	transition: .25s;
+	z-index: 15;
+}
+.toggle-button:hover {
+	cursor: pointer;
+}
+.toggle-button .menu-bar {
+	position: absolute;
+	border-radius: 2px;
+	width: 80%;
+	transition: .5s;
+}
+.toggle-button .menu-bar-top {
+	border: 4px solid #555;
+	border-bottom: none;
+	top: 0;
+}
+.toggle-button .menu-bar-middle {
+	height: 4px;
+	background-color: #555;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	top: 4px;
+}
+.toggle-button .menu-bar-bottom {
+	border: 4px solid #555;
+	border-top: none;
+	top: 22px;
+}
+.button-open {
+	left: 25px;
+}
+.button-open .menu-bar-top {
+	border-color: #fff;
+	transform: rotate(45deg) translate(8px, 8px);
+	transition: .5s;
+}
+.button-open .menu-bar-middle {
+	background-color: #fff;
+	transform: translate(230px);
+	transition: .1s ease-in;
+	opacity: 0;
+}
+.button-open .menu-bar-bottom {
+	border-color: #fff;
+	transform: rotate(-45deg) translate(7px, -7px);
+	transition: .5s;
 }

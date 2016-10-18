@@ -176,21 +176,21 @@ body {
 	transition: .5s;
 }
 .toggle-button .menu-bar-top {
-	border: 4px solid #555;
+	border: 4px solid #fff;
 	border-bottom: none;
 	top: 0;
 }
 .toggle-button .menu-bar-middle {
 	height: 4px;
-	background-color: #555;
+	background-color: #fff;
 	margin-top: 7px;
 	margin-bottom: 7px;
-	top: 4px;
+	top: 7px;
 }
 .toggle-button .menu-bar-bottom {
-	border: 4px solid #555;
+	border: 4px solid #fff;
 	border-top: none;
-	top: 22px;
+	top: 25px;
 }
 .button-open {
 	left: 25px;

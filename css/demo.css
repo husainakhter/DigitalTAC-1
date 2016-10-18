@@ -88,7 +88,9 @@ body {
     width: 100%;
     cursor: pointer;
 	padding:10px 15px;
+	color:#6666;
 }
+.bullets li::first-child { padding:20px 15px;}
 .bullets li:not(:first-child) { margin-left:15px;}
 .bullets li span {
 	display: inline-block;

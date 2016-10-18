@@ -76,7 +76,7 @@ body {
 
 .bullets {
     position: fixed;
-	top: -20px;
+	top: -10px;
 	left: -250px;
 	width: 250px;
 	height: 100%;

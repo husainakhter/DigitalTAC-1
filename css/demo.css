@@ -90,7 +90,7 @@ body {
 	padding:10px 15px;
 	color:#666;
 }
-.bullets li:first-child { padding:20px 15px;}
+.bullets li:first-child { padding:20px 15px 10px;}
 .bullets li:not(:first-child) { margin-left:15px;}
 .bullets li span {
 	display: inline-block;

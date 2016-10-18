@@ -87,11 +87,11 @@ body {
     display: block;
     width: 100%;
     cursor: pointer;
-	padding:10px 15px;
+	padding:10px 0px;
 	color:#666;
 	font-size:1.2em;
 }
-.bullets li:first-child { padding:20px 15px 10px;}
+.bullets li:first-child { padding:20px 0px 10px;}
 .bullets li:not(:first-child) { margin-left:15px;}
 /*
 .bullets li span {

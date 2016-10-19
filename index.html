@@ -198,14 +198,16 @@
 				bullet.setAttribute( 'index', i );
 
 				bullet.onclick = function( event ) {
-					k.show( event.target.getAttribute( 'index' ) )
+					k.show( event.target.getAttribute( 'index' ) );
+					$('.sideBar').removeClass('open');
 				};
 				span.onclick = function( event ) {
 					k.show( event.target.parentNode.getAttribute( 'index' ) )
 				};
 
 				bullet.ontouchstart = function( event ) {
-					k.show( event.target.getAttribute( 'index' ) )
+					k.show( event.target.getAttribute( 'index' ) );
+					$('.sideBar').removeClass('open');
 				};
 				span.ontouchstart = function( event ) {
 					k.show( event.target.parentNode.getAttribute( 'index' ) )

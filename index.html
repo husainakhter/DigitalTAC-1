@@ -272,16 +272,24 @@
 						if (slideoutMenu.hasClass("open")) {
 							slideoutMenu.animate({
 								left: "0px"
-							});	
-							menubar.removeClass('menu-bar-top').addClass('.menu-bar-xclose');
-							menubar.removeClass('menu-bar-middle').addClass('.menu-bar-yclose');
+							});
+							if (menubar.hasClass("menu-bar-top")) {
+							menubar.removeClass('menu-bar-top').addClass('menu-bar-xclose');
+							}
+							if (menubar.hasClass("menu-bar-middle")) {
+								menubar.removeClass('menu-bar-middle').addClass('menu-bar-yclose');
+							}
 							menubar.removeClass('menu-bar-bottom');
 						} else {
 							slideoutMenu.animate({
 								left: -slideoutMenuWidth +50 
 							}, 250);
-							menubar.addClass('menu-bar-top').removeClass('.menu-bar-xclose');
-							menubar.addClass('menu-bar-middle').removeClass('.menu-bar-yclose');
+							if (menubar.hasClass("menu-bar-xclose")) {
+								menubar.removeClass('menu-bar-xclose').addClass('menu-bar-top');
+							}
+							if (menubar.hasClass("menu-bar-yclose")) {
+								menubar..removeClass('menu-bar-yclose').addClass('menu-bar-middle');
+							}
 							menubar.addClass('menu-bar-bottom');
 								
 						}

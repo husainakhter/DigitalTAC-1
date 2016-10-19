@@ -51,12 +51,14 @@
 			</div>
 
 		</article>
- <span class="toggle-button">
+	<nav>
+	<ul class="bullets"></ul>
+ 	<span class="toggle-button">
         	<div class="menu-bar menu-bar-top"></div>
        		 <div class="menu-bar menu-bar-middle"></div>
        		 <div class="menu-bar menu-bar-bottom"></div>
         </span>
-		<ul class="bullets"></ul>
+		</nav>
 
 		<div class="credit">by Geek Squad</div>
 
@@ -259,11 +261,11 @@
 					
 					//event.preventDefault();
 						// create menu variables
-						var slideoutMenu = $('.bullets');
-						var slideoutMenuWidth = $('.bullets').width();
-						var togglebutton = $('.toggle-button');
+						var slideoutMenu = $('nav');
+						var slideoutMenuWidth = $('nav').width();
+						/*var togglebutton = $('.toggle-button');
 						var togglebuttonWidth = $('.toggle-button').width();
-						
+						*/
 						// toggle open class
 						slideoutMenu.toggleClass("open");
 						
@@ -272,17 +274,13 @@
 							slideoutMenu.animate({
 								left: "0px"
 							});	
-							togglebutton.animate({
-								left: "250px"
-							});	
+								
 							
 						} else {
 							slideoutMenu.animate({
 								left: -slideoutMenuWidth -40
 							}, 250);
-							togglebutton.animate({
-								left: - togglebuttonWidth+40 
-							}, 250);	
+								
 						}
 				
 					

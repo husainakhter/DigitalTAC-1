@@ -199,7 +199,21 @@
 
 				bullet.onclick = function( event ) {
 					k.show( event.target.getAttribute( 'index' ) );
-					$('.sideBar').removeClass('open');
+					/* Added by Husain*/
+					var slideoutMenu = $('.sideBar');
+					var slideoutMenuWidth = $('.sideBar').width();
+					var menubar = $('.toggle-button');
+					slideoutMenu.removeClass('open');
+					slideoutMenu.animate({
+								left: -slideoutMenuWidth +50 
+							}, 250);
+					menubar.find(".menu-bar-xclose").removeClass('menu-bar-xclose').addClass('menu-bar-top');
+					menubar.find(".menu-bar-yclose").removeClass('menu-bar-yclose').addClass('menu-bar-middle');
+					if (menubar.find(".menu-bar").not("menu-bar-top") && menubar.find(".menu-bar").not("menu-bar-middle")) {
+						menubar.find(".menu-bar").addClass('menu-bar-bottom');
+						menubar.find(".menu-bar-top").removeClass('menu-bar-bottom');
+						menubar.find(".menu-bar-middle").removeClass('menu-bar-bottom');
+					}
 				};
 				span.onclick = function( event ) {
 					k.show( event.target.parentNode.getAttribute( 'index' ) )
@@ -207,7 +221,21 @@
 
 				bullet.ontouchstart = function( event ) {
 					k.show( event.target.getAttribute( 'index' ) );
-					$('.sideBar').removeClass('open');
+					/* Added by Husain*/
+					var slideoutMenu = $('.sideBar');
+					var slideoutMenuWidth = $('.sideBar').width();
+					var menubar = $('.toggle-button');
+					slideoutMenu.removeClass('open');
+					slideoutMenu.animate({
+								left: -slideoutMenuWidth +50 
+							}, 250);
+					menubar.find(".menu-bar-xclose").removeClass('menu-bar-xclose').addClass('menu-bar-top');
+					menubar.find(".menu-bar-yclose").removeClass('menu-bar-yclose').addClass('menu-bar-middle');
+					if (menubar.find(".menu-bar").not("menu-bar-top") && menubar.find(".menu-bar").not("menu-bar-middle")) {
+						menubar.find(".menu-bar").addClass('menu-bar-bottom');
+						menubar.find(".menu-bar-top").removeClass('menu-bar-bottom');
+						menubar.find(".menu-bar-middle").removeClass('menu-bar-bottom');
+					}	
 				};
 				span.ontouchstart = function( event ) {
 					k.show( event.target.parentNode.getAttribute( 'index' ) )

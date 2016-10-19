@@ -181,7 +181,7 @@ div.bl-panel-items > div > div {
 	pointer-events: none;
 	*/
 	position: absolute;
-	top: 20px;
+	top: 0;
 	left: 30px;
 	right: 30px;
 	bottom: 30px;

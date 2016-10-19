@@ -76,7 +76,7 @@ body {
 nav.sideBar{
  position: fixed;
 	top: 0;
-	left: -290px;
+	left: -250px;
 	width: 300px;
 	z-index: 100;
 }

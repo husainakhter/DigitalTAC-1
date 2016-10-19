@@ -184,6 +184,24 @@ nav.sideBar{
 	border-top: none;
 	top: 25px;
 }
+
+.toggle-button .menu-bar-xclose {
+	height: 4px;
+	background-color: #fff;
+	top: 0px;
+	transform: rotate(45deg);
+    	-ms-transform: rotate(45deg);
+    	-webkit-transform: rotate(45deg);
+}
+.toggle-button .menu-bar-yclose {
+	border: 4px solid #fff;
+	border-top: none;
+	top: 0px;
+	transform: rotate(135deg);
+    	-ms-transform: rotate(135deg);
+    	-webkit-transform: rotate(135deg);
+}
+
 .button-open {
 	left: 25px;
 }

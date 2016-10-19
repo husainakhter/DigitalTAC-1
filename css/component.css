@@ -193,8 +193,9 @@ div.bl-panel-items > div > div {
 div.bl-panel-items > div[data-panel="panel-1"] > div {
 	position: static;
 }
-div.bl-panel-items > div[data-panel="panel-1"] {
-    padding-top: 1%;
+div.bl-panel-items > div[data-panel ^="panel"] > h3 {
+   text-align:center;
+   font-size:2.5em;
 }
 /* Custom content */
 

@@ -102,22 +102,10 @@ body {
 	margin: 0 3px;
 	vertical-align: middle;
 	position: relative;
-
-	background: rgba( 255, 255, 255, 0.5 );
-	box-shadow: 0px 0px 4px rgba( 0, 0, 0, 0.2 );
-	cursor: pointer;
-
-	-webkit-tap-highlight-color: rgba( 0, 0, 0, 0 );
+	border-bottom:1px solid #ddd;
 }
 
-.bullets li:hover span {
-	background: rgba( 255, 255, 255, 0.8 );
-}
 
-.bullets li.active span {
-	cursor: default;
-	background: #fff;
-}
 
 @media screen and (max-width: 400px) {
 	body {

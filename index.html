@@ -285,8 +285,8 @@
 							menubar.find(".menu-bar-yclose").removeClass('menu-bar-yclose').addClass('menu-bar-middle');
 							if (menubar.find(".menu-bar").not("menu-bar-top") && menubar.find(".menu-bar").not("menu-bar-middle")) {
 								menubar.find(".menu-bar").addClass('menu-bar-bottom');
-								menubar.find(".menu-bar-top").addClass('menu-bar-bottom');
-								menubar.find(".menu-bar-middle").addClass('menu-bar-bottom');
+								menubar.find(".menu-bar-top").removeClass('menu-bar-bottom');
+								menubar.find(".menu-bar-middle").removeClass('menu-bar-bottom');
 							}								
 						}
 				

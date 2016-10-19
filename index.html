@@ -263,7 +263,7 @@
 						// create menu variables
 						var slideoutMenu = $('.sideBar');
 						var slideoutMenuWidth = $('.sideBar').width();
-						var menubar = $('.menu-bar');
+						var menubar = $('.toggle-button');
 						
 						// toggle open class
 						slideoutMenu.toggleClass("open");
@@ -273,24 +273,17 @@
 							slideoutMenu.animate({
 								left: "0px"
 							});
-							if (menubar.hasClass("menu-bar-top")) {
-							menubar.removeClass('menu-bar-top').addClass('menu-bar-xclose');
-							}
-							if (menubar.hasClass("menu-bar-middle")) {
-								menubar.removeClass('menu-bar-middle').addClass('menu-bar-yclose');
-							}
-							menubar.removeClass('menu-bar-bottom');
+							
+							menubar.find(".menu-bar-top").removeClass('menu-bar-top').addClass('menu-bar-xclose');
+							menubar.find(".menu-bar-middle").removeClass('menu-bar-middle').addClass('menu-bar-yclose');
+							menubar.find(".menu-bar").removeClass('menu-bar-bottom');
 						} else {
 							slideoutMenu.animate({
 								left: -slideoutMenuWidth +50 
 							}, 250);
-							if (menubar.hasClass("menu-bar-xclose")) {
-								menubar.removeClass('menu-bar-xclose').addClass('menu-bar-top');
-							}
-							if (menubar.hasClass("menu-bar-yclose")) {
-								menubar.removeClass('menu-bar-yclose').addClass('menu-bar-middle');
-							}
-							menubar.addClass('menu-bar-bottom');
+							menubar.find("menu-bar-xclose").removeClass('menu-bar-xclose').addClass('menu-bar-top');
+							menubar.find("menu-bar-yclose").removeClass('menu-bar-yclose').addClass('menu-bar-middle');
+							menubar.find(".menu-bar").addClass('menu-bar-bottom');
 								
 						}
 				

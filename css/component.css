@@ -195,7 +195,7 @@ div.bl-panel-items > div[data-panel="panel-1"] > div {
 }
 div.bl-panel-items > div[data-panel ^="panel"] > h3 {
    text-align:center;
-   font-size:5em;
+   font-size:3.5em;
 	-webkit-margin-before:0;
 	
 }

@@ -263,9 +263,8 @@
 						// create menu variables
 						var slideoutMenu = $('.sideBar');
 						var slideoutMenuWidth = $('.sideBar').width();
-						/*var togglebutton = $('.toggle-button');
-						var togglebuttonWidth = $('.toggle-button').width();
-						*/
+						var menubar = $('.menu-bar');
+						
 						// toggle open class
 						slideoutMenu.toggleClass("open");
 						
@@ -274,12 +273,16 @@
 							slideoutMenu.animate({
 								left: "0px"
 							});	
-								
-							
+							menubar.removeClass('menu-bar-top').addClass('.menu-bar-xclose');
+							menubar.removeClass('menu-bar-middle').addClass('.menu-bar-yclose');
+							menubar.removeClass('menu-bar-bottom');
 						} else {
 							slideoutMenu.animate({
 								left: -slideoutMenuWidth +50 
 							}, 250);
+							menubar.addClass('menu-bar-top').removeClass('.menu-bar-xclose');
+							menubar.addClass('menu-bar-middle').removeClass('.menu-bar-yclose');
+							menubar.addClass('menu-bar-bottom');
 								
 						}
 				

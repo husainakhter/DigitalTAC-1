@@ -80,7 +80,7 @@ body {
 	left: -250px;
 	width: 250px;
 	height: 100%;
-	background: #fff;
+	background: rgba( 255, 255, 255, 0.5 );
 	z-index: 100;
 }
 .bullets li {

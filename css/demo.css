@@ -73,15 +73,21 @@ body {
 .layer.three {
 	background: #64b9d2;
 }
-
-.bullets {
-    position: fixed;
+nav{
+ position: fixed;
 	top: -10px;
 	left: -250px;
+	width: 300px;
+	z-index: 100;
+}
+.bullets {
+    position: relative;
+	top: 0;
+	left: 0;
 	width: 250px;
 	height: 100%;
 	background: rgba( 255, 255, 255, 0.5 );
-	z-index: 100;
+	
 }
 .bullets li {
     display: block;
@@ -143,11 +149,11 @@ body {
 
 /*Hamburger Button*/
 .toggle-button {
-	position: fixed;
+	position: absolute;
 	width: 44px;
 	height: 40px;
 	top: 10px;
-	left: 10px;
+	right: -44px;
 	padding: 4px;
 	transition: .25s;
 	z-index: 15;

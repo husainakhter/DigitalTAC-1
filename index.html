@@ -283,7 +283,11 @@
 							}, 250);
 							menubar.find(".menu-bar-xclose").removeClass('menu-bar-xclose').addClass('menu-bar-top');
 							menubar.find(".menu-bar-yclose").removeClass('menu-bar-yclose').addClass('menu-bar-middle');
+							if (menubar.find(".menu-bar").hasClass("menu-bar-top")) {
+							}else if (menubar.find(".menu-bar").hasClass("menu-bar-middle")) {
+							}else{
 							menubar.find(".menu-bar").addClass('menu-bar-bottom');
+							}
 								
 						}
 				

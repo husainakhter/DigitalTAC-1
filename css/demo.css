@@ -73,6 +73,10 @@ body {
 .layer.three {
 	background: #64b9d2;
 }
+
+.layer.four {
+	background: #fff;
+}
 nav.sideBar{
  position: fixed;
 	top: 0;

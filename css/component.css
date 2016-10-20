@@ -267,7 +267,7 @@ div.bl-panel-items > div[data-panel ^="panel"] > h3 {
 .layer.four > .bl-content > ul li {
 	display: inline-block;
 	width: 12.5%;
-	margin: 14px;
+	margin: 10px;
 }
 
 .layer.four > .bl-content > ul li a {
@@ -281,6 +281,8 @@ div.bl-panel-items > div[data-panel ^="panel"] > h3 {
 .layer.four > .bl-content > ul li a img {
 	display: block;
 	max-width: 100%;
+	width:150px;
+	height:150px;
 }
 
 

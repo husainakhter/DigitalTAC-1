@@ -275,6 +275,7 @@ div.bl-panel-items > div[data-panel ^="panel"] > h3 {
 	padding: 0;
 	border: none;
 	vertical-align:middle;
+	cursor:none;
 	/*min-height:200px;*/
 }
 

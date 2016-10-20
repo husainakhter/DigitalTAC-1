@@ -103,7 +103,7 @@ nav.sideBar{
 }
 .bullets li:first-child { padding:20px 0px 10px;}
 .bullets li:not(:first-child) { margin-left:15px;}
-
+.bullets li:nth-child(4n) { margin-left:0;}
 .bullets li span {
 	display: block;
 	width: 82.5%;

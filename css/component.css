@@ -273,9 +273,9 @@ div.bl-panel-items > div[data-panel ^="panel"] > h3 {
 .layer.four > .bl-content > ul li a {
 	display: block;
 	padding: 0;
-	/*border: 4px solid rgba(0,0,0,0.1);
+	border: none;
 	vertical-align:middle;
-	min-height:200px;*/
+	/*min-height:200px;*/
 }
 
 .layer.four > .bl-content > ul li a img {

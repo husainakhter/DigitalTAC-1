@@ -281,8 +281,9 @@ div.bl-panel-items > div[data-panel ^="panel"] > h3 {
 .layer.four > .bl-content > ul li a img {
 	display: block;
 	max-width: 100%;
-	width:150px;
-	height:150px;
+	width:100px;
+	height:100px;
+	margin:20px auto;
 }
 
 

@@ -67,11 +67,13 @@ body {
 }
 
 .layer.two {
-    background: #0ac2d2;
+    /*background: #0ac2d2;*/
+	background: #89b32f;
 }
 
 .layer.three {
-	background: #64b9d2;
+	/*background: #64b9d2;*/
+	background: #89b32f;
 }
 
 .layer.four {

@@ -257,10 +257,10 @@ li.categorySlide > a .glyphicon-menu-right::before {
 	}
 	
 	.carouselNav #nextCat {
-		top: -404px;
+		top: -524px;
 	}
 	.carouselNav #prevCat {
-		top: -404px;
+		top: -524px;
 	}
 }
 

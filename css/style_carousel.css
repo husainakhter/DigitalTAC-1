@@ -18,14 +18,14 @@ h1,p,
 \*------------------------------------*/
 .carousel{
     overflow:hidden;
-    width:40%;
+    width:100%;
     margin:0 auto;
     position:relative;
 }
 .panes{
     list-style:none;
     position:relative;
-    width:500%; /* Number of panes * 100% */
+    width:100%; /* Number of panes * 100% */
     overflow:hidden; /* This is used solely to clear floats, it does not add functionality. */
      
     -webkit-animation:carousel 30s infinite;
@@ -35,7 +35,7 @@ h1,p,
 .panes > li{
     position:relative;
     float:left;
-    width:20%; /* 100 / number of panes */
+    width:33%; /* 100 / number of panes */
 }
 .panes > li > a{
     display:block;

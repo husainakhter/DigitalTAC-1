@@ -18,7 +18,8 @@ h1,p,
 \*------------------------------------*/
 .carousel{
     overflow:hidden;
-    width:100%;
+    width:40%;
+    margin:0 auto;
     position:relative;
 }
 .panes{

@@ -38,10 +38,7 @@ li.cycle-slide {
 	-webkit-transition: opacity 0.35s linear 0s;
 	transition: opacity 0.35s linear 0s;
 }
-.categories-wrap .carouselNav > a {
-	background-image: url('../../_images/consumer/home/arrowsWhite.png');
-	top: -525px;
-}
+
 .categories-wrap .category-icon {
 	display: inline-block;
 	float: none;
@@ -86,13 +83,7 @@ li.cycle-slide {
 	position: relative;
 }
 
-.categorySlide .menu_simple li {
-	margin: 0;
-	border: none;
-	background: url(../../_images/consumer/home/categorySubOptionBorder.png) no-repeat left bottom scroll transparent;
-	height: 41px;
-	position: relative;
-}
+
 .categorySlide .menu_simple li:last-child {
 	background-image: none;
 }
@@ -101,14 +92,6 @@ li.categorySlide  > a {
 	font-size: 12px;
 	font-family: Arial;
 	font-weight: bold;
-}
-li.categorySlide  > a .glyphicon-menu-right::before {
-	content: '';
-	float: none;
-	position: absolute;
-	background: url("../../_images/consumer/home/arrowRightRed.png") 50% 50% no-repeat scroll transparent;
-	width: 10px;
-	height: 10px;
 }
 li.categorySlide > a .glyphicon-menu-right::before {
 	top: -10px;

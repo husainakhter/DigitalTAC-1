@@ -265,7 +265,7 @@ div.bl-panel-items > div[data-panel ^="panel"] > h3 {
 /*
 .layer.four > .bl-content > h2{ color:#ddd;}
 */
-.layer.four > .bl-content > ul{ background: #fff;}
+/*.layer.four > .bl-content > ul{ background: #fff;}*/
 .layer.four > .bl-content > ul li {
 	display: inline-block;
 	width: 12.5%;

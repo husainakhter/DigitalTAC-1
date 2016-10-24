@@ -256,7 +256,12 @@ li.categorySlide > a .glyphicon-menu-right::before {
 		font-size: 34px;
 	}
 	
-	
+	.carouselNav #nextCat {
+		top: -404px;
+	}
+	.carouselNav #prevCat {
+		top: -404px;
+	}
 }
 
 @media only screen and (width : 1024px){

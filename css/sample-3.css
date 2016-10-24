@@ -13,6 +13,8 @@ li.cycle-slide {
 	vertical-align: top;
 }
 
+h5.category-heading{ font-size: 1.5em;}
+
 .gray-bg{ background-color:#000000; }
 .carouselNav {
 	position: relative;

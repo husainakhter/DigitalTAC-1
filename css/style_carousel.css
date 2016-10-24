@@ -18,7 +18,7 @@ h1,p,
 \*------------------------------------*/
 .carousel{
     overflow:hidden;
-    width:100%;
+    width:400px;
     margin:0 auto;
     position:relative;
 }

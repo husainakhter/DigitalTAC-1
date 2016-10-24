@@ -60,20 +60,20 @@ h1,p,
 @-moz-keyframes carousel{
     0%    { left:0; }
     11%   { left:0; }
-  
+    50%     {left:-50%; }
     100%  { left:0; }
 }
 
 @-webkit-keyframes carousel{
     0%    { left:0; }
     11%   { left:0; }
-  
+  50%     {left:-50%; }
     100%  { left:0; }
 }
 
 @keyframes carousel{
     0%    { left:0; }
     11%   { left:0; }
- 
+ 50%     {left:-50%; }
     100%  { left:0; }
 }

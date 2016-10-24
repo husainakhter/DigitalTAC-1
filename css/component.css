@@ -283,7 +283,8 @@ div.bl-panel-items > div[data-panel ^="panel"] > h3 {
 
 .layer.four > .bl-content > ul li a img {
 	display: block;
-	max-width: 100%;
+	/*max-width: 100%;*/
+	max-width: 80%;
 	margin:0 auto;
 }
 

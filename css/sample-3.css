@@ -112,7 +112,7 @@ li.categorySlide > a .glyphicon-menu-right::before {
 	}
 	.w950 {
 		width: 950px;
-		margin: 0 auto;
+		margin: 25px auto 0;
 		position: relative;
 	}
 	.carousel-wrap h3 {

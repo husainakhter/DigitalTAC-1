@@ -242,7 +242,7 @@ div.bl-panel-items > div[data-panel ^="panel"] > h3 {
 	list-style: none;
 	padding: 0;
 	margin: 0;
-	background: #fff;
+	
 } 
 
 .bl-content > ul li {
@@ -262,9 +262,10 @@ div.bl-panel-items > div[data-panel ^="panel"] > h3 {
 	max-width: 100%;
 }
 
-
+/*
 .layer.four > .bl-content > h2{ color:#ddd;}
-
+*/
+.layer.four > .bl-content > ul{ background: #fff;}
 .layer.four > .bl-content > ul li {
 	display: inline-block;
 	width: 12.5%;
@@ -331,7 +332,8 @@ div.bl-panel-items {
 }
 
 div.bl-panel-items > div {
-	background: #3ba5db;
+	/*background: #3ba5db;*/
+	background: #89b32f;
 	z-index: 0;
 	opacity: 0;
 	-webkit-transform: translateY(0);

@@ -12,7 +12,7 @@
 
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<link rel="stylesheet" type="text/css" href="js/featherlight/featherlight.min.css" />
-		<link rel="stylesheet" type="text/css" href="css/style_carousel.css" />
+		<link type="text/css" rel="stylesheet" href="css/sample-3.css">
 		<script src="js/modernizr.custom.js"></script>
 		<script src="js/jquery.min.js"></script>
 	</head>
@@ -25,7 +25,7 @@
 				<p>Quality.&nbsp;&nbsp;&nbsp;&nbsp; Speed.&nbsp;&nbsp;&nbsp;&nbsp; Reuse.</p>
 				<!--<ul class="page-nav bullets"></ul>-->
 				
-				 <div class=carousel>
+				 <!--<div class=carousel>
 					<ul class=panes>
 						<li>
 						<h2>1. COgnos</h2>
@@ -42,7 +42,74 @@
 						    <img src="images/website.png" alt="">
 						</li>
 					    </ul>
-				    </div>
+				    </div>-->
+				
+				
+				<section class="w950 carousel-wrap">
+		<!-- empty element for caption -->
+		<div id="catCaptionContainer">
+			<div id="catCaptionShowing">SHOWING</div>
+			<div id="catCaptionText"></div>
+		</div>
+        <ul class="categories-cont categoriesCycle " data-cycle-slides="li.categorySlide" data-cycle-fx=carousel data-cycle-timeout=0 data-cycle-log="false" data-cycle-next="#nextCat" data-cycle-prev="#prevCat">
+			<li class="categorySlide">
+            	<div class="upper">
+                    <img src="_images/consumer/desktop/categories/4.png" class="category-icon">
+                    <h5 class="VodafoneRgBd red-text category-heading">Internet Presence</h5>
+                </div>
+                <p class="catDesc white-text p-sm">Take your business online. and attract more customers.</p>
+
+
+			</li>
+
+            <li class="categorySlide">
+            	<div class="upper">
+                    <img src="_images/consumer/desktop/categories/5.png" class="category-icon">
+                    <h5 class="VodafoneRgBd red-text category-heading">Vodafone Shield</h5>
+                </div>
+                <p class="catDesc white-text p-sm">Safeguard and protect your valuable data and devices.</p>
+               
+            </li>
+
+            <li class="categorySlide">
+            	<div class="upper">
+                    <img src="_images/consumer/desktop/categories/2.png" class="category-icon">
+                    <h5 class="VodafoneRgBd red-text category-heading">Office 365</h5>
+                </div>
+                <p class="catDesc white-text p-sm ">A perfect add-on for businesses that need access to the latest Office applications, along with online file storage and sharing. </p>
+
+              
+            </li>
+
+            <li class="categorySlide">
+            	<div class="upper">
+                    <img src="_images/consumer/desktop/categories/3.png" class="category-icon">
+                    <h5 class="VodafoneRgBd red-text category-heading">Dummy Category</h5>
+                </div>
+                <p class="catDesc white-text p-sm">Take your business online. and attract more customers.</p>
+               
+            </li>
+
+            <li class="categorySlide">
+            	<div class="upper">
+                    <img src="_images/consumer/desktop/categories/6.png" class="category-icon">
+                    <h5 class="VodafoneRgBd red-text category-heading">Dummy Category</h5>
+                </div>
+                <p class="catDesc white-text p-sm">Take your business online. and attract more customers.</p>
+                
+            </li>
+
+            <li class="categorySlide">
+            	<div class="upper">
+                    <img src="_images/consumer/desktop/categories/6.png" class="category-icon">
+                    <h5 class="VodafoneRgBd red-text category-heading">Dummy Category</h5>
+                </div>
+                <p class="catDesc white-text p-sm">Take your business online. and attract more customers.</p>
+               
+            </li>
+        </ul>
+
+    </section>
 			</div>
 
 			<div class="layer two" >
@@ -376,5 +443,9 @@
 				Boxlayout.init();
 			});
 		</script>
+		
+		<script type="text/javascript" src="js/jquery.cycle2.min.js"></script>
+<script type="text/javascript" src="js/jquery.cycle2.carousel.min.js"></script>
+<script type="text/javascript" src="js/home.js"></script> 
 	</body>
 </html>

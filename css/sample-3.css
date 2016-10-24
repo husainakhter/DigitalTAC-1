@@ -29,7 +29,7 @@ li.cycle-slide {
 	display: block;
 	top: -219px;
 	height: 42px;
-	background-image: url('../../_images/consumer/product/arrows.png');
+	background-image: url('../images/arrows.png');
 	cursor: pointer;
 	position: absolute;
 	z-index: 99;

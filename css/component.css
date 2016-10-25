@@ -513,4 +513,8 @@ section.bl-expand .bl-icon-close {
 	.bl-content > ul li {
 		width: 40%;
 	}
+	
+	.bl-content h3 {
+    		font-size: 1.4em;
+	}
 }

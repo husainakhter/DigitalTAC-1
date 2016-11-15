@@ -1,0 +1,263 @@
+
+	.footer-wrap {
+		padding: 24px 0px 0;
+	}
+	.footer-wrap h5 {
+		line-height: 17px;
+		margin-bottom: 15px;
+	}
+	.footer-wrap a {
+		padding: 0;
+		line-height: 24px;
+		display: block;
+		font-family: "VodafoneRg";
+		font-size: 14px;
+	}
+	.footer-wrap a.gray-text,
+	.footer-wrap h6.VodafoneRg.gray-text {
+		color: #dcdcdc;
+	}
+	.footer-wrap .red-text a {
+		color: #E60000;
+		display: inline;
+	}
+	div[class^="footer-col-"] {
+		float: left;
+	}
+	.footer-col-01 {
+		width: 268px;
+		width: 201px;
+		margin-right: 67px;
+		border-right: 1px solid #444;
+	}
+	.footer-col-02 {
+		width: 169px;
+	}
+	.footer-col-03 {
+		width: 200px;
+	}
+	.footer-col-04 {
+		width: 191px;
+	}
+	.footer-col-05 {
+		width: 122px;
+	}
+	.about-vodafone-india {
+		margin: 24px 0 0 0;
+	}
+	.gray-border.contact-top-border {
+		margin-top: 33px;
+		margin-bottom: 0;
+	}
+
+	.support-contact .dark-gray-text {
+		color: #616161;
+		width: 20px;
+		display: inline-block;
+		padding-left: 12px;
+	}
+	.support-contact .p-bg {
+		font-size: 25px;
+		font-family: "Arial";
+		color: #dcdcdc;
+		line-height: 26.07px;
+	}
+	.footer-wrap .footer-bottom p {
+		margin: 24px 0;
+		font-size: 11px;
+		font-family: "Arial";
+		color: #fff;
+		line-height: 17px;
+	}
+@media only screen and (min-width: 992px) {
+	#footer .inner {
+		width: 950px;
+		margin: 0 auto;
+		padding: 0;
+	}
+	.wrapper.footer-wrap .inner.support-contact-section {
+		padding: 0px 0px;
+		width: 950px;
+		margin: 0 auto;
+	}
+	div[class^="footer-col-"] {
+		margin-top: 20px;
+	}
+	.support-contact {
+		padding: 9px 0px;
+		padding-left: 10px;
+		border-right: none;
+		width: 430px;
+		height: 56px;
+		margin: 2px 0;
+		float: left;
+	}
+	.support-contact:first-child {
+		padding-left: 0;
+		padding-right: 0;
+		border-right: 1px solid #535353;
+		width: 520px;
+	}
+}
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+	.wrapper.footer-wrap .inner {
+		padding: 0 15px;
+	}
+
+	.support-contact .p-bg {
+		font-size: 22px;
+		font-family: "Arial";
+		color: #dcdcdc;
+		line-height: 22px;
+	}
+	.gray-border.contact-top-border, .footer-wrap .gray-border {
+		margin: 0 15px;
+		width: auto;
+	}
+	.gray-border.contact-top-border {
+		margin-top: 20px;
+	}
+	.support-contact {
+		padding: 9px 0;
+		margin: 0;
+		border: none;
+		margin: 0;
+		width: 100%;
+	}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.wrapper.footer-wrap .inner {
+		width: 442px;
+		padding: 0;
+	}
+	.footer-wrap h5 {
+		line-height: 15.3px;
+		margin-bottom: 11px;
+		font-size: 14.4px;
+		font-family: "Arial";
+		color: #dcdcdc;
+		font-weight: bold;
+	}
+	.footer-wrap .footer-col-03 h5, .footer-wrap .footer-col-04 h5, .footer-wrap .footer-col-05 h5 {
+		margin: 27px 0 13px 0;
+	}
+	.footer-col-01 {
+		width: 179px;
+		margin-right: 35px;
+		border-right: 1px solid #444;
+	}
+	.footer-col-03 {
+		clear: left;
+		width: 148px;
+	}
+	.footer-col-04 {
+		width: 140px;
+	}
+	.footer-wrap a {
+		padding: 0;
+		line-height: 12.6px;
+		font-size: 10.8px;
+		font-family: "Arial";
+		color: #dcdcdc;
+		padding: 5px 0;
+	}
+	.support-contact .p-bg {
+		font-size: 21.5px;
+		line-height: 22.81px;
+		margin: 7px 0 0 -2px;
+	}
+	.support-contact .p-bg a {
+		font-size: 21.5px;
+		line-height: 22.81px;
+	}
+	.support-contact .p-bg span.red-text {
+		display: inline-block;
+		margin-left: 2px;
+	}
+	.footer-wrap .gray-border {
+		margin: -5px auto 0;
+		width: 442px;
+	}
+	.gray-border.contact-top-border {
+		width: 442px;
+		margin: 17px auto 0;
+	}
+	.support-contact {
+		padding: 9px 0px;
+		padding-left: 0;
+		border-right: none;
+		width: auto;
+		height: 56px;
+		margin: -15px 0 2px 0;
+	}
+	.support-contact:first-child {
+		padding-left: 0;
+		padding-right: 0;
+		width: 543px;
+		margin-top: 2px;
+	}
+	.footer-wrap .footer-bottom p {
+		margin: 16px 0 0;
+		font-size: 9px;
+		font-family: "Arial";
+		color: #888;
+		line-height: 12px;
+		width: 350px;
+		padding-bottom: 16px;
+	}
+}
+@media only screen and (max-width: 479px) {
+
+	div[class^="footer-col-"] {
+		float: left;
+		border: none;
+		margin: 0;
+		width: 50%;
+		padding-bottom: 10px;
+	}
+	.footer-col-03, .footer-col-05 {
+		clear: left;
+	}
+	.gray-border.contact-top-border {
+		width: 300px;
+		margin: 0 auto;
+	}
+	.footer-wrap .footer-bottom p {
+		margin: 16px 0 0;
+		font-size: 9px;
+		font-family: "Arial";
+		color: #888;
+		line-height: 12px;
+	}
+	.footer-wrap .gray-border {
+		border: none;
+		border-bottom: solid 1px #535353;
+		display: block;
+		clear: both;
+		width: auto;
+		margin: 0 10px;
+	}
+	.support-contact {
+		height: auto;
+		padding: 0;
+		margin: 0;
+	}
+	.support-contact .p-bg, .support-contact .p-bg a {
+		line-height: 15.3px;
+		font-size: 14.4px;
+	}
+	.footer-wrap a {
+		line-height: 15px;
+		font-size: 10.8px;
+		font-family: "Arial";
+		color: #dcdcdc;
+	}
+	.footer-wrap h5 {
+		line-height: 15.3px;
+		font-size: 14.4px;
+		font-family: "Arial";
+		color: #dcdcdc;
+		font-weight: bold;
+		margin-bottom: 6px;
+	}
+}

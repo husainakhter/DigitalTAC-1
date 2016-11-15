@@ -1,0 +1,335 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#login-form-wrapper .tab-content  #case .black-text, #login-form-wrapper .tab-content  #guides .black-text, #login-form-wrapper .tab-content  #webinars .black-text, #login-form-wrapper .tab-content  #documentation .black-text {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+}
+
+#login-form-wrapper h3 {
+    margin-bottom: 18px;
+    margin-left: -2px;
+    margin-top: 30px;
+	 font-size: 34px;
+}
+
+#login-form-wrapper .tab-content  #all h4 {
+    margin-bottom: 18px;
+    margin-left: -2px;
+    margin-top: 30px;
+	 font-size: 34px;
+}
+
+
+
+
+#login-form-wrapper .tab-content  #case h4, #login-form-wrapper .tab-content  #guides h4, #login-form-wrapper .tab-content  #webinars h4, #login-form-wrapper .tab-content  #documentation h4 { 
+  font-size: 24px;
+  font-family: "Arial";
+  color: rgb(230, 0, 0);
+  margin: 20px -2px 15px;
+}
+
+#login-form-wrapper .form-control{ height:38px;}
+#login-form-wrapper .input-group-btn .btn-default-ac{ width:35px;height:38px;}
+
+#login-form-wrapper .navbar-form .input-group > .form-control{ width:100%; padding-left:32px;}
+#login-form-wrapper .nav > li:nth-child(1) > a { padding: 7px 30px 8px 29px;}
+#login-form-wrapper .nav > li:nth-child(2) > a {  padding: 7px 30px 8px 30px}
+#login-form-wrapper .nav > li:nth-child(3) > a {   padding: 7px 30px 8px 30px}
+#login-form-wrapper .nav > li:nth-child(4) > a {  padding: 7px 30px 8px 30px}
+#login-form-wrapper .nav > li:nth-child(5) > a {   padding: 7px 30px 8px 30px}
+.padding-top-48{ padding:48px 2px 0 0;}
+
+#login-form-wrapper  hr{ margin-top:14px;margin-bottom:10px;}
+#login-form-wrapper  hr.bottom{ margin-top:10px;margin-bottom:10px;}
+#login-form-wrapper .box-height p{
+  font-size: 24.9px;
+  font-family: "VodafoneRg";
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  text-align: left;
+ padding:14px 3px;
+}
+#login-form-wrapper .p-l-n-r-12{ padding-left:0; padding-right:12px;}
+#login-form-wrapper .p-l-n-r-6{ padding-left:6px;padding-right:4px;}
+#login-form-wrapper .p-l-n-r-11{ padding-left:11px;padding-right:0;}
+#login-form-wrapper .box-height{ height:197px;padding:0;}
+
+
+#login-form-wrapper .margin-9-top{ margin:9px -15px 0;}
+
+
+#login-form-wrapper .tab-content #all .tbl-box{
+	border:1px solid #cccccc; 
+	padding:18px 16px 10px 16px;
+}
+
+#login-form-wrapper .tab-content  #case .tbl-box, #login-form-wrapper .tab-content  #guides .tbl-box, #login-form-wrapper .tab-content  #webinars .tbl-box, #login-form-wrapper .tab-content  #documentation .tbl-box {
+	border:1px solid #cccccc; 
+	padding:18px 16px 10px 16px;
+	margin-bottom:20px;
+}
+
+#login-form-wrapper .contegoriList{ margin:0 -2px 19px;}
+.margin-bottom-9{ margin-bottom:9px;}
+
+#login-form-wrapper select.form-control{ height:38px;width:182px;
+font-size: 16px;
+  font-family: "Arial";
+  color: rgb(51, 51, 51);
+  padding-left:26px;
+  -moz-appearance: none;
+  -webkit-appearance:none;
+background: #fff url("../../_images/consumer/desktop/Rectangle11.png") no-repeat  90% center  !important;
+}
+#login-form-wrapper .tab-content #all  hr.bottom{ margin-top:10px;margin-bottom:10px; }
+#login-form-wrapper .tab-content #all .Downloan-btn,
+#login-form-wrapper .tab-content #all .Learn-more-btn{ 
+ margin:0 -10px -5px;
+	 border:none;
+padding:0;
+}
+
+
+#login-form-wrapper .tab-content  #case hr.bottom, #login-form-wrapper .tab-content  #guides hr.bottom, #login-form-wrapper .tab-content  #webinars hr.bottom, #login-form-wrapper .tab-content  #documentation  hr.bottom{ margin-top:25px;margin-bottom:10px;}
+#login-form-wrapper .tab-content  #case .Downloan-btn, #login-form-wrapper .tab-content  #guides .Downloan-btn, #login-form-wrapper .tab-content  #webinars .Downloan-btn, #login-form-wrapper .tab-content  #documentation .Downloan-btn,
+#login-form-wrapper .tab-content  #case .Learn-more-btn, #login-form-wrapper .tab-content  #guides .Learn-more-btn, #login-form-wrapper .tab-content  #webinars .Learn-more-btn, #login-form-wrapper .tab-content  #documentation .Learn-more-btn{  margin:0 -10px -5px;
+	 border:none;
+padding:0;}
+#login-form-wrapper .tab-content  #case img, #login-form-wrapper .tab-content  #guides img, #login-form-wrapper .tab-content  #webinars img, #login-form-wrapper .tab-content  #documentation img{ margin:30px 0 12px;}
+
+
+#login-form-wrapper .tab-content  #case p.p-font-18, #login-form-wrapper .tab-content  #guides p.p-font-18, #login-form-wrapper .tab-content  #webinars p.p-font-18, #login-form-wrapper .tab-content  #documentation p.p-font-18{
+  font-size: 18px !important;
+  font-family: "Arial";
+  color: rgb(51, 51, 51);
+   line-height: 1.23;
+    padding: 12px 0 0;
+}
+
+#login-form-wrapper .tab-content  #case p.p-font-22, #login-form-wrapper .tab-content  #guides p.p-font-22, #login-form-wrapper .tab-content  #webinars p.p-font-22, #login-form-wrapper .tab-content  #documentation p.p-font-22{
+  	color: rgb(51, 51, 51);
+    font-family: "Arial";
+    font-size: 22px !important;
+    line-height: 1.23;
+    padding: 14px 1px 0 0;
+}
+
+a.list-vw-ico-tbl,a.list-vw-ico-tbl:hover,a.list-vw-ico-tbl:focus{
+	background:url(../../_images/consumer/desktop/Resources_All/grid_view.png) no-repeat 0 10px;
+	width: 82px;
+	height: 47px;
+	padding: 20px 38px;
+}
+
+a.grid-vw-ico-tbl, a.grid-vw-ico-tbl:hover, a.grid-vw-ico-tbl:focus{
+	background:url(../../_images/consumer/desktop/Resources_All/list_view.png) no-repeat 0 11px;
+	width: 82px;
+	height: 47px;
+	padding: 20px 38px;
+	display:none;
+}
+
+
+#login-form-wrapper .tab-content  #all .icon-menu-right,#login-form-wrapper .tab-content  #case .icon-menu-right , #login-form-wrapper .tab-content  #guides .icon-menu-right ,  #login-form-wrapper .tab-content  #documentation .icon-menu-right {
+  background-image: url(../../_images/consumer/desktop/menu-right.png);
+   background-position: 4px 4px;
+    background-repeat: no-repeat;
+    padding:0 6px 0 16px;
+}
+
+
+#login-form-wrapper .tab-content  #webinars  .icon-menu-right {
+  background-image: url(../../_images/consumer/desktop/menu-right.png);
+   background-position: 4px 2px;
+    background-repeat: no-repeat;
+    padding:0 6px 0 16px;
+}
+
+
+#login-form-wrapper ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #494949;
+}
+#login-form-wrapper ::-moz-placeholder { /* Firefox 19+ */
+  color: #494949;
+}
+#login-form-wrapper :-ms-input-placeholder { /* IE 10+ */
+  color: #494949;
+}
+#login-form-wrapper :-moz-placeholder { /* Firefox 18- */
+  color: #494949;
+}
+
+.icon-remove-search {
+  background-image: url(../../_images/consumer/desktop/remove-shape.png);
+    background-position: -1px 4px;
+    background-repeat: no-repeat;
+    padding:0 10px 0 0;
+	width:12px;
+	height:12px;
+}
+
+.icon-input-search {
+  background-image: url(../../_images/consumer/desktop/icon-search.png);
+   background-position: 8px 4px;
+    background-repeat: no-repeat;
+    padding:0 0 0 20px;
+	width:12px;
+	height:12px;
+	border-left:1px solid #666;
+	margin-left:-12px;
+}
+
+
+.contegoriList .left-button, .contegoriList .right-button {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  margin-top: -12px;
+  cursor: pointer;
+}
+/* line 43, ../sass/app/home-page.scss */
+.contegoriList .left-button {
+  left: 0;
+  background-image:url(../../_images/consumer/desktop/carousel-left.png);
+  background-repeat:no-repeat;
+  width:22px;
+  height:42px;
+}
+
+.contegoriList .right-button {
+  right: 0;
+  background-image:url(../../_images/consumer/desktop/carousel-right.png);
+  background-repeat:no-repeat;
+  width:22px;
+  height:42px;
+}
+
+
+#login-form-wrapper .input-group-btn:last-child > .btn, #login-form-wrapper .input-group-btn:last-child > .btn-group{
+	margin-left:-3px;
+}
+
+
+.padding-viewAll{ padding:23px 2px 0;}
+
+
+#login-form-wrapper .tab-content   .tbl-box span.light-gray-text {
+  font-size: 13px;
+  font-family: "VodafoneRg";
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+}
+
+#login-form-wrapper #webinars a.gray-text {
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb(102, 102, 102);
+  font-weight: bold;
+}
+
+
+@media only screen 
+   and (min-device-width : 768px) 
+   and (max-device-width : 992px) 
+   and (orientation : portrait) {
+	#login-form-wrapper .nav > li:nth-child(1)  { width:10%; }
+	#login-form-wrapper .nav > li:nth-child(2) { width:19%;}
+	#login-form-wrapper .nav > li:nth-child(3) { width:19%;}
+	#login-form-wrapper .nav > li:nth-child(4) { width:26%; }
+	#login-form-wrapper .nav > li:nth-child(5)  { width:26%;}	
+	
+	#login-form-wrapper .nav > li:nth-child(1) > a { width:100%; text-align:center;padding:10px 0; font-size:15px;}
+	#login-form-wrapper .nav > li:nth-child(2) > a { width:100%; text-align:center;padding:10px 0; font-size:15px;}
+	#login-form-wrapper .nav > li:nth-child(3) > a { width:100%; text-align:center;padding:10px 0; font-size:15px;}
+	#login-form-wrapper .nav > li:nth-child(4) > a { width:100%; text-align:center;padding:10px 0; font-size:15px;}
+	#login-form-wrapper .nav > li:nth-child(5) > a { width:100%; text-align:center;padding:10px 0; font-size:15px;}	   
+}
+ @media only screen 
+   and (min-device-width : 768px) 
+   and (max-device-width : 992px) 
+   and (orientation : landscape) { 
+   #login-form-wrapper .nav > li:nth-child(1)  { width:10%; }
+	#login-form-wrapper .nav > li:nth-child(2) { width:19%;}
+	#login-form-wrapper .nav > li:nth-child(3) { width:19%;}
+	#login-form-wrapper .nav > li:nth-child(4) { width:26%; }
+	#login-form-wrapper .nav > li:nth-child(5)  { width:26%;}	
+	
+	#login-form-wrapper .nav > li:nth-child(1) > a { width:100%; text-align:center;padding:10px 0;}
+	#login-form-wrapper .nav > li:nth-child(2) > a { width:100%; text-align:center;padding:10px 0;}
+	#login-form-wrapper .nav > li:nth-child(3) > a { width:100%; text-align:center;padding:10px 0;}
+	#login-form-wrapper .nav > li:nth-child(4) > a { width:100%; text-align:center;padding:10px 0;}
+	#login-form-wrapper .nav > li:nth-child(5) > a { width:100%; text-align:center;padding:10px 0;}	
+   
+    }
+   
+   
+      @media only screen and (min-width: 480px) and (max-width: 767px) {
+		  
+		 #login-form-wrapper .tab-content  #all h4 {
+			  font-size: 34px;
+			  font-family: "VodafoneRg";
+			  color: rgb(230, 0, 0);
+			} 
+			#login-form-wrapper .tab-content  #all h3  {
+			  font-size: 34px;
+			  font-family: "VodafoneExBd";
+			  color: rgb(230, 0, 0);
+			}
+			
+			#login-form-wrapper  h3  { font-size: 30px;  margin-left:-6px; }
+			#login-form-wrapper select#categories{ width:100%;}
+		  #login-form-wrapper .tab-content #all .tbl-box{ border-width:1px 1px 7px;}
+		  #login-form-wrapper .contegoriList .resCarousel .carousel-item{ width:304px;margin:0  auto;}
+		  
+		  #login-form-wrapper .contegoriList .resCarousel .carousel-inner > .item{ margin-left:2px;}
+		  #login-form-wrapper select.form-control{ padding-left:10px;}
+		 #login-form-wrapper .tab-content #all .tbl-box{ margin-top:-10px;}
+		 
+		 .contegoriList .left-button {   left: 8px; top:146px; }
+			.contegoriList .right-button {right: 10px; top:146px; }
+		 #login-form-wrapper .margin-9-top{ margin:-16px -18px 10px;}
+		  #login-form-wrapper .tab-content #all .tbl-box{ border-width:5px 1px 7px;}
+		  #login-form-wrapper .tab-content #all h4{ margin-bottom:10px;}
+		  
+		 #login-form-wrapper select.form-control{ display:inline; 
+
+		border: 1px solid #000 !important;  /*Removes border*/
+		-webkit-appearance: none;  /*Removes default chrome and safari style*/
+		-moz-appearance: none; /* Removes Default Firefox style*/
+        appearance:none;
+		 background: #fff url("../../_images/consumer/mobile/Resources_All/dropdown.png") no-repeat scroll 95% center !important;}
+		 
+		 #login-form-wrapper .tab-content   .tbl-box span.light-gray-text {
+				  font-size: 12px;
+				  font-family: "VodafoneRg";
+				  color: #696969;
+				  line-height: 1.2;
+				}
+				#login-form-wrapper .tab-content #case .Downloan-btn, #login-form-wrapper .tab-content #guides .Downloan-btn, #login-form-wrapper .tab-content #webinars .Downloan-btn, #login-form-wrapper .tab-content #documentation .Downloan-btn, #login-form-wrapper .tab-content #case .Learn-more-btn, #login-form-wrapper .tab-content #guides .Learn-more-btn, #login-form-wrapper .tab-content #webinars .Learn-more-btn, #login-form-wrapper .tab-content #documentation .Learn-more-btn,#login-form-wrapper .tab-content #all .Downloan-btn, #login-form-wrapper .tab-content #all .Learn-more-btn{  margin:0 -2px -5px;}
+			.carousel-inner > .item{ margin-left:0;}
+		 }
+   
+   @media only screen and (min-width: 320px) and (max-width: 479px) {
+	   #login-form-wrapper select#categories{ width:100%;}
+		  #login-form-wrapper .tab-content #all .tbl-box{ border-width:1px 1px 7px;}
+	   #login-form-wrapper .contegoriList .resCarousel .carousel-item{ width:210px;margin:0  auto;}
+	   #login-form-wrapper .box-height p{ font-size:18px;}
+#login-form-wrapper .tab-content #all .tbl-box{ padding:18px 8px 10px;}
+	   #login-form-wrapper .tab-content #all h4{ font-size:28px;}
+	  	#login-form-wrapper  h3  { font-size: 30px;  margin-left:-6px; }
+		#login-form-wrapper select.form-control{ padding-left:10px;}
+		#login-form-wrapper .margin-9-top{ margin:-16px -18px 10px;}
+		#login-form-wrapper .tab-content #all h4{ margin-bottom:10px;}
+		#login-form-wrapper .tab-content #all .Downloan-btn, 
+		#login-form-wrapper .tab-content #all .Learn-more-btn{ margin:0;}
+		.carousel-inner > .item{ margin-left:0;}
+	   }
+   
+   
+  
+   

@@ -1,0 +1,1511 @@
+.cycle-slideshow p {
+	white-space: normal;
+}
+li.cycle-slide {
+	width: 311px;
+	height: 416px;
+	background-color: transparent;
+}
+.categoriesCycle li.cycle-slide {
+	width: 304px;
+	height: 490px;
+	background-color: transparent;
+	vertical-align: top;
+}
+.red-text{ color:#E3060A;}
+.gray-bg{ background-color:#000000; }
+.image-cont {
+	position: relative;
+	width: 311px;
+	height: 295px;
+	padding-left: 8px;
+	overflow: hidden;
+}
+.carousel-item-pic {
+	width: 303px;
+	height: 416px;
+}
+.sticker {
+	display: inline-block;
+	position: absolute;
+	width: 95px;
+	height: 84px;
+	background-color: #e60000;
+	left: 0px;
+	top: 24px;
+	z-index: 200;
+	text-align: center;
+	padding: 8px 8px 0 6px;
+}
+.sticker::before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 20px;
+	height: 20px;
+	background-color: #e60000;
+	z-index: 110;
+}
+.sticker::after {
+	content: "";
+	display: block;
+	position: absolute;
+	left: -10px;
+	bottom: -10px;
+	border-style: solid;
+	border-width: 10px;
+	border-color: transparent;
+	border-right-color: #1a0000;
+	z-index: 100;
+}
+.sticker .sticker-cont {
+	z-index: 150;
+	position: relative;
+}
+.sticker .black-text {
+	font-family: Arial;
+	display: block;
+	color: #000;
+}
+.sticker .price {
+	color: #fff;
+	font-family: Arial;
+	display: block;
+	font-weight: bold;
+}
+.sticker .users {
+	display: block;
+	font-family: Arial;
+	color: #fff;
+}
+.details {
+	padding: 12px 0px 0px 20px;
+	margin-left: 8px;
+	background: #333;
+	height: 122px;
+}
+.details p.p-sm,
+.details a.p-sm  {
+	color: #fff;
+	white-space: normal;
+}
+.carouselNav {
+	position: relative;
+}
+.carouselNav #prev, .carouselNav #prevCat {
+	background-position: 0px 0;
+}
+.carouselNav #next, .carouselNav #nextCat {
+	background-position: -22px 0;
+}
+
+.carouselNav > a {
+	width: 22px;
+	display: block;
+	top: -219px;
+	height: 42px;
+	background-image: url('../../_images/consumer/product/arrows.png');
+	cursor: pointer;
+	position: absolute;
+	z-index: 99;
+	margin-top: -16px;
+	opacity: 0.5;
+	-webkit-transition: opacity 0.35s linear 0s;
+	transition: opacity 0.35s linear 0s;
+}
+.categories-wrap .carouselNav > a {
+	background-image: url('../../_images/consumer/home/arrowsWhite.png');
+	top: -525px;
+}
+.categories-wrap .category-icon {
+	display: inline-block;
+	float: none;
+}
+.categories-wrap .category-heading {
+	position: static;
+	display: inline-block;
+	vertical-align: bottom;
+	white-space: normal;
+	margin: 0;
+}
+#catCaptionShowing {
+	font-size: 12px;
+	color: #cdcdcd;
+	font-family: Arial;
+}
+#catCaptionText {
+	color: #cdcdcd;
+	font-family: Arial;
+}
+#catCaptionTextOf {
+	color: #cdcdcd;
+	font-family: Arial;
+}
+.categories-wrap p {
+	font-family: Arial;
+	color: #cdcdcd;
+	white-space: normal;
+}
+.categories-wrap .collapsable a.p-sm {
+	font-family: Arial;
+	color: #eaeaea;
+}
+.categories-wrap .collapsable {
+	background-color: #eb1c23;
+	border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	color: #FFF;
+	position: relative;
+}
+.menu_simple {
+	background-color: transparent;
+}
+.menu_simple ul {
+	border: 1px solid #505050;
+	border-radius: 3px;
+	background-color: #000;
+	opacity: 0.4;
+	padding: 0 10px;
+}
+.categorySlide .menu_simple li {
+	margin: 0;
+	border: none;
+	background: url(../../_images/consumer/home/categorySubOptionBorder.png) no-repeat left bottom scroll transparent;
+	height: 41px;
+	position: relative;
+}
+.categorySlide .menu_simple li:last-child {
+	background-image: none;
+}
+.menu_simple ul li a {
+	text-decoration: none;
+	display: block;
+	font-family: Arial;
+	color: #eaeaea;
+}
+.menu_simple ul li a::after {
+	content: '';
+	float: none;
+	position: absolute;
+	background: url("../../_images/consumer/planDetails/Shape 1.png") 50% 50% no-repeat scroll transparent;
+	width: 10px;
+	height: 10px;
+}
+.glyphicon-menu-up::before {
+	content: '';
+	float: none;
+	position: absolute;
+	background: url("../../_images/consumer/home/arrowUpWhite.png") 50% 50% no-repeat scroll transparent;
+	width: 10px;
+	height: 10px;
+}
+.glyphicon-menu-down::before {
+	content: '';
+	float: none;
+	position: absolute;
+	background: url("../../_images/consumer/home/arrowDownWhite.png") 50% 50% no-repeat scroll transparent;
+	width: 10px;
+	height: 10px;
+}
+li.categorySlide  > a {
+	font-size: 12px;
+	font-family: Arial;
+	font-weight: bold;
+}
+li.categorySlide  > a .glyphicon-menu-right::before {
+	content: '';
+	float: none;
+	position: absolute;
+	background: url("../../_images/consumer/home/arrowRightRed.png") 50% 50% no-repeat scroll transparent;
+	width: 10px;
+	height: 10px;
+}
+.menu_simple ul li a::after {
+	left: 276px;
+	top: 18px;
+}
+.glyphicon-menu-up::before, .glyphicon-menu-down::before {
+	left: -15px;
+	top: -4px;
+}
+li.categorySlide > a .glyphicon-menu-right::before {
+	top: -10px;
+}
+
+.carousel-inner > .item > a.read-more img {
+	display: inline-block;
+	vertical-align: middle;
+}
+#top-banner-carousel .carousel-control {
+	z-index: 200;
+	filter: none;
+}
+#top-banner-carousel .carousel-inner > .item {
+	top: 0px;
+	margin-left: 0px;
+}
+.right-box .carousel-inner > .item {
+	top: 6px;
+	margin-left: 0;
+}
+.indicators-rightBox .carousel-indicators .active, .indicators-webinar .carousel-indicators .active, .indicators-top .carousel-indicators .active {
+	background-color: #4c4c4c;
+}
+.indicators-rightBox .carousel-indicators li, .indicators-webinar .carousel-indicators li, .indicators-top .carousel-indicators li {
+	background-color: #b3b3b3;
+}
+
+
+
+@media only screen and (min-width : 992px){
+	#top-banner-carousel {
+		background-color: #ededed;
+		height: 642px;
+	}
+	.control-container {
+		position: relative;
+		width: 992px;
+		margin: 0 auto;
+	}
+	#top-banner-carousel .carousel-control {
+		width: 64px;
+		height: 64px;
+		position: absolute;
+		top: -274px;
+		background: url("../../../_images/consumer/home/banner/top-banner-control.png") no-repeat;
+	}
+	#top-banner-carousel .left {
+		left: 2%;
+	}
+	#top-banner-carousel .right {
+		right: 2%;
+		background-position: -64px 50%;
+	}
+	.top-banner-indicators {
+		border-radius: 3px;
+		background-color: #fff;
+		position: absolute;
+		top: auto;
+		width: 67px;
+		height: 33px;
+		z-index: 500;
+		margin-bottom: 0;
+		bottom: -3px;
+		left: 462px;
+		padding-left: 0;
+		margin-left: 0;
+		text-align: center;
+		list-style: none;
+	}
+	#top-banner-carousel .carousel-indicators li {
+		display: inline-block;
+		width: 8px;
+		height: 8px;
+		margin: 12px 0 0 0;
+		text-indent: -999px;
+		cursor: pointer;
+		background-color: rgb(204, 204, 204);
+		border: none;
+		border-radius: 50%;
+	}
+	#top-banner-carousel .carousel-indicators li.active {
+		background-color: rgb(102, 102, 102);
+	}
+
+	#top-banner-carousel .carousel-inner {
+		position: relative;
+		width: 100%;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+	.top-banner-carousel-slide {
+		background-position: 50% 50%;
+		background-size: auto 100%;
+		height: 642px;
+	}
+	.banner01 {
+		background-image: url("../../../_images/consumer/home/banner/desktop/001_Cloud_homepage_Tab_A.png");
+	}
+	.banner02 {
+		background-image: url("../../../_images/consumer/home/banner/desktop/001_Cloud_homepage_Tab_A.png");
+	}
+	.banner03 {
+		background-image: url("../../../_images/consumer/home/banner/desktop/001_Cloud_homepage_Tab_A.png");
+	}
+	.banner04 {
+		background-image: url("../../../_images/consumer/home/banner/desktop/001_Cloud_homepage_Tab_A.png");
+	}
+	.top-banner-carousel-slide .inner {
+		min-height: 642px;
+	}
+	.wrapper .inner {
+		display: block;
+		width: 950px;
+		margin: 0 auto;
+		padding: 0 0px;
+		clear: both;
+	}
+	.placeholder {
+		width: 566px;
+		height: 642px;
+		float: left;
+		padding: 0;
+		margin: 0;
+	}
+	.top-banner-carousel-slide .facts-box {
+		float: left;
+		padding-top: 126px;
+		width: 384px;
+	}
+	.top-banner-carousel-slide .facts-box h2 {
+		font-size: 40px;
+		font-family: "VodafoneExBd";
+		line-height: 40px;
+		width: 381px;
+		margin: 20px 0 8px;
+	}
+	.top-banner-carousel-slide .facts-box p {
+		font-size: 18px;
+		font-family: "VodafoneRg";
+		line-height: 1.2;
+		padding-bottom: 12px;
+		margin: 0 0 0 1px;
+	}
+	.top-banner-carousel-slide .facts-box a {
+		font-size: 18px;
+		font-family: "VodafoneRg";
+		font-weight: bold;
+		line-height: 1.2;
+		margin: 0px 0 6px 2px;
+	}
+
+	.w992 {
+		width: 992px;
+		margin: 0 auto;
+	}
+	.w950 {
+		width: 950px;
+		margin: 0 auto;
+		position: relative;
+	}
+	.carousel-wrap h3 {
+		margin: 13px 0px 0px -1px;
+		font-size: 34px;
+	}
+	.carousel-wrap p {
+		margin: 2px 0px 5px 0px;
+	}
+	.wrapper.carousel-wrap .inner {
+		padding: 27px 0px 32px;
+	}
+	.cycle2Carousel {
+		width: 958px;
+		margin: 0 0 0 13px;
+		height: 416px;
+	}
+	.wrapper.categories-wrap {
+		height: 693px;
+		margin-top: 56px;
+	}
+	li.cycle-slide {
+		margin-right: 13px;
+	}
+	.categoriesCycle li.cycle-slide {
+		height: 570px;
+		margin-right: 20px;
+	}
+	.sticker .black-text {
+		font-size: 12px;
+		line-height: 1.45;
+	}
+	.sticker .price {
+		font-size: 22px;
+		line-height: 16px;
+	}
+	.sticker .users {
+		font-size: 12px;
+		margin: 6px 0 0 0;
+	}
+	.details h5 {
+		line-height: 13px;
+	}
+	.details p.p-sm,
+	.details a.p-sm  {
+		line-height: 17px;
+		font-size: 12px;
+	}
+.carouselNav #prev, .carouselNav #prevCat {
+	right: 100%;
+}
+.carouselNav #next, .carouselNav #nextCat {
+	left: 100%;
+}
+	.categories-wrap .main-heading {
+		font-size: 34px;
+		margin: 0 0 0 0;
+	}
+	.categories-wrap .category-heading {
+		max-width: none;
+		width: 124px;
+		font-size: 24px;
+		line-height: 23px;
+		margin: 0 0 0 4px;
+	}
+	.categories-wrap p {
+		font-size: 14px;
+		line-height: 1.25;
+		padding: 0;
+		margin-bottom: 11px;
+	}
+	#catCaptionContainer {
+		position: absolute;
+		left: 400px;
+		top: -50px;
+	}
+	#catCaptionShowing {
+		font-size: 12px;
+		margin-left: 20px;
+	}
+	#catCaptionTextOf {
+		font-size: 14px;
+	}
+	#catCaptionText {
+		font-size: 20px;
+		border: 1px solid #ddd;
+		padding: 3px 24px 3px 14px;
+		border-radius: 4px;
+	}
+	.categories-wrap .categories-cont {
+		margin-top: 0px;
+	}
+	.categories-wrap .upper {
+		min-height: auto;
+		margin-bottom: 9px;
+		height: 83px;
+	}
+	.categorySlide .catDesc {
+		margin-bottom: 0px;
+		height: 62px;
+	}
+	
+	.menu_simple ul {
+		width: 302px;
+	}
+	.menu_simple ul li a {
+		padding: 15px 10px;
+		font-size: 13px;
+		line-height: 17px;
+	}
+	.w646 {
+		width: 628px;
+		margin: 0 18px 0 0;
+		padding: 0;
+		float: left;
+	}
+	.w304 {
+		width: 304px;
+		margin: 0;
+		padding: 0;
+		float: left;
+	}
+	
+	.featured-wrap h3 {
+		margin: 39px 0 0 0;
+		font-size: 34px;
+	}
+	
+	
+}
+
+@media only screen and (width : 1024px){
+	.carouselNav #prev, .carouselNav #prevCat {
+		right: 99%;
+	}
+	.carouselNav #next, .carouselNav #nextCat {
+		left: 99%;
+	}
+}
+@media only screen and (width : 992px){
+	.carouselNav #next, .carouselNav #nextCat {
+		left: 970px;
+	}
+	.carouselNav #prev, .carouselNav #prevCat {
+		right: 970px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	#top-banner-carousel {
+		background-color: #ededed;
+		height: 642px;
+	}
+	.control-container {
+		position: relative;
+		width: 768px;
+		margin: 0 auto;
+	}
+	#top-banner-carousel .carousel-control {
+		width: 64px;
+		height: 64px;
+		position: absolute;
+		top: -327px;
+		background: url("../../../_images/consumer/home/banner/top-banner-control.png") no-repeat;
+	}
+	#top-banner-carousel .left {
+		left: 2%;
+	}
+	#top-banner-carousel .right {
+		right: 2%;
+		background-position: -64px 50%;
+	}
+	.top-banner-indicators {
+		border-radius: 3px;
+		background-color: #fff;
+		position: absolute;
+		top: auto;
+		width: 67px;
+		height: 33px;
+		z-index: 500;
+		margin-bottom: 0;
+		bottom: -3px;
+		left: 351px;
+		padding-left: 0;
+		margin-left: 0;
+		text-align: center;
+		list-style: none;
+	}
+	#top-banner-carousel .carousel-indicators li {
+		display: inline-block;
+		width: 8px;
+		height: 8px;
+		margin: 12px 0 0 0;
+		text-indent: -999px;
+		cursor: pointer;
+		background-color: rgb(204, 204, 204);
+		border: none;
+		border-radius: 50%;
+	}
+	#top-banner-carousel .carousel-indicators li.active {
+		background-color: rgb(102, 102, 102);
+	}
+	#top-banner-carousel .carousel-inner {
+		position: relative;
+		/* width: 768px; */
+		overflow: hidden;
+		margin: 0 auto;
+	}
+	.top-banner-carousel-slide {
+		background-position: 44% 50%;
+		background-size: auto 100%;
+		height: 642px;
+	}
+	.banner01 {
+		background-image: url("../../../_images/consumer/home/banner/desktop/001_Cloud_homepage_Tab_A.png");
+	}
+	.banner02 {
+		background-image: url("../../../_images/consumer/home/banner/desktop/001_Cloud_homepage_Tab_A.png");
+	}
+	.banner03 {
+		background-image: url("../../../_images/consumer/home/banner/desktop/001_Cloud_homepage_Tab_A.png");
+	}
+	.banner04 {
+		background-image: url("../../../_images/consumer/home/banner/desktop/001_Cloud_homepage_Tab_A.png");
+	}
+	.top-banner-carousel-slide .inner {
+		min-height: 642px;
+	}
+	.wrapper .inner {
+		display: block;
+		width: 768px;
+		margin: 0 auto;
+		padding: 0 0px;
+		clear: both;
+	}
+	.placeholder {
+		width: 56%;
+		height: 642px;
+		float: left;
+		padding: 0;
+		margin: 0;
+	}
+	.top-banner-carousel-slide .facts-box {
+		float: left;
+		padding-top: 126px;
+		width: 40%;
+	}
+	.top-banner-carousel-slide .facts-box h2 {
+		font-size: 40px;
+		font-family: "VodafoneExBd";
+		line-height: 40px;
+		width: 381px;
+		margin: 20px 0 8px;
+	}
+	.top-banner-carousel-slide .facts-box p {
+		font-size: 18px;
+		font-family: "VodafoneRg";
+		line-height: 1.2;
+		padding-bottom: 12px;
+		margin: 0 0 0 1px;
+	}
+	.top-banner-carousel-slide .facts-box a {
+		font-size: 18px;
+		font-family: "VodafoneRg";
+		font-weight: bold;
+		line-height: 1.2;
+		margin: 0px 0 6px 2px;
+	}
+	.w992 {
+		width: auto;
+		margin: 0 10px;
+		padding: 0;
+	}
+	.sticker {
+		height: 92px;
+	}
+	.cycle2Carousel {
+		width: 636px;
+		margin: 0 auto;
+	}
+	li.cycle-slide {
+		margin-right: 13px;
+	}
+	.carouselNav #prev, .carouselNav #prevCat {
+		left: 21px;
+	}
+	.carouselNav #next , .carouselNav #nextCat{
+		right: 19px;
+	}
+	.carouselNav #nextCat {
+		top: -404px;
+	}
+	.carouselNav #prevCat {
+		top: -404px;
+	}
+	.w992 {
+		width: auto;
+		margin: 0 10px;
+		padding: 0;
+	}
+	.w950 {
+		margin: 0 auto;
+		position: relative;
+		padding: 0 15px;
+		width: 768px;
+	}
+	.wrapper.categories-wrap .inner {
+		padding: 27px 15px;
+	}
+	.cycle2Carousel {
+		width: 648px;
+		margin: 0 auto;
+	}
+	.categories-wrap .categories-cont {
+		margin: 40px auto 0;
+		padding: 0;
+		width: 621px;
+	}
+	#catCaptionContainer {
+		position: absolute;
+		left: 37%;
+		top: -67px;
+	}
+	#catCaptionShowing {
+		font-size: 12px;
+		margin-left: 20px;
+	}
+	#catCaptionTextOf {
+		font-size: 18px;
+	}
+	#catCaptionText {
+		font-size: 24px;
+		border: 1px solid #ddd;
+		padding: 0px 25px 0px 21px;
+		border-radius: 4px;
+	}
+	.w646 {
+		width: 66.10526316%;
+		margin: 0 1.894736842% 0 0;
+		padding: 0;
+		float: left;
+	}
+	.w304 {
+		width: 234px;
+		margin: 0;
+		padding: 0;
+		float: left;
+	}
+	.featured-wrap h3 {
+		margin-top: 39px;
+		font-size: 34px;
+	}
+	.w950.featured-wrap {
+		margin-bottom: 20px;
+	}
+	
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+	#top-banner-carousel {
+		width: 100%;
+		margin: 9px auto 0;
+		background-color: #ededed;
+	}
+	#top-banner-carousel .carousel-inner {
+
+		margin: 0 auto;
+	}
+	.top-banner-carousel-slide {
+		background-position: 0% 50%;
+		background-size: auto 100%;
+		height: 327px;
+		background-repeat: no-repeat;
+	}
+	.banner01 {
+		background-image: url("../../../_images/consumer/home/banner/tab/001_Cloud_homepage_Desktop_B.png");
+	}
+	.banner02 {
+		background-image: url("../../../_images/consumer/home/banner/tab/001_Cloud_homepage_Desktop_B.png");
+	}
+	.banner03 {
+		background-image: url("../../../_images/consumer/home/banner/tab/001_Cloud_homepage_Desktop_B.png");
+	}
+	.banner04 {
+		background-image: url("../../../_images/consumer/home/banner/tab/001_Cloud_homepage_Desktop_B.png");
+	}
+	.placeholder {
+		width: 50%;
+		height: 327px;
+		float: left;
+	}
+	.top-banner-carousel-slide .facts-box {
+		float: left;
+		padding-top: 0px;
+		width: 50%;
+	}
+	.top-banner-carousel-slide .facts-box h2 {
+		font-size: 26px;
+		font-family: "VodafoneExBd";
+		line-height: 1.2;
+		width: 220px;
+		margin: 17px 0 8px;
+	}
+	.top-banner-carousel-slide .facts-box p {
+		font-size: 14.5px;
+		font-family: "VodafoneRg";
+		line-height: 16.11px;
+		padding-bottom: 12px;
+		margin: 0 0 0 1px;
+		width: 200px;
+	}
+	.top-banner-carousel-slide .facts-box a {
+		font-size: 11px;
+		font-family: "Arial";
+		font-weight: bold;
+		line-height: 1.2;
+		margin: 0px 0 6px 2px;
+	}
+	.control-container {
+		position: relative;
+		width: 100%;
+		margin: 0 auto;
+	}
+	#top-banner-carousel .carousel-control {
+		width: 52px;
+		height: 52px;
+		position: absolute;
+		top: -188px;
+		background: url("../../../_images/consumer/home/banner/mobile/top-banner-control.png") no-repeat;
+	}
+	#top-banner-carousel .left {
+		left: 1.6%;
+	}
+	#top-banner-carousel .right {
+		right: 1.6%;
+		background-position: -52px 50%;
+	}
+	.top-banner-indicators {
+		border-radius: 3px;
+		background-color: #fff;
+		position: absolute;
+		top: auto;
+		width: 67px;
+		height: 33px;
+		z-index: 500;
+		margin-bottom: 0;
+		bottom: -3px;
+		left: 206px;
+		padding-left: 0;
+		margin-left: 0;
+		text-align: center;
+		list-style: none;
+	}
+	#top-banner-carousel .carousel-indicators li {
+		display: inline-block;
+		width: 8px;
+		height: 8px;
+		margin: 12px 0 0 0;
+		text-indent: -999px;
+		cursor: pointer;
+		background-color: rgb(204, 204, 204);
+		border: none;
+		border-radius: 50%;
+	}
+	#top-banner-carousel .carousel-indicators li.active {
+		background-color: rgb(102, 102, 102);
+	}
+	.carousel-wrap {
+		padding: 10px 10px 17px 10px;
+	}
+	.wrapper.featured-heading.carousel-wrap {
+		margin-top: 0px;
+	}
+	.wrapper.carousel-wrap .inner {
+		display: block;
+		width: 442px;
+		margin: 0 auto;
+		padding: 0 0px 0 69px;
+		clear: both;
+	}
+	.wrapper.carousel-wrap .inner h3 {
+		font-size: 22px;
+		margin: 32px 0px 0px 1px;
+	}
+	.w992 {
+		width: 442px;
+		margin: 0 auto;
+		padding: 0;
+	}
+	.cycle2Carousel {
+		width: 311px;
+		margin: 0 0 0 63px;
+		height: 416px;
+	}
+	li.cycle-slide {
+		margin-right: 0;
+	}
+	.sticker .black-text {
+		font-size: 12px;
+		line-height: 1.45;
+	}
+	.sticker .price {
+		font-size: 22px;
+		line-height: 16px;
+	}
+	.sticker .users {
+		font-size: 12px;
+		margin: 6px 0 0 0;
+	}
+	.details h5 {
+		line-height: 13px;
+	}
+	.details p.p-sm,
+	.details a.p-sm  {
+		line-height: 17px;
+		font-size: 12px;
+	}
+	.carouselNav #prev, .carouselNav #prevCat  {
+		left: 21px;
+	}
+	.carouselNav #next, .carouselNav #nextCat {
+		right: 19px;
+	}
+	.wrapper.categories-wrap {
+		margin-top: 82px;
+	}
+	.categories-wrap .categories-cont {
+		margin: 0 auto;
+		padding: 0;
+		width: 304px;
+		margin-top: 56px;
+	}
+	.carouselNav #nextCat {
+		top: -427px;
+	}
+	.carouselNav #prevCat {
+		top: -426px;
+	}
+	.categories-wrap {
+		background-size: 100% auto;
+		background-position: 50% 96%;
+	}
+	.categories-wrap .carousel-wrap {
+		margin-top: 46px;
+		padding: 10px 10px 0px 3px;
+	}
+	.wrapper.categories-wrap .inner {
+		padding: 0;
+		width: 304px;
+		margin: 0 auto;
+	}
+	.categories-wrap .main-heading {
+		margin: 25px 0 0 1px;
+		font-size: 24px;
+	}
+	.categories-wrap p {
+		font-size: 14px;
+		margin: 0px 0 0 -4px;
+	}
+	.categories-wrap p.catDesc {
+		font-size: 14px;
+		margin: 0px 0 22px -4px;
+	}
+	.categories-wrap .collapsable {
+		margin: 1px 0px;
+		padding: 6px 9px 2px;
+		height: 35px;
+		border: 1px solid #505050;
+	}
+	.menu_simple ul li a {
+		padding: 15px 0;
+		font-size: 13px;
+		line-height: 17px;
+	}
+	.w950 {
+		width: 442px;
+		margin: 0 auto;
+		position: relative;
+	}
+	#catCaptionContainer {
+		position: absolute;
+		left: 174px;
+		top: -31px;
+	}
+	#catCaptionShowing {
+		font-size: 12px;
+		margin-left: 20px;
+	}
+	#catCaptionTextOf {
+		font-size: 18px;
+	}
+	#catCaptionText {
+		font-size: 24px;
+		border: 1px solid #ddd;
+		padding: 0px 25px 0px 21px;
+		border-radius: 4px;
+	}
+	.categories-wrap .category-heading {
+		position: relative;
+		left: 10px;
+		top: 1px;
+		font-size: 24px;
+		line-height: 23px;
+	}
+	.w646 {
+		width: 100%;
+		margin: 0 0 0 0;
+		padding: 0;
+		float: none;
+	}
+	.w304 {
+		width: 275px;
+		margin: 0 auto 28px;
+		padding: 0;
+		float: none;
+	}
+
+	.featured-wrap h3 {
+		margin-top: 39px;
+		font-size: 25px;
+	}
+	.featuredCaseStudyHeading {
+		margin: 0 0 0 0px;
+		background: url(../../_images/consumer/home/dashedLine.png) 50% 100% repeat-x scroll transparent;
+		padding-bottom: 16px;
+	}
+	.featured-wrap h3 {
+		margin: 45px 0 0 0;
+		font-size: 25px;
+	}
+	.featured-wrap .featuredCaseStudyHeading p {
+		margin: 4px 0 0 0;
+		font-size: 11.5px;
+	}
+	.featured-wrap p.featuredCaseStudyCatName {
+		margin: 13px 0 7px 0px;
+		font-size: 11.5px;
+	}
+	.featuredCaseStudyBanner {
+		width: 442px;
+		height: 140px;
+		background: url(../../_images/consumer/home/mobile/001_Cloud_homepage_7.png) 50% 50% no-repeat scroll transparent;
+	}
+	.featured-wrap h4.featuredCaseStudySubHeading {
+		margin: 19px 0px 15px 0px;
+		font-size: 18px;
+		text-align: left;
+		font-weight: normal;
+	}
+	p.featuredCaseStudyDesc {
+		font-size: 11.5px;
+		line-height: 19.65px;
+	}
+	.featuredCaseStudyLink {
+		margin: 0 0 0 0;
+	}
+	.featuredCaseStudyLink {
+		margin: 7px 0 0 1px;
+		display: block;
+		font-size: 11px;
+	}
+	.featured-wrap .right-box {
+		margin-top: 22px;
+		padding-top: 21px;
+	}
+	.right-box-padding {
+		width: 100%;
+	}
+	.featured-wrap .right-box .icon.developers, .featured-videos-wrap .right-box .icon.developers {
+		background-image: url(../../../_images/consumer/home/mobile/developer-icon.png);
+		display: inline-block;
+		width: 100%;
+		height: 37px;
+		margin: 0px auto;
+		background-repeat: no-repeat;
+		background-position: 117px 0px;
+	}
+	.dev-community {
+		margin: 0 0 0 0px;
+		background: url(../../_images/consumer/home/dashedLine.png) 50% 100% repeat-x scroll transparent;
+		padding-bottom: 17px;
+	}
+	.featured-wrap .right-box h5.red-text, .featured-videos-wrap .right-box h5​.red-text {
+		font-size: 14px;
+		font-weight: normal;
+		font-family: Arial;
+		font-weight: bold;
+		margin: 3px 0 0 17px;
+	}
+	.featured-wrap .dev-community h5 {
+		margin: 5px 0 0 -6px;
+	}	
+	.featured-wrap .right-box p, .featured-videos-wrap .right-box p {
+		font-size: 11px;
+		line-height: 14.35px;
+	}
+	.featured-wrap .dev-community p {
+		margin: 8px auto 3px;
+		width: 198px;
+		text-align: center;
+	}
+	.featured-wrap .dev-community a {
+		font-size: 12.5px;
+		line-height: 1.286;
+	}
+	.featured-wrap .right-box .icon.webinars, .featured-videos-wrap .right-box .icon.webinars {
+		background-image: url(../../../_images/consumer/home/mobile/icon-webinars.png);
+		background-position: center center;
+		width: 77px;
+		height: 42px;
+		margin: 0 0 0 -6px;
+	}
+	.upcoming-webinars {
+		padding: 19px 0 0 0px;
+	}
+	.featured-wrap .right-box .upcoming-webinars h5 {
+		margin: -3px 0 0 11px;
+	}
+	.upcoming-webinars h4 {
+		margin: 10px auto 0;
+		width: 219px;
+		line-height: 20px;
+	}
+	#testimonials {
+		margin: 3px 0px 12px;
+	}
+	.indicators-webinar {
+		position: absolute;
+		top: -86px;
+		right: -7px;
+		padding: 10px;
+		width: 24%;
+	}
+	#up-web {
+		width: 280px;
+		margin: 0 auto;
+	}
+	#testimonials .carousel-inner > .item {
+		top: 0px;
+		margin-left: 0px;
+	}
+	#testimonials .carousel-inner > .item img {
+		width: 61px;
+		height: 60px;
+	}
+	#testimonials p.chair-name {
+		font-size: 14.496px;
+		font-family: Arial;
+	}
+	p.chair-desig {
+		margin-bottom: 0px;
+	}
+	p.webinar-time {
+		margin: 1px 0 0 -4px;
+	}
+	/**************************************/
+	.featured-videos-wrap {
+		padding: 6px 0px 0px;
+		overflow: auto;
+		background-color: #f5f5f5;
+		margin-bottom: 99px;
+		margin-top: 4px;
+	}
+	.wrapper.featured-videos-wrap .w304 {
+		margin: 0 auto 23px;
+	}
+	.featured-videos-wrap .heading {
+		margin: 0px 0 30px 0px;
+	}
+	.featured-videos-wrap h3 {
+		margin-top: 0px;
+		font-size: 25px;
+		margin-bottom: 0;
+	}
+	.featured-videos-wrap .heading p {
+		margin: 4px 0 0 0;
+		font-size: 11.5px;
+		color: #666;
+	}
+	#db-videos .indicators-top {
+		top: -19px;
+		left: -3px;
+	}
+	#db-videos .carousel-inner > .item {
+		top: 0px;
+		min-height: 381px;
+	}
+	#db-videos .carousel-inner > .item > img {
+		height: 290px;
+	}
+	.date-place {
+		margin-top: 13px;
+		font-size: 10.5px;
+		color: #666;
+		margin-bottom: 0;
+	}
+	.date-place + p {
+		margin-top: 2px;
+		font-size: 11.5px;
+		color: #666;
+		margin-bottom: 0;
+	}
+	
+}
+
+@media only screen and (max-width: 479px){
+	.wrapper.carousel-wrap {
+		margin-top: 0px;
+	}
+	#top-banner-carousel {
+		width: 100%;
+		margin: 9px auto 0;
+		background-color: #ededed;
+	}
+	#top-banner-carousel .carousel-inner {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.top-banner-carousel-slide {
+		background-position: 0% 50%;
+		background-size: auto 100%;
+		height: 327px;
+	}
+	.banner01 {
+		background-image: url("../../../_images/consumer/home/banner/mobile/Man01.png");
+	}
+	.banner02 {
+		background-image: url("../../../_images/consumer/home/banner/mobile/Man01.png");
+	}
+	.banner03 {
+		background-image: url("../../../_images/consumer/home/banner/mobile/Man01.png");
+	}
+	.banner04 {
+		background-image: url("../../../_images/consumer/home/banner/mobile/Man01.png");
+	}
+	.placeholder {
+		width: 50%;
+		height: 327px;
+		float: left;
+	}
+	.top-banner-carousel-slide .facts-box {
+		float: left;
+		padding-top: 0px;
+		width: 48%;
+	}
+	.top-banner-carousel-slide .facts-box h2 {
+		font-size: 26px;
+		font-family: "VodafoneExBd";
+		line-height: 1.2;
+		width: 90%;
+		margin: 17px 0 8px;
+	}
+	.top-banner-carousel-slide .facts-box p {
+		font-size: 14.5px;
+		font-family: "VodafoneRg";
+		line-height: 16.11px;
+		padding-bottom: 12px;
+		margin: 0 0 0 1px;
+		width: 200px;
+	}
+	.top-banner-carousel-slide .facts-box a {
+		font-size: 11px;
+		font-family: "Arial";
+		font-weight: bold;
+		line-height: 1.2;
+		margin: 0px 0 6px 2px;
+	}
+	.control-container {
+		position: relative;
+		width: 98%;
+		margin: 0 auto;
+	}
+	#top-banner-carousel .carousel-control {
+		width: 52px;
+		height: 52px;
+		position: absolute;
+		top: -188px;
+		background: url("../../../_images/consumer/home/banner/mobile/top-banner-control.png") no-repeat;
+	}
+	#top-banner-carousel .left {
+		left: 1.6%;
+	}
+	#top-banner-carousel .right {
+		right: 1.6%;
+		background-position: -52px 50%;
+	}
+	.top-banner-indicators {
+		border-radius: 3px;
+		background-color: #fff;
+		position: absolute;
+		top: auto;
+		width: 67px;
+		height: 33px;
+		z-index: 500;
+		margin-bottom: 0;
+		bottom: -3px;
+		left: calc((100% - 67px)/2);
+		padding-left: 0;
+		margin-left: 0;
+		text-align: center;
+		list-style: none;
+	}
+	#top-banner-carousel .carousel-indicators li {
+		display: inline-block;
+		width: 8px;
+		height: 8px;
+		margin: 12px 0 0 0;
+		text-indent: -999px;
+		cursor: pointer;
+		background-color: rgb(204, 204, 204);
+		border: none;
+		border-radius: 50%;
+	}
+	#top-banner-carousel .carousel-indicators li.active {
+		background-color: rgb(102, 102, 102);
+	}
+	.w992 {
+		width: auto;
+		margin: 0 10px;
+		padding: 0;
+	}
+	.w950 {
+		margin: 0 auto;
+		position: relative;
+	}
+	.sticker {
+		height: 90px;
+	}
+	.cycle2Carousel {
+		width: 311px;
+		margin: 0 auto;
+	}
+	li.cycle-slide {
+		margin-right: 0;
+	}
+	.carouselNav #prev {
+		right: 21px;
+	}
+	.carouselNav #next {
+		left: 19px;
+	}
+	.w950 {
+		padding: 0 10px;
+	}
+	.categories-wrap .categories-cont {
+		margin: 40px auto 0;
+		padding: 0;
+		width: 80vw;
+	}
+	.categoriesCycle li.cycle-slide {
+		width: 80vw;
+	}
+	.carouselNav #nextCat {
+		top: -304px;
+		left: -7%;
+	}
+	.carouselNav #prevCat {
+		top: -304px;
+		left: 99%;
+	}
+	#catCaptionContainer {
+		position: absolute;
+		left: 32%;
+		top: -60px;
+	}
+	#catCaptionShowing {
+		font-size: 12px;
+		margin-left: 20px;
+	}
+	#catCaptionTextOf {
+		font-size: 18px;
+	}
+	#catCaptionText {
+		font-size: 24px;
+		border: 1px solid #ddd;
+		padding: 0px 25px 0px 21px;
+		border-radius: 4px;
+	}
+	.w646 {
+		width: 100%;
+		margin: 0 0 0 0;
+		padding: 0;
+		float: none;
+	}
+	.w304 {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		float: none;
+	}
+	.featured-wrap .right-box, .featured-videos-wrap .right-box {
+		margin: 22px 0;
+		width: 100%;
+	}
+	.right-box-padding {
+		padding: 0px 15px 10px;
+	}
+	.dev-community {
+		margin: 0 0 0 0px;
+		background: url(../../_images/consumer/home/dashedLine.png) 50% 100% repeat-x scroll transparent;
+		padding-bottom: 15px;
+	}
+	.indicators-webinar {
+		top: -104px;
+	}
+	.upcoming-webinars {
+		margin-top: 20px;
+	}
+	.featured-wrap h3 {
+		margin-top: 39px;
+		font-size: 25px;
+	}
+	
+}
+
+@media only screen and (width: 414px){
+	.carouselNav #prev, .carouselNav #prevCat {
+		left: 0px;
+		right: auto;
+	}
+	.carouselNav #next, .carouselNav #nextCat {
+		left: auto;
+		right: 0px;
+	}
+	.categories-wrap .collapsable {
+		margin: 2px 2px;
+	}
+}
+
+@media only screen and (width: 375px) {
+	.carouselNav #prev, .carouselNav #prevCat {
+		right: auto;
+		left: -10px;
+	}
+	.carouselNav #next, .carouselNav #nextCat {
+		left: auto;
+		right: -10px;
+	}
+}
+
+@media only screen and (width: 360px) {
+	.carouselNav #prev, .carouselNav #prevCat {
+		left: -5px;
+		right: auto;
+	}
+	.carouselNav #next, .carouselNav #nextCat {
+		right: -5px;
+		left: auto;
+	}
+	.indicators-webinar .carousel-indicators {
+		top: 0;
+	}
+	#db-videos {
+		margin-top: 25px;
+	}
+	.indicators-top {
+		top: -18px;
+		left: 0px;
+	}
+	.top-banner-carousel-slide .facts-box {
+		width: 50%;
+	}
+	.placeholder {
+		width: 46%;
+	}
+	.top-banner-carousel-slide .facts-box p {
+		width: 180px;
+	}
+}
+
+@media only screen and (max-width: 320px){
+	.placeholder {
+		width: 100%;
+		height: 327px;
+		float: none;
+	}
+	.top-banner-carousel-slide .facts-box {
+		float: none;
+		padding: 10px;
+		width: calc(100% - 20px);
+		margin: 0 auto;
+	}
+	#top-banner-carousel .carousel-inner {
+		width: 100%;
+		margin: 0 auto;
+		overflow: visible;
+	}
+	.wrapper.carousel-wrap {
+		margin-top: 250px;
+	}
+	.cycle2Carousel {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.featured-products-cycle {
+		padding: 0;
+	}
+	li.cycle-slide {
+		width: 90vw;
+		margin-right: 10vw;
+	}
+.carouselNav #prev, .carouselNav #prevCat {
+	left: -9px;
+	right: auto;
+}
+.carouselNav #next, .carouselNav #nextCat {
+	right: -9px;
+	left: auto;
+}
+	.image-cont {
+		width: 100%;
+		height: 272px;
+	}
+	.carousel-item-pic {
+		width: 100%;
+		height: auto;
+	}
+	
+}

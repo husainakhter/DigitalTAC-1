@@ -116,7 +116,10 @@
                             <li>Author: Chandan Bora/India/IBM</li>
                             <li>Published Date: 30-Sept-2016</li>
                             <li><a class="download-code" href="components/grid.zip" download="">Download code</a></li>
-                              <li><a href="components/grid/index.html" data-toggle="modal" data-target="#myModal" >Demo </a></li>
+                              <li>
+                              <button type="button" class="btn-info modalButton" data-toggle="modal" data-src="components/grid/index.html"  data-title="Grid" data-target="#myModalcarousel1" data-video-fullscreen="">Demo</button>
+                              
+                              </li>
                                 
                               </ul>
                               
@@ -161,7 +164,7 @@
     </div>
 <!--   Model Popup -->
 
-<div class="modal fade" id="myModal" role="dialog">
+<div class="modal fade" id="myModalcarousel1" role="dialog">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -169,12 +172,13 @@
         <h4 class="modal-title">Modal title</h4>
       </div>
       <div class="modal-body">
-        <p>One fine body&hellip;</p>
+        <iframe class="embed-responsive-item" frameborder="0"></iframe>
       </div>
+      <!--
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+      </div>-->
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
@@ -186,7 +190,8 @@
     <!-- Custom Theme Scripts -->
     <script src="./resources/js/custom.min.js.download"></script>
 	<script src="./resources/js/menu.js"></script>
-    
+     <!-- jQuery -->
+	<script src="./resources/js/component.js"></script>
     
    </body></html>
    

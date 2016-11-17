@@ -1,0 +1,9 @@
+Bootstrap Carousel
+
+Library
+jQuery, Bootstrap
+
+Browser
+FF, Chrome
+Not supported in IE 8 & 9
+Unofficial patch available to get it working on IE 8 & 9 but consider using other plugins as transitions become jerky with heavy images

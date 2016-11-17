@@ -1,0 +1,10 @@
+jQuery Cycle2 by Mike Alsup, past team member of jQuery
+Available in Microsoft CDN
+
+Multiple slides are visible at a time. Whole carousel moves by a single slide
+
+Library
+jQuery, jQuery Cycle2, jquery.cycle2.carousel.min.js
+
+Browser
+FF, Chrome, IE

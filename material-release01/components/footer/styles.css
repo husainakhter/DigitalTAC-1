@@ -1,0 +1,1447 @@
+/*** uncss> filename: http://localhost:50000/bootstrap.min.css ***/
+/*!
+ * Bootstrap v3.3.6 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ *//*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{margin:0}footer,section{display:block}a{background-color:transparent}a:active,a:hover{outline:0}hr{height:0;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */@media print{*,:after,:before{color:#000!important;text-shadow:none!important;background:0 0!important;-webkit-box-shadow:none!important;box-shadow:none!important}a,a:visited{text-decoration:underline}p{orphans:3;widows:3}}@font-face{font-family:'Glyphicons Halflings';src:url(../../fonts/glyphicons-halflings-regular.eot);src:url(../../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'),url(../../fonts/glyphicons-halflings-regular.woff2) format('woff2'),url(../../fonts/glyphicons-halflings-regular.woff) format('woff'),url(../../fonts/glyphicons-halflings-regular.ttf) format('truetype'),url(../../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:10px;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}a{color:#337ab7;text-decoration:none}a:focus,a:hover{color:#23527c;text-decoration:underline}a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}hr{margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #eee}h5{font-family:inherit;font-weight:500;line-height:1.1;color:inherit}h5{margin-top:10px;margin-bottom:10px}h5{font-size:14px}p{
+}.col-md-12{position:relative;min-height:1px;padding-right:15px;padding-left:15px}@media (min-width:992px){.col-md-12{float:left}.col-md-12{width:100%}}@-ms-viewport{width:device-width}
+/*# sourceMappingURL=bootstrap.min.css.map */ 
+/*** uncss> filename: http://localhost:50000/compiled.css ***/
+@charset "UTF-8";
+/* line 4, ../sass/others/coloured-classes.scss */
+
+/* line 5, ../sass/others/coloured-classes.scss */
+
+/* line 7, ../sass/others/coloured-classes.scss */
+
+/* line 8, ../sass/others/coloured-classes.scss */
+
+/* line 9, ../sass/others/coloured-classes.scss */
+.red-text {
+  color: #e60000;
+}
+
+/* line 10, ../sass/others/coloured-classes.scss */
+
+/* line 11, ../sass/others/coloured-classes.scss */
+
+/* line 12, ../sass/others/coloured-classes.scss */
+
+/* line 13, ../sass/others/coloured-classes.scss */
+.gray-text {
+  color: #666666;
+}
+
+/* line 14, ../sass/others/coloured-classes.scss */
+.dark-gray-text {
+  color: rgb(97, 97, 97);
+}
+
+/* line 15, ../sass/others/coloured-classes.scss */
+
+
+
+/* line 16, ../sass/others/coloured-classes.scss */
+
+/* line 16, ../sass/others/coloured-classes.scss */
+/* line 17, ../sass/others/coloured-classes.scss */
+
+
+
+/* line 20, ../sass/others/coloured-classes.scss */
+
+/* line 22, ../sass/others/coloured-classes.scss */
+
+/* line 23, ../sass/others/coloured-classes.scss */
+
+/* line 24, ../sass/others/coloured-classes.scss */
+
+/* line 25, ../sass/others/coloured-classes.scss */
+
+/* line 26, ../sass/others/coloured-classes.scss */
+
+/* line 27, ../sass/others/coloured-classes.scss */
+
+/* line 28, ../sass/others/coloured-classes.scss */
+
+/* line 29, ../sass/others/coloured-classes.scss */
+
+/* line 30, ../sass/others/coloured-classes.scss */
+/* line 31, ../sass/others/coloured-classes.scss */
+
+/* line 32, ../sass/others/coloured-classes.scss */
+
+/* line 33, ../sass/others/coloured-classes.scss */
+
+/* line 6, ../sass/others/common-classes.scss */
+
+/* line 8, ../sass/others/common-classes.scss */
+
+/* line 9, ../sass/others/common-classes.scss */
+
+/* line 10, ../sass/others/common-classes.scss */
+
+/* line 11, ../sass/others/common-classes.scss */
+
+/* line 12, ../sass/others/common-classes.scss */
+
+/* line 14, ../sass/others/common-classes.scss */
+::-webkit-input-placeholder {
+  font-weight: lighter;
+  color: #c1cccc;
+}
+
+/* line 15, ../sass/others/common-classes.scss */
+::-moz-placeholder {
+  font-weight: lighter;
+  color: #c1cccc;
+}
+
+/* line 16, ../sass/others/common-classes.scss */
+::placeholder {
+  font-weight: lighter;
+  color: #c1cccc;
+}
+
+/* line 21, ../sass/others/common-classes.scss */
+
+/* line 22, ../sass/others/common-classes.scss */
+
+/* line 23, ../sass/others/common-classes.scss */
+
+/* line 24, ../sass/others/common-classes.scss */
+
+/* line 25, ../sass/others/common-classes.scss */
+
+/* line 26, ../sass/others/common-classes.scss */
+
+/* line 30, ../sass/others/common-classes.scss */
+
+/* line 31, ../sass/others/common-classes.scss */
+
+/* line 35, ../sass/others/common-classes.scss */
+
+/* line 36, ../sass/others/common-classes.scss */
+
+/* line 37, ../sass/others/common-classes.scss */
+
+/* line 39, ../sass/others/common-classes.scss */
+
+/* line 41, ../sass/others/common-classes.scss */
+
+/* line 42, ../sass/others/common-classes.scss */
+
+/* line 43, ../sass/others/common-classes.scss */
+
+/* line 46, ../sass/others/common-classes.scss */
+
+/* line 47, ../sass/others/common-classes.scss */
+
+/* line 48, ../sass/others/common-classes.scss */
+
+/* line 49, ../sass/others/common-classes.scss */
+
+/* line 50, ../sass/others/common-classes.scss */
+
+/* line 51, ../sass/others/common-classes.scss */
+
+/* line 54, ../sass/others/common-classes.scss */
+
+/* line 58, ../sass/others/common-classes.scss */
+
+/* line 59, ../sass/others/common-classes.scss */
+
+/* line 60, ../sass/others/common-classes.scss */
+
+/* line 61, ../sass/others/common-classes.scss */
+
+/* line 62, ../sass/others/common-classes.scss */
+
+/* line 65, ../sass/others/common-classes.scss */
+
+/* line 66, ../sass/others/common-classes.scss */
+
+/* line 67, ../sass/others/common-classes.scss */
+
+/* line 69, ../sass/others/common-classes.scss */
+
+/* line 70, ../sass/others/common-classes.scss */
+a {
+  cursor: pointer;
+  text-decoration: none !important;
+  padding:0px 0 1px;
+  
+}
+
+a:focus, a:hover{ color:#666;}
+
+/* line 71, ../sass/others/common-classes.scss */
+/* line 4, ../sass/others/griding-bootstrap.scss */
+.p-l-n {
+  padding-left: 0 !important;
+}
+
+/* line 5, ../sass/others/griding-bootstrap.scss */
+.p-r-n {
+  padding-right: 0 !important;
+}
+
+/* line 6, ../sass/others/griding-bootstrap.scss */
+
+/* line 8, ../sass/others/griding-bootstrap.scss */
+@media (min-width: 768px) {
+  /* line 15, ../sass/others/griding-bootstrap.scss */
+}
+@media (min-width: 992px) {
+  /* line 20, ../sass/others/griding-bootstrap.scss */
+}
+@media (min-width: 1200px) {
+  /* line 25, ../sass/others/griding-bootstrap.scss */
+}
+/* line 29, ../sass/others/griding-bootstrap.scss */
+
+/* line 35, ../sass/others/griding-bootstrap.scss */
+
+/* line 39, ../sass/others/griding-bootstrap.scss */
+.col-md-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 45, ../sass/others/griding-bootstrap.scss */
+
+/* line 48, ../sass/others/griding-bootstrap.scss */
+
+/* line 51, ../sass/others/griding-bootstrap.scss */
+
+/* line 54, ../sass/others/griding-bootstrap.scss */
+
+/* line 57, ../sass/others/griding-bootstrap.scss */
+
+/* line 60, ../sass/others/griding-bootstrap.scss */
+
+/* line 63, ../sass/others/griding-bootstrap.scss */
+
+/* line 66, ../sass/others/griding-bootstrap.scss */
+
+/* line 69, ../sass/others/griding-bootstrap.scss */
+
+/* line 72, ../sass/others/griding-bootstrap.scss */
+
+/* line 75, ../sass/others/griding-bootstrap.scss */
+
+/* line 78, ../sass/others/griding-bootstrap.scss */
+
+/* line 81, ../sass/others/griding-bootstrap.scss */
+
+/* line 84, ../sass/others/griding-bootstrap.scss */
+
+/* line 87, ../sass/others/griding-bootstrap.scss */
+
+/* line 90, ../sass/others/griding-bootstrap.scss */
+
+/* line 93, ../sass/others/griding-bootstrap.scss */
+
+/* line 96, ../sass/others/griding-bootstrap.scss */
+
+/* line 99, ../sass/others/griding-bootstrap.scss */
+
+/* line 102, ../sass/others/griding-bootstrap.scss */
+
+/* line 105, ../sass/others/griding-bootstrap.scss */
+
+/* line 108, ../sass/others/griding-bootstrap.scss */
+
+/* line 111, ../sass/others/griding-bootstrap.scss */
+
+/* line 114, ../sass/others/griding-bootstrap.scss */
+
+/* line 117, ../sass/others/griding-bootstrap.scss */
+
+/* line 120, ../sass/others/griding-bootstrap.scss */
+
+/* line 123, ../sass/others/griding-bootstrap.scss */
+
+/* line 126, ../sass/others/griding-bootstrap.scss */
+
+/* line 129, ../sass/others/griding-bootstrap.scss */
+
+/* line 132, ../sass/others/griding-bootstrap.scss */
+
+/* line 135, ../sass/others/griding-bootstrap.scss */
+
+/* line 138, ../sass/others/griding-bootstrap.scss */
+
+/* line 141, ../sass/others/griding-bootstrap.scss */
+
+/* line 144, ../sass/others/griding-bootstrap.scss */
+
+/* line 147, ../sass/others/griding-bootstrap.scss */
+
+/* line 150, ../sass/others/griding-bootstrap.scss */
+
+/* line 153, ../sass/others/griding-bootstrap.scss */
+
+/* line 156, ../sass/others/griding-bootstrap.scss */
+
+/* line 159, ../sass/others/griding-bootstrap.scss */
+
+/* line 162, ../sass/others/griding-bootstrap.scss */
+
+/* line 165, ../sass/others/griding-bootstrap.scss */
+
+/* line 168, ../sass/others/griding-bootstrap.scss */
+
+/* line 171, ../sass/others/griding-bootstrap.scss */
+
+/* line 174, ../sass/others/griding-bootstrap.scss */
+
+/* line 177, ../sass/others/griding-bootstrap.scss */
+
+/* line 180, ../sass/others/griding-bootstrap.scss */
+
+/* line 183, ../sass/others/griding-bootstrap.scss */
+
+/* line 186, ../sass/others/griding-bootstrap.scss */
+
+/* line 189, ../sass/others/griding-bootstrap.scss */
+
+/* line 192, ../sass/others/griding-bootstrap.scss */
+
+/* line 195, ../sass/others/griding-bootstrap.scss */
+
+/* line 198, ../sass/others/griding-bootstrap.scss */
+
+@media (min-width: 768px) {
+  /* line 202, ../sass/others/griding-bootstrap.scss */
+
+  /* line 205, ../sass/others/griding-bootstrap.scss */
+
+  /* line 208, ../sass/others/griding-bootstrap.scss */
+
+  /* line 211, ../sass/others/griding-bootstrap.scss */
+
+  /* line 214, ../sass/others/griding-bootstrap.scss */
+
+  /* line 217, ../sass/others/griding-bootstrap.scss */
+
+  /* line 220, ../sass/others/griding-bootstrap.scss */
+
+  /* line 223, ../sass/others/griding-bootstrap.scss */
+
+  /* line 226, ../sass/others/griding-bootstrap.scss */
+
+  /* line 229, ../sass/others/griding-bootstrap.scss */
+
+  /* line 232, ../sass/others/griding-bootstrap.scss */
+
+  /* line 235, ../sass/others/griding-bootstrap.scss */
+
+  /* line 238, ../sass/others/griding-bootstrap.scss */
+
+  /* line 241, ../sass/others/griding-bootstrap.scss */
+
+  /* line 244, ../sass/others/griding-bootstrap.scss */
+
+  /* line 247, ../sass/others/griding-bootstrap.scss */
+
+  /* line 250, ../sass/others/griding-bootstrap.scss */
+
+  /* line 253, ../sass/others/griding-bootstrap.scss */
+
+  /* line 256, ../sass/others/griding-bootstrap.scss */
+
+  /* line 259, ../sass/others/griding-bootstrap.scss */
+
+  /* line 262, ../sass/others/griding-bootstrap.scss */
+
+  /* line 265, ../sass/others/griding-bootstrap.scss */
+
+  /* line 268, ../sass/others/griding-bootstrap.scss */
+
+  /* line 271, ../sass/others/griding-bootstrap.scss */
+
+  /* line 274, ../sass/others/griding-bootstrap.scss */
+
+  /* line 277, ../sass/others/griding-bootstrap.scss */
+
+  /* line 280, ../sass/others/griding-bootstrap.scss */
+
+  /* line 283, ../sass/others/griding-bootstrap.scss */
+
+  /* line 286, ../sass/others/griding-bootstrap.scss */
+
+  /* line 289, ../sass/others/griding-bootstrap.scss */
+
+  /* line 292, ../sass/others/griding-bootstrap.scss */
+
+  /* line 295, ../sass/others/griding-bootstrap.scss */
+
+  /* line 298, ../sass/others/griding-bootstrap.scss */
+
+  /* line 301, ../sass/others/griding-bootstrap.scss */
+
+  /* line 304, ../sass/others/griding-bootstrap.scss */
+
+  /* line 307, ../sass/others/griding-bootstrap.scss */
+
+  /* line 310, ../sass/others/griding-bootstrap.scss */
+
+  /* line 313, ../sass/others/griding-bootstrap.scss */
+
+  /* line 316, ../sass/others/griding-bootstrap.scss */
+
+  /* line 319, ../sass/others/griding-bootstrap.scss */
+
+  /* line 322, ../sass/others/griding-bootstrap.scss */
+
+  /* line 325, ../sass/others/griding-bootstrap.scss */
+
+  /* line 328, ../sass/others/griding-bootstrap.scss */
+
+  /* line 331, ../sass/others/griding-bootstrap.scss */
+
+  /* line 334, ../sass/others/griding-bootstrap.scss */
+
+  /* line 337, ../sass/others/griding-bootstrap.scss */
+
+  /* line 340, ../sass/others/griding-bootstrap.scss */
+
+  /* line 343, ../sass/others/griding-bootstrap.scss */
+
+  /* line 346, ../sass/others/griding-bootstrap.scss */
+
+  /* line 349, ../sass/others/griding-bootstrap.scss */
+
+  /* line 352, ../sass/others/griding-bootstrap.scss */
+
+  /* line 355, ../sass/others/griding-bootstrap.scss */
+}
+@media (min-width: 768px) {
+  /* line 360, ../sass/others/griding-bootstrap.scss */
+  .col-md-12 {
+    float: left;
+  }
+
+  /* line 363, ../sass/others/griding-bootstrap.scss */
+  .col-md-12 {
+    width: 100%;
+  }
+
+  /* line 366, ../sass/others/griding-bootstrap.scss */
+
+  /* line 369, ../sass/others/griding-bootstrap.scss */
+
+  /* line 372, ../sass/others/griding-bootstrap.scss */
+
+  /* line 375, ../sass/others/griding-bootstrap.scss */
+
+  /* line 378, ../sass/others/griding-bootstrap.scss */
+
+  /* line 381, ../sass/others/griding-bootstrap.scss */
+
+  /* line 384, ../sass/others/griding-bootstrap.scss */
+
+  /* line 387, ../sass/others/griding-bootstrap.scss */
+
+  /* line 390, ../sass/others/griding-bootstrap.scss */
+
+  /* line 393, ../sass/others/griding-bootstrap.scss */
+
+  /* line 396, ../sass/others/griding-bootstrap.scss */
+
+  /* line 399, ../sass/others/griding-bootstrap.scss */
+
+  /* line 402, ../sass/others/griding-bootstrap.scss */
+
+  /* line 405, ../sass/others/griding-bootstrap.scss */
+
+  /* line 408, ../sass/others/griding-bootstrap.scss */
+
+  /* line 411, ../sass/others/griding-bootstrap.scss */
+
+  /* line 414, ../sass/others/griding-bootstrap.scss */
+
+  /* line 417, ../sass/others/griding-bootstrap.scss */
+
+  /* line 420, ../sass/others/griding-bootstrap.scss */
+
+  /* line 423, ../sass/others/griding-bootstrap.scss */
+
+  /* line 426, ../sass/others/griding-bootstrap.scss */
+
+  /* line 429, ../sass/others/griding-bootstrap.scss */
+
+  /* line 432, ../sass/others/griding-bootstrap.scss */
+
+  /* line 435, ../sass/others/griding-bootstrap.scss */
+
+  /* line 438, ../sass/others/griding-bootstrap.scss */
+
+  /* line 441, ../sass/others/griding-bootstrap.scss */
+
+  /* line 444, ../sass/others/griding-bootstrap.scss */
+
+  /* line 447, ../sass/others/griding-bootstrap.scss */
+
+  /* line 450, ../sass/others/griding-bootstrap.scss */
+
+  /* line 453, ../sass/others/griding-bootstrap.scss */
+
+  /* line 456, ../sass/others/griding-bootstrap.scss */
+
+  /* line 459, ../sass/others/griding-bootstrap.scss */
+
+  /* line 462, ../sass/others/griding-bootstrap.scss */
+
+  /* line 465, ../sass/others/griding-bootstrap.scss */
+
+  /* line 468, ../sass/others/griding-bootstrap.scss */
+
+  /* line 471, ../sass/others/griding-bootstrap.scss */
+
+  /* line 474, ../sass/others/griding-bootstrap.scss */
+
+  /* line 477, ../sass/others/griding-bootstrap.scss */
+
+  /* line 480, ../sass/others/griding-bootstrap.scss */
+
+  /* line 483, ../sass/others/griding-bootstrap.scss */
+
+  /* line 486, ../sass/others/griding-bootstrap.scss */
+
+  /* line 489, ../sass/others/griding-bootstrap.scss */
+
+  /* line 492, ../sass/others/griding-bootstrap.scss */
+
+  /* line 495, ../sass/others/griding-bootstrap.scss */
+
+  /* line 498, ../sass/others/griding-bootstrap.scss */
+
+  /* line 501, ../sass/others/griding-bootstrap.scss */
+
+  /* line 504, ../sass/others/griding-bootstrap.scss */
+
+  /* line 507, ../sass/others/griding-bootstrap.scss */
+  /* line 510, ../sass/others/griding-bootstrap.scss */
+
+  /* line 513, ../sass/others/griding-bootstrap.scss */
+}
+@media (min-width: 1024px) {
+  /* line 518, ../sass/others/griding-bootstrap.scss */
+
+  /* line 521, ../sass/others/griding-bootstrap.scss */
+
+  /* line 524, ../sass/others/griding-bootstrap.scss */
+
+  /* line 527, ../sass/others/griding-bootstrap.scss */
+
+  /* line 530, ../sass/others/griding-bootstrap.scss */
+
+  /* line 533, ../sass/others/griding-bootstrap.scss */
+
+  /* line 536, ../sass/others/griding-bootstrap.scss */
+
+  /* line 539, ../sass/others/griding-bootstrap.scss */
+
+  /* line 542, ../sass/others/griding-bootstrap.scss */
+
+ /* line 545, ../sass/others/griding-bootstrap.scss */
+  /* line 545, ../sass/others/griding-bootstrap.scss */
+
+  /* line 548, ../sass/others/griding-bootstrap.scss */
+
+  /* line 551, ../sass/others/griding-bootstrap.scss */
+
+  /* line 554, ../sass/others/griding-bootstrap.scss */
+
+  /* line 557, ../sass/others/griding-bootstrap.scss */
+
+  /* line 560, ../sass/others/griding-bootstrap.scss */
+
+  /* line 563, ../sass/others/griding-bootstrap.scss */
+
+  /* line 566, ../sass/others/griding-bootstrap.scss */
+
+  /* line 569, ../sass/others/griding-bootstrap.scss */
+
+  /* line 572, ../sass/others/griding-bootstrap.scss */
+
+  /* line 575, ../sass/others/griding-bootstrap.scss */
+
+  /* line 578, ../sass/others/griding-bootstrap.scss */
+
+  /* line 581, ../sass/others/griding-bootstrap.scss */
+
+  /* line 584, ../sass/others/griding-bootstrap.scss */
+
+  /* line 587, ../sass/others/griding-bootstrap.scss */
+
+  /* line 590, ../sass/others/griding-bootstrap.scss */
+
+  /* line 593, ../sass/others/griding-bootstrap.scss */
+
+  /* line 596, ../sass/others/griding-bootstrap.scss */
+
+  /* line 599, ../sass/others/griding-bootstrap.scss */
+
+  /* line 602, ../sass/others/griding-bootstrap.scss */
+
+  /* line 605, ../sass/others/griding-bootstrap.scss */
+
+  /* line 608, ../sass/others/griding-bootstrap.scss */
+
+  /* line 611, ../sass/others/griding-bootstrap.scss */
+
+  /* line 614, ../sass/others/griding-bootstrap.scss */
+
+  /* line 617, ../sass/others/griding-bootstrap.scss */
+
+  /* line 620, ../sass/others/griding-bootstrap.scss */
+
+  /* line 623, ../sass/others/griding-bootstrap.scss */
+
+  /* line 626, ../sass/others/griding-bootstrap.scss */
+
+  /* line 629, ../sass/others/griding-bootstrap.scss */
+
+  /* line 632, ../sass/others/griding-bootstrap.scss */
+
+  /* line 635, ../sass/others/griding-bootstrap.scss */
+
+  /* line 638, ../sass/others/griding-bootstrap.scss */
+
+  /* line 641, ../sass/others/griding-bootstrap.scss */
+
+  /* line 644, ../sass/others/griding-bootstrap.scss */
+
+  /* line 647, ../sass/others/griding-bootstrap.scss */
+
+  /* line 650, ../sass/others/griding-bootstrap.scss */
+
+  /* line 653, ../sass/others/griding-bootstrap.scss */
+
+  /* line 656, ../sass/others/griding-bootstrap.scss */
+
+  /* line 659, ../sass/others/griding-bootstrap.scss */
+
+  /* line 662, ../sass/others/griding-bootstrap.scss */
+
+  /* line 665, ../sass/others/griding-bootstrap.scss */
+
+  /* line 668, ../sass/others/griding-bootstrap.scss */
+
+  /* line 671, ../sass/others/griding-bootstrap.scss */
+}
+/* line 675, ../sass/others/griding-bootstrap.scss */
+
+/* line 686, ../sass/others/griding-bootstrap.scss */
+
+/* line 692, ../sass/others/griding-bootstrap.scss */
+
+/* line 697, ../sass/others/griding-bootstrap.scss */
+
+/* line 700, ../sass/others/griding-bootstrap.scss */
+
+/* line 4, ../sass/others/margins-and-paddings.scss */
+
+/* line 6, ../sass/others/margins-and-paddings.scss */
+
+/* line 7, ../sass/others/margins-and-paddings.scss */
+
+/* line 8, ../sass/others/margins-and-paddings.scss */
+
+/* line 10, ../sass/others/margins-and-paddings.scss */
+
+/* line 11, ../sass/others/margins-and-paddings.scss */
+
+/* line 12, ../sass/others/margins-and-paddings.scss */
+
+/* line 14, ../sass/others/margins-and-paddings.scss */
+
+/* line 15, ../sass/others/margins-and-paddings.scss */
+
+/* line 17, ../sass/others/margins-and-paddings.scss */
+
+/* line 18, ../sass/others/margins-and-paddings.scss */
+
+/* line 20, ../sass/others/margins-and-paddings.scss */
+
+/* line 21, ../sass/others/margins-and-paddings.scss */
+
+/* line 23, ../sass/others/margins-and-paddings.scss */
+
+/* line 24, ../sass/others/margins-and-paddings.scss */
+
+/* line 26, ../sass/others/margins-and-paddings.scss */
+
+/* line 27, ../sass/others/margins-and-paddings.scss */
+
+/* line 29, ../sass/others/margins-and-paddings.scss */
+
+/* line 30, ../sass/others/margins-and-paddings.scss */
+
+/* line 31, ../sass/others/margins-and-paddings.scss */
+
+/* line 32, ../sass/others/margins-and-paddings.scss */
+
+/* line 34, ../sass/others/margins-and-paddings.scss */
+
+/* line 35, ../sass/others/margins-and-paddings.scss */
+
+/* line 36, ../sass/others/margins-and-paddings.scss */
+
+/* line 37, ../sass/others/margins-and-paddings.scss */
+
+/* line 39, ../sass/others/margins-and-paddings.scss */
+
+/* line 40, ../sass/others/margins-and-paddings.scss */
+
+/* line 41, ../sass/others/margins-and-paddings.scss */
+
+/* line 42, ../sass/others/margins-and-paddings.scss */
+
+/* line 44, ../sass/others/margins-and-paddings.scss */
+
+/* line 45, ../sass/others/margins-and-paddings.scss */
+
+/* line 46, ../sass/others/margins-and-paddings.scss */
+
+/* line 47, ../sass/others/margins-and-paddings.scss */
+
+/* line 49, ../sass/others/margins-and-paddings.scss */
+
+/* line 50, ../sass/others/margins-and-paddings.scss */
+
+/* line 51, ../sass/others/margins-and-paddings.scss */
+
+/* line 52, ../sass/others/margins-and-paddings.scss */
+
+/* line 55, ../sass/others/margins-and-paddings.scss */
+
+/* line 59, ../sass/others/margins-and-paddings.scss */
+
+/* line 61, ../sass/others/margins-and-paddings.scss */
+
+/* line 62, ../sass/others/margins-and-paddings.scss */
+
+/* line 63, ../sass/others/margins-and-paddings.scss */
+
+/* line 66, ../sass/others/margins-and-paddings.scss */
+
+/* line 67, ../sass/others/margins-and-paddings.scss */
+
+/* line 68, ../sass/others/margins-and-paddings.scss */
+
+/* line 70, ../sass/others/margins-and-paddings.scss */
+
+/* line 72, ../sass/others/margins-and-paddings.scss */
+
+/* line 73, ../sass/others/margins-and-paddings.scss */
+
+/* line 75, ../sass/others/margins-and-paddings.scss */
+
+/* line 76, ../sass/others/margins-and-paddings.scss */
+
+/* line 78, ../sass/others/margins-and-paddings.scss */
+
+/* line 79, ../sass/others/margins-and-paddings.scss */
+
+/* line 81, ../sass/others/margins-and-paddings.scss */
+
+/* line 82, ../sass/others/margins-and-paddings.scss */
+
+/* line 84, ../sass/others/margins-and-paddings.scss */
+
+/* line 85, ../sass/others/margins-and-paddings.scss */
+
+/* line 87, ../sass/others/margins-and-paddings.scss */
+
+/* line 88, ../sass/others/margins-and-paddings.scss */
+
+/* line 89, ../sass/others/margins-and-paddings.scss */
+
+/* line 90, ../sass/others/margins-and-paddings.scss */
+
+/* line 92, ../sass/others/margins-and-paddings.scss */
+
+/* line 93, ../sass/others/margins-and-paddings.scss */
+
+/* line 94, ../sass/others/margins-and-paddings.scss */
+
+/* line 95, ../sass/others/margins-and-paddings.scss */
+
+/* line 97, ../sass/others/margins-and-paddings.scss */
+
+/* line 98, ../sass/others/margins-and-paddings.scss */
+
+/* line 99, ../sass/others/margins-and-paddings.scss */
+
+/* line 100, ../sass/others/margins-and-paddings.scss */
+
+/* line 102, ../sass/others/margins-and-paddings.scss */
+
+/* line 103, ../sass/others/margins-and-paddings.scss */
+
+/* line 104, ../sass/others/margins-and-paddings.scss */
+
+/* line 105, ../sass/others/margins-and-paddings.scss */
+
+/* line 107, ../sass/others/margins-and-paddings.scss */
+
+/* line 108, ../sass/others/margins-and-paddings.scss */
+
+/* line 109, ../sass/others/margins-and-paddings.scss */
+
+/* line 110, ../sass/others/margins-and-paddings.scss */
+
+/* line 112, ../sass/others/margins-and-paddings.scss */
+.p-l-n {
+  padding-left: 0;
+}
+
+/* line 113, ../sass/others/margins-and-paddings.scss */
+.p-r-n {
+  padding-right: 0 !important;
+}
+
+/* line 6, ../sass/app/inputs.scss */
+
+/* line 4, ../sass/app/footer.scss */
+.footer-wrap {
+  background-color: #333333;
+  padding: 45px 0px 0;
+}
+/* line 6, ../sass/app/footer.scss */
+.footer-wrap h5 {
+  font-size: 16px;
+   font-family: "Arial";
+  color: rgb(220, 220, 220);
+  font-weight: bold;
+  line-height: 1.063;
+}
+
+/*
+.footer-wrap a { 
+	font-size: 12px;
+   font-family: "Arial";
+  color: rgb(220, 220, 220);
+  padding: 5px 0;
+}
+*/
+
+/* line 7, ../sass/app/footer.scss */
+
+.footer-wrap .footer-bottom p {
+    margin:30px 0;
+	 font-size: 11px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  line-height: 1.545;
+}
+
+
+
+
+/* line 8, ../sass/app/footer.scss */
+.footer-wrap .gray-border {
+  border: none;
+  border-bottom: solid 1px #535353;
+  margin: 5px 0px;
+  display: block;
+  clear: both;
+}
+/* line 9, ../sass/app/footer.scss */
+.footer-wrap a {
+  display: block;
+}
+
+/* line 5, ../sass/app/header.scss */
+/* line 7, ../sass/app/header.scss */
+/* line 9, ../sass/app/header.scss */
+/* line 17, ../sass/app/header.scss */
+/* line 19, ../sass/app/header.scss */
+/* line 21, ../sass/app/header.scss */
+/* line 23, ../sass/app/header.scss */
+/* line 25, ../sass/app/header.scss */
+/* line 32, ../sass/app/header.scss */
+/* line 35, ../sass/app/header.scss */
+/* line 37, ../sass/app/header.scss */
+/* line 39, ../sass/app/header.scss */
+/* line 41, ../sass/app/header.scss */
+/* line 47, ../sass/app/header.scss */
+/* line 49, ../sass/app/header.scss */
+/* line 50, ../sass/app/header.scss */
+
+/* line 5, ../sass/app/home-page.scss */
+
+
+/* Bootstrap Tab */
+
+/*.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}*/
+/* Top Navigation*/
+hr{
+	    display: block;
+    -webkit-margin-before: 0.3em;
+    -webkit-margin-after: 0.3em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+}
+
+
+/* line 98, ../sass/app/home-page.scss */
+
+/* line 104, ../sass/app/home-page.scss */
+/* line 106, ../sass/app/home-page.scss */
+
+/* line 110, ../sass/app/home-page.scss */
+/* line 112, ../sass/app/home-page.scss */
+
+
+/* line 114, ../sass/app/home-page.scss */
+/* line 115, ../sass/app/home-page.scss */
+/* line 116, ../sass/app/home-page.scss */
+/* line 117, ../sass/app/home-page.scss */
+/* line 119, ../sass/app/home-page.scss */
+
+
+
+
+/* line 124, ../sass/app/home-page.scss */
+/* line 126, ../sass/app/home-page.scss */
+/* line 127, ../sass/app/home-page.scss */
+
+/* line 134, ../sass/app/home-page.scss */
+/* line 136, ../sass/app/home-page.scss */
+/* line 137, ../sass/app/home-page.scss */
+/* line 139, ../sass/app/home-page.scss */
+/* line 140, ../sass/app/home-page.scss */
+/* line 142, ../sass/app/home-page.scss */
+
+/* line 1, ../sass/app/grid.scss */
+.wrapper {
+  display: block;
+  clear: both;
+}
+/* line 3, ../sass/app/grid.scss */
+.wrapper .inner {
+  display: block;
+  width: 950px;
+  margin: 0 auto;
+  padding:0 0px;
+  clear: both;
+}
+
+/* line 16, ../sass/app/home-page.scss */
+/* line 17, ../sass/app/home-page.scss */
+/* line 20, ../sass/app/home-page.scss */
+/* line 21, ../sass/app/home-page.scss */
+/* line 22, ../sass/app/home-page.scss */
+/* line 23, ../sass/app/home-page.scss */
+/* line 24, ../sass/app/home-page.scss */
+/* line 25, ../sass/app/home-page.scss */
+/* line 27, ../sass/app/home-page.scss */
+
+/* line 29, ../sass/app/home-page.scss */
+
+
+/*.h1, .h2, .h3, h1, h2, h3{ margin-bottom:0;margin-top:0;}
+.facts-box h2{}*/
+/* line 30, ../sass/app/home-page.scss */
+
+/* line 32, ../sass/app/home-page.scss */
+
+/* line 35, ../sass/app/home-page.scss */
+/* line 36, ../sass/app/home-page.scss */
+/* line 38, ../sass/app/home-page.scss */
+/* line 39, ../sass/app/home-page.scss */
+/* line 41, ../sass/app/home-page.scss */
+/* line 43, ../sass/app/home-page.scss */
+/* line 44, ../sass/app/home-page.scss */
+/* line 48, ../sass/app/home-page.scss */
+/* line 52, ../sass/app/home-page.scss */
+/* line 54, ../sass/app/home-page.scss */
+/* line 56, ../sass/app/home-page.scss */
+/* line 57, ../sass/app/home-page.scss */
+
+
+
+/* line 58, ../sass/app/home-page.scss */
+/* line 59, ../sass/app/home-page.scss */
+/* line 60, ../sass/app/home-page.scss */
+/* line 61, ../sass/app/home-page.scss */
+/* line 63, ../sass/app/home-page.scss */
+/* line 65, ../sass/app/home-page.scss */
+/* line 67, ../sass/app/home-page.scss */
+/* line 69, ../sass/app/home-page.scss */
+/* line 70, ../sass/app/home-page.scss */
+
+
+/* line 77, ../sass/app/home-page.scss */
+/* line 79, ../sass/app/home-page.scss */
+/* line 81, ../sass/app/home-page.scss */
+/* line 83, ../sass/app/home-page.scss */
+/* line 85, ../sass/app/home-page.scss */
+/* line 87, ../sass/app/home-page.scss */
+/* line 88, ../sass/app/home-page.scss */
+/* line 89, ../sass/app/home-page.scss */
+/* line 91, ../sass/app/home-page.scss */
+ 
+ .wrapper.footer-wrap .inner{ padding:0 0;}
+ h5{
+	  font-size: 22px;
+   color: rgb(255, 255, 255);
+  line-height: 1.227;}
+
+
+/* CSSTerm.com Simple CSS menu */
+
+
+@media only screen 
+   and (min-device-width : 768px) 
+   and (max-device-width : 991px) 
+   and (orientation : portrait) {
+   /* Styles */
+/*.navbar-collapse.collapse{ width:540px;}*/
+/*.navbar-form .input-group > .form-control{width:120px;}*/
+/* Added By Husain 
+*/
+  .wrapper .inner{ width:auto}
+/*	.Contact_Sales,.header-wrap .contact-no{ width:110px; left:250px;}
+	div.top-menu-right{ left:345px; top:50px;}
+.Vodafone_CloudStore{ font-size:26px;}*/
+	.wrapper.footer-wrap .inner {
+    padding: 15px 10px;
+}
+/*	.header-wrap .contact-no{ font-size:90%; padding-top:5px;}*/
+	
+	/*.header-top-section .nav > li:nth-child(1) > a { padding: 12px 32px 8px 6px;}
+.header-top-section .nav > li:nth-child(2) > a {  padding: 12px 32px 8px 6px}
+.header-top-section .nav > li:nth-child(3) > a {  padding: 12px 32px 8px 6px}*/
+}
+@media screen and (min-width: 768px) and (max-width: 991px) and (orientation : landscape)  {
+  /* line 77, ../sass/app/home-page.scss */
+  .wrapper .inner{ width:auto}
+/*  .h3, h3 {     font-size: 165%;}*/
+ 	.wrapper.footer-wrap .inner{  padding: 0px 10px;}
+/*
+.header-wrap .small-menu ul li a {     font-size: 82%;    padding: 4px 0px 0 0px;}
+	.header-wrap .contact-no {   top:20px; font-size: 95%;}
+	.header-wrap .contact-info{ font-size:85%}*/
+		
+}
+
+@media screen and (max-width: 767px) {
+/*  Header Section */
+  /* line 5, ../sass/app/grid.scss */
+  .wrapper.footer-wrap .inner{ padding:10px 10px;}
+  .wrapper .inner {  width: auto;  }
+  p{ font-size:100%}
+	/* line 8, ../sass/app/grid.scss */
+  /* line 9, ../sass/app/grid.scss */
+  body { overflow-x:hidden;}
+
+
+h5 { font-size:22px;}
+/*	#up-web{ margin:0 -20px;}*/
+	p.p-sm{ font-size: 12px;}
+			
+/*	.featured-wrap .right-box, .featured-videos-wrap .right-box {
+		margin: 22px 84px;
+		width: 306px;
+	}
+	*/
+		 
+
+}
+
+@font-face {
+  font-family: 'VodafoneRg';
+  src: url("./fonts/VodafoneRg.eot");
+  src: local("Γÿ║"), url("../../../fonts/VodafoneRg.woff") format("woff"), url("../../../fonts/VodafoneRg.ttf") format("truetype"), url("../../../fonts/VodafoneRg.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/** Generated by FG **/
+@font-face {
+  font-family: 'VodafoneExBd';
+  src: url("./fonts/VodafoneExBd.eot");
+  src: local("Γÿ║"), url("../../../fonts/VodafoneExBd.woff") format("woff"), url("../../../fonts/VodafoneExBd.ttf") format("truetype"), url("../../../fonts/VodafoneExBd.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/** Generated by FG **/
+@font-face {
+  font-family: 'VodafoneRgBd';
+  src: url("./fonts/VodafoneRgBd.eot");
+  src: local("Γÿ║"), url("../../../fonts/VodafoneRgBd.woff") format("woff"), url("../../../fonts/VodafoneRgBd.ttf") format("truetype"), url("../../../fonts/VodafoneRgBd.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 32, ../sass/app/typography.scss */
+body, p {
+  font-family: "VodafoneRg";
+}
+
+/* line 33, ../sass/app/typography.scss */
+body {
+  margin: 0;
+	
+}
+
+/* line 34, ../sass/app/typography.scss */
+p {
+  margin: 5px 0px;
+}
+
+
+/* line 35, ../sass/app/typography.scss */
+p {
+  font-size: 14px;font-family: "Arial";
+}
+
+/* line 36, ../sass/app/typography.scss */
+.p-sm {
+  font-size: 12px;
+  font-family: "Arial";
+}
+
+/* line 37, ../sass/app/typography.scss */
+
+/* line 38, ../sass/app/typography.scss */
+.p-bg {
+ 	font-size: 24px;
+  	font-family: "Arial";
+  	color: rgb(220, 220, 220);
+  	line-height: 1.043;
+}
+
+
+/* line 39, ../sass/app/typography.scss */
+.VodafoneRg {
+  font-family: VodafoneRg;
+}
+
+/* line 40, ../sass/app/typography.scss */
+
+/* line 41, ../sass/app/typography.scss */
+
+
+@media screen and (max-width: 479px) {
+	h5 { font-size:100%;}
+	.p-bg{ font-size:100%}
+	.footer-wrap h5 { font-size:14px;}
+/* line 44, ../sass/app/home-page.scss */
+} 
+/*** uncss> filename: http://localhost:50000/plan.css ***/
+ /*************************************** --------------------- Desktop ---------------- ***********************************************/
+
+@media only screen and (min-width: 992px){
+	.wrapper .inner {
+	display: block;
+	width: 950px;
+	margin: 0 auto;
+	padding: 0 0px;
+	clear: both;
+}
+	/******-----Added for Mapping------*****/
+}
+
+ /* -------------Mobile Portrait ---------------- */
+
+
+@media only screen and (max-width: 479px){
+/*.top {
+    padding: 0px 0px 15px;
+    margin-right: 17px;
+	    float: right;
+}*/
+}
+
+
+    /* -------------Mobile landscape ---------------- */
+
+ /* -------------ifone5 :: Mobile Portrait ---------------- */
+
+
+
+ /* -------------Tablet ---------------- */
+
+
+
+ 
+/*** uncss> filename: http://localhost:50000/product.css ***/
+.clearFloat {
+	clear: both;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+/*#productFAQAccordion .panel-heading {
+	height: 35px;
+}*/
+} 
+/*** uncss> filename: http://localhost:50000/footer.css ***/
+
+	.footer-wrap {
+		padding: 24px 0px 0;
+	}
+	.footer-wrap h5 {
+		line-height: 17px;
+		margin-bottom: 15px;
+	}
+	.footer-wrap a {
+		padding: 0;
+		line-height: 24px;
+		display: block;
+		font-family: "VodafoneRg";
+		font-size: 14px;
+	}
+	.footer-wrap a.gray-text {
+		color: #dcdcdc;
+	}
+	div[class^="footer-col-"] {
+		float: left;
+	}
+	.footer-col-01 {
+		width: 268px;
+		width: 201px;
+		margin-right: 67px;
+		border-right: 1px solid #444;
+	}
+	.footer-col-02 {
+		width: 169px;
+	}
+	.footer-col-03 {
+		width: 200px;
+	}
+	.footer-col-04 {
+		width: 191px;
+	}
+	.footer-col-05 {
+		width: 122px;
+	}
+	.about-vodafone-india {
+		margin: 24px 0 0 0;
+	}
+	.gray-border.contact-top-border {
+		margin-top: 33px;
+		margin-bottom: 0;
+	}
+
+	.support-contact .dark-gray-text {
+		color: #616161;
+		width: 20px;
+		display: inline-block;
+		padding-left: 12px;
+	}
+	.support-contact .p-bg {
+		font-size: 25px;
+		font-family: "Arial";
+		color: #dcdcdc;
+		line-height: 26.07px;
+	}
+	.footer-wrap .footer-bottom p {
+		margin: 24px 0;
+		font-size: 11px;
+		font-family: "Arial";
+		color: #fff;
+		line-height: 17px;
+	}
+@media only screen and (min-width: 992px) {
+	.wrapper.footer-wrap .inner.support-contact-section {
+		padding: 0px 0px;
+		width: 950px;
+		margin: 0 auto;
+	}
+	div[class^="footer-col-"] {
+		margin-top: 20px;
+	}
+	.support-contact {
+		padding: 9px 0px;
+		padding-left: 10px;
+		border-right: none;
+		width: 430px;
+		height: 56px;
+		margin: 2px 0;
+		float: left;
+	}
+	.support-contact:first-child {
+		padding-left: 0;
+		padding-right: 0;
+		border-right: 1px solid #535353;
+		width: 520px;
+	}
+}
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+	.wrapper.footer-wrap .inner {
+		padding: 0 15px;
+	}
+
+	.support-contact .p-bg {
+		font-size: 22px;
+		font-family: "Arial";
+		color: #dcdcdc;
+		line-height: 22px;
+	}
+	.gray-border.contact-top-border, .footer-wrap .gray-border {
+		margin: 0 15px;
+		width: auto;
+	}
+	.gray-border.contact-top-border {
+		margin-top: 20px;
+	}
+	.support-contact {
+		padding: 9px 0;
+		margin: 0;
+		border: none;
+		margin: 0;
+		width: 100%;
+	}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.wrapper.footer-wrap .inner {
+		width: 442px;
+		padding: 0;
+	}
+	.footer-wrap h5 {
+		line-height: 15.3px;
+		margin-bottom: 11px;
+		font-size: 14.4px;
+		font-family: "Arial";
+		color: #dcdcdc;
+		font-weight: bold;
+	}
+	.footer-wrap .footer-col-03 h5, .footer-wrap .footer-col-04 h5, .footer-wrap .footer-col-05 h5 {
+		margin: 27px 0 13px 0;
+	}
+	.footer-col-01 {
+		width: 179px;
+		margin-right: 35px;
+		border-right: 1px solid #444;
+	}
+	.footer-col-03 {
+		clear: left;
+		width: 148px;
+	}
+	.footer-col-04 {
+		width: 140px;
+	}
+	.footer-wrap a {
+		padding: 0;
+		line-height: 12.6px;
+		font-size: 10.8px;
+		font-family: "Arial";
+		color: #dcdcdc;
+		padding: 5px 0;
+	}
+	.support-contact .p-bg {
+		font-size: 21.5px;
+		line-height: 22.81px;
+		margin: 7px 0 0 -2px;
+	}
+	.support-contact .p-bg span.red-text {
+		display: inline-block;
+		margin-left: 2px;
+	}
+	.footer-wrap .gray-border {
+		margin: -5px auto 0;
+		width: 442px;
+	}
+	.gray-border.contact-top-border {
+		width: 442px;
+		margin: 17px auto 0;
+	}
+	.support-contact {
+		padding: 9px 0px;
+		padding-left: 0;
+		border-right: none;
+		width: auto;
+		height: 56px;
+		margin: -15px 0 2px 0;
+	}
+	.support-contact:first-child {
+		padding-left: 0;
+		padding-right: 0;
+		width: 543px;
+		margin-top: 2px;
+	}
+	.footer-wrap .footer-bottom p {
+		margin: 16px 0 0;
+		font-size: 9px;
+		font-family: "Arial";
+		color: #888;
+		line-height: 12px;
+		width: 350px;
+		padding-bottom: 16px;
+	}
+}
+@media only screen and (max-width: 479px) {
+
+	div[class^="footer-col-"] {
+		float: left;
+		border: none;
+		margin: 0;
+		width: 50%;
+		padding-bottom: 10px;
+	}
+	.footer-col-03, .footer-col-05 {
+		clear: left;
+	}
+	.gray-border.contact-top-border {
+		width: 300px;
+		margin: 0 auto;
+	}
+	.footer-wrap .footer-bottom p {
+		margin: 16px 0 0;
+		font-size: 9px;
+		font-family: "Arial";
+		color: #888;
+		line-height: 12px;
+	}
+	.footer-wrap .gray-border {
+		border: none;
+		border-bottom: solid 1px #535353;
+		display: block;
+		clear: both;
+		width: auto;
+		margin: 0 10px;
+	}
+	.support-contact {
+		height: auto;
+		padding: 0;
+		margin: 0;
+	}
+	.support-contact .p-bg {
+		line-height: 15.3px;
+		font-size: 14.4px;
+	}
+	.footer-wrap a {
+		line-height: 15px;
+		font-size: 10.8px;
+		font-family: "Arial";
+		color: #dcdcdc;
+	}
+	.footer-wrap h5 {
+		line-height: 15.3px;
+		font-size: 14.4px;
+		font-family: "Arial";
+		color: #dcdcdc;
+		font-weight: bold;
+		margin-bottom: 6px;
+	}
+}
+

@@ -1,0 +1,25 @@
+@media only screen and (min-width : 992px){
+	.wrapper .inner {
+		display: block; 		width: 950px; 		margin: 0 auto; 		padding: 0 0px; 		clear: both;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.wrapper .inner {
+		display: block; 		width: 768px;  		margin: 0 auto; 		padding: 0 0px; 		clear: both;
+	}
+}
+
+
+@media only screen and (max-width: 479px){
+	.wrapper.carousel-wrap {
+		margin-top: 0px;
+	}
+}
+
+@media only screen and (max-width: 320px){
+	.wrapper.carousel-wrap {
+		margin-top: 250px;
+	}
+}
+

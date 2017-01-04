@@ -1,0 +1,370 @@
+.cycle-slideshow p {
+	white-space: normal;
+}
+li.cycle-slide {
+	width: 311px;
+	height: 416px;
+	background-color: transparent;
+}
+
+.image-cont {
+	position: relative;
+	width: 311px;
+	height: 295px;
+	padding-left: 8px;
+	overflow: hidden;
+}
+.carousel-item-pic {
+	width: 303px;
+	height: 416px;
+}
+.sticker {
+	display: inline-block;
+	position: absolute;
+	width: 95px;
+	height: 84px;
+	background-color: #e60000;
+	left: 0px;
+	top: 24px;
+	z-index: 200;
+	text-align: center;
+	padding: 8px 8px 0 6px;
+}
+.sticker::before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 20px;
+	height: 20px;
+	background-color: #e60000;
+	z-index: 110;
+}
+.sticker::after {
+	content: "";
+	display: block;
+	position: absolute;
+	left: -10px;
+	bottom: -10px;
+	border-style: solid;
+	border-width: 10px;
+	border-color: transparent;
+	border-right-color: #1a0000;
+	z-index: 100;
+}
+.sticker .sticker-cont {
+	z-index: 150;
+	position: relative;
+}
+.sticker .black-text {
+	font-family: Arial;
+	display: block;
+	color: #000;
+}
+.sticker .price {
+	color: #fff;
+	font-family: Arial;
+	display: block;
+	font-weight: bold;
+}
+.sticker .users {
+	display: block;
+	font-family: Arial;
+	color: #fff;
+}
+.details {
+	padding: 12px 0px 0px 20px;
+	margin-left: 8px;
+	background: #333;
+	height: 122px;
+}
+.details p.p-sm,
+.details a.p-sm  {
+	color: #fff;
+	white-space: normal;
+}
+.carouselNav {
+	position: relative;
+}
+
+
+.carouselNav > a {
+	width: 22px;
+	display: block;
+	top: -219px;
+	height: 42px;
+	background-image: url('../../_images/consumer/product/arrows.png');
+	cursor: pointer;
+	position: absolute;
+	z-index: 99;
+	margin-top: -16px;
+	opacity: 0.5;
+	-webkit-transition: opacity 0.35s linear 0s;
+	transition: opacity 0.35s linear 0s;
+}
+
+.carouselNav #prev {
+	background-position: 0px 0;
+}
+.carouselNav #next {
+	background-position: -22px 0;
+}
+@media only screen and (min-width : 992px){
+	.w992 {
+		width: 992px;
+		margin: 0 auto;
+	}
+	.carousel-wrap h3 {
+		margin: 13px 0px 0px -1px;
+		font-size: 34px;
+	}
+	.carousel-wrap p {
+		margin: 2px 0px 5px 0px;
+	}
+	.wrapper.carousel-wrap .inner {
+		padding: 27px 0px 32px;
+	}
+	.cycle2Carousel {
+		width: 958px;
+		margin: 0 0 0 13px;
+		height: 416px;
+	}
+	li.cycle-slide {
+		margin-right: 13px;
+	}
+	.sticker .black-text {
+		font-size: 12px;
+		line-height: 1.45;
+	}
+	.sticker .price {
+		font-size: 22px;
+		line-height: 16px;
+	}
+	.sticker .users {
+		font-size: 12px;
+		margin: 6px 0 0 0;
+	}
+	.details h5 {
+		line-height: 13px;
+	}
+	.details p.p-sm,
+	.details a.p-sm  {
+		line-height: 17px;
+		font-size: 12px;
+	}
+.carouselNav #prev, .carouselNav #prevCat {
+	right: 100%;
+}
+.carouselNav #next, .carouselNav #nextCat {
+	left: 100%;
+}
+
+}
+
+@media only screen and (width : 1024px){
+	.carouselNav #prev, .carouselNav #prevCat {
+		right: 99%;
+	}
+	.carouselNav #next, .carouselNav #nextCat {
+		left: 99%;
+	}
+}
+@media only screen and (width : 992px){
+	.carouselNav #next, .carouselNav #nextCat {
+		left: 970px;
+	}
+	.carouselNav #prev, .carouselNav #prevCat {
+		right: 970px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.w992 {
+		width: auto;
+		margin: 0 10px;
+		padding: 0;
+	}
+	.sticker {
+		height: 92px;
+	}
+	.cycle2Carousel {
+		width: 636px;
+		margin: 0 auto;
+	}
+	li.cycle-slide {
+		margin-right: 13px;
+	}
+	.carouselNav #prev, .carouselNav #prevCat {
+		left: 21px;
+	}
+	.carouselNav #next , .carouselNav #nextCat{
+		right: 19px;
+	}
+	.carouselNav #nextCat {
+		top: -404px;
+	}
+	.carouselNav #prevCat {
+		top: -404px;
+	}
+	.w992 {
+		width: auto;
+		margin: 0 10px;
+		padding: 0;
+	}
+	.cycle2Carousel {
+		width: 648px;
+		margin: 0 auto;
+	}
+	
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+	.carousel-wrap {
+		padding: 10px 10px 17px 10px;
+	}
+	.wrapper.carousel-wrap .inner {
+		display: block;
+		width: 442px;
+		margin: 0 auto;
+		padding: 0 0px 0 69px;
+		clear: both;
+	}
+	.wrapper.carousel-wrap .inner h3 {
+		font-size: 22px;
+		margin: 32px 0px 0px 1px;
+	}
+	.w992 {
+		width: 442px;
+		margin: 0 auto;
+		padding: 0;
+	}
+	.cycle2Carousel {
+		width: 311px;
+		margin: 0 0 0 63px;
+		height: 416px;
+	}
+	li.cycle-slide {
+		margin-right: 0;
+	}
+	.sticker .black-text {
+		font-size: 12px;
+		line-height: 1.45;
+	}
+	.sticker .price {
+		font-size: 22px;
+		line-height: 16px;
+	}
+	.sticker .users {
+		font-size: 12px;
+		margin: 6px 0 0 0;
+	}
+	.details h5 {
+		line-height: 13px;
+	}
+	.details p.p-sm,
+	.details a.p-sm  {
+		line-height: 17px;
+		font-size: 12px;
+	}
+	.carouselNav #prev, .carouselNav #prevCat  {
+		left: 21px;
+	}
+	.carouselNav #next, .carouselNav #nextCat {
+		right: 19px;
+	}
+	.wrapper.categories-wrap {
+		margin-top: 82px;
+	}
+	.carouselNav #nextCat {
+		top: -427px;
+	}
+	.carouselNav #prevCat {
+		top: -426px;
+	}
+}
+
+@media only screen and (max-width: 479px){
+	.w992 {
+		width: auto;
+		margin: 0 10px;
+		padding: 0;
+	}
+	.sticker {
+		height: 90px;
+	}
+	.cycle2Carousel {
+		width: 311px;
+		margin: 0 auto;
+	}
+	li.cycle-slide {
+		margin-right: 0;
+	}
+	.carouselNav #prev {
+		left: 21px;
+	}
+	.carouselNav #next {
+		right: 19px;
+	}	
+}
+
+@media only screen and (width: 414px){
+	.carouselNav #prev {
+		left: 0px;
+		right: auto;
+	}
+	.carouselNav #next{
+		left: auto;
+		right: 0px;
+	}
+}
+
+@media only screen and (width: 375px) {
+	.carouselNav #prev {
+		right: auto;
+		left: -10px;
+	}
+	.carouselNav #next {
+		left: auto;
+		right: -10px;
+	}
+}
+
+@media only screen and (width: 360px) {
+	.carouselNav #prev {
+		left: -5px;
+		right: auto;
+	}
+	.carouselNav #next {
+		right: -5px;
+		left: auto;
+	}
+}
+
+@media only screen and (max-width: 320px){
+	.cycle2Carousel {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	li.cycle-slide {
+		width: 90vw;
+		margin-right: 10vw;
+	}
+.carouselNav #prev {
+	left: -9px;
+	right: auto;
+}
+.carouselNav #next {
+	right: -9px;
+	left: auto;
+}
+	.image-cont {
+		width: 100%;
+		height: 272px;
+	}
+	.carousel-item-pic {
+		width: 100%;
+		height: auto;
+	}
+	
+}

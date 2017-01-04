@@ -1,0 +1,7 @@
+Tabs
+
+Library
+bootstrap, Custom styles
+
+Browser
+FF, Chrome, IE

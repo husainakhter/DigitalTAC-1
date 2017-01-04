@@ -1,0 +1,374 @@
+.cycle-slideshow p {
+	white-space: normal;
+}
+.carouselNav {
+	position: relative;
+}
+.carouselNav #prev, .carouselNav #prevCat {
+	background-position: 0px 0;
+}
+.carouselNav #next, .carouselNav #nextCat {
+	background-position: -22px 0;
+}
+.carousel-inner > .item > a.read-more img {
+	display: inline-block; 	vertical-align: middle;
+}
+#top-banner-carousel .carousel-control {
+	z-index: 200; 	filter: none;
+}
+#top-banner-carousel .carousel-inner > .item {
+	top: 0px; 	margin-left: 0px;
+}
+.banner01 {
+	background-image: url("../../_images/consumer/home/banner/desktop/001_Cloud_homepage_Tab_A.png");
+}
+.banner02 {
+	background-image: url("../../_images/consumer/home/banner/desktop/001_Cloud_homepage_Tab_A.png");
+}
+.banner03 {
+	background-image: url("../../_images/consumer/home/banner/desktop/001_Cloud_homepage_Tab_A.png");
+}
+.banner04 {
+	background-image: url("../../_images/consumer/home/banner/desktop/001_Cloud_homepage_Tab_A.png");
+}
+
+@media only screen and (min-width : 992px){
+	#top-banner-carousel {
+		background-color: #ededed; 		height: 642px;
+	}
+	.control-container {
+		position: relative; 		width: 992px; 		margin: 0 auto;
+	}
+	#top-banner-carousel .carousel-control {
+		width: 64px; 		height: 64px; 		position: absolute; 		top: -274px;
+		background: url("../../../_images/consumer/home/banner/top-banner-control.png") no-repeat;
+	}
+	#top-banner-carousel .left {
+		left: 2%;
+	}
+	#top-banner-carousel .right {
+		right: 2%; 		background-position: -64px 50%;
+	}
+	.top-banner-indicators {
+		border-radius: 3px; background-color: #fff; position: absolute; top: auto; width: 67px;
+		height: 33px; z-index: 500; margin-bottom: 0; bottom: -3px; left: 462px; padding-left: 0;
+		margin-left: 0; text-align: center; list-style: none;
+	}
+	#top-banner-carousel .carousel-indicators li {
+		display: inline-block; 		width: 8px; 		height: 8px; 		margin: 12px 0 0 0; 		text-indent: -999px;
+		cursor: pointer; 		background-color: rgb(204, 204, 204); 		border: none; 		border-radius: 50%;
+	}
+	#top-banner-carousel .carousel-indicators li.active {
+		background-color: rgb(102, 102, 102);
+	}
+
+	#top-banner-carousel .carousel-inner {
+		position: relative; 		width: 100%; 		overflow: hidden; 		margin: 0 auto;
+	}
+	.top-banner-carousel-slide {
+		background-position: 50% 50%; 		background-size: auto 100%; 		height: 642px;
+	}
+	
+	.top-banner-carousel-slide .inner {
+		min-height: 642px;
+	}
+	.placeholder {
+		width: 566px; 		height: 642px; 		float: left; 		padding: 0; 		margin: 0;
+	}
+	.top-banner-carousel-slide .facts-box {
+		float: left; 		padding-top: 126px; 		width: 384px;
+	}
+	.top-banner-carousel-slide .facts-box h2 {
+		font-size: 40px; font-family: "VodafoneExBd"; 		line-height: 40px; 		width: 381px; 		margin: 20px 0 8px;
+	}
+	.top-banner-carousel-slide .facts-box p {
+		font-size: 18px; font-family: "VodafoneRg"; line-height: 1.2; padding-bottom: 12px; margin: 0 0 0 1px;
+	}
+	.top-banner-carousel-slide .facts-box a {
+		font-size: 18px; 		font-family: "VodafoneRg"; 		font-weight: bold;
+		line-height: 1.2; 		margin: 0px 0 6px 2px;
+	}
+	.carouselNav #prev, .carouselNav #prevCat {
+		right: 100%;
+	}
+	.carouselNav #next, .carouselNav #nextCat {
+		left: 100%;
+	}
+}
+
+@media only screen and (width : 1024px){
+	.carouselNav #prev, .carouselNav #prevCat {
+		right: 99%;
+	}
+	.carouselNav #next, .carouselNav #nextCat {
+		left: 99%;
+	}
+}
+@media only screen and (width : 992px){
+	.carouselNav #next, .carouselNav #nextCat {
+		left: 970px;
+	}
+	.carouselNav #prev, .carouselNav #prevCat {
+		right: 970px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	#top-banner-carousel {
+		background-color: #ededed; 		height: 642px;
+	}
+	.control-container {
+		position: relative; 		width: 768px; 		margin: 0 auto;
+	}
+	#top-banner-carousel .carousel-control {
+		width: 64px;		height: 64px;		position: absolute;
+		top: -327px;		background: url("../../../_images/consumer/home/banner/top-banner-control.png") no-repeat;
+	}
+	#top-banner-carousel .left {
+		left: 2%;
+	}
+	#top-banner-carousel .right {
+		right: 2%;		background-position: -64px 50%;
+	}
+	.top-banner-indicators {
+		border-radius: 3px; 		background-color: #fff; 		position: absolute;
+		top: auto; 		width: 67px; 		height: 33px; 		z-index: 500;
+		margin-bottom: 0; 		bottom: -3px; 		left: 351px; 		padding-left: 0;
+		margin-left: 0; 		text-align: center; 		list-style: none;
+	}
+	#top-banner-carousel .carousel-indicators li {
+		display: inline-block; 		width: 8px; 		height: 8px; 		margin: 12px 0 0 0;
+		text-indent: -999px; 		cursor: pointer; 		background-color: rgb(204, 204, 204);
+		border: none; 		border-radius: 50%;
+	}
+	#top-banner-carousel .carousel-indicators li.active {
+		background-color: rgb(102, 102, 102);
+	}
+	#top-banner-carousel .carousel-inner {
+		position: relative;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+	.top-banner-carousel-slide {
+		background-position: 44% 50%;
+		background-size: auto 100%;
+		height: 642px;
+	}
+	.top-banner-carousel-slide .inner {
+		min-height: 642px;
+	}
+	.placeholder {
+		width: 56%; 		height: 642px; 		float: left; 		padding: 0; 		margin: 0;
+	}
+	.top-banner-carousel-slide .facts-box {
+		float: left;
+		padding-top: 126px;
+		width: 40%;
+	}
+	.top-banner-carousel-slide .facts-box h2 {
+		font-size: 40px;
+		font-family: "VodafoneExBd";
+		line-height: 40px;
+		width: 381px;
+		margin: 20px 0 8px;
+	}
+	.top-banner-carousel-slide .facts-box p {
+		font-size: 18px;
+		font-family: "VodafoneRg";
+		line-height: 1.2;
+		padding-bottom: 12px;
+		margin: 0 0 0 1px;
+	}
+	.top-banner-carousel-slide .facts-box a {
+		font-size: 18px;
+		font-family: "VodafoneRg";
+		font-weight: bold;
+		line-height: 1.2;
+		margin: 0px 0 6px 2px;
+	}
+	.carouselNav #prev, .carouselNav #prevCat {
+		left: 21px;
+	}
+	.carouselNav #next , .carouselNav #nextCat{
+		right: 19px;
+	}
+	.carouselNav #nextCat {
+		top: -404px;
+	}
+	.carouselNav #prevCat {
+		top: -404px;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+	#top-banner-carousel {
+		width: 100%; 	margin: 9px auto 0; 		background-color: #ededed;
+	}
+	#top-banner-carousel .carousel-inner {
+		margin: 0 auto;
+	}
+	.top-banner-carousel-slide {
+		background-position: 0% 50%; background-size: auto 100%; height: 327px; background-repeat: no-repeat;
+	}
+	
+	.placeholder {
+		width: 50%; 		height: 327px; 		float: left;
+	}
+	.top-banner-carousel-slide .facts-box {
+		float: left; 		padding-top: 0px; 		width: 50%;
+	}
+	.top-banner-carousel-slide .facts-box h2 {
+		font-size: 26px; font-family: "VodafoneExBd"; line-height: 1.2; width: 220px; margin: 17px 0 8px;
+	}
+	.top-banner-carousel-slide .facts-box p {
+		font-size: 14.5px; 	font-family: "VodafoneRg"; line-height: 16.11px; padding-bottom: 12px;
+		margin: 0 0 0 1px; 	width: 200px;
+	}
+	.top-banner-carousel-slide .facts-box a {
+		font-size: 11px; font-family: "Arial"; 		font-weight: bold; 		line-height: 1.2; 		margin: 0px 0 6px 2px;
+	}
+	.control-container {
+		position: relative; 		width: 100%; 		margin: 0 auto;
+	}
+	#top-banner-carousel .carousel-control {
+		width: 52px; 		height: 52px; 		position: absolute; 		top: -188px;
+		background: url("../../../_images/consumer/home/banner/mobile/top-banner-control.png") no-repeat;
+	}
+	#top-banner-carousel .left {
+		left: 1.6%;
+	}
+	#top-banner-carousel .right {
+		right: 1.6%;
+		background-position: -52px 50%;
+	}
+	.top-banner-indicators {
+		border-radius: 3px; 		background-color: #fff; position: absolute; 		top: auto; 		width: 67px;
+		height: 33px; 		z-index: 500; 	margin-bottom: 0; 	bottom: -3px; 		left: 206px; 	padding-left: 0;
+		margin-left: 0; 	text-align: center; 		list-style: none;
+	}
+	#top-banner-carousel .carousel-indicators li {
+		display: inline-block; 		width: 8px; 		height: 8px; 		margin: 12px 0 0 0;
+		text-indent: -999px; 		cursor: pointer; 		background-color: rgb(204, 204, 204);
+		border: none; 		border-radius: 50%;
+	}
+	#top-banner-carousel .carousel-indicators li.active {
+		background-color: rgb(102, 102, 102);
+	}
+	
+}
+
+@media only screen and (max-width: 479px){
+	#top-banner-carousel {
+		width: 100%; 		margin: 9px auto 0; 		background-color: #ededed;
+	}
+	#top-banner-carousel .carousel-inner {
+		width: 100%; 		margin: 0 auto;
+	}
+	.top-banner-carousel-slide {
+		background-position: 0% 50%; background-size: auto 100%; height: 327px;
+	}
+	
+	.placeholder {
+		width: 50%; 		height: 327px; 		float: left;
+	}
+	.top-banner-carousel-slide .facts-box {
+		float: left; 		padding-top: 0px; 		width: 48%;
+	}
+	.top-banner-carousel-slide .facts-box h2 {
+		font-size: 26px; font-family: "VodafoneExBd"; line-height: 1.2; width: 90%; margin: 17px 0 8px;
+	}
+	.top-banner-carousel-slide .facts-box p {
+		font-size:14.5px;font-family: "VodafoneRg";line-height: 16.11px;padding-bottom: 12px;margin: 0 0 0 1px;width: 200px;
+	}
+	.top-banner-carousel-slide .facts-box a {
+		font-size: 11px; 		font-family: "Arial"; 		font-weight: bold;
+		line-height: 1.2; 		margin: 0px 0 6px 2px;
+	}
+	.control-container {
+		position: relative; 		width: 98%; 		margin: 0 auto;
+	}
+	#top-banner-carousel .carousel-control {
+		width: 52px; 		height: 52px; 		position: absolute; 		top: -188px;
+		background: url("../../../_images/consumer/home/banner/mobile/top-banner-control.png") no-repeat;
+	}
+	#top-banner-carousel .left {
+		left: 1.6%;
+	}
+	#top-banner-carousel .right {
+		right: 1.6%; 		background-position: -52px 50%;
+	}
+	.top-banner-indicators {
+		border-radius: 3px; 		background-color: #fff; 		position: absolute; 		top: auto;
+		width: 67px; 		height: 33px; 		z-index: 500; 		margin-bottom: 0; 		bottom: -3px;
+		left: calc((100% - 67px)/2); 		padding-left: 0; 		margin-left: 0; 		text-align: center;
+		list-style: none;
+	}
+	#top-banner-carousel .carousel-indicators li {
+		display: inline-block; 		width: 8px; 		height: 8px; 		margin: 12px 0 0 0;
+		text-indent: -999px; 		cursor: pointer; 		background-color: rgb(204, 204, 204);
+		border: none; 		border-radius: 50%;
+	}
+	#top-banner-carousel .carousel-indicators li.active {
+		background-color: rgb(102, 102, 102);
+	}
+	.carouselNav #prev {
+		right: 21px;
+	}
+	.carouselNav #next {
+		left: 19px;
+	}	
+}
+
+@media only screen and (width: 414px){
+	.carouselNav #prev, .carouselNav #prevCat {
+		left: 0px; 		right: auto;
+	}
+	.carouselNav #next, .carouselNav #nextCat {
+		left: auto; 		right: 0px;
+	}
+	
+}
+
+@media only screen and (width: 375px) {
+	.carouselNav #prev, .carouselNav #prevCat {
+		right: auto; 		left: -10px;
+	}
+	.carouselNav #next, .carouselNav #nextCat {
+		left: auto; 		right: -10px;
+	}
+}
+
+@media only screen and (width: 360px) {
+	.carouselNav #prev, .carouselNav #prevCat {
+		left: -5px; 		right: auto;
+	}
+	.carouselNav #next, .carouselNav #nextCat {
+		right: -5px; 		left: auto;
+	}
+	.top-banner-carousel-slide .facts-box {
+		width: 50%;
+	}
+	.placeholder {
+		width: 46%;
+	}
+	.top-banner-carousel-slide .facts-box p {
+		width: 180px;
+	}
+}
+
+@media only screen and (max-width: 320px){
+	.placeholder {
+		width: 100%; 		height: 327px; 		float: none;
+	}
+	.top-banner-carousel-slide .facts-box {
+		float: none; 		padding: 10px; 		width: calc(100% - 20px); 		margin: 0 auto;
+	}
+	#top-banner-carousel .carousel-inner {
+		width: 100%; 		margin: 0 auto; 		overflow: visible;
+	}
+	.carouselNav #prev, .carouselNav #prevCat {
+		left: -9px; 	right: auto;
+	}
+	.carouselNav #next, .carouselNav #nextCat {
+		right: -9px; 	left: auto;
+	}
+}

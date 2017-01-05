@@ -19,13 +19,13 @@
 		.temporary-space {
 			height: 2rem;
 		}
-p.card-text {
-    height: 8rem;
-}
-.material-footer {
-    margin-top: 20px;
-    padding: 20px 0;
-}
+		p.card-text {
+			height: 8rem;
+		}
+		.material-footer {
+			margin-top: 20px;
+			padding: 20px 0;
+		}
 		</style>
 	</head>
 
@@ -97,7 +97,7 @@ p.card-text {
 												<a class="btn-flat waves-effect link-accent-color download-code" href="components/carousel1.zip" download="">Code</a>
 											</div>
 											<div class="col-md-4 col-xs-4">
-												<a class="btn-flat waves-effect link-accent-color modalButton" data-toggle="modal" data-src="components/carousel1/spec.txt" data-title="Specifications"  data-target="#myModalcarousel1" data-video-fullscreen="" href="#">Spec</a>
+												<a class="btn-flat waves-effect link-accent-color modalButton" data-toggle="modal" data-src="components/carousel1/spec.txt" data-title="Specifications"  data-target="#smallPopup" data-video-fullscreen="" href="#">Spec</a>
 											</div>
 											<div class="col-md-4 col-xs-4">
 												<a class="btn-flat waves-effect link-accent-color modalButton" data-toggle="modal" data-src="components/carousel1/index.html" data-title="Slider Carousels"  data-target="#myModalcarousel1" data-video-fullscreen="" href="#">Demo</a>
@@ -131,7 +131,7 @@ p.card-text {
 												<a class="btn-flat waves-effect link-accent-color download-code" href="components/carousel2.zip" download="">Code</a>
 											</div>
 											<div class="col-md-4 col-xs-4">
-												<a class="btn-flat waves-effect link-accent-color modalButton" data-toggle="modal" data-src="components/carousel2/spec.txt" data-title="Specifications"  data-target="#myModalcarousel1" data-video-fullscreen="" href="#">Spec</a>
+												<a class="btn-flat waves-effect link-accent-color modalButton" data-toggle="modal" data-src="components/carousel2/spec.txt" data-title="Specifications"  data-target="#smallPopup" data-video-fullscreen="" href="#">Spec</a>
 											</div>
 											<div class="col-md-4 col-xs-4">
 												<a class="btn-flat waves-effect link-accent-color modalButton" data-toggle="modal" data-src="components/carousel2/index.html" data-title="Slider Carousels"  data-target="#myModalcarousel1" data-video-fullscreen="" href="#">Demo</a>
@@ -165,7 +165,7 @@ p.card-text {
 												<a class="btn-flat waves-effect link-accent-color download-code" href="components/carousel3.zip" download="">Code</a>
 											</div>
 											<div class="col-md-4 col-xs-4">
-												<a class="btn-flat waves-effect link-accent-color modalButton" data-toggle="modal" data-src="components/carousel3/spec.txt" data-title="Specifications"  data-target="#myModalcarousel1" data-video-fullscreen="" href="#">Spec</a>
+												<a class="btn-flat waves-effect link-accent-color modalButton" data-toggle="modal" data-src="components/carousel3/spec.txt" data-title="Specifications"  data-target="#smallPopup" data-video-fullscreen="" href="#">Spec</a>
 											</div>
 											<div class="col-md-4 col-xs-4">
 												<a class="btn-flat waves-effect link-accent-color modalButton" data-toggle="modal" data-src="components/carousel3/index.html" data-title="Slider Carousels"  data-target="#myModalcarousel1" data-video-fullscreen="" href="#">Demo</a>
@@ -220,6 +220,20 @@ p.card-text {
 			</div><!-- /.modal-content -->
 		  </div><!-- /.modal-dialog -->
 		</div><!-- /.modal -->
+		
+		<div class="modal fade" id="smallPopup" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title">Modal title</h4>
+			  </div>
+			  <div class="modal-body">
+				
+			  </div>
+			</div><!-- /.modal-content -->
+		  </div>
+		</div>
 
 
 		<!-- jQuery -->
@@ -227,11 +241,27 @@ p.card-text {
 		<!-- Bootstrap -->
 		<script src="./resources/js/tether.js"></script>
 		<script src="./resources/js/bootstrap.min.js"></script>
+		<!-- mdbootstrap -->
 		<script src="./resources/js/mdb.min.js"></script>
 		<!-- Custom Theme Scripts -->
 		<script src="./resources/js/custom.min.js"></script>
-
 		<script src="./resources/js/component.js"></script>
+		<script>
+			$('#smallPopup').on('show.bs.modal', function(event) {
+                var button = $(event.relatedTarget) // Button that triggered the modal
+                var url = button.data('src');
+				var title = button.data('title');
+				
+                var modal = $(this);
+				
+				$.get( url, function( spec ) {
+					modal.find('.modal-title').text(title);
+					modal.find('.modal-body').html(spec)
+				});
+                
+                
+            });
+		</script>
 	</body>
 </html>
 

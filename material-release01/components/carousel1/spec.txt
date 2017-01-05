@@ -1,9 +1,15 @@
-Bootstrap Carousel
+<div class="container-fluid">
 
-Library
+<h2>Bootstrap Carousel</h2>
+
+<p>Library
 jQuery, Bootstrap
+</p>
+<ul>
+<li>Browser</li>
+<li>FF, Chrome</li>
+<li>Not supported in IE 8 & 9</li>
+<li>Unofficial patch available to get it working on IE 8 & 9 but consider using other plugins as transitions become jerky with heavy images</li>
+</ul>
 
-Browser
-FF, Chrome
-Not supported in IE 8 & 9
-Unofficial patch available to get it working on IE 8 & 9 but consider using other plugins as transitions become jerky with heavy images
+</div>

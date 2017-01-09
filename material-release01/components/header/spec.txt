@@ -1,7 +1,13 @@
-Header/Pull down menu
+<div class="container-fluid">
 
-Library
-bootstrap, Custom styles
+<h2>Header/Pull down menu</h2>
 
-Browser
-FF, Chrome, IE
+<p>Library
+jQuery, Bootstrap, Custom styles
+</p>
+<ul>
+<li>Browser</li>
+<li>FF, Chrome, IE</li>
+</ul>
+
+</div>

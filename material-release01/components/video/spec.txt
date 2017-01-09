@@ -1,8 +1,14 @@
-Video
+<div class="container-fluid">
 
-Library
+<h2>Video</h2>
+
+<p>Library
 iframe api from youtube
 https://www.youtube.com/iframe_api
+</p>
+<ul>
+<li>Browser</li>
+<li>FF, Chrome, IE</li>
+</ul>
 
-Browser
-FF, Chrome, IE
+</div>

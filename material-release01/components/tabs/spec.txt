@@ -1,7 +1,13 @@
-Tabs
+<div class="container-fluid">
 
-Library
-bootstrap, Custom styles
+<h2>Tabs</h2>
 
-Browser
-FF, Chrome, IE
+<p>Library
+jQuery, Bootstrap, Custom styles
+</p>
+<ul>
+<li>Browser</li>
+<li>FF, Chrome</li>
+</ul>
+
+</div>

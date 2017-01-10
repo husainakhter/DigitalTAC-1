@@ -1,7 +1,13 @@
-Grid
+<div class="container-fluid">
 
-Library
+<h2>Grid</h2>
+
+<p>Library
 No library used. Custom css.
+</p>
+<ul>
+<li>Browser</li>
+<li>FF, Chrome, IE</li>
+</ul>
 
-Browser
-FF, Chrome, IE
+</div>

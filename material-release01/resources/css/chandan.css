@@ -1,0 +1,10 @@
+	.temporary-space {
+		height: 2rem;
+	}
+	p.card-text {
+		height: 8rem;
+	}
+	.material-footer {
+		margin-top: 20px;
+		padding: 20px 0;
+	}

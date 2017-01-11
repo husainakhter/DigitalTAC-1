@@ -1,12 +1,12 @@
-	.temporary-space {
-		height: 2rem;
-	}
-	p.card-text {
-		height: 8rem;
-	}
-	.material-footer {
-		margin-top: 20px;
-		padding: 20px 0;
-	}
+.temporary-space {
+	height: 2rem;
+}
+p.card-text {
+	min-height: 8rem;
+}
+.material-footer {
+	margin-top: 20px;
+	padding: 20px 0;
+}
 .container.body{ width:100%; margin-left:-15px;}
 .card img{ width:100%;}

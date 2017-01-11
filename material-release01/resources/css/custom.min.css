@@ -62,7 +62,7 @@
 	.nav.child_menu li li:hover,.nav.child_menu li li.active{background:none}
 	.nav.child_menu li li a:hover,.nav.child_menu li li a.active{color:#fff}
 	.nav>li>a{position:relative;display:block;padding:13px 12px 12px}
-	.nav.side-menu>li.current-page,.nav.side-menu>li.active{border-right:5px solid #303F9F; width:169px}
+	.nav.side-menu>li.current-page,.nav.side-menu>li.active{border-right:5px solid #303F9F; }
 	.nav li.current-page{background:rgba(255,255,255,0.05)}
 	.nav li li li.current-page{background:none}
 	.nav li li.current-page a{color:#fff}
@@ -71,8 +71,7 @@
 @media (min-width: 768px){footer{margin-left:0}} 
 .footer_fixed footer{position:fixed;left:0px;bottom:0px;width:100%}
 @media (min-width: 768px){.footer_fixed footer{margin-left:0}}
-@media (min-width: 768px){.footer_fixed .nav-sm footer{margin-left:0}}
-	
+	@media (min-width: 992px){ .nav.side-menu>li.current-page,.nav.side-menu>li.active{ width:169px}}
 	
 	
 	.x_panel{position:relative;width:100%;margin-bottom:10px;padding:10px 17px;display:inline-block;background:#fff;border:1px solid #E6E9ED;-webkit-column-break-inside:avoid;-moz-column-break-inside:avoid;column-break-inside:avoid;opacity:1;transition:all .2s ease}.x_title{border-bottom:2px solid #E6E9ED;padding:1px 5px 6px;margin-bottom:10px}.x_title .filter{width:40%;float:right}.x_title h2{margin:5px 0 6px;float:left;display:block;text-overflow:ellipsis;overflow:hidden;white-space:nowrap}.x_title h2 small{margin-left:10px}.x_title span{color:#BDBDBD}.x_content{padding:0 5px 6px;position:relative;width:100%;float:left;clear:both;margin-top:5px}.x_content h4{font-size:16px;font-weight:500}

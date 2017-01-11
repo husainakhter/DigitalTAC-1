@@ -63,3 +63,9 @@
 
 .modal-dialog.modal-lg iframe{ width:100%; height:100vh;}
 .modal-dialog .modal-body{ padding:0;}
+.classic-tabs.tabs-cyan {
+    background-color: #FFC107 !important;
+}
+.classic-tabs.tabs-cyan li a.active {
+    border-color: #212121 !important;
+}

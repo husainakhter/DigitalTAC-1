@@ -1,7 +1,7 @@
 jQuery(document).ready(function ($) {
 
 	var slabTicketDataFromBackend = {
-		'month-data': [1000, 500, 100, 50, 10],
+		'month-data': [1000, 500, 100, 50, 1000],
 		'yesterday-data': [20, 30, 40, 50, 100]
 	};
 	var slabData = {

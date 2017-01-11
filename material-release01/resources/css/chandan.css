@@ -12,5 +12,5 @@
 .card img{ max-width:306px;}
 
 @media (max-width: 991px){
-	.card img{ max-width:100%;}
+	.card img{ max-width:160px;}
 }

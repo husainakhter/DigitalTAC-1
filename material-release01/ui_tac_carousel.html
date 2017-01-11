@@ -5,21 +5,32 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>DigitalTAC </title>
-	<!-- Bootstrap -->
-	<link href="./resources/css/bootstrap.min.css" rel="stylesheet">
-	<!-- Font Awesome -->
-	<link href="./resources/css/font-awesome.min.css" rel="stylesheet">
-	<!-- Custom Theme Style -->
-	<link href="./resources/css/custom.min.css" rel="stylesheet">
-	<link href="./resources/css/menu.css" rel="stylesheet">
-	<link href="./resources/css/mdb.min.css" rel="stylesheet">
-	<link href="./resources/css/additional.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
-	<link href="./resources/css/palette.css" rel="stylesheet">
-	<link href="./resources/css/chandan.css" rel="stylesheet">
+		<!-- Bootstrap -->
+		<link href="./resources/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Font Awesome -->
+		<link href="./resources/css/font-awesome.min.css" rel="stylesheet">
+		<!-- Custom Theme Style -->
+		<link href="./resources/css/custom.min.css" rel="stylesheet">
+		<link href="./resources/css/menu.css" rel="stylesheet">
+		<link href="./resources/css/mdb.min.css" rel="stylesheet">
+		<link href="./resources/css/additional.css" rel="stylesheet">
+		<link href="./resources/css/palette.css" rel="stylesheet">
+		<style>
+		.temporary-space {
+			height: 2rem;
+		}
+		p.card-text {
+			height: 8rem;
+		}
+		.material-footer {
+			margin-top: 20px;
+			padding: 20px 0;
+		}
+		.container.body{ width:100%; margin-left:-15px;}
+		</style>
 	</head>
 
-	<body class="">
+	<body class="nav-md">
 
 
 		<header>
@@ -27,7 +38,9 @@
 			<!--Navbar-->
 			<nav class="navbar navbar-dark dark-primary-color">
 
-
+<div class="nav toggle">
+                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+              </div>
 				<div class="container">
 
 					<!--Collapse content-->
@@ -48,13 +61,65 @@
 
 
 		<main>
+		<div class="container body">
+      <div class="main_container">
 		
+			<div class="col-md-3 left_col">
+          <div class="left_col scroll-view">
+           
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+              <div class="menu_section active">
+                
+                <ul class="nav side-menu" style="">
+                  <li class=""><a href="index.html"><i class="fa fa-home"></i> Home </a>
+                    
+                  </li>
+                  <li class="active"><a href="javascript:void(0)"><i class="fa fa-desktop"></i> UI TAC <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu" style="display: block;">
+                      <li><a href="ui_tac_inner.html">Overview</a></li>
+                      <li><a href="javascript:void(0)">Projects</a></li>
+                      <li><a href="javascript:void(0)">Case Studies</a></li>
+                      <li class="current-page"><a href="ui_tac.html">Components</a></li>
+                    </ul>
+                  </li>
+                  <li class=""><a href="javascript:void(0)"><i class="fa fa-mobile"></i> Mobile TAC<span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu" style="display: none;">
+                       <li><a href="ui_tac_inner.html">Overview</a></li>
+                      <li><a href="javascript:void(0)">Projects</a></li>
+                      <li><a href="javascript:void(0)">Case Studies</a></li>
+                      <li><a href="javascript:void(0)">Components</a></li>
+                    </ul>
+                  </li>
+                 
+                </ul>
+              </div>
+              <div class="menu_section">
+              
+                <ul class="nav side-menu">
+                  <li></li>
+                </ul>
+              </div>
+
+            </div>
+            <!-- /sidebar menu -->
+
+           
+          </div>
+        </div>
 		
-			<div class="temporary-space"></div>
-		
-			<div class="container-fluid">
+			 <div class="right_col" role="main" >
+          <div class="row tile_count">
+          <div class="scroller scroller-left" style="display: none;"><i class="glyphicon glyphicon-chevron-left"></i></div>
+              <div class="scroller scroller-right" style="display: none;"><i class="glyphicon glyphicon-chevron-right"></i></div>
+              
+              
+              <div class="temporary-space"></div>
 
 				<!-- page content -->
+
+				
+					 <!--div class="clearfix"></div-->
+
 					<div class="row">
 					  <div class="col-md-12 col-xs-12">
 						<!--div class="x_panel"-->
@@ -75,8 +140,8 @@
 											<li>Version: 1.0</li>
 											<li>Author: Chandan Bora/India/IBM</li>
 											<li>Published: 30-Sept-2016</li>
-										</ul>
 										
+										</ul>
 										<hr>
 										<div class="row">
 											<div class="col-md-4 col-xs-4">
@@ -174,10 +239,19 @@
 						<!--/div-->
 					  </div>
 					</div>
+				  
 				<!-- /page content -->
+</div>
+<div class="">
+           
 
+            <div class="clearfix"></div>
 
+            
+          </div>
+</div>
 			</div>
+            </div>
 		</main>
 		
 		<!-- footer content -->
@@ -232,6 +306,10 @@
 		<script src="./resources/js/custom.min.js"></script>
 		<script src="./resources/js/component.js"></script>
 		<script>
+		$(function(){
+				var rightColHeight	=	$(".right_col").height() +75;
+				$(".left_col").height(rightColHeight); console.log(rightColHeight);
+			});
 			$('#smallPopup').on('show.bs.modal', function(event) {
                 var button = $(event.relatedTarget) // Button that triggered the modal
                 var url = button.data('src');

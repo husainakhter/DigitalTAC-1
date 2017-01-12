@@ -1,0 +1,71 @@
+.temporary-space {
+	height: 2rem;
+}
+p.card-text {
+	min-height: 8rem;
+}
+.material-footer {
+	margin-top: 20px;
+	padding: 20px 0;
+}
+#slab-chart-legend {
+	margin-top: 1rem;
+}
+
+.chart-container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.legend-circle,
+.legend-desc,
+.legend-value,
+.legend-label {
+  display: inline-block;
+}
+
+.legend-value,
+.legend-circle,
+.legend-label,
+.legend-desc {
+  float: left;
+}
+
+.legend-desc {
+  clear: both;
+  margin-bottom: .5rem;
+  margin-left: 28%;
+}
+
+.legend-circle {
+  width: 20%;
+  margin-right: 8%;
+}
+
+.legend-circle span {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 1em;
+  width: 100%;
+  height: auto;
+  position: relative;
+  border-radius: 50%;
+  padding-bottom: 100%;
+}
+
+.legend-label {
+  clear: left;
+}
+
+
+@media only screen and (min-width: 481px){
+  #slab-chart-legend .row > div:nth-child(4n) {
+    clear: left;
+  }
+}
+
+
+
+.container.body{ width:100%; margin-left:-15px;}
+.card img{ width:100%;}

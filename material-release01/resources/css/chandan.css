@@ -8,5 +8,8 @@ p.card-text {
 	margin-top: 20px;
 	padding: 20px 0;
 }
+#slab-chart-legend {
+	margin-top: 1rem;
+}
 .container.body{ width:100%; margin-left:-15px;}
 .card img{ width:100%;}

@@ -37,12 +37,14 @@ jQuery(document).ready(function ($) {
 		legendCallback: function(chart) {
 
 			var text = [];
-			text.push('<div class="container h6-responsive vodafone-lt-rg"><div class="row">');
+			//text.push('<div class="container-fluid h6-responsive">');
+			text.push('<div class="row">');
 			for (var i=0; i<chart.data.datasets[0].data.length; i++) {
 
 				text.push('<div class="col-xs-6 col-sm-4"><a class="legend-link" href="#" data-no="'+i+'" data-id="resoSlabsDetailsModal" data-data="' + chart.data.datasets[0].data[i] + '" data-label="' + chart.data.labels[i] + '"><span class="legend-circle"><span style="background-color:' + chart.data.datasets[0].backgroundColor[i] + '"></span></span><span class="legend-value vodafone-red vodafone-bd">' + chart.data.datasets[0].data[i] + '</span><span class="legend-desc"><span class="tab-color legend-label">' + chart.data.labels[i] + '</span></span></a></div>' );
 			}
-			text.push('</div></div>');
+			text.push('</div>');
+			//text.push('</div>');
 			return text.join("");
 		}
 	};

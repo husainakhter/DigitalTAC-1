@@ -1,0 +1,270 @@
+.cycle-slideshow p {
+	white-space: normal;
+}
+li.cycle-slide {
+	width: 215px;
+	background-color: transparent;
+}
+.categoriesCycle li.cycle-slide {
+	width: 215px;
+	background-color: transparent;
+	vertical-align: top;
+}
+
+h5.category-heading{ font-size: 1.5em;}
+
+.gray-bg{ background-color:#000000; }
+.carouselNav {
+	position: relative;
+}
+.carouselNav #prev, .carouselNav #prevCat {
+	background-position: 0px 0;
+}
+.carouselNav #next, .carouselNav #nextCat {
+	background-position: -22px 0;
+}
+
+.carouselNav > a {
+	width: 22px;
+	display: block;
+	top: 0;
+	height: 42px;
+	background-image: url('../images/arrows.png');
+	cursor: pointer;
+	position: absolute;
+	z-index: 99;
+	margin-top: -16px;
+	opacity: 0.5;
+	-webkit-transition: opacity 0.35s linear 0s;
+	transition: opacity 0.35s linear 0s;
+}
+
+.categories-wrap .category-icon {
+	display: inline-block;
+	float: none;
+}
+.categories-wrap .category-heading {
+	position: static;
+	display: inline-block;
+	vertical-align: bottom;
+	white-space: normal;
+	margin: 0;
+}
+#catCaptionShowing {
+	font-size: 12px;
+	color: #cdcdcd;
+	font-family: Arial;
+}
+#catCaptionText {
+	color: #cdcdcd;
+	font-family: Arial;
+}
+#catCaptionTextOf {
+	color: #cdcdcd;
+	font-family: Arial;
+}
+.categories-wrap p {
+	font-family: Arial;
+	color: #cdcdcd;
+	white-space: normal;
+}
+.categoriesCycle li.cycle-slide .upper { text-align:center;}
+.categories-wrap .collapsable {
+	background-color: #eb1c23;
+	border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	color: #FFF;
+	position: relative;
+}
+
+
+.categorySlide .menu_simple li:last-child {
+	background-image: none;
+}
+
+li.categorySlide  > a {
+	font-size: 12px;
+	font-family: Arial;
+	font-weight: bold;
+}
+li.categorySlide > a .glyphicon-menu-right::before {
+	top: -10px;
+}
+
+.carousel-inner > .item > a.read-more img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+@media only screen and (min-width : 992px){
+	
+	.w992 {
+		width: 50%;
+		margin: 0 auto;
+	}
+	.w950 {
+		width: 50%;
+		margin: 0 auto ;
+		position: relative;
+	}
+	.carousel-wrap h3 {
+		margin: 13px 0px 0px -1px;
+		font-size: 34px;
+	}
+	.carousel-wrap p {
+		margin: 2px 0px 5px 0px;
+	}
+	.wrapper.carousel-wrap .inner {
+		padding: 27px 0px 32px;
+	}
+	
+	/*li.cycle-slide {
+		margin-right: 13px;
+	}*/
+
+	.sticker .black-text {
+		font-size: 12px;
+		line-height: 1.45;
+	}
+	.sticker .price {
+		font-size: 22px;
+		line-height: 16px;
+	}
+	.sticker .users {
+		font-size: 12px;
+		margin: 6px 0 0 0;
+	}
+	.details h5 {
+		line-height: 13px;
+	}
+	.details p.p-sm,
+	.details a.p-sm  {
+		line-height: 17px;
+		font-size: 12px;
+	}
+ .carouselNav #prevCat {
+	right: 100%;
+}
+ .carouselNav #nextCat {
+	left: 100%;
+}
+	
+	.carouselNav #nextCat {
+		top: -120px;
+	}
+	.carouselNav #prevCat {
+		top: -120px;
+	}
+}
+
+@media only screen and (width : 1024px){
+	 .carouselNav #prevCat {
+		right: 99%;
+	}
+	 .carouselNav #nextCat {
+		left: 99%;
+	}
+}
+@media only screen and (width : 992px){
+	 .carouselNav #nextCat {
+		left: 970px;
+	}
+	.carouselNav #prevCat {
+		right: 970px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	
+	 .carouselNav #prevCat {
+		left: 21px;
+	}
+	 .carouselNav #nextCat{
+		right: 19px;
+	}
+	.carouselNav #nextCat {
+		top: -404px;
+	}
+	.carouselNav #prevCat {
+		top: -404px;
+	}
+	.w992 {
+		width: auto;
+		margin: 0 10px;
+		padding: 0;
+	}
+	.w950 {
+		margin: 0 auto;
+		position: relative;
+		padding: 0 15px;
+		width: 768px;
+	}
+	
+	
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px){
+	.w992 {
+		width: 442px;
+		margin: 0 auto;
+		padding: 0;
+	}
+	
+	 .carouselNav #prevCat  {
+		left: 21px;
+	}
+	.carouselNav #nextCat {
+		right: 19px;
+	}
+	
+	.carouselNav #nextCat {
+		top: -120px;
+	}
+	.carouselNav #prevCat {
+		top: -120px;
+	}
+	
+	.w950 {
+		width: 442px;
+		margin: 0 auto;
+		position: relative;
+	}
+	
+.categoriesCycle li.cycle-slide{ width: 442px;}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px){
+
+	.w992 {
+		width: 332px;
+		margin: 0 auto;
+		padding: 0;
+	}
+	
+	 .carouselNav #prevCat  {
+		left: 21px;
+	}
+	.carouselNav #nextCat {
+		right: 19px;
+	}
+	
+	.carouselNav #nextCat {
+		top: -120px;
+	}
+	.carouselNav #prevCat {
+		top: -120px;
+	}
+	
+	.w950 {
+		width: 332px;
+		margin: 0 auto;
+		position: relative;
+	}
+	
+.categoriesCycle li.cycle-slide{ width: 332px;}
+	
+}
+
+

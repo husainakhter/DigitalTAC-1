@@ -1,101 +1,122 @@
 <!DOCTYPE html>
 <html lang="en" class=" ">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>DigitalTAC </title>
-<link href="./resources/css/cssreset-min.css" rel="stylesheet">
-<link href="./resources/css/bootstrap.min.css" rel="stylesheet">
-<!-- Font Awesome -->
-<link href="./resources/css/font-awesome.min.css" rel="stylesheet">
-<!-- Custom Theme Style -->
-<link href="./resources/css/custom.min.css" rel="stylesheet">
-<link href="./resources/css/menu.css" rel="stylesheet">
-<link href="./resources/css/mdb.min.css" rel="stylesheet">
-<link href="./resources/css/additional.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-<link href="./resources/css/palette.css" rel="stylesheet">
-<link href="./resources/css/chandan.css" rel="stylesheet">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DigitalTAC </title>
+	<!-- Bootstrap -->
+	<link href="./resources/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link href="./resources/css/font-awesome.min.css" rel="stylesheet">
+	<link href="./resources/css/menu.css" rel="stylesheet">
+	<link href="./resources/css/mdb.min.css" rel="stylesheet">
+	<link href="./resources/css/additional.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+	<link href="./resources/css/palette.css" rel="stylesheet">
+	<link href="./resources/css/chandan.css" rel="stylesheet">
 </head>
+<body class="fixed-sn ">
+ 
 
-<body class="nav-md">
+ <!--Double Navigation-->
+    <header>
 
-	<header>
+        <!-- Sidebar navigation -->
+        <ul id="slide-out" class="dark-primary-color side-nav fixed custom-scrollbar ps-container ps-theme-default" data-ps-id="926a256e-2a7e-a57a-3804-746417fed070" style="transform: translateX(-100%);">
 
-		<!--Navbar-->
-		<nav class="navbar navbar-dark dark-primary-color">
-		<div class="nav toggle">
-			<a id="menu_toggle"><i class="fa fa-bars"></i></a>
-		  </div>
-			<div class="container">
-				<h1 class="text-center">
-					<!--Navbar Brand-->
-					<a class="text-primary-color" href="#">UI</a>
-				</h1>
-			</div>
-		</nav>
-		<!--/.Navbar-->
-	</header>
+          
+            <!-- Side navigation links -->
+            <li>
+                <ul class="collapsible collapsible-accordion">
+					<li><h3 class="collapsible-header waves-effect arrow-r"> &nbsp;</h3></li>
+                    <li><a class="collapsible-header waves-effect arrow-r" href="index.html"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-desktop"></i> UI TAC<i class="fa fa-angle-down rotate-icon"></i></a>
+                        <div class="collapsible-body">
+                            <ul>
+								<li><a href="ui_tac_inner.html" class="waves-effect">Overview</a></li>
+								<li><a href="javascript:void(0)" class="waves-effect">Projects</a></li>
+								<li><a href="javascript:void(0)" class="waves-effect">Case Studies</a></li>
+								<li><a href="javascript:void(0)" class="waves-effect">Components</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-forward"></i> Mobile TAC<i class="fa fa-angle-down rotate-icon"></i></a>
+                        <div class="collapsible-body">
+                            <ul>
+								<li><a href="ui_tac_inner.html" class="waves-effect">Overview</a></li>
+								<li><a href="javascript:void(0)" class="waves-effect">Projects</a></li>
+								<li><a href="javascript:void(0)" class="waves-effect">Case Studies</a></li>
+								<li><a href="javascript:void(0)" class="waves-effect">Components</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <!--/. Side navigation links -->
 
-	<main>
-		<div class="container body">
-		<div class="main_container">
+        <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px;"><div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 0px;"></div></div></ul>
+        <!--/. Sidebar navigation -->
 
-		<div class="col-md-3 left_col">
-		<div class="left_col scroll-view">
+        <!--Navbar-->
+        <nav class="navbar navbar-fixed-top scrolling-navbar double-nav dark-primary-color">
 
-		<div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
-		<div class="menu_section active">
+            <!-- SideNav slide-out button -->
+            <div class="float-xs-left">
+                <a href="javascript:void(0)" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars"></i></a>
+            </div>
+			
+            <!-- Breadcrumb-->
+            <div class="text-center">
+                <h3>DigitalTAC - UI</h3>
+            </div>
+        </nav>
+        <!--/.Navbar-->
 
-		<ul class="nav side-menu" style="">
-		  <li class=""><a href="index.html"><i class="fa fa-home"></i> Home </a>
+    </header>
+    <!--/Double Navigation-->
+<main>
+	<div class="container-fluid">	
+	<!-- Nav tabs -->
+<div class="tabs-wrapper"> 
+    <ul class="nav classic-tabs tabs-cyan" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link waves-light " data-toggle="tab" href="#overview" role="tab">Overview</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link waves-light" data-toggle="tab" href="#projects" role="tab">Projects</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link waves-light" data-toggle="tab" href="#caseStudies" role="tab">Case Studies</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link waves-light active" data-toggle="tab" href="#components" role="tab">Components</a>
+        </li>
+    </ul>
+</div>
+<!-- Tab panels -->
+<div class="tab-content card">
+    <!--Panel 1-->
+    <div class="tab-pane fade " id="overview" role="tabpanel">
+        <p>Overview.</p>
+    </div>
+    <!--/.Panel 1-->
 
-		  </li>
-		  <li class="active"><a href="javascript:void(0)"><i class="fa fa-desktop"></i> UI TAC <span class="fa fa-chevron-down"></span></a>
-			<ul class="nav child_menu" style="display: block;">
-			  <li><a href="ui_tac_inner.html">Overview</a></li>
-			  <li><a href="javascript:void(0)">Projects</a></li>
-			  <li><a href="javascript:void(0)">Case Studies</a></li>
-			  <li class="current-page"><a href="ui_tac.html">Components</a></li>
-			</ul>
-		  </li>
-		  <li class=""><a href="javascript:void(0)"><i class="fa fa-mobile"></i> Mobile TAC<span class="fa fa-chevron-down"></span></a>
-			<ul class="nav child_menu" style="display: none;">
-			   <li><a href="ui_tac_inner.html">Overview</a></li>
-			  <li><a href="javascript:void(0)">Projects</a></li>
-			  <li><a href="javascript:void(0)">Case Studies</a></li>
-			  <li><a href="javascript:void(0)">Components</a></li>
-			</ul>
-		  </li>
+    <!--Panel 2-->
+    <div class="tab-pane fade" id="projects" role="tabpanel">
+        <p>Projects.</p>
 
-		</ul>
-		</div>
-		<div class="menu_section">
+    </div>
+    <!--/.Panel 2-->
 
-		<ul class="nav side-menu">
-		  <li></li>
-		</ul>
-		</div>
+    <!--Panel 3-->
+    <div class="tab-pane fade" id="caseStudies" role="tabpanel">
+        <p>Case Studies.</p>
 
-		</div>
-		<!-- /sidebar menu -->
+    </div>
+    <!--/.Panel 3-->
 
-
-		</div>
-		</div>
-
-		<div class="right_col" role="main" >
-		<div class="row tile_count">
-		<div class="scroller scroller-left" style="display: none;"><i class="glyphicon glyphicon-chevron-left"></i></div>
-		<div class="scroller scroller-right" style="display: none;"><i class="glyphicon glyphicon-chevron-right"></i></div>
-
-
-		<div class="temporary-space"></div>
-		<div class="row">
-		<div class="col-md-12 col-xs-12">
-
-		  <div class="container">
+    <!--Panel 4-->
+    <div class="tab-pane fade in active" id="components" role="tabpanel">
 			<div class="row">
 
 				<div class="col-md-4 col-sm-4 col-xs-12">
@@ -211,43 +232,23 @@
 			<div class="row text-xs-right">
 				<a href="ui_tac.html" class="btn-floating btn-large accent-color "><i class="fa fa-arrow-left"></i></a>
 			</div>
-		  </div>
-
-
-		</div>
-
-
-
-		</div>
-		<!-- /page content -->
-
-		<!-- /page content -->
-		</div>
-		<div class="">
-
-
-		<div class="clearfix"></div>
-
-
-	  </div>
-</div>
-		</div>
-		</div>
-	</main>
-<!--   Model Popup -->
-
-	<!-- footer content -->
-	<!--<footer class="material-footer navbar-fixed-bottom dark-primary-color">-->
-	<footer class="material-footer dark-primary-color">
-
-		<!--Copyright-->
-		<div class="footer-copyright text-primary-color text-xs-right">
-			<div class="container-fluid">Powered by - The Geek Squad</div>
-		</div>
-		<!--/.Copyright-->
-	</footer>
-	<!-- /footer content -->
-
+                    </div>
+                    <!--/.Panel 4-->
+                </div>
+				<!-- /page content -->
+        	</div>
+        
+</main>
+<!-- footer content -->
+<footer class="material-footer  dark-primary-color">
+  
+    <!--Copyright-->
+    <div class="footer-copyright text-primary-color text-xs-right">
+        <div class="container-fluid">Powered by - The Geek Squad</div>
+    </div>
+    <!--/.Copyright-->
+</footer>
+<!-- /footer content -->
 <div class="modal fade" id="myModalcarousel1" role="dialog">
 <div class="modal-dialog modal-lg" role="document">
 <div class="modal-content">
@@ -284,9 +285,16 @@
 	<script src="./resources/js/bootstrap.min.js"></script>
 	<!-- mdbootstrap -->
 	<script src="./resources/js/mdb.min.js"></script>
-	<!-- Custom Theme Scripts -->
-	<script src="./resources/js/custom.min.js"></script>
+	<script src="./resources/js/side-nav.js"></script>
 	<script src="./resources/js/component.js"></script>
+	
+ <script>
+        $(".button-collapse").sideNav();
+
+        var el = document.querySelector('.custom-scrollbar');
+
+        Ps.initialize(el);
+    </script>
 	<script>
 		$(function(){
 			var rightColHeight	=	$(".right_col").height() +75;

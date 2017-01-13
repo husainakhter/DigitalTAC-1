@@ -66,3 +66,18 @@
 .classic-tabs.tabs-cyan {
     background-color: #303F9F !important;
 }
+
+.classic-tabs.tabs-cyan  li a:hover {
+    background-color: #303F9F !important;
+}
+
+@media (max-width:991px){
+.classic-tabs li {
+    -webkit-box-flex: 1 0 24% !important;
+    -moz-box-flex: 1 0 24% !important;
+    -webkit-flex: 1 0 24% !important;
+    -ms-flex: 1 0 24% !important;
+    flex: 1 0 24% !important;
+}
+
+}

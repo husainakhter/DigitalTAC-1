@@ -14,7 +14,7 @@ var playerOptions = {
 		'showinfo': 0,
 		'rel': 0,
 		'loop': 0,
-		'autoplay': 0
+		'autoplay': 1
 	},
 	events : {
 		'onReady' : onPlayerReady

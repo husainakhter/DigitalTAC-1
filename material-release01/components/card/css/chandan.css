@@ -59,10 +59,11 @@ p.card-text {
 }
 
 
-@media only screen and (min-width: 481px){
-  #slab-chart-legend .row > div:nth-child(4n) {
-    clear: left;
-  }
+
+@media only screen and (min-width: 481px)
+	#slab-chart-legend .row > div:nth-child(3n) {
+		clear: left;
+	}
 }
 
 

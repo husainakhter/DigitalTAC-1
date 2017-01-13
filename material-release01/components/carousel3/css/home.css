@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#wrapper {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    min-height: 90vh;
+    background-color: #3F51B5;
+}
+
+#wrapper .content {
+    -moz-flex-grow: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-grow: 1;
+    flex-grow: 1;
+    -moz-flex-shrink: 1;
+    -webkit-flex-shrink: 1;
+    -ms-flex-shrink: 1;
+    flex-shrink: 1;
+    width: 50%;
+    text-align: center;
+    margin-top: 30vh;
+}
+#wrapper .content p, #wrapper .content h2, footer.home div.pull-right, #wrapper .content h5 { color:#fff;}
+#wrapper .content h2 {
+    font-size: 3.5em;
+}
+
+#wrapper .content p, footer.home div.pull-right {
+    font-size: 1.5em;
+}
+
+footer.home{ margin:0; min-height: 10vh; background-color:#3F51B5;}
+
+
+

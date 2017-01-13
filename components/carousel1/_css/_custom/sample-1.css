@@ -41,7 +41,7 @@
 	}
 	#top-banner-carousel .carousel-control {
 		width: 64px; 		height: 64px; 		position: absolute; 		top: -274px;
-		background: url("../../../_images/consumer/home/banner/top-banner-control.png") no-repeat;
+		background: url("../../_images/consumer/home/banner/top-banner-control.png") no-repeat;
 	}
 	#top-banner-carousel .left {
 		left: 2%;
@@ -121,7 +121,7 @@
 	}
 	#top-banner-carousel .carousel-control {
 		width: 64px;		height: 64px;		position: absolute;
-		top: -327px;		background: url("../../../_images/consumer/home/banner/top-banner-control.png") no-repeat;
+		top: -327px;		background: url("../../_images/consumer/home/banner/top-banner-control.png") no-repeat;
 	}
 	#top-banner-carousel .left {
 		left: 2%;
@@ -231,7 +231,7 @@
 	}
 	#top-banner-carousel .carousel-control {
 		width: 52px; 		height: 52px; 		position: absolute; 		top: -188px;
-		background: url("../../../_images/consumer/home/banner/mobile/top-banner-control.png") no-repeat;
+		background: url("../../_images/consumer/home/banner/mobile/top-banner-control.png") no-repeat;
 	}
 	#top-banner-carousel .left {
 		left: 1.6%;
@@ -288,7 +288,7 @@
 	}
 	#top-banner-carousel .carousel-control {
 		width: 52px; 		height: 52px; 		position: absolute; 		top: -188px;
-		background: url("../../../_images/consumer/home/banner/mobile/top-banner-control.png") no-repeat;
+		background: url("../../_images/consumer/home/banner/mobile/top-banner-control.png") no-repeat;
 	}
 	#top-banner-carousel .left {
 		left: 1.6%;

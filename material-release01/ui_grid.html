@@ -226,9 +226,13 @@
 				
                 var modal = $(this);
 				
-				$.get( url, function( spec ) {
-					modal.find('.modal-title').text(title);
-					modal.find('.modal-body').html(spec)
+				$.get({
+					url: url, 
+					cache: false,
+					success: function( spec ) {
+						modal.find('.modal-title').text(title);
+						modal.find('.modal-body').html(spec)
+					}
 				});
             });
 		</script>

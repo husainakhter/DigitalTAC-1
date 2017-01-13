@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" class=" ">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DigitalTAC </title>
+<link href="css/cssreset-min.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Font Awesome -->
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<!-- Custom Theme Style -->
+<link href="css/custom.min.css" rel="stylesheet">
+<link href="css/menu.css" rel="stylesheet">
+<link href="css/mdb.min.css" rel="stylesheet">
+<link href="css/additional.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+<link href="css/palette.css" rel="stylesheet">
+<link href="css/chandan.css" rel="stylesheet">
+</head>
+
+  <body class="nav-md">
+  
+
+		
+	<main>
+		<div class="temporary-space"></div>
+		<div class="container">
+		<div class="row">
+
+
+			<div class="col-md-4.offset-md-4 col-sm-4.offset-sm-4 col-xs-12">
+				  <!--Card-->
+				  <div class="card">
+			  
+					<!--Card content-->
+					<div class="card-block">
+					  <div class="container-fluid">
+					  
+						<div id="chart-container-zone" class="chart-container">
+						  <canvas id="slab-chart" width="400" height="400"></canvas>
+						</div>
+
+						<div id="slab-chart-legend"></div>
+					  </div>
+					</div>
+					<!--/.Card content-->
+				  </div>
+				  <!--/.Card-->
+			</div>
+		</div>
+
+		</div>
+	</main>
+
+
+	<!-- jQuery -->
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/tether.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- mdbootstrap -->
+	<script src="js/mdb.min.js"></script>
+	<!-- Custom Theme Scripts -->
+	<script src="js/custom.min.js"></script>
+	<script src="js/component.js"></script>
+	<script>
+	$(function(){
+		var rightColHeight	=	$(".right_col").height() +75;
+		
+		//$(".left_col").height(rightColHeight); 
+		console.log(rightColHeight);
+
+	});
+	$('#smallPopup').on('show.bs.modal', function(event) {
+		var button = $(event.relatedTarget) // Button that triggered the modal
+		var url = button.data('src');
+		var title = button.data('title');
+		
+		var modal = $(this);
+		
+		$.get( url, function( spec ) {
+			modal.find('.modal-title').text(title);
+			modal.find('.modal-body').html(spec)
+		});
+	});
+	</script>
+	<script src="js/palette.js"></script>
+	<script src="js/Chart.js"></script>
+	<script src="js/s3-res-slab.js"></script>
+
+</body></html>
+   

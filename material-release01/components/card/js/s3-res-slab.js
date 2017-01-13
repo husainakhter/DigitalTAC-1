@@ -1,11 +1,10 @@
 jQuery(document).ready(function ($) {
 
 	var slabTicketDataFromBackend = {
-		'month-data': [1000, 500],
-		'yesterday-data': [20, 30]
+		'month-data': [1000, 500, 300, 100]
 	};
 	var slabData = {
-		labels: [ "Within 2 hrs", "2 to 5 hrs" ],
+		labels: [ "Within 2 hrs", "2 to 5 hrs", "6 hrs", "12 hrs" ],
 		customData: [ "xxx", "yyy", "zzz", "Blue", "Yellow" ],
 		datasets: [{
 			data: [],

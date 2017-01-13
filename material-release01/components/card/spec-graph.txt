@@ -1,9 +1,9 @@
 <div class="container-fluid">
 
-<h2>Card</h2>
+<h2>Card with a graph</h2>
 
 <p>Library
-jQuery, Bootstrap, mdbootstrap.com
+jQuery, Bootstrap, mdbootstrap.com, Chart.js
 </p>
 <ul>
 <li>Browser</li>

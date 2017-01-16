@@ -13,7 +13,7 @@ var playerOptions = {
 		'controls': 1,
 		'showinfo': 0,
 		'rel': 0,
-		'loop': 0,
+		'loop': 1,
 		'autoplay': 1
 	},
 	events : {

@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Vodafone Lt';
+  src: url('../font/vodafonelt.eot');
+  src: url('../font/vodafonelt.eot?#iefix') format('embedded-opentype'),
+    url('../font/vodafonelt.woff') format('woff'),
+    url('../font/vodafonelt.ttf') format('truetype'),
+    url('../font/vodafonelt.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: 'Vodafone Rg';
+	src: url("../font/VodafoneRg.eot");
+	src: url("../font/VodafoneRg.woff") format("woff"), 
+		url("../font/VodafoneRg.ttf") format("truetype"), 
+		url("../font/VodafoneRg.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'VodafoneRgBd';
+	src: url("../font/VodafoneRgBd.eot");
+	src: url("../font/VodafoneRgBd.woff") format("woff"), 
+		url("../font/VodafoneRgBd.ttf") format("truetype"), 
+		url("../font/VodafoneRgBd.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'VodafoneExBd';
+	src: url("../font/VodafoneExBd.eot");
+	src: url("../font/VodafoneExBd.woff") format("woff"), 
+		url("../font/VodafoneExBd.ttf") format("truetype"), 
+		url("../font/VodafoneExBd.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.vodafone-lt-rg {
+	font-family: 'Vodafone Lt';
+}
+
+.vodafone-rg {
+	font-family: 'Vodafone Rg';
+}
+
+.vodafone-bd {
+	font-family: 'VodafoneRgBd';
+}
+
+.vodafone-ex-bd {
+	font-family: 'VodafoneExBd';
+}

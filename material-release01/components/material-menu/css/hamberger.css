@@ -1,0 +1,313 @@
+html,
+body {
+  font-family: Vodafone Rg;
+  background: #ffffff;
+}
+
+.material-text-shadow {
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.51);
+  transition: text-shadow .25s;
+}
+
+.material-box-shadow {
+  box-shadow: 1px 2px 5px 0 rgba(0,0,0,.16);
+  transition: text-shadow .25s;
+}
+
+.material-text-shadow:hover {
+  text-shadow: 1px 4px 2px rgba(0, 0, 0, 0.51);
+}
+
+.vodafone-red,
+.vodafone-red:active,
+.vodafone-red:hover,
+.vodafone-red:focus,
+.vodafone-red:visited {
+  color: #e60000;
+}
+
+#hamburger-icon {
+  margin-right: 10px;
+  border-radius: 20px;
+}
+
+.timestamp-container {
+  font-size: 86%;
+  font-weight: normal;
+  color: #000;
+  margin-bottom: 1%;
+}
+
+@media (min-width: 1920px) {
+  main {
+    margin-top: 150px;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1919px) {
+  main {
+    margin-top: 130px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1599px) {
+  main {
+    margin-top: 110px;
+  }
+}
+
+@media (max-width: 1024px) {
+  main {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 992px) {
+  main {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  main {
+    margin-top: 90px;
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+    margin-top: 70px;
+  }
+  #hamburger-icon {
+    border-radius: 15px;
+    width: 30px;
+    height: auto;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 414px) {
+  main {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 320px) {
+  main {
+    margin-top: 50px;
+  }
+}
+
+.vodafone-logo {
+    background: url(../img/IBM_logo.png) no-repeat 0 100%;
+    display: inline-block;
+    height: 4.5vw;
+    width: 10vw;
+    background-size: 97% auto;
+    margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+  .vodafone-logo {
+    height: 9vw;
+    width: 18vw;
+  }
+}
+
+.vodafone-dashboard-nav-heading  {
+  display: flex;
+}
+.headline-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+
+.hamburger {
+  margin-left: auto;
+  margin-top: auto;
+}
+
+.vodafone-dashboard-nav {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+  background: #fff;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.overlay-for-menu {
+  height: 100%;
+  padding: 0;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1040;
+  display: none;
+}
+
+.background--blur .overlay-for-menu {
+  background: rgba(0,0,0,.5);
+  display: block;
+}
+
+.menu {
+  z-index: 1050;
+  top: 0;
+}
+
+.menu div:last-child {
+  border: 0;
+}
+
+.menu > div {
+  box-shadow: none;
+}
+
+.menu.menu--off {
+  position: fixed;
+  right: -50%;
+  transition: all 2s ease 0s !important;
+  width: 30%;
+  display: block;
+  background: #ffffff;
+  height: 100%;
+  transition: all 300ms;
+}
+
+.menu.menu--off.menu--on {
+  right: 0;
+  box-shadow: -2px 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.menu-options div {
+	padding: 0 2% 0 8%;
+	margin: 4% 0;
+}
+
+.menu-options .sub-menu {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.sub-menu div:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.profile-photo {
+  background-color: #e60000;
+  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.20);
+}
+
+.profile-photo img {
+	padding:5%;
+}
+
+.profile-photo span {
+  padding-left: 8%;
+  color:#ffffff;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 1% 0;
+  display: block;
+}
+
+
+.logout .popup-close-link {
+  color: rgb(230, 0, 0);
+  float: right;
+  padding: 25px 5px 0px 5px;
+}
+
+#logoutModal .modal-dialog  {
+  margin: 14em 24% 0% 24%;
+  width: 52%;
+  box-shadow: 8px 8px 20px;
+}
+
+.hamburger a {
+  color: #fff;
+  position: relative;
+  z-index: 1045;
+}
+
+.hamburger a img {
+  z-index: 1045;
+}
+
+.hamburger__layer {
+  display: block;
+  width: 45px;
+  height: 5px;
+  background: #eee;
+  position: relative;
+  animation-duration: 300ms;
+  animation-timing-function: ease-in-out;
+}
+
+.hamburger__layer:before, .hamburger__layer:after {
+  display: block;
+  width: inherit;
+  height: 5px;
+  position: absolute;
+  background: inherit;
+  left: 0;
+  content: '';
+  animation-duration: 300ms;
+  animation-timing-function: ease-in-out;
+}
+
+.hamburger__layer:before {
+  bottom: 200%;
+}
+
+.hamburger__layer:after {
+  top: 200%;
+}
+
+.active-menu-panel,
+.active-menu-panel a {
+  background-color:white;
+  color:black;
+}
+
+.active-menu-panel:active,
+.active-menu-panel:hover {
+  /*background-color:white;
+  /*box-shadow: -5px 1px 6px 1px rgba(0, 0, 0, 0.20);*/
+}
+
+.sub-menu .active-menu-panel:active,
+.sub-menu .active-menu-panel:hover {
+  box-shadow: none;
+}
+
+.active-menu-panel a:active,
+.active-menu-panel a:hover,
+.menu-action-logout:hover {
+  color:#c60000;
+  /*font-weight: bold;*/
+}
+
+
+@media only screen and (max-width: 480px){
+  .menu.menu--off {
+    width: 80vw;
+  }
+  .menu--off {
+    right: -61%;
+  }
+  .menu--on {
+    right: 0;
+  }
+}

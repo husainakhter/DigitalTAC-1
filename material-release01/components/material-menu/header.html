@@ -1,0 +1,75 @@
+<nav class="vodafone-dashboard-nav navbar navbar-fixed-top  ">
+
+  <div class="vodafone-dashboard-nav-heading vodafone-red text-xs-left  ">
+    <!--<div class="vodafone-logo"></div>-->
+
+    <span class="h1-responsive align-bottom vodafone-logo"> </span>
+    <div class="headline-container">
+    <div id="page-heading">
+    <span class="h1-responsive vodafone-bd align-bottom">Operations </span>
+    <span class="h1-responsive vodafone-rg align-bottom">Dashboard</span>
+    </div>
+    </div>
+    <span class="h1-responsive vodafone-rg align-baseline hamburger hamburger__icon">
+      <a href="#" data-activates="slide-out" class="button-collapse">
+        <img id="hamburger-icon" src="img/hamburger-icon.png" alt="menu icon" class="waves-effect material-box-shadow">
+      </a>
+    </span>
+  </div>
+
+</nav>
+
+<section class="overlay-for-menu">
+
+  <section class="menu menu--off">
+    <div>
+      <div class="profile-photo">
+        <img alt="userprofile" src="img/userprofile.png"><br>
+        <span class="h6-responsive">Mayuri</span>
+      </div>
+      <div class="menu-options">
+        <div class="active-menu-panel waves-effect">
+          <span class="h6-responsive"><a href="#">Home</a></span>
+        </div>
+        <div class="active-menu-panel waves-effect">
+          <span class="h6-responsive"><a href="#">S1 & S2 Dashboard</a></span>
+        </div>
+        <div class="active-menu-panel">
+          <span class="h6-responsive"><a href="#">S3 Dashboard</a></span>
+          <div class="menu-options sub-menu">
+            <div class="active-menu-panel waves-effect">
+              <span class="h6-responsive"><a href="#">S3 Open Tickets</a></span>
+            </div>
+            <div class="active-menu-panel waves-effect">
+              <span class="h6-responsive"><a href="#">S3 Resolved Tickets</a></span>
+            </div>
+          </div>
+        </div>
+        <div class="active-menu-panel waves-effect">
+          <span class="h6-responsive"><a href="#">Alerts Dashboard</a></span>
+        </div>
+        <div class="menu-action-logout btn-vodafone-close active-menu-panel waves-effect" data-toggle="modal" data-target="#logoutModal">
+          <span class="h6-responsive">Logout</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</section>
+
+<div class="modal fade in" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop=true>
+  <div class="modal-dialog" role="document">
+      <!--Content-->
+      <div class="modal-content">
+          <!--Header-->
+          <div class="modal-header">
+            <span class="modal-title h6-responsive" >Are you sure you want to log out?</span>
+            <div class="logout">
+              <a href="javascript:void(0)" class="popup-close-link h6-responsive vodafone-lt-rg logout-link" data-dismiss="modal">LOGOUT</a>
+              <a href="javascript:void(0)" class="popup-close-link h6-responsive vodafone-lt-rg cancel-link" data-dismiss="modal">CANCEL</a>
+            </div>
+          </div>
+      </div>
+      <!--/.Content-->
+  </div>
+</div>

@@ -1,0 +1,14 @@
+<div class="container-fluid">
+
+<h2>Side nav</h2>
+
+<p>Library
+jQuery, Bootstrap, mdbootstrap.com
+</p>
+<ul>
+<li>Browser</li>
+<li>FF, Chrome, IE 9+</li>
+<li>Not supported in IE 8 & below</li>
+</ul>
+
+</div>

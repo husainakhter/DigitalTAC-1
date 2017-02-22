@@ -14,7 +14,7 @@ var playerOptions = {
 		'showinfo': 0,
 		'rel': 0,
 		'loop': 1,
-		'autoplay': 1
+		'autoplay': 0
 	},
 	events : {
 		'onReady' : onPlayerReady
@@ -35,7 +35,7 @@ jQuery(document).ready(function($){
 	window.onYouTubePlayerAPIReady = function(){
 
 		if(document.getElementById('whatIsCloudVideo')) {
-			playerOptions.playerVars.playlist = "Q8TXgCzxEnw, p4gmvHyuZzw";
+			playerOptions.playerVars.playlist = "efRNKkmWdc0";
 			
 			new YT.Player('whatIsCloudVideo', playerOptions);
 		}

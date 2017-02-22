@@ -12,7 +12,9 @@ li.cycle-slide {
 	background-color: transparent;
 	vertical-align: top;
 }
-.red-text{ color:#E3060A;}
+
+h5.category-heading{ font-size: 1.5em;}
+
 .gray-bg{ background-color:#000000; }
 .carouselNav {
 	position: relative;
@@ -29,7 +31,7 @@ li.cycle-slide {
 	display: block;
 	top: -219px;
 	height: 42px;
-	background-image: url('../../_images/consumer/product/arrows.png');
+	background-image: url('../images/arrows.png');
 	cursor: pointer;
 	position: absolute;
 	z-index: 99;
@@ -38,10 +40,7 @@ li.cycle-slide {
 	-webkit-transition: opacity 0.35s linear 0s;
 	transition: opacity 0.35s linear 0s;
 }
-.categories-wrap .carouselNav > a {
-	background-image: url('../../_images/consumer/home/arrowsWhite.png');
-	top: -525px;
-}
+
 .categories-wrap .category-icon {
 	display: inline-block;
 	float: none;
@@ -86,13 +85,7 @@ li.cycle-slide {
 	position: relative;
 }
 
-.categorySlide .menu_simple li {
-	margin: 0;
-	border: none;
-	background: url(../../_images/consumer/home/categorySubOptionBorder.png) no-repeat left bottom scroll transparent;
-	height: 41px;
-	position: relative;
-}
+
 .categorySlide .menu_simple li:last-child {
 	background-image: none;
 }
@@ -101,14 +94,6 @@ li.categorySlide  > a {
 	font-size: 12px;
 	font-family: Arial;
 	font-weight: bold;
-}
-li.categorySlide  > a .glyphicon-menu-right::before {
-	content: '';
-	float: none;
-	position: absolute;
-	background: url("../../_images/consumer/home/arrowRightRed.png") 50% 50% no-repeat scroll transparent;
-	width: 10px;
-	height: 10px;
 }
 li.categorySlide > a .glyphicon-menu-right::before {
 	top: -10px;
@@ -127,7 +112,7 @@ li.categorySlide > a .glyphicon-menu-right::before {
 	}
 	.w950 {
 		width: 950px;
-		margin: 0 auto;
+		margin: 50px auto 0;
 		position: relative;
 	}
 	.carousel-wrap h3 {
@@ -146,7 +131,7 @@ li.categorySlide > a .glyphicon-menu-right::before {
 		height: 416px;
 	}
 	.wrapper.categories-wrap {
-		height: 400px;
+		height: 693px;
 		margin-top: 56px;
 	}
 	li.cycle-slide {
@@ -256,7 +241,12 @@ li.categorySlide > a .glyphicon-menu-right::before {
 		font-size: 34px;
 	}
 	
-	
+	.carouselNav #nextCat {
+		top: -524px;
+	}
+	.carouselNav #prevCat {
+		top: -524px;
+	}
 }
 
 @media only screen and (width : 1024px){

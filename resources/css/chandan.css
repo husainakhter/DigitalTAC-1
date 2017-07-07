@@ -70,3 +70,11 @@ p.card-text {
 
 .container.body{ width:100%; margin-left:-15px;}
 .card img{ width:100%;}
+@media (min-width: 62em){
+	.classic-tabs li:first-child {
+		margin-left: 0;
+	}
+	.classic-tabs li a {
+		font-size: 14px;
+	}
+}
